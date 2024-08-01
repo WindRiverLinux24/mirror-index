@@ -1,0 +1,1279 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_24_LTS_RCPL0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
+        },
+        {
+            "description": "",
+            "id": 1808,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 1809,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott"
+        },
+        {
+            "description": "",
+            "id": 15718,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott"
+        },
+        {
+            "description": "",
+            "id": 16389,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott wrl"
+        },
+        {
+            "description": "",
+            "id": 27299,
+            "image_url": "",
+            "link_url": "",
+            "name": "honister"
+        },
+        {
+            "description": "",
+            "id": 30256,
+            "image_url": "",
+            "link_url": "",
+            "name": "hardknott honister"
+        },
+        {
+            "description": "",
+            "id": 36944,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth hardknott honi"
+        },
+        {
+            "description": "",
+            "id": 42542,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42544,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3"
+        },
+        {
+            "description": "",
+            "id": 42545,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 wrl"
+        },
+        {
+            "description": "",
+            "id": 42546,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42547,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4"
+        },
+        {
+            "description": "",
+            "id": 42549,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42551,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 wrl"
+        },
+        {
+            "description": "",
+            "id": 42552,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42553,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42554,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42555,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42556,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7"
+        },
+        {
+            "description": "",
+            "id": 42558,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6"
+        },
+        {
+            "description": "",
+            "id": 42559,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4 2.5 2.6"
+        },
+        {
+            "description": "",
+            "id": 42560,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42565,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42583,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42585,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1"
+        },
+        {
+            "description": "",
+            "id": 42588,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42589,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42594,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42596,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 42597,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2"
+        },
+        {
+            "description": "",
+            "id": 42598,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 42599,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44173,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4 4.0 4.1 4.2"
+        },
+        {
+            "description": "",
+            "id": 44174,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44175,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44176,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.2"
+        },
+        {
+            "description": "",
+            "id": 44178,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3"
+        },
+        {
+            "description": "",
+            "id": 44179,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.3 3.4 4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44181,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3"
+        },
+        {
+            "description": "",
+            "id": 44186,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 3.1 4.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44187,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 44188,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0"
+        },
+        {
+            "description": "",
+            "id": 44189,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44190,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44191,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0"
+        },
+        {
+            "description": "",
+            "id": 44192,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44193,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44195,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44196,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 wrl"
+        },
+        {
+            "description": "",
+            "id": 44197,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44199,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1"
+        },
+        {
+            "description": "",
+            "id": 44200,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 4.1 4.2 4.3 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44202,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_24_LTS_RCPL0000",
+            "comparison": false,
+            "hidden": false,
+            "id": 401,
+            "name": "WRLINUX_10_24_LTS_RCPL0000",
+            "short_description": "WRLinux 10_24 LTS RCPL 0000",
+            "sort_priority": 5,
+            "update_environment": null,
+            "updated": "2024-08-01T00:08:06+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "OpenEmbedded",
+            "id": 14240,
+            "layerbranch": 992137,
+            "name": "lat",
+            "updated": "2024-07-10T09:07:13+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "core",
+            "id": 992077,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2024-08-01T07:08:59+0000",
+            "vcs_last_commit": "2024-08-01T00:08:58+0000",
+            "vcs_last_fetch": "2024-08-01T07:08:59+0000",
+            "vcs_last_rev": "a3a4e1fc5138c8e46e78d68a4553a1a4e677e9c3",
+            "vcs_subdir": "meta",
+            "version": "15",
+            "yp_compatible_version": 44187
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "openembedded-layer",
+            "id": 992101,
+            "layer": 7,
+            "local_path": "",
+            "updated": "2024-08-01T07:08:07+0000",
+            "vcs_last_commit": "2024-07-29T05:07:26+0000",
+            "vcs_last_fetch": "2024-08-01T07:08:07+0000",
+            "vcs_last_rev": "38dad7f479dd5372a04aadd31a21c96906285edf",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "meta-python",
+            "id": 992103,
+            "layer": 12,
+            "local_path": "",
+            "updated": "2024-08-01T07:08:19+0000",
+            "vcs_last_commit": "2024-07-26T00:07:23+0000",
+            "vcs_last_fetch": "2024-08-01T07:08:19+0000",
+            "vcs_last_rev": "40483390a9800a04e6dca84f42f0abf32dfb5eb0",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "multimedia-layer",
+            "id": 992105,
+            "layer": 16,
+            "local_path": "",
+            "updated": "2024-07-10T09:07:04+0000",
+            "vcs_last_commit": "2024-04-30T11:04:34+0000",
+            "vcs_last_fetch": "2024-07-10T09:07:04+0000",
+            "vcs_last_rev": "566703d589a3cb426a8d658cfc439235227d15e8",
+            "vcs_subdir": "meta-multimedia",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "networking-layer",
+            "id": 992122,
+            "layer": 11,
+            "local_path": "",
+            "updated": "2024-08-01T07:08:41+0000",
+            "vcs_last_commit": "2024-08-01T02:08:23+0000",
+            "vcs_last_fetch": "2024-08-01T07:08:41+0000",
+            "vcs_last_rev": "95f0bb301c61f6e19975545dffe49586e362bf2d",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "gnome-layer",
+            "id": 992123,
+            "layer": 15,
+            "local_path": "",
+            "updated": "2024-07-10T09:07:54+0000",
+            "vcs_last_commit": "2024-06-02T11:06:06+0000",
+            "vcs_last_fetch": "2024-07-10T09:07:54+0000",
+            "vcs_last_rev": "3179df61703cb05d2083ec83b2a5ecb2c0d9c781",
+            "vcs_subdir": "meta-gnome",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "xfce-layer",
+            "id": 992131,
+            "layer": 5,
+            "local_path": "",
+            "updated": "2024-07-10T09:07:07+0000",
+            "vcs_last_commit": "2024-07-03T01:07:11+0000",
+            "vcs_last_fetch": "2024-07-10T09:07:07+0000",
+            "vcs_last_rev": "0e76ac6f3f8c65bf8e428a908dade29526585c72",
+            "vcs_subdir": "meta-xfce",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "filesystems-layer",
+            "id": 992132,
+            "layer": 8,
+            "local_path": "",
+            "updated": "2024-07-10T09:07:15+0000",
+            "vcs_last_commit": "2024-07-03T00:07:07+0000",
+            "vcs_last_fetch": "2024-07-10T09:07:15+0000",
+            "vcs_last_rev": "3e4a8b5ad96f9e5f963cbd70b0b45552b626038d",
+            "vcs_subdir": "meta-filesystems",
+            "version": "1",
+            "yp_compatible_version": 44188
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "virtualization-layer",
+            "id": 992133,
+            "layer": 45,
+            "local_path": "",
+            "updated": "2024-08-01T07:08:52+0000",
+            "vcs_last_commit": "2024-08-01T00:08:55+0000",
+            "vcs_last_fetch": "2024-08-01T07:08:52+0000",
+            "vcs_last_rev": "7f7b11df6c5422bdfc03847289a73487a54c3b75",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 44189
+        },
+        {
+            "actual_branch": "",
+            "branch": 401,
+            "collection": "lat-layer",
+            "id": 992137,
+            "layer": 421,
+            "local_path": "",
+            "updated": "2024-07-10T09:07:14+0000",
+            "vcs_last_commit": "2024-07-01T23:07:36+0000",
+            "vcs_last_fetch": "2024-07-10T09:07:14+0000",
+            "vcs_last_rev": "56772491e77b981b95703d5e0a72215bd3ef7eab",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44188
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 129327,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 8,
+            "id": 129328,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 15,
+            "id": 129329,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 129330,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 16,
+            "id": 129331,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 129332,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 129333,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 129334,
+            "layerbranch": 992137,
+            "required": true
+        },
+        {
+            "dependency": 5,
+            "id": 129335,
+            "layerbranch": 992137,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "collection": "core",
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "xfce-layer",
+            "comparison": false,
+            "description": "The XFCE Desktop software and related components.",
+            "id": 5,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-xfce",
+            "status": "P",
+            "summary": "XFCE Desktop components",
+            "updated": "2018-05-30T22:05:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "openembedded-layer",
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "filesystems-layer",
+            "comparison": false,
+            "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
+            "id": 8,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-filesystems",
+            "status": "P",
+            "summary": "Filesystem related libraries and programs",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "networking-layer",
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "meta-python",
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "gnome-layer",
+            "comparison": false,
+            "description": "GNOME desktop environment components",
+            "id": 15,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-gnome",
+            "status": "P",
+            "summary": "GNOME desktop environment components",
+            "updated": "2018-05-30T22:05:08+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "multimedia-layer",
+            "comparison": false,
+            "description": "Multimedia related components such as gstreamer, alsa, dvb, etc.",
+            "id": 16,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-multimedia",
+            "status": "P",
+            "summary": "Multimedia related components",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "virtualization-layer",
+            "comparison": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T22:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "lat-layer",
+            "comparison": false,
+            "description": "Use this tool to perform a number of tasks to help manage your images,\r\nsuch as building and publishing RPM packages, generating images from \r\npackage feeds for specific hardware, generating an updated SDK, and\r\nverifying the sanity of the SDK build. In addition, you can add or\r\nremove packages, and specify any pre- and post-build (do_build)\r\ninstructions for the build, which lets you customize your image to\r\nmeet your needs.\r\n\r\nThis tool uses *.yaml input files to define many aspects of the build,\r\npackages and package-related configuration for a variety of uses.\r\nIt provides validation for the *.yaml input files that define your intended\r\nproject output to help identify any incorrect or misspelled options.\r\n\r\nWith the exampleyamls positional argument, you can generate a list \r\nof different sample *.yaml files, which you can use as a basis for\r\ncustomizing your builds. These reusable files provide a data reference\r\nfor all your image customizations.",
+            "id": 421,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-lat",
+            "status": "P",
+            "summary": "Provides LAT (Linux Assembly Tool)",
+            "updated": "2021-11-21T19:11:40+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-lat",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Wind River Linux Assembly Tool appsdk",
+            "filename": "appsdk-native_1.0.bb",
+            "filepath": "recipes-support/appsdk",
+            "homepage": "",
+            "id": 2024553,
+            "inherits": "features_check native nopackages python3-dir python3native python3targetconfig python_pep517 relocatable setuptools3 setuptools3-base",
+            "layerbranch": 992137,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "appsdk-native",
+            "pr": "r0",
+            "provides": "appsdk-native ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Wind River Linux Assembly Tool appsdk",
+            "updated": "2024-04-23T08:04:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Wind River Linux Assembly Tool appsdk",
+            "filename": "nativesdk-appsdk_1.0.bb",
+            "filepath": "recipes-support/appsdk",
+            "homepage": "",
+            "id": 2024554,
+            "inherits": "features_check nativesdk python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 992137,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "nativesdk-appsdk",
+            "pr": "r0",
+            "provides": "nativesdk-appsdk ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Wind River Linux Assembly Tool appsdk",
+            "updated": "2024-04-23T08:04:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provide a nativesdk command will build a small boot image which can be used for deployment with OSTree",
+            "filename": "nativesdk-bootfs_1.0.bb",
+            "filepath": "recipes-support/bootfs",
+            "homepage": "",
+            "id": 2024555,
+            "inherits": "nativesdk",
+            "layerbranch": 992137,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "nativesdk-bootfs",
+            "pr": "r0",
+            "provides": "nativesdk-bootfs",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "OSTree Network/Disk Image deployment tool",
+            "updated": "2024-07-10T09:07:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provide a native command will build a small boot image which can be used for deployment with OSTree",
+            "filename": "bootfs-native_1.0.bb",
+            "filepath": "recipes-support/bootfs",
+            "homepage": "",
+            "id": 2024556,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 992137,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "bootfs-native",
+            "pr": "r0",
+            "provides": "bootfs-native ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "OSTree Network/Disk Image deployment tool",
+            "updated": "2024-07-10T09:07:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A wic tool which is working on Yocto build system poky (oe-core and bitbake)",
+            "filename": "wic-native_3.1.bb",
+            "filepath": "recipes-support/meta",
+            "homepage": "",
+            "id": 2024557,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 992137,
+            "license": "GPL-2.0 & MIT",
+            "pe": "",
+            "pn": "wic-native",
+            "pr": "r0",
+            "provides": "wic-native ",
+            "pv": "3.1",
+            "section": "base",
+            "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
+            "summary": "Provide wic tool",
+            "updated": "2024-04-23T08:04:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "A wic tool which is working on Yocto build system poky (oe-core and bitbake)",
+            "filename": "nativesdk-wic_3.1.bb",
+            "filepath": "recipes-support/meta",
+            "homepage": "",
+            "id": 2024558,
+            "inherits": "nativesdk",
+            "layerbranch": 992137,
+            "license": "GPL-2.0 & MIT",
+            "pe": "",
+            "pn": "nativesdk-wic",
+            "pr": "r0",
+            "provides": "nativesdk-wic",
+            "pv": "3.1",
+            "section": "base",
+            "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
+            "summary": "Provide wic tool",
+            "updated": "2024-04-23T08:04:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Load and Run container images into Docker",
+            "filename": "startup-container_1.0.bb",
+            "filepath": "recipes-support/startup-container",
+            "homepage": "",
+            "id": 2024560,
+            "inherits": "allarch features_check systemd",
+            "layerbranch": 992137,
+            "license": "MIT",
+            "pe": "",
+            "pn": "startup-container",
+            "pr": "r0",
+            "provides": "startup-container ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Load and Run container images into Docker",
+            "updated": "2024-04-23T08:04:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provides image to generate AppSDK for Wind River Linux Assembly Tool.",
+            "filename": "lat-sdk_1.0.bb",
+            "filepath": "recipes-support/image",
+            "homepage": "",
+            "id": 2024561,
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 992137,
+            "license": "MIT",
+            "pe": "",
+            "pn": "lat-sdk",
+            "pr": "r0",
+            "provides": "lat-sdk ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-04-23T08:04:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provides image to generate AppSDK for Wind River Linux Assembly Tool.",
+            "filename": "container-base_1.0.bb",
+            "filepath": "recipes-support/image",
+            "homepage": "",
+            "id": 2024562,
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 992137,
+            "license": "MIT",
+            "pe": "",
+            "pn": "container-base",
+            "pr": "r0",
+            "provides": "container-base ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-04-23T08:04:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provide a tools to create full image.",
+            "filename": "genimage-native_1.0.bb",
+            "filepath": "recipes-support/genimage",
+            "homepage": "",
+            "id": 2024563,
+            "inherits": "features_check image-artifact-names native nopackages python3-dir python3native python3targetconfig python_pep517 qemuboot relocatable setuptools3 setuptools3-base",
+            "layerbranch": 992137,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "genimage-native",
+            "pr": "r0",
+            "provides": "genimage-native ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Full image create script",
+            "updated": "2024-07-10T09:07:13+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Provide a tools to create full image.",
+            "filename": "nativesdk-genimage_1.0.bb",
+            "filepath": "recipes-support/genimage",
+            "homepage": "",
+            "id": 2024564,
+            "inherits": "features_check nativesdk python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 992137,
+            "license": "GPL-2.0-only",
+            "pe": "",
+            "pn": "nativesdk-genimage",
+            "pr": "r0",
+            "provides": "nativesdk-genimage ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "",
+            "summary": "Full image create script",
+            "updated": "2024-07-10T09:07:13+0000"
+        }
+    ],
+    "wrtemplates": []
+}
