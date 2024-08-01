@@ -606,7 +606,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-07-19T00:07:06+0000",
+            "updated": "2024-08-01T00:08:05+0000",
             "updates_enabled": true
         }
     ],
@@ -619,10 +619,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-07-17T01:07:53+0000",
-            "vcs_last_commit": "2024-07-17T01:07:46+0000",
-            "vcs_last_fetch": "2024-07-17T01:07:53+0000",
-            "vcs_last_rev": "155230fb2877e78a55b022407a9123bb66329c42",
+            "updated": "2024-08-01T02:08:51+0000",
+            "vcs_last_commit": "2024-08-01T00:08:58+0000",
+            "vcs_last_fetch": "2024-08-01T02:08:51+0000",
+            "vcs_last_rev": "a3a4e1fc5138c8e46e78d68a4553a1a4e677e9c3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -634,10 +634,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2024-07-08T23:07:28+0000",
-            "vcs_last_commit": "2024-07-08T21:07:51+0000",
-            "vcs_last_fetch": "2024-07-08T23:07:28+0000",
-            "vcs_last_rev": "8d2b99c072db712dc9c152f2b574609f6d74a7f6",
+            "updated": "2024-07-30T21:07:24+0000",
+            "vcs_last_commit": "2024-07-29T05:07:48+0000",
+            "vcs_last_fetch": "2024-07-30T21:07:24+0000",
+            "vcs_last_rev": "670978c494f5d0898d2e01e9235ffc9b66262b3e",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -649,10 +649,10 @@
             "id": 990883,
             "layer": 435,
             "local_path": "",
-            "updated": "2024-07-10T10:07:58+0000",
-            "vcs_last_commit": "2024-06-17T01:06:50+0000",
-            "vcs_last_fetch": "2024-07-10T10:07:58+0000",
-            "vcs_last_rev": "ced7f6460cdfbe161d2685606215722351618ccc",
+            "updated": "2024-07-30T21:07:21+0000",
+            "vcs_last_commit": "2024-07-29T05:07:48+0000",
+            "vcs_last_fetch": "2024-07-30T21:07:21+0000",
+            "vcs_last_rev": "670978c494f5d0898d2e01e9235ffc9b66262b3e",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 44188
@@ -664,10 +664,10 @@
             "id": 990890,
             "layer": 357,
             "local_path": "",
-            "updated": "2024-06-17T03:06:58+0000",
-            "vcs_last_commit": "2024-06-17T01:06:01+0000",
-            "vcs_last_fetch": "2024-06-17T03:06:58+0000",
-            "vcs_last_rev": "3b88cc12198c39767275faa2470a0a2f6c2bbf5a",
+            "updated": "2024-07-30T21:07:30+0000",
+            "vcs_last_commit": "2024-07-29T05:07:48+0000",
+            "vcs_last_fetch": "2024-07-30T21:07:30+0000",
+            "vcs_last_rev": "b9fde1d080acfe3cc9c47ab413ba1e106029b39d",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -783,7 +783,7 @@
             "filepath": "recipes-utils/mb-realoc",
             "homepage": "",
             "id": 2029135,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -794,7 +794,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T03:05:14+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -806,7 +806,7 @@
             "filepath": "recipes-bsp/bitstream",
             "homepage": "",
             "id": 2029136,
-            "inherits": "deploy image-artifact-names xsct-tc xsctbase xsctbit",
+            "inherits": "check_xsct_enabled deploy image-artifact-names xsct-tc xsctbase xsctbit",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -817,7 +817,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-17T03:06:55+0000"
+            "updated": "2024-07-30T21:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -829,7 +829,7 @@
             "filepath": "recipes-bsp/bitstream",
             "homepage": "",
             "id": 2029137,
-            "inherits": "deploy image-artifact-names",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -840,7 +840,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates download.bit using updatemem",
-            "updated": "2024-05-09T03:05:14+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -852,7 +852,7 @@
             "filepath": "recipes-bsp/imgsel",
             "homepage": "",
             "id": 2029138,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -863,7 +863,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:55+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -875,7 +875,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029139,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -886,7 +886,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:37+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -898,7 +898,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029140,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -909,7 +909,7 @@
             "section": "base",
             "srcrev": "ffb2ad9fb8f6e08ef579b03845c00f189db69999",
             "summary": "",
-            "updated": "2024-05-28T04:05:37+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -921,7 +921,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029141,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -932,7 +932,7 @@
             "section": "base",
             "srcrev": "e7669d3aaca520c0c1bc2c9a64c67864daafb499",
             "summary": "",
-            "updated": "2024-05-28T04:05:37+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -944,7 +944,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029142,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -955,30 +955,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:37+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "esw-bsp.bb",
-            "filepath": "recipes-bsp/embeddedsw",
-            "homepage": "",
-            "id": 2029143,
-            "inherits": "image-artifact-names xlnx-embeddedsw xsct-tc xsctapp xsctbase",
-            "layerbranch": 990890,
-            "license": "MIT",
-            "pe": "",
-            "pn": "esw-bsp",
-            "pr": "r0",
-            "provides": "esw-bsp ",
-            "pv": "1.0+git",
-            "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
-            "summary": "EmbeddedSW BSP to export xsct tool to build baremetal or freertos app",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -990,7 +967,7 @@
             "filepath": "recipes-bsp/imgrcry",
             "homepage": "",
             "id": 2029144,
-            "inherits": "deploy xlnx-embeddedsw xsct-tc xsctbase",
+            "inherits": "check_xsct_enabled deploy xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1001,7 +978,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1013,7 +990,7 @@
             "filepath": "recipes-bsp/imgrcry",
             "homepage": "",
             "id": 2029145,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1024,7 +1001,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1013,7 @@
             "filepath": "recipes-bsp/imgrcry",
             "homepage": "",
             "id": 2029146,
-            "inherits": "deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
+            "inherits": "check_xsct_enabled deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1047,7 +1024,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1070,7 +1047,7 @@
             "section": "bsp",
             "srcrev": "e30e471c0b466c0d6f51fa5c9611cb7ad2c83da1",
             "summary": "Xilinx BSP u-boot device trees",
-            "updated": "2024-06-17T03:06:55+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1082,7 +1059,7 @@
             "filepath": "recipes-bsp/fsboot",
             "homepage": "",
             "id": 2029148,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctfsboot xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctfsboot xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1093,7 +1070,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1105,7 +1082,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029149,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1116,7 +1093,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1128,7 +1105,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029150,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1139,7 +1116,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1151,7 +1128,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029151,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1162,7 +1139,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1174,7 +1151,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029152,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1185,7 +1162,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-06-17T03:06:56+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1197,7 +1174,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029153,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1208,7 +1185,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1220,7 +1197,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029154,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1231,7 +1208,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1243,7 +1220,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029155,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1254,7 +1231,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1266,7 +1243,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029156,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1277,7 +1254,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1289,7 +1266,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029157,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1300,7 +1277,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1312,7 +1289,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029158,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1323,7 +1300,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1335,7 +1312,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029159,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1346,7 +1323,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1358,7 +1335,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2029160,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1369,7 +1346,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1381,7 +1358,7 @@
             "filepath": "recipes-apps/esw-baremetal-hello-world",
             "homepage": "",
             "id": 2029161,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsct_baremetal_app xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsct_baremetal_app xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1392,7 +1369,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Hello World baremetal Application for both APU and RPU using XSCT",
-            "updated": "2024-06-17T03:06:57+0000"
+            "updated": "2024-07-30T21:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1381,7 @@
             "filepath": "recipes-apps/esw-freertos-hello-world",
             "homepage": "",
             "id": 2029162,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsct_freertos_app xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsct_freertos_app xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1415,7 +1392,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Hello World FreeRTOS Application for RPU using XSCT",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1450,7 +1427,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2073288,
-            "inherits": "deploy",
+            "inherits": "check_xsct_enabled deploy",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -1461,7 +1438,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1473,7 +1450,7 @@
             "filepath": "recipes-bsp/imgrcry",
             "homepage": "",
             "id": 2073289,
-            "inherits": "deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
+            "inherits": "check_xsct_enabled deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
@@ -1484,7 +1461,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1496,7 +1473,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2073290,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1507,7 +1484,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1519,7 +1496,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2073291,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1530,7 +1507,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1542,7 +1519,7 @@
             "filepath": "recipes-openamp/examples",
             "homepage": "",
             "id": 2073292,
-            "inherits": "deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "BSD-3-Clause",
             "pe": "",
@@ -1553,7 +1530,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1565,18 +1542,18 @@
             "filepath": "recipes-utils/xsct",
             "homepage": "",
             "id": 2073293,
-            "inherits": "native nopackages relocatable",
+            "inherits": "check_xsct_enabled native nopackages relocatable",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
             "pn": "xsct-native",
             "pr": "r0",
             "provides": "xsct-native ",
-            "pv": "1.0",
+            "pv": "${TOOL_VER_MAIN}",
             "section": "base",
             "srcrev": "",
             "summary": "Trigger XSCT to download and install",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-07-30T21:07:29+0000"
         }
     ],
     "wrtemplates": []
