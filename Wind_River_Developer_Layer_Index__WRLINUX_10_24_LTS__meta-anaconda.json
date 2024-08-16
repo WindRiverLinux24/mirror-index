@@ -606,7 +606,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-08-01T00:08:05+0000",
+            "updated": "2024-08-16T00:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -627,10 +627,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-08-01T02:08:51+0000",
-            "vcs_last_commit": "2024-08-01T00:08:58+0000",
-            "vcs_last_fetch": "2024-08-01T02:08:51+0000",
-            "vcs_last_rev": "a3a4e1fc5138c8e46e78d68a4553a1a4e677e9c3",
+            "updated": "2024-08-13T22:08:01+0000",
+            "vcs_last_commit": "2024-08-13T20:08:38+0000",
+            "vcs_last_fetch": "2024-08-13T22:08:01+0000",
+            "vcs_last_rev": "449b85bdff2424f34244f1e0a46b35f1bc1822a3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -657,10 +657,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-07-30T21:07:15+0000",
-            "vcs_last_commit": "2024-07-29T05:07:26+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:15+0000",
-            "vcs_last_rev": "38dad7f479dd5372a04aadd31a21c96906285edf",
+            "updated": "2024-08-16T07:08:50+0000",
+            "vcs_last_commit": "2024-08-16T02:08:57+0000",
+            "vcs_last_fetch": "2024-08-16T07:08:50+0000",
+            "vcs_last_rev": "f96a2a848c8a7d37242494fc5131e0107a180389",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -732,10 +732,10 @@
             "id": 990889,
             "layer": 235,
             "local_path": "",
-            "updated": "2024-07-30T21:07:07+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:07+0000",
-            "vcs_last_rev": "a80f4d20eaa43dac3cb2bee86da7c8bbf693b20e",
+            "updated": "2024-08-12T02:08:42+0000",
+            "vcs_last_commit": "2024-08-11T19:08:52+0000",
+            "vcs_last_fetch": "2024-08-12T02:08:42+0000",
+            "vcs_last_rev": "1b67b857c1e31fde13c040502b7b92f80f72cb0f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44188
@@ -1152,29 +1152,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "python3-dasbus_1.6.bb",
-            "filepath": "recipes-installer/python3-dasbus",
-            "homepage": "https://dasbus.readthedocs.io",
-            "id": 2029132,
-            "inherits": "python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
-            "layerbranch": 990889,
-            "license": "LGPL-2.1-only",
-            "pe": "",
-            "pn": "python3-dasbus",
-            "pr": "r0",
-            "provides": "python3-dasbus ",
-            "pv": "1.6",
-            "section": "devel",
-            "srcrev": "63b22fe4a7b2f98739279b2a4c6107eebd8d5a58",
-            "summary": "Dasbus is a DBus library written in Python 3, based on GLib and inspired by pydbus.",
-            "updated": "2024-05-09T03:05:05+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "configopts": "-Dintrospection=true ",
             "description": "The anaconda package",
             "filename": "python3-anaconda_39.32.6.bb",
@@ -1192,7 +1169,7 @@
             "section": "devel",
             "srcrev": "1a4aed721074ddcd84df88089024378c894ec65e",
             "summary": "The anaconda package",
-            "updated": "2024-05-09T03:05:05+0000"
+            "updated": "2024-08-07T23:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1215,7 +1192,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T03:05:05+0000"
+            "updated": "2024-08-07T23:08:01+0000"
         }
     ],
     "wrtemplates": []

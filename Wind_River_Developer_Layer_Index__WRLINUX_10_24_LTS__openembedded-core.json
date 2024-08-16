@@ -606,7 +606,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-08-01T00:08:05+0000",
+            "updated": "2024-08-16T00:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -627,10 +627,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-08-01T02:08:51+0000",
-            "vcs_last_commit": "2024-08-01T00:08:58+0000",
-            "vcs_last_fetch": "2024-08-01T02:08:51+0000",
-            "vcs_last_rev": "a3a4e1fc5138c8e46e78d68a4553a1a4e677e9c3",
+            "updated": "2024-08-13T22:08:01+0000",
+            "vcs_last_commit": "2024-08-13T20:08:38+0000",
+            "vcs_last_fetch": "2024-08-13T22:08:01+0000",
+            "vcs_last_rev": "449b85bdff2424f34244f1e0a46b35f1bc1822a3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -1203,7 +1203,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Command line utilities for working with *.desktop files",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2024-08-07T09:08:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6269,7 +6269,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_LINK_LLVM_DYLIB=ON                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_RTTI=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;X86'                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DCMAKE_BUILD_TYPE=Release                    -DPY_PYGMENTS_FOUND=OFF -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF -DPY_YAML_FOUND=OFF                  -DCMAKE_CROSSCOMPILING:BOOL=ON                   -DLLVM_TABLEGEN=/tmp/tmp0r6kjxl2/tmp-glibc/work/core2-32-oe-linux/llvm/18.1.6/recipe-sysroot-native/usr/bin/llvm-tblgen18.1.6                   -DLLVM_CONFIG_PATH=/tmp/tmp0r6kjxl2/tmp-glibc/work/core2-32-oe-linux/llvm/18.1.6/recipe-sysroot-native/usr/bin/llvm-config18.1.6                  ",
+            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_LINK_LLVM_DYLIB=ON                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_RTTI=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;X86'                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DCMAKE_BUILD_TYPE=Release                    -DPY_PYGMENTS_FOUND=OFF -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF -DPY_YAML_FOUND=OFF                  -DCMAKE_CROSSCOMPILING:BOOL=ON                   -DLLVM_TABLEGEN=/tmp/tmp6nswphlt/tmp-glibc/work/core2-32-oe-linux/llvm/18.1.6/recipe-sysroot-native/usr/bin/llvm-tblgen18.1.6                   -DLLVM_CONFIG_PATH=/tmp/tmp6nswphlt/tmp-glibc/work/core2-32-oe-linux/llvm/18.1.6/recipe-sysroot-native/usr/bin/llvm-config18.1.6                  ",
             "description": "",
             "filename": "llvm_18.1.6.bb",
             "filepath": "recipes-devtools/llvm",
@@ -6286,7 +6286,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "The LLVM Compiler Infrastructure",
-            "updated": "2024-07-30T21:07:38+0000"
+            "updated": "2024-08-12T02:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -6447,13 +6447,13 @@
             "section": "devel",
             "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
             "summary": "GNU binary utilities",
-            "updated": "2024-07-30T21:07:56+0000"
+            "updated": "2024-08-13T22:08:59+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmp0r6kjxl2/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpee1m4a7e/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-cross_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6470,7 +6470,7 @@
             "section": "devel",
             "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
             "summary": "GNU binary utilities",
-            "updated": "2024-07-30T21:07:56+0000"
+            "updated": "2024-08-13T22:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6493,13 +6493,13 @@
             "section": "devel",
             "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2024-07-30T21:07:56+0000"
+            "updated": "2024-08-13T22:08:00+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmp0r6kjxl2/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpee1m4a7e/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-crosssdk_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6516,7 +6516,7 @@
             "section": "devel",
             "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
             "summary": "GNU binary utilities",
-            "updated": "2024-07-30T21:07:56+0000"
+            "updated": "2024-08-13T22:08:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6539,7 +6539,7 @@
             "section": "devel",
             "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
             "summary": "GNU binary utilities",
-            "updated": "2024-07-30T21:07:56+0000"
+            "updated": "2024-08-13T22:08:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8241,7 +8241,7 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "Sound server for Linux and Unix-like operating systems",
-            "updated": "2024-07-30T21:07:00+0000"
+            "updated": "2024-08-07T09:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -8356,7 +8356,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "PNG image format decoding library",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2024-08-07T09:08:53+0000"
         },
         {
             "bbclassextend": "",
@@ -10386,7 +10386,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-python3 --with-capability_header=/tmp/tmp0r6kjxl2/tmp-glibc/work/core2-32-oe-linux/libcap-ng-python/0.8.5/recipe-sysroot/usr/include/linux/capability.h ",
+            "configopts": " --with-python3 --with-capability_header=/tmp/tmpnnnjwd00/tmp-glibc/work/core2-32-oe-linux/libcap-ng-python/0.8.5/recipe-sysroot/usr/include/linux/capability.h ",
             "description": "The libcap-ng library is intended to make programming with POSIX capabilities much easier than the traditional libcap library.",
             "filename": "libcap-ng-python_0.8.5.bb",
             "filepath": "recipes-support/libcap-ng",
@@ -10401,15 +10401,15 @@
             "provides": "libcap-ng-python ",
             "pv": "0.8.5",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "f5d39702622208b3ada064d7b2eaeaf1454c9bd3",
             "summary": "An alternate posix capabilities library - python",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-08-09T05:08:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --without-python3 --with-capability_header=/tmp/tmp0r6kjxl2/tmp-glibc/work/core2-32-oe-linux/libcap-ng/0.8.5/recipe-sysroot/usr/include/linux/capability.h ",
+            "configopts": " --without-python3 --with-capability_header=/tmp/tmpnnnjwd00/tmp-glibc/work/core2-32-oe-linux/libcap-ng/0.8.5/recipe-sysroot/usr/include/linux/capability.h ",
             "description": "The libcap-ng library is intended to make programming with POSIX capabilities much easier than the traditional libcap library.",
             "filename": "libcap-ng_0.8.5.bb",
             "filepath": "recipes-support/libcap-ng",
@@ -10424,9 +10424,9 @@
             "provides": "libcap-ng ",
             "pv": "0.8.5",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "f5d39702622208b3ada064d7b2eaeaf1454c9bd3",
             "summary": "An alternate posix capabilities library",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-08-09T05:08:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14589,7 +14589,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "Kexec fast reboot tools",
-            "updated": "2024-07-30T21:07:51+0000"
+            "updated": "2024-08-06T23:08:50+0000"
         },
         {
             "bbclassextend": "",
