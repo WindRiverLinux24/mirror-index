@@ -606,7 +606,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-08-16T00:08:06+0000",
+            "updated": "2024-08-19T00:08:06+0000",
             "updates_enabled": true
         }
     ],
@@ -619,10 +619,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-08-13T22:08:01+0000",
-            "vcs_last_commit": "2024-08-13T20:08:38+0000",
-            "vcs_last_fetch": "2024-08-13T22:08:01+0000",
-            "vcs_last_rev": "449b85bdff2424f34244f1e0a46b35f1bc1822a3",
+            "updated": "2024-08-18T22:08:26+0000",
+            "vcs_last_commit": "2024-08-18T20:08:52+0000",
+            "vcs_last_fetch": "2024-08-18T22:08:26+0000",
+            "vcs_last_rev": "69e087f0e34e35d16510ed22a19a0cfd6210c15c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -634,10 +634,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-08-16T07:08:50+0000",
-            "vcs_last_commit": "2024-08-16T02:08:57+0000",
-            "vcs_last_fetch": "2024-08-16T07:08:50+0000",
-            "vcs_last_rev": "f96a2a848c8a7d37242494fc5131e0107a180389",
+            "updated": "2024-08-18T22:08:35+0000",
+            "vcs_last_commit": "2024-08-18T20:08:52+0000",
+            "vcs_last_fetch": "2024-08-18T22:08:35+0000",
+            "vcs_last_rev": "3852441e29ae6a40243d13f5d716b000e4dbde46",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -649,10 +649,10 @@
             "id": 990860,
             "layer": 18,
             "local_path": "",
-            "updated": "2024-07-25T20:07:04+0000",
-            "vcs_last_commit": "2024-07-25T02:07:25+0000",
-            "vcs_last_fetch": "2024-07-25T20:07:04+0000",
-            "vcs_last_rev": "d96d7fd4aa952064fea08135a5d2bc5c0a4b61e9",
+            "updated": "2024-08-18T22:08:51+0000",
+            "vcs_last_commit": "2024-08-18T20:08:51+0000",
+            "vcs_last_fetch": "2024-08-18T22:08:51+0000",
+            "vcs_last_rev": "85a0a38cc121426dedf4264ee8f143db1bbc1067",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44189
@@ -1680,7 +1680,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --without-python2-bindings     --with-xml-catalog-path=/tmp/tmplmxnj_ll/tmp-glibc/work/core2-32-oe-linux/sssd/2.9.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run   --with-autofs    --without-kcm --with-infopipe  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings  --with-samba=no  --with-selinux=no --with-semanage=no  --with-ssh=no --with-sudo --with-initscript=sysv --enable-nls",
+            "configopts": "      --disable-cifs-idmap-plugin     --without-nfsv4-idmapd-plugin     --without-ipa-getkeytab     --without-python2-bindings     --enable-pammoddir=/lib/security     --without-python2-bindings     --with-xml-catalog-path=/tmp/tmptv821jxa/tmp-glibc/work/core2-32-oe-linux/sssd/2.9.2/recipe-sysroot-native/etc/xml/catalog     --with-pid-path=/run   --with-autofs    --without-kcm --with-infopipe  --with-manpages=no  --with-libnl=no  --without-oidc-child  --without-python3-bindings  --with-samba=no  --with-selinux=no --with-semanage=no  --with-ssh=no --with-sudo --with-initscript=sysv --enable-nls",
             "description": "SSSD is a system security services daemon",
             "filename": "sssd_2.9.2.bb",
             "filepath": "dynamic-layers/networking-layer/recipes-security/sssd",
@@ -1697,7 +1697,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "system security services daemon",
-            "updated": "2024-07-10T10:07:44+0000"
+            "updated": "2024-08-18T22:08:51+0000"
         },
         {
             "bbclassextend": "",
