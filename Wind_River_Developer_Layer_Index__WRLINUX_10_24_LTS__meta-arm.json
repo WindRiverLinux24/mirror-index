@@ -594,6 +594,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44203,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1"
         }
     ],
     "branches": [
@@ -606,7 +613,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-08-19T00:08:06+0000",
+            "updated": "2024-09-27T00:09:07+0000",
             "updates_enabled": true
         }
     ],
@@ -619,10 +626,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-08-18T22:08:26+0000",
-            "vcs_last_commit": "2024-08-18T20:08:52+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:26+0000",
-            "vcs_last_rev": "69e087f0e34e35d16510ed22a19a0cfd6210c15c",
+            "updated": "2024-09-20T05:09:27+0000",
+            "vcs_last_commit": "2024-09-19T21:09:10+0000",
+            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
+            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -634,10 +641,10 @@
             "id": 993872,
             "layer": 474,
             "local_path": "",
-            "updated": "2024-07-02T23:07:07+0000",
-            "vcs_last_commit": "2024-07-02T22:07:20+0000",
-            "vcs_last_fetch": "2024-07-02T23:07:07+0000",
-            "vcs_last_rev": "40a5eb11ccc9f76502041dcab5a4595fa8a13204",
+            "updated": "2024-09-26T05:09:07+0000",
+            "vcs_last_commit": "2024-09-26T03:09:04+0000",
+            "vcs_last_fetch": "2024-09-26T05:09:07+0000",
+            "vcs_last_rev": "58273e903490913ad0deeae58c43314d503cea4c",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44189
@@ -1333,7 +1340,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/mbedtls                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services/environments/opteesp/default_toolchain_file.cmake -Dlibts_ROOT=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services=/usr/src/debug/ts-sp-fwu/git  -fmacro-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/build=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/build=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git=/usr/src/debug/ts-sp-fwu/git-r0  -fdebug-prefix-map=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git=/usr/src/debug/ts-sp-fwu/git-r0 \" -DTFA_SOURCE_DIR=/tmp/tmp9jblqgwl/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/tf-a -DSEMIHOSTING_BLK_FILE_NAME:STRING=deploy/images/qemux86/secure-flash.img",
+            "configopts": " -DDTC_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/dtc                   -DCPPUTEST_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/cpputest                   -DNANOPB_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/nanopb                   -DT_COSE_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/tcose                   -DQCBOR_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/qcbor                   -DMBEDTLS_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/mbedtls                   -DLIBGCC_LOCATE_CFLAGS=\"--sysroot=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot\"                   -DCROSS_COMPILE=\"i686-oe-linux-\"                   -DTS_PLATFORM=\"ts/mock\"                   -DCMAKE_TOOLCHAIN_FILE=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services/environments/opteesp/default_toolchain_file.cmake -Dlibts_ROOT=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot/usr/opteesp/lib/cmake/libts/                   -DNEWLIB_INSTALL_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot/usr/opteesp/newlib                   -DCMAKE_ASM_FLAGS=\"-fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/trusted-services=/usr/src/debug/ts-sp-fwu/git  -fmacro-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/build=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/build=/usr/src/debug/ts-sp-fwu/git  -fdebug-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/recipe-sysroot-native= -fmacro-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git=/usr/src/debug/ts-sp-fwu/git-r0  -fdebug-prefix-map=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git=/usr/src/debug/ts-sp-fwu/git-r0 \" -DTFA_SOURCE_DIR=/tmp/tmpw3t39zrf/tmp-glibc/work/core2-32-oe-linux/ts-sp-fwu/git/git/tf-a -DSEMIHOSTING_BLK_FILE_NAME:STRING=deploy/images/qemux86/secure-flash.img",
             "description": "Trusted Services Firmware Update Service provider",
             "filename": "ts-sp-fwu_git.bb",
             "filepath": "recipes-security/trusted-services",
@@ -1350,7 +1357,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:54+0000"
+            "updated": "2024-09-26T05:09:07+0000"
         },
         {
             "bbclassextend": "",

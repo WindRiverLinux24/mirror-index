@@ -594,6 +594,13 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
+        },
+        {
+            "description": "",
+            "id": 44203,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1"
         }
     ],
     "branches": [
@@ -606,7 +613,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-08-19T00:08:06+0000",
+            "updated": "2024-09-27T00:09:07+0000",
             "updates_enabled": true
         }
     ],
@@ -648,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-08-18T22:08:26+0000",
-            "vcs_last_commit": "2024-08-18T20:08:52+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:26+0000",
-            "vcs_last_rev": "69e087f0e34e35d16510ed22a19a0cfd6210c15c",
+            "updated": "2024-09-20T05:09:27+0000",
+            "vcs_last_commit": "2024-09-19T21:09:10+0000",
+            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
+            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -678,10 +685,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-08-18T22:08:35+0000",
-            "vcs_last_commit": "2024-08-18T20:08:52+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:35+0000",
-            "vcs_last_rev": "3852441e29ae6a40243d13f5d716b000e4dbde46",
+            "updated": "2024-09-26T05:09:01+0000",
+            "vcs_last_commit": "2024-09-26T04:09:46+0000",
+            "vcs_last_fetch": "2024-09-26T05:09:01+0000",
+            "vcs_last_rev": "6c296fe48e5cff647f67c865f6219ee6fb3bfb78",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -843,10 +850,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2024-08-18T22:08:29+0000",
-            "vcs_last_commit": "2024-08-18T20:08:55+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:29+0000",
-            "vcs_last_rev": "573b287194390003f23d57469b11ce902e4bc9ab",
+            "updated": "2024-09-26T21:09:08+0000",
+            "vcs_last_commit": "2024-09-26T20:09:02+0000",
+            "vcs_last_fetch": "2024-09-26T21:09:08+0000",
+            "vcs_last_rev": "b1114bb0b068d2e3678f5636716d93e0ff556753",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -858,10 +865,10 @@
             "id": 990897,
             "layer": 164,
             "local_path": "",
-            "updated": "2024-08-12T02:08:53+0000",
-            "vcs_last_commit": "2024-08-11T22:08:20+0000",
-            "vcs_last_fetch": "2024-08-12T02:08:53+0000",
-            "vcs_last_rev": "10ce6f57050baa48f9bc2714c72d7ced61aa9fc6",
+            "updated": "2024-09-26T19:09:35+0000",
+            "vcs_last_commit": "2024-09-26T14:09:33+0000",
+            "vcs_last_fetch": "2024-09-26T19:09:35+0000",
+            "vcs_last_rev": "50c9d2098ec56e673308dfd868beadea13e909e6",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 44187
@@ -2097,7 +2104,7 @@
             "id": 120268,
             "layerbranch": 990897,
             "name": "feature/bcc",
-            "updated": "2024-06-20T21:06:26+0000"
+            "updated": "2024-09-26T19:09:35+0000"
         },
         {
             "description": "",
