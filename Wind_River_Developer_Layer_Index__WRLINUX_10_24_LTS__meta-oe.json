@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-09-26T05:09:01+0000",
-            "vcs_last_commit": "2024-09-26T04:09:46+0000",
-            "vcs_last_fetch": "2024-09-26T05:09:01+0000",
-            "vcs_last_rev": "6c296fe48e5cff647f67c865f6219ee6fb3bfb78",
+            "updated": "2024-10-10T02:10:47+0000",
+            "vcs_last_commit": "2024-10-09T23:10:42+0000",
+            "vcs_last_fetch": "2024-10-10T02:10:47+0000",
+            "vcs_last_rev": "fa0ad5ff240a40bfa63ccf2477fe821c4686ca5b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -959,7 +987,7 @@
             "bugtracker": "",
             "configopts": "     -DENABLE_CJSON_UTILS=On     -DENABLE_CUSTOM_COMPILER_FLAGS=OFF     -DBUILD_SHARED_AND_STATIC_LIBS=On  ",
             "description": "Ultralightweight JSON parser in ANSI C",
-            "filename": "cjson_1.7.17.bb",
+            "filename": "cjson_1.7.18.bb",
             "filepath": "recipes-devtools/cjson",
             "homepage": "https://github.com/DaveGamble/cJSON",
             "id": 2026026,
@@ -970,11 +998,11 @@
             "pn": "cjson",
             "pr": "r0",
             "provides": "cjson ",
-            "pv": "1.7.17",
+            "pv": "1.7.18",
             "section": "libs",
-            "srcrev": "87d8f0961a01bf09bef98ff89bae9fdec42181ee",
+            "srcrev": "acc76239bee01d8e9c858ae2cab296704e52d916",
             "summary": "",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2024-09-28T21:09:47+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -2173,7 +2201,7 @@
             "updated": "2024-05-28T04:05:20+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
@@ -2193,7 +2221,7 @@
             "section": "console/tools",
             "srcrev": "595bf0007ab1929570c7671f091313c8fc20644e",
             "summary": "Memory Efficient Serialization Library - Python3 Modules",
-            "updated": "2024-05-09T02:05:58+0000"
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2561,7 +2589,7 @@
             "section": "libs",
             "srcrev": "ec5ce12fc9c0299e1454cc002c70218b5a6f005b",
             "summary": "C++ framework for json-rpc 1.0 and 2.0",
-            "updated": "2024-05-09T02:05:03+0000"
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3372,7 +3400,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --with-curl=/tmp/tmpszx6zikp/tmp-glibc/work/core2-32-oe-linux/xerces-c/3.2.5/recipe-sysroot/usr --with-icu=/tmp/tmpszx6zikp/tmp-glibc/work/core2-32-oe-linux/xerces-c/3.2.5/recipe-sysroot/usr",
+            "configopts": "  --with-curl=/tmp/tmp0co7g84z/tmp-glibc/work/core2-32-oe-linux/xerces-c/3.2.5/recipe-sysroot/usr --with-icu=/tmp/tmp0co7g84z/tmp-glibc/work/core2-32-oe-linux/xerces-c/3.2.5/recipe-sysroot/usr",
             "description": "Xerces-C++ makes it easy to give your application                the ability to read and write XML data.                A shared library is provided for parsing, generating,                manipulating, and validating XML documents using                the DOM, SAX, and SAX2 APIs.",
             "filename": "xerces-c_3.2.5.bb",
             "filepath": "recipes-devtools/xerces-c",
@@ -3389,7 +3417,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Xerces-c is a validating xml parser written in C++",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3757,7 +3785,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A simple daemon to allow session software to update firmware",
-            "updated": "2024-07-01T22:07:20+0000"
+            "updated": "2024-09-28T21:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -4930,7 +4958,7 @@
             "section": "base",
             "srcrev": "869e7cf4511b81897512a3f0adb627218e618112",
             "summary": "Library for reading and writing Jcat files",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7146,7 +7174,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "exiv2_0.28.0.bb",
+            "filename": "exiv2_0.28.3.bb",
             "filepath": "recipes-support/exiv2",
             "homepage": "",
             "id": 2026295,
@@ -7157,11 +7185,11 @@
             "pn": "exiv2",
             "pr": "r0",
             "provides": "exiv2 ",
-            "pv": "0.28.0",
+            "pv": "0.28.3",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "a6a79ef064f131ffd03c110acce2d3edb84ffa2e",
             "summary": "Exif, Iptc and XMP metadata manipulation library and tools",
-            "updated": "2024-05-09T02:05:54+0000"
+            "updated": "2024-09-28T21:09:50+0000"
         },
         {
             "bbclassextend": "",
@@ -7529,7 +7557,7 @@
             "section": "console/network",
             "srcrev": "c8c1af84e4b90b4aea31466aad09bf877619e943",
             "summary": "",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2024-09-28T21:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -8886,7 +8914,7 @@
             "section": "console/utils",
             "srcrev": "570a9a048bb0e3a5c221ca87be9408ae35f711e2",
             "summary": "ImageMagick is an image conversion toolkit",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2024-09-28T21:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -9839,7 +9867,7 @@
             "description": "",
             "filename": "tree_2.1.1.bb",
             "filepath": "recipes-support/tree",
-            "homepage": "http://mama.indstate.edu/users/ice/tree/",
+            "homepage": "https://oldmanprogrammer.net/source.php?dir=projects/tree",
             "id": 2026412,
             "inherits": "",
             "layerbranch": 990855,
@@ -9852,7 +9880,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "A recursive directory listing command",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2024-09-28T21:09:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10082,7 +10110,7 @@
             "section": "console/utils",
             "srcrev": "e82d1a653ca94aa4ed12441424da6ce780b1e530",
             "summary": "Console mouse driver",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-09-28T21:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -10519,7 +10547,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2024-09-28T21:09:49+0000"
         },
         {
             "bbclassextend": "",
@@ -12589,7 +12617,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Jansson is a C library for encoding, decoding and manipulating JSON data",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2024-10-10T02:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -13859,7 +13887,7 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "",
+            "bugtracker": "https://github.com/polkit-org/polkit/issues",
             "configopts": "-Dintrospection=true   -Dgtk_doc=false -Djs_engine=mozjs -Dauthfw=shadow -Dsession_tracking=ConsoleKit",
             "description": "The polkit package is an application-level toolkit for defining and handling the policy that allows unprivileged processes to speak to privileged processes.",
             "filename": "polkit_124.bb",
@@ -13876,8 +13904,8 @@
             "pv": "124",
             "section": "base",
             "srcrev": "82f0924dc0eb23b9df68e88dbaf9e07c81940a5a",
-            "summary": "PolicyKit Authorization Framework",
-            "updated": "2024-05-09T02:05:15+0000"
+            "summary": "Polkit Authorization Framework",
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -14291,7 +14319,7 @@
             "section": "base",
             "srcrev": "e31ac4d4caa55fa662e207150ba40f8151b7ad96",
             "summary": "",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2024-09-28T21:09:48+0000"
         },
         {
             "bbclassextend": "",
@@ -14642,24 +14670,24 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --with-icu --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpzejugw7j/tmp-glibc/work/core2-32-oe-linux/postgresql/16.3/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --without-gssapi --with-icu --without-ldap --with-libxml --without-libxslt --without-lz4 --with-ssl=openssl --without-pam --with-perl --with-python --without-systemd --with-tcl --with-tclconfig=/tmp/tmpqtin9ejk/tmp-glibc/work/core2-32-oe-linux/postgresql/16.4/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --with-zlib --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_16.3.bb",
+            "filename": "postgresql_16.4.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 2026621,
-            "inherits": "autotools cpan-base gettext multilib_header perl-version perlnative pkgconfig python3-dir python3native python3targetconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "inherits": "autotools gettext multilib_header perl-version perlnative pkgconfig python3-dir python3native python3targetconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 990855,
             "license": "0BSD",
             "pe": "",
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "16.3",
+            "pv": "16.4",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2024-08-18T22:08:33+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -15257,7 +15285,7 @@
             "section": "net/misc",
             "srcrev": "45f7cd1569896d9e316c130bf5c60b7ccfc8211d",
             "summary": "The network configuration abstraction renderer",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-09-28T21:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -20739,7 +20767,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "uutils-coreutils_0.0.25.bb",
+            "filename": "uutils-coreutils_0.0.27.bb",
             "filepath": "recipes-core/uutils-coreutils",
             "homepage": "https://github.com/uutils/coreutils",
             "id": 2026886,
@@ -20750,11 +20778,11 @@
             "pn": "uutils-coreutils",
             "pr": "r0",
             "provides": "uutils-coreutils coreutils",
-            "pv": "0.0.25",
+            "pv": "0.0.27",
             "section": "base",
-            "srcrev": "68c77b4bd129bdc12d03cc74fe0f817d2df75894",
+            "srcrev": "9b11753e7cb06b0f76f4221fc237019c0a86f8f5",
             "summary": "coreutils ~ GNU coreutils (updated); implemented as universal (cross-platform) utils, written in Rust",
-            "updated": "2024-05-09T02:05:35+0000"
+            "updated": "2024-09-28T21:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -22065,7 +22093,7 @@
             "section": "base",
             "srcrev": "2730638bf88984b09531813974f9bd14e1a50165",
             "summary": "Library for IPv6 Neighbor Discovery Protocol",
-            "updated": "2024-08-18T22:08:33+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -22594,7 +22622,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A network authentication protocol",
-            "updated": "2024-07-30T21:07:13+0000"
+            "updated": "2024-09-28T21:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -22801,7 +22829,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2024-05-09T02:05:02+0000"
+            "updated": "2024-09-28T21:09:45+0000"
         },
         {
             "bbclassextend": "",

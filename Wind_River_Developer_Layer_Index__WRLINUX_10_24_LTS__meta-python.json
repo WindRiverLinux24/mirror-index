@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-09-26T05:09:01+0000",
-            "vcs_last_commit": "2024-09-26T04:09:46+0000",
-            "vcs_last_fetch": "2024-09-26T05:09:01+0000",
-            "vcs_last_rev": "6c296fe48e5cff647f67c865f6219ee6fb3bfb78",
+            "updated": "2024-10-10T02:10:47+0000",
+            "vcs_last_commit": "2024-10-09T23:10:42+0000",
+            "vcs_last_fetch": "2024-10-10T02:10:47+0000",
+            "vcs_last_rev": "fa0ad5ff240a40bfa63ccf2477fe821c4686ca5b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -656,10 +684,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-08-18T22:08:44+0000",
-            "vcs_last_commit": "2024-08-18T20:08:51+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:44+0000",
-            "vcs_last_rev": "fc748c961623e45c1d52e95b5dc2b20a22ad87ca",
+            "updated": "2024-10-08T23:10:12+0000",
+            "vcs_last_commit": "2024-10-08T22:10:19+0000",
+            "vcs_last_fetch": "2024-10-08T23:10:12+0000",
+            "vcs_last_rev": "cfc1e49d78fcac728af0014b372fe195d0dab88f",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -1557,7 +1585,7 @@
             "id": 2027037,
             "inherits": "ptest pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "BSD-3-Clause",
+            "license": "MIT",
             "pe": "",
             "pn": "python3-parse-type",
             "pr": "r0",
@@ -1566,7 +1594,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simplifies building parse types based on the parse module",
-            "updated": "2024-05-09T02:05:35+0000"
+            "updated": "2024-09-28T21:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1689,7 +1717,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Data validation and settings management using Python type hints.Fast and extensible, Pydantic plays nicely with your linters/IDE/brain. Define how data should be in pure, canonical Python 3.7+; validate it with Pydantic.",
-            "filename": "python3-pydantic_2.7.0.bb",
+            "filename": "python3-pydantic_2.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/samuelcolvin/pydantic",
             "id": 2027043,
@@ -1700,11 +1728,11 @@
             "pn": "python3-pydantic",
             "pr": "r0",
             "provides": "python3-pydantic ",
-            "pv": "2.7.0",
+            "pv": "2.7.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Data validation using Python type hinting",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2024-09-28T21:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2592,7 +2620,7 @@
             "id": 2027082,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "BSD-2-Clause & BSD-3-Clause & CRC32C-ADLER & LGPL-2.0-or-later",
+            "license": "BSD-2-Clause & BSD-3-Clause & CRC32C-ADLER & LGPL-2.1-or-later",
             "pe": "",
             "pn": "python3-crc32c",
             "pr": "r0",
@@ -2601,7 +2629,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A python package implementing the crc32c algorithmin hardware and software",
-            "updated": "2024-05-09T02:05:44+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -2868,7 +2896,7 @@
             "id": 2027094,
             "inherits": "ptest pypi python3-dir python3native python3targetconfig python_hatchling python_pep517 setuptools3-base",
             "layerbranch": 990857,
-            "license": "BSD-3-Clause",
+            "license": "MIT",
             "pe": "",
             "pn": "python3-platformdirs",
             "pr": "r0",
@@ -2877,7 +2905,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A small Python module for determining appropriate platform-specific dirs",
-            "updated": "2024-05-09T02:05:48+0000"
+            "updated": "2024-09-28T21:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3866,7 +3894,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-01T22:07:31+0000"
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4846,7 +4874,7 @@
             "id": 2027180,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "MIT",
+            "license": "GPL-3.0-only",
             "pe": "",
             "pn": "python3-nmap",
             "pr": "r0",
@@ -4855,7 +4883,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5214,7 +5242,7 @@
             "id": 2027196,
             "inherits": "ptest pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 990857,
-            "license": "Apache-2.0",
+            "license": "MIT",
             "pe": "",
             "pn": "python3-cbor2",
             "pr": "r0",
@@ -5223,7 +5251,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2024-09-28T21:09:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6120,7 +6148,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Calculate the distance between 2 points on Earth",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6143,7 +6171,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6220,22 +6248,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-email-validator_2.1.0.bb",
+            "filename": "python3-email-validator_2.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
             "id": 2027240,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "CC0-1.0",
+            "license": "Unlicense",
             "pe": "",
             "pn": "python3-email-validator",
             "pr": "r0",
             "provides": "python3-email-validator ",
-            "pv": "2.1.0",
+            "pv": "2.1.1",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A robust email address syntax and deliverability validation library.",
-            "updated": "2024-05-09T02:05:30+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -6350,7 +6378,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6709,7 +6737,7 @@
             "id": 2027261,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "LGPL-2.0-only",
+            "license": "LGPL-2.1-only",
             "pe": "",
             "pn": "python3-fann2",
             "pr": "r0",
@@ -6718,7 +6746,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for Fast Artificial Neural Networks 2.2.0 (FANN >= 2.2.0)",
-            "updated": "2024-05-09T02:05:35+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6801,7 +6829,7 @@
             "id": 2027265,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 990857,
-            "license": "BSD-2-Clause",
+            "license": "BSD-3-Clause",
             "pe": "",
             "pn": "python3-colorama",
             "pr": "r0",
@@ -6810,7 +6838,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Cross-platform colored terminal text.",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -7408,7 +7436,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Flask extension adding a decorator for CORS support",
-            "updated": "2024-05-09T02:05:42+0000"
+            "updated": "2024-09-28T21:09:04+0000"
         },
         {
             "bbclassextend": "",
@@ -10014,14 +10042,14 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "",
+            "description": "A fixed size dict like container which evicts Least Recently Used (LRU) items once size limit is exceeded.",
             "filename": "python3-lru-dict_1.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/amitdev/lru-dict",
             "id": 2027405,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "BSD-3-Clause",
+            "license": "MIT",
             "pe": "",
             "pn": "python3-lru-dict",
             "pr": "r0",
@@ -10029,8 +10057,8 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "srcrev": "",
-            "summary": "A fixed size dict like container which evicts Least Recently Used (LRU) items once size limit is exceeded.",
-            "updated": "2024-05-09T02:05:18+0000"
+            "summary": "",
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10412,7 +10440,7 @@
             "id": 2027422,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "LGPL-2.0-only | MIT",
+            "license": "LGPL-2.1-only | MIT",
             "pe": "",
             "pn": "python3-pycurl",
             "pr": "r0",
@@ -10421,7 +10449,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python Interface To The cURL library",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2024-09-28T21:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -12413,7 +12441,7 @@
             "id": 2027509,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "Apache-2.0",
+            "license": "BSD-2-Clause",
             "pe": "",
             "pn": "python3-mock",
             "pr": "r0",
@@ -12422,7 +12450,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:51+0000"
+            "updated": "2024-09-28T21:09:05+0000"
         },
         {
             "bbclassextend": "",
@@ -12636,14 +12664,14 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "",
+            "description": "Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.",
             "filename": "python3-pillow_10.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pillow.readthedocs.io",
             "id": 2027519,
             "inherits": "ptest python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 990857,
-            "license": "MIT",
+            "license": "HPND",
             "pe": "",
             "pn": "python3-pillow",
             "pr": "r0",
@@ -12651,8 +12679,8 @@
             "pv": "10.3.0",
             "section": "base",
             "srcrev": "5c89d88eee199ba53f64581ea39b6a1bc52feb1a",
-            "summary": "Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.",
-            "updated": "2024-05-09T02:05:53+0000"
+            "summary": "",
+            "updated": "2024-09-28T21:09:06+0000"
         },
         {
             "bbclassextend": "",
@@ -12965,7 +12993,7 @@
             "id": 2027533,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
             "layerbranch": 990857,
-            "license": "MIT",
+            "license": "BSD-2-Clause",
             "pe": "",
             "pn": "python3-xlsxwriter",
             "pr": "r0",
@@ -12974,7 +13002,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2024-09-28T21:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -13189,7 +13217,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This package provides the core functionality for pydantic validation and serialization.Pydantic-core is currently around 17x faster than pydantic V1.",
-            "filename": "python3-pydantic-core_2.16.3.bb",
+            "filename": "python3-pydantic-core_2.18.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/pydantic/pydantic-core",
             "id": 2027543,
@@ -13200,11 +13228,11 @@
             "pn": "python3-pydantic-core",
             "pr": "r0",
             "provides": "python3-pydantic-core ",
-            "pv": "2.16.3",
+            "pv": "2.18.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Provides the core functionality for pydantic validation and serialization.",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2024-09-28T21:09:07+0000"
         },
         {
             "bbclassextend": "",
@@ -13963,7 +13991,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-python ptest test image",
-            "updated": "2024-06-12T03:06:06+0000"
+            "updated": "2024-10-08T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -13986,7 +14014,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-12T03:06:06+0000"
+            "updated": "2024-10-08T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -14009,7 +14037,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-12T03:06:07+0000"
+            "updated": "2024-10-08T23:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -14286,6 +14314,29 @@
             "srcrev": "413cf9a0b7c231468f1d28d9a29dd8dd8bda15c5",
             "summary": "Dasbus is a DBus library written in Python 3, based on GLib and inspired by pydbus.",
             "updated": "2024-06-12T03:06:07+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "https://github.com/dvarrazzo/py-setproctitle/issues",
+            "configopts": "",
+            "description": "The setproctitle module allows a process to change its title (as displayed by system tools such as ps, top or MacOS Activity Monitor).",
+            "filename": "python3-setproctitle_1.3.3.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/dvarrazzo/py-setproctitle",
+            "id": 2120892,
+            "inherits": "ptest pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "layerbranch": 990857,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "python3-setproctitle",
+            "pr": "r0",
+            "provides": "python3-setproctitle ",
+            "pv": "1.3.3",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "A Python module to customize the process title",
+            "updated": "2024-10-08T23:10:12+0000"
         }
     ],
     "wrtemplates": []

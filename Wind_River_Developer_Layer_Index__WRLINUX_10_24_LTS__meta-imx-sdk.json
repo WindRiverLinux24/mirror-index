@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +683,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -670,10 +698,10 @@
             "id": 990864,
             "layer": 59,
             "local_path": "",
-            "updated": "2024-07-01T22:07:45+0000",
-            "vcs_last_commit": "2024-06-30T22:06:33+0000",
-            "vcs_last_fetch": "2024-07-01T22:07:45+0000",
-            "vcs_last_rev": "86d54cb10837479891f2298dc5a0d0795e8e38a6",
+            "updated": "2024-09-28T23:09:49+0000",
+            "vcs_last_commit": "2024-09-27T21:09:41+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:49+0000",
+            "vcs_last_rev": "05ba62c7ffd714b33b3192004bf9a6880d854324",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 44187
@@ -700,10 +728,10 @@
             "id": 993812,
             "layer": 553,
             "local_path": "",
-            "updated": "2024-09-13T00:09:50+0000",
-            "vcs_last_commit": "2024-09-12T22:09:27+0000",
-            "vcs_last_fetch": "2024-09-13T00:09:50+0000",
-            "vcs_last_rev": "969d7a5399dd9c2a71fbf665f1220e1342833363",
+            "updated": "2024-10-09T03:10:00+0000",
+            "vcs_last_commit": "2024-10-09T01:10:20+0000",
+            "vcs_last_fetch": "2024-10-09T03:10:00+0000",
+            "vcs_last_rev": "248e9fbc097d9004ba5791a0fd3d4db37c339cd3",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
             "yp_compatible_version": 44188

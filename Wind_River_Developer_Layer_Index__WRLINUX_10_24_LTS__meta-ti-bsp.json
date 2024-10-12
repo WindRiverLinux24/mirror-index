@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 993872,
             "layer": 474,
             "local_path": "",
-            "updated": "2024-09-26T05:09:07+0000",
-            "vcs_last_commit": "2024-09-26T03:09:04+0000",
-            "vcs_last_fetch": "2024-09-26T05:09:07+0000",
-            "vcs_last_rev": "58273e903490913ad0deeae58c43314d503cea4c",
+            "updated": "2024-09-28T23:09:31+0000",
+            "vcs_last_commit": "2024-09-27T21:09:28+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:31+0000",
+            "vcs_last_rev": "d30c7d29f93e766ddcee0d706c3b9b2a8717147d",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44189
@@ -656,10 +684,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2024-07-30T21:07:36+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:36+0000",
-            "vcs_last_rev": "2962fd12086a6a062701dd7595e619dd8cb62170",
+            "updated": "2024-09-28T23:09:48+0000",
+            "vcs_last_commit": "2024-09-27T21:09:24+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:48+0000",
+            "vcs_last_rev": "b43f089dc5cb69b34eadc30dfb6be55cb7caa405",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -741,402 +769,402 @@
     "machines": [
         {
             "description": " BeagleBone AI-64 board (A72 core)",
-            "id": 88683,
+            "id": 91822,
             "layerbranch": 1000731,
             "name": "beaglebone-ai64",
-            "updated": "2024-07-01T22:07:55+0000"
-        },
-        {
-            "description": " TI AM62XX LP EVM",
-            "id": 88684,
-            "layerbranch": 1000731,
-            "name": "am62xx-lp-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM64xx EVM (R5F core)",
-            "id": 88685,
-            "layerbranch": 1000731,
-            "name": "am64xx-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM65xx EVM (R5F core)",
-            "id": 88686,
-            "layerbranch": 1000731,
-            "name": "am65xx-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62Px EVM (R5F core)",
-            "id": 88687,
-            "layerbranch": 1000731,
-            "name": "am62pxx-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM69 SK",
-            "id": 88688,
-            "layerbranch": 1000731,
-            "name": "am69-sk",
-            "updated": "2024-07-08T23:07:34+0000"
-        },
-        {
-            "description": " TI J721e HS EVM",
-            "id": 88689,
-            "layerbranch": 1000731,
-            "name": "j721e-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721S2 HS EVM (R5F core)",
-            "id": 88690,
-            "layerbranch": 1000731,
-            "name": "j721s2-hs-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J784S4 HS EVM",
-            "id": 88691,
-            "layerbranch": 1000731,
-            "name": "j784s4-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62xx LP GP EVM (R5F core)",
-            "id": 88692,
-            "layerbranch": 1000731,
-            "name": "am62xx-lp-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J784S4 EVM (R5F core)",
-            "id": 88693,
-            "layerbranch": 1000731,
-            "name": "j784s4-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J7200 HS EVM (R5F core)",
-            "id": 88694,
-            "layerbranch": 1000731,
-            "name": "j7200-hs-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J7200 EVM",
-            "id": 88695,
-            "layerbranch": 1000731,
-            "name": "j7200-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI DRA7xx EVM",
-            "id": 88696,
-            "layerbranch": 1000731,
-            "name": "dra7xx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM64xx EVM",
-            "id": 88697,
-            "layerbranch": 1000731,
-            "name": "am64xx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM68 SK",
-            "id": 88698,
-            "layerbranch": 1000731,
-            "name": "am68-sk",
-            "updated": "2024-07-08T23:07:34+0000"
-        },
-        {
-            "description": " TI AM62A EVM (R5F core)",
-            "id": 88699,
-            "layerbranch": 1000731,
-            "name": "am62axx-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62PX EVM",
-            "id": 88700,
-            "layerbranch": 1000731,
-            "name": "am62pxx-evm",
-            "updated": "2024-07-08T23:07:34+0000"
-        },
-        {
-            "description": " TI J721e EVM",
-            "id": 88701,
-            "layerbranch": 1000731,
-            "name": "j721e-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " BeagleBone AI-64 (R5F core)",
-            "id": 88702,
-            "layerbranch": 1000731,
-            "name": "beaglebone-ai64-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM68 SK (R5F core)",
-            "id": 88703,
-            "layerbranch": 1000731,
-            "name": "am68-sk-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62XX SIP EVM",
-            "id": 88704,
-            "layerbranch": 1000731,
-            "name": "am62xxsip-evm",
-            "updated": "2024-07-01T22:07:55+0000"
-        },
-        {
-            "description": " TI AM65xx EVM",
-            "id": 88705,
-            "layerbranch": 1000731,
-            "name": "am65xx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62xx SIP EVM (R5F core)",
-            "id": 88706,
-            "layerbranch": 1000731,
-            "name": "am62xxsip-evm-k3r5",
-            "updated": "2024-07-01T22:07:55+0000"
-        },
-        {
-            "description": " TI AM57xx HS EVM",
-            "id": 88707,
-            "layerbranch": 1000731,
-            "name": "am57xx-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J7200 HS EVM",
-            "id": 88708,
-            "layerbranch": 1000731,
-            "name": "j7200-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62AXX EVM",
-            "id": 88709,
-            "layerbranch": 1000731,
-            "name": "am62axx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721S2 EVM",
-            "id": 88710,
-            "layerbranch": 1000731,
-            "name": "j721s2-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J784S4 EVM",
-            "id": 88711,
-            "layerbranch": 1000731,
-            "name": "j784s4-evm",
-            "updated": "2024-07-08T23:07:34+0000"
-        },
-        {
-            "description": " TI J721e HS EVM (R5F core)",
-            "id": 88712,
-            "layerbranch": 1000731,
-            "name": "j721e-hs-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721e EVM (R5F core)",
-            "id": 88713,
-            "layerbranch": 1000731,
-            "name": "j721e-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " BeaglePlay (R5F core)",
-            "id": 88714,
-            "layerbranch": 1000731,
-            "name": "beagleplay-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " BeagleBoard X15",
-            "id": 88715,
-            "layerbranch": 1000731,
-            "name": "beagle-x15",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM57xx EVM",
-            "id": 88716,
-            "layerbranch": 1000731,
-            "name": "am57xx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62XX EVM",
-            "id": 88717,
-            "layerbranch": 1000731,
-            "name": "am62xx-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI OMAP-L138 LCDK board",
-            "id": 88718,
-            "layerbranch": 1000731,
-            "name": "omapl138-lcdk",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM65xx HS EVM",
-            "id": 88719,
-            "layerbranch": 1000731,
-            "name": "am65xx-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J722S EVM",
-            "id": 88720,
-            "layerbranch": 1000731,
-            "name": "j722s-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM62xx EVM (R5F core)",
-            "id": 88721,
-            "layerbranch": 1000731,
-            "name": "am62xx-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " http://beagleboard.org/bone board",
-            "id": 88722,
-            "layerbranch": 1000731,
-            "name": "beaglebone",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM69 SK (R5F core)",
-            "id": 88723,
-            "layerbranch": 1000731,
-            "name": "am69-sk-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " BeaglePlay board (A53 core)",
-            "id": 88724,
-            "layerbranch": 1000731,
-            "name": "beagleplay",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM437x EVM",
-            "id": 88725,
-            "layerbranch": 1000731,
-            "name": "am437x-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721S2 HS EVM",
-            "id": 88726,
-            "layerbranch": 1000731,
-            "name": "j721s2-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721S2 EVM (R5F core)",
-            "id": 88727,
-            "layerbranch": 1000731,
-            "name": "j721s2-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM335x EVM",
-            "id": 88728,
-            "layerbranch": 1000731,
-            "name": "am335x-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM437x HS EVM",
-            "id": 88729,
-            "layerbranch": 1000731,
-            "name": "am437x-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J7200 EVM (R5F core)",
-            "id": 88730,
-            "layerbranch": 1000731,
-            "name": "j7200-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J722S EVM (R5F core)",
-            "id": 88731,
-            "layerbranch": 1000731,
-            "name": "j722s-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J784S4 HS EVM (R5F core)",
-            "id": 88732,
-            "layerbranch": 1000731,
-            "name": "j784s4-hs-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM65xx HS EVM (R5F core)",
-            "id": 88733,
-            "layerbranch": 1000731,
-            "name": "am65xx-hs-evm-k3r5",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI AM335x HS EVM",
-            "id": 88734,
-            "layerbranch": 1000731,
-            "name": "am335x-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI DRA7xx HS EVM",
-            "id": 88735,
-            "layerbranch": 1000731,
-            "name": "dra7xx-hs-evm",
-            "updated": "2024-06-21T00:06:53+0000"
-        },
-        {
-            "description": " TI J721e SK (R5F core)",
-            "id": 88768,
-            "layerbranch": 1000731,
-            "name": "j721e-sk-k3r5",
-            "updated": "2024-07-01T22:07:55+0000"
-        },
-        {
-            "description": " TI J721e SK",
-            "id": 88769,
-            "layerbranch": 1000731,
-            "name": "j721e-sk",
-            "updated": "2024-07-01T22:07:55+0000"
-        },
-        {
-            "description": " TI J742S2 EVM (R5F core)",
-            "id": 90128,
-            "layerbranch": 1000731,
-            "name": "j742s2-evm-k3r5",
-            "updated": "2024-07-30T21:07:33+0000"
+            "updated": "2024-09-28T23:09:48+0000"
         },
         {
             "description": " TI J742S2 EVM",
-            "id": 90129,
+            "id": 91823,
             "layerbranch": 1000731,
             "name": "j742s2-evm",
-            "updated": "2024-07-30T21:07:33+0000"
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62XX LP EVM",
+            "id": 91824,
+            "layerbranch": 1000731,
+            "name": "am62xx-lp-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM64xx EVM (R5F core)",
+            "id": 91825,
+            "layerbranch": 1000731,
+            "name": "am64xx-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM65xx EVM (R5F core)",
+            "id": 91826,
+            "layerbranch": 1000731,
+            "name": "am65xx-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62Px EVM (R5F core)",
+            "id": 91827,
+            "layerbranch": 1000731,
+            "name": "am62pxx-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM69 SK",
+            "id": 91828,
+            "layerbranch": 1000731,
+            "name": "am69-sk",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e HS EVM",
+            "id": 91829,
+            "layerbranch": 1000731,
+            "name": "j721e-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721S2 HS EVM (R5F core)",
+            "id": 91830,
+            "layerbranch": 1000731,
+            "name": "j721s2-hs-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J784S4 HS EVM",
+            "id": 91831,
+            "layerbranch": 1000731,
+            "name": "j784s4-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62xx LP GP EVM (R5F core)",
+            "id": 91832,
+            "layerbranch": 1000731,
+            "name": "am62xx-lp-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J784S4 EVM (R5F core)",
+            "id": 91833,
+            "layerbranch": 1000731,
+            "name": "j784s4-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J7200 HS EVM (R5F core)",
+            "id": 91834,
+            "layerbranch": 1000731,
+            "name": "j7200-hs-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J7200 EVM",
+            "id": 91835,
+            "layerbranch": 1000731,
+            "name": "j7200-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI DRA7xx EVM",
+            "id": 91836,
+            "layerbranch": 1000731,
+            "name": "dra7xx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM64xx EVM",
+            "id": 91837,
+            "layerbranch": 1000731,
+            "name": "am64xx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM68 SK",
+            "id": 91838,
+            "layerbranch": 1000731,
+            "name": "am68-sk",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62A EVM (R5F core)",
+            "id": 91839,
+            "layerbranch": 1000731,
+            "name": "am62axx-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62PX EVM",
+            "id": 91840,
+            "layerbranch": 1000731,
+            "name": "am62pxx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e EVM",
+            "id": 91841,
+            "layerbranch": 1000731,
+            "name": "j721e-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " BeagleBone AI-64 (R5F core)",
+            "id": 91842,
+            "layerbranch": 1000731,
+            "name": "beaglebone-ai64-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM68 SK (R5F core)",
+            "id": 91843,
+            "layerbranch": 1000731,
+            "name": "am68-sk-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62XX SIP EVM",
+            "id": 91844,
+            "layerbranch": 1000731,
+            "name": "am62xxsip-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM65xx EVM",
+            "id": 91845,
+            "layerbranch": 1000731,
+            "name": "am65xx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62xx SIP EVM (R5F core)",
+            "id": 91846,
+            "layerbranch": 1000731,
+            "name": "am62xxsip-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM57xx HS EVM",
+            "id": 91847,
+            "layerbranch": 1000731,
+            "name": "am57xx-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J7200 HS EVM",
+            "id": 91848,
+            "layerbranch": 1000731,
+            "name": "j7200-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62AXX EVM",
+            "id": 91849,
+            "layerbranch": 1000731,
+            "name": "am62axx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721S2 EVM",
+            "id": 91850,
+            "layerbranch": 1000731,
+            "name": "j721s2-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J784S4 EVM",
+            "id": 91851,
+            "layerbranch": 1000731,
+            "name": "j784s4-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J742S2 EVM (R5F core)",
+            "id": 91852,
+            "layerbranch": 1000731,
+            "name": "j742s2-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e HS EVM (R5F core)",
+            "id": 91853,
+            "layerbranch": 1000731,
+            "name": "j721e-hs-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e EVM (R5F core)",
+            "id": 91854,
+            "layerbranch": 1000731,
+            "name": "j721e-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " BeaglePlay (R5F core)",
+            "id": 91855,
+            "layerbranch": 1000731,
+            "name": "beagleplay-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " BeagleBoard X15",
+            "id": 91856,
+            "layerbranch": 1000731,
+            "name": "beagle-x15",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM57xx EVM",
+            "id": 91857,
+            "layerbranch": 1000731,
+            "name": "am57xx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62XX EVM",
+            "id": 91858,
+            "layerbranch": 1000731,
+            "name": "am62xx-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e SK",
+            "id": 91859,
+            "layerbranch": 1000731,
+            "name": "j721e-sk",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721e SK (R5F core)",
+            "id": 91860,
+            "layerbranch": 1000731,
+            "name": "j721e-sk-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI OMAP-L138 LCDK board",
+            "id": 91861,
+            "layerbranch": 1000731,
+            "name": "omapl138-lcdk",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM65xx HS EVM",
+            "id": 91862,
+            "layerbranch": 1000731,
+            "name": "am65xx-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J722S EVM",
+            "id": 91863,
+            "layerbranch": 1000731,
+            "name": "j722s-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM62xx EVM (R5F core)",
+            "id": 91864,
+            "layerbranch": 1000731,
+            "name": "am62xx-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " http://beagleboard.org/bone board",
+            "id": 91865,
+            "layerbranch": 1000731,
+            "name": "beaglebone",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM69 SK (R5F core)",
+            "id": 91866,
+            "layerbranch": 1000731,
+            "name": "am69-sk-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " BeaglePlay board (A53 core)",
+            "id": 91867,
+            "layerbranch": 1000731,
+            "name": "beagleplay",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM437x EVM",
+            "id": 91868,
+            "layerbranch": 1000731,
+            "name": "am437x-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721S2 HS EVM",
+            "id": 91869,
+            "layerbranch": 1000731,
+            "name": "j721s2-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J721S2 EVM (R5F core)",
+            "id": 91870,
+            "layerbranch": 1000731,
+            "name": "j721s2-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM335x EVM",
+            "id": 91871,
+            "layerbranch": 1000731,
+            "name": "am335x-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM437x HS EVM",
+            "id": 91872,
+            "layerbranch": 1000731,
+            "name": "am437x-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J7200 EVM (R5F core)",
+            "id": 91873,
+            "layerbranch": 1000731,
+            "name": "j7200-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J722S EVM (R5F core)",
+            "id": 91874,
+            "layerbranch": 1000731,
+            "name": "j722s-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI J784S4 HS EVM (R5F core)",
+            "id": 91875,
+            "layerbranch": 1000731,
+            "name": "j784s4-hs-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM65xx HS EVM (R5F core)",
+            "id": 91876,
+            "layerbranch": 1000731,
+            "name": "am65xx-hs-evm-k3r5",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI AM335x HS EVM",
+            "id": 91877,
+            "layerbranch": 1000731,
+            "name": "am335x-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " TI DRA7xx HS EVM",
+            "id": 91878,
+            "layerbranch": 1000731,
+            "name": "dra7xx-hs-evm",
+            "updated": "2024-09-28T23:09:48+0000"
         }
     ],
     "recipes": [
@@ -1161,7 +1189,7 @@
             "section": "base",
             "srcrev": "30a1d5b2d08c0da39d4e62b3ebee591a9882fa21",
             "summary": "Diagnostic tool for TI K3 processors",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1184,7 +1212,7 @@
             "section": "base",
             "srcrev": "94a80c8c090dbfdc7fafd4e5bb78c2091e715af2",
             "summary": "Test applications for TI DEC (v4l2 decoder for IMG D5520)",
-            "updated": "2024-06-21T00:06:53+0000"
+            "updated": "2024-09-28T23:09:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1205,9 +1233,9 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1230,7 +1258,7 @@
             "section": "base",
             "srcrev": "a5e7d820bea1be24f25a8369d4d4521c784f869a",
             "summary": "Test applications for TI ENC (v4l2 encoder for IMG VXE384)",
-            "updated": "2024-06-21T00:06:53+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1253,7 +1281,7 @@
             "section": "base",
             "srcrev": "fb484c5e54f2e31cf0a338d2927a06a2870bcc2c",
             "summary": "",
-            "updated": "2024-06-21T00:06:53+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1274,9 +1302,9 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1297,9 +1325,9 @@
             "provides": "cnm-wave-fw ",
             "pv": "1.0.4",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:33+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1322,7 +1350,7 @@
             "section": "base",
             "srcrev": "e2a10f31e255a65ec30a6e10b890e77d7e9cb107",
             "summary": "",
-            "updated": "2024-06-21T00:06:53+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1345,7 +1373,7 @@
             "section": "base",
             "srcrev": "2cb2c9609b7740cb2c348e669a96f26e1cc858da",
             "summary": "",
-            "updated": "2024-06-21T00:06:54+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1368,7 +1396,7 @@
             "section": "base",
             "srcrev": "707bb373902babf9ced5fd2f99139209ca0f605a",
             "summary": "",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1391,7 +1419,7 @@
             "section": "base",
             "srcrev": "c838bc06a163abad46dcc193c8fb9a4fb9e2e356",
             "summary": "",
-            "updated": "2024-07-30T21:07:33+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1412,9 +1440,9 @@
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
             "pv": "2024.04+git",
             "section": "bootloaders",
-            "srcrev": "fda88f8bcea30590528930ff9441c6e958da86f5",
+            "srcrev": "7986fd679935818d0ef11e6a334377df178774f6",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1433,11 +1461,11 @@
             "pn": "u-boot-ti-mainline",
             "pr": "r0",
             "provides": "u-boot-ti-mainline virtual/bootloader u-boot",
-            "pv": "2024.01+git",
+            "pv": "2024.07+git",
             "section": "bootloaders",
-            "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
+            "srcrev": "3f772959501c99fbe5aa0b22a36efe3478d1ae1c",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1460,7 +1488,7 @@
             "section": "bootloaders",
             "srcrev": "83660642085462346fbeb410f83bc99448ec7042",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1483,7 +1511,7 @@
             "section": "bootloaders",
             "srcrev": "b0d717b732ee28e446baf94522b3491e590f7fbb",
             "summary": "BeagleBoard.org U-Boot",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1504,9 +1532,9 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1529,7 +1557,7 @@
             "section": "base",
             "srcrev": "146d4f9b3930722d73685d600958f0b10ea97de2",
             "summary": "Precompiled Zephyr OpenAMP example firmware for TI K3 devices",
-            "updated": "2024-06-21T00:06:55+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1552,7 +1580,7 @@
             "section": "base",
             "srcrev": "91f1628507bf7f8716f0bc7cafe88ad7f14c94f5",
             "summary": "R5 PSDK CPSW9G Ethernet Switch Firmware",
-            "updated": "2024-06-21T00:06:55+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1573,9 +1601,9 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1596,9 +1624,9 @@
             "provides": "ti-sci-fw ",
             "pv": "10.00.08",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1617,11 +1645,11 @@
             "pn": "ti-dm-fw",
             "pr": "r4.0",
             "provides": "ti-dm-fw ",
-            "pv": "10.00.00",
+            "pv": "10.00.05",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1642,9 +1670,9 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:33+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1665,9 +1693,9 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,7 +1718,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:56+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,7 +1741,7 @@
             "section": "base",
             "srcrev": "e3d8db1aa935775f9d196ad7428e0cd9864a36ca",
             "summary": "",
-            "updated": "2024-06-21T00:06:56+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1734,9 +1762,9 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1757,9 +1785,9 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1782,7 +1810,7 @@
             "section": "base",
             "srcrev": "86269258a48e0a9008dd9d5ebfae9da7ce843393",
             "summary": "",
-            "updated": "2024-06-21T00:06:56+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1805,13 +1833,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:56+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmplyuszbvh/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmplyuszbvh/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
+            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmpdi4pch92/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmpdi4pch92/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
             "description": "TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi- Processor Configurations)",
             "filename": "ti-ipc_git.bb",
             "filepath": "recipes-ti/ipc",
@@ -1828,7 +1856,7 @@
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
             "summary": "",
-            "updated": "2024-06-21T00:06:56+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1851,7 +1879,7 @@
             "section": "base",
             "srcrev": "5100a2e4a4a951e40ea0708fa78960770ec0ac33",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1874,7 +1902,7 @@
             "section": "base",
             "srcrev": "5100a2e4a4a951e40ea0708fa78960770ec0ac33",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1895,9 +1923,9 @@
             "provides": "ti-rtos-firmware ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1e01062a34b88427c2fca1ce7c5a5c308961e0c7",
+            "srcrev": "35fa44a93549d8d91b1c37a7b9f8767dbe7d37eb",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1920,7 +1948,7 @@
             "section": "base",
             "srcrev": "8bb19531936262d75a442c3d3651cfbcf722d856",
             "summary": "",
-            "updated": "2024-06-21T00:06:57+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1943,7 +1971,7 @@
             "section": "devel",
             "srcrev": "ed6951fd3877c6cac7f1237311f7278ac21634f3",
             "summary": "",
-            "updated": "2024-06-21T00:06:57+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1994,7 @@
             "section": "kernel",
             "srcrev": "96b0ebd82722d16e9ab646cd3a73080e6f790747",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:36+0000"
+            "updated": "2024-09-28T23:09:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1987,9 +2015,9 @@
             "provides": "linux-ti-staging  virtual/kernel",
             "pv": "6.6.32+git",
             "section": "kernel",
-            "srcrev": "6de6e418c80edfbe08f4a5f851c721bd60c0123b",
+            "srcrev": "d5b1bee95de93e6ab87e73242c20910e7d7d3d83",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2012,7 +2040,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "BeagleBoard.org Linux kernel",
-            "updated": "2024-06-21T00:06:58+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2033,9 +2061,9 @@
             "provides": "linux-ti-staging-rt  virtual/kernel",
             "pv": "6.6.32+git",
             "section": "kernel",
-            "srcrev": "04a9ad081f0f255a046f398abf6faf1d4374267f",
+            "srcrev": "85d46cfcef8242e37cbd99a6591cab2b90d0d8ed",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2054,11 +2082,11 @@
             "pn": "linux-ti-mainline",
             "pr": "r0",
             "provides": "linux-ti-mainline  virtual/kernel",
-            "pv": "6.6",
+            "pv": "6.10",
             "section": "kernel",
-            "srcrev": "ffc253263a1375a65fa6c9f62a893e9767fbebfa",
+            "srcrev": "d04e483db22823c13c0313b7c43a52529a2e2672",
             "summary": "Mainline Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2081,7 +2109,7 @@
             "section": "kernel",
             "srcrev": "6465e260f48790807eef06b583b38ca9789b6072",
             "summary": "Linux-next kernel for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2102,9 +2130,9 @@
             "provides": "linux-ti-staging-systest  virtual/kernel",
             "pv": "6.6.32+git",
             "section": "kernel",
-            "srcrev": "6de6e418c80edfbe08f4a5f851c721bd60c0123b",
+            "srcrev": "d5b1bee95de93e6ab87e73242c20910e7d7d3d83",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2127,7 +2155,7 @@
             "section": "kernel",
             "srcrev": "c1c2f1971fbf6ddad93a8c94314fe8221e7aa6be",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2150,7 +2178,7 @@
             "section": "kernel",
             "srcrev": "c1c2f1971fbf6ddad93a8c94314fe8221e7aa6be",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-07-30T21:07:35+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2173,7 +2201,7 @@
             "section": "base",
             "srcrev": "707e042ee632f61c1f931402d8fc491358598373",
             "summary": "",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2196,7 +2224,7 @@
             "section": "base",
             "srcrev": "0b9e64254269be2fa95c4f3e1dd925d6e4d58199",
             "summary": "",
-            "updated": "2024-07-30T21:07:34+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2219,7 +2247,7 @@
             "section": "base",
             "srcrev": "70364424dd496833fad5b243c9e6cc8b077f04ac",
             "summary": "",
-            "updated": "2024-06-21T00:06:00+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2242,7 +2270,7 @@
             "section": "x11",
             "srcrev": "b12290126ba6a154f0e8b0a8c8b2b0d64f98e427",
             "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2024-06-21T00:06:01+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2265,7 +2293,7 @@
             "section": "x11",
             "srcrev": "1be98ba80452ebe38546a7fca26b5a70f2629083",
             "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2024-06-21T00:06:01+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2288,7 +2316,7 @@
             "section": "base",
             "srcrev": "c0afab259de59909cfe74c01f3f7fbaa147f94b5",
             "summary": "",
-            "updated": "2024-06-21T00:06:01+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2311,7 +2339,7 @@
             "section": "base",
             "srcrev": "e34284a7e07763769f671a74b4fec718174ad862",
             "summary": "DevIL cross platform image utility library",
-            "updated": "2024-06-21T00:06:01+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2334,7 +2362,7 @@
             "section": "base",
             "srcrev": "5afc8d918f2c084acd65027604868dfde43395cf",
             "summary": "C++ library for kernel mode setting",
-            "updated": "2024-06-21T00:06:01+0000"
+            "updated": "2024-09-28T23:09:47+0000"
         }
     ],
     "wrtemplates": []

@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2024-07-30T21:07:36+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:36+0000",
-            "vcs_last_rev": "2962fd12086a6a062701dd7595e619dd8cb62170",
+            "updated": "2024-09-28T23:09:48+0000",
+            "vcs_last_commit": "2024-09-27T21:09:24+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:48+0000",
+            "vcs_last_rev": "b43f089dc5cb69b34eadc30dfb6be55cb7caa405",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -641,10 +669,10 @@
             "id": 1000732,
             "layer": 529,
             "local_path": "",
-            "updated": "2024-07-30T21:07:59+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:59+0000",
-            "vcs_last_rev": "2962fd12086a6a062701dd7595e619dd8cb62170",
+            "updated": "2024-09-28T23:09:00+0000",
+            "vcs_last_commit": "2024-09-27T21:09:24+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:00+0000",
+            "vcs_last_rev": "b43f089dc5cb69b34eadc30dfb6be55cb7caa405",
             "vcs_subdir": "meta-ti-extras",
             "version": null,
             "yp_compatible_version": 44188
@@ -721,7 +749,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "",
-            "updated": "2024-06-21T00:06:07+0000"
+            "updated": "2024-09-28T23:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -744,7 +772,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "",
-            "updated": "2024-06-21T00:06:07+0000"
+            "updated": "2024-09-28T23:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -767,7 +795,7 @@
             "section": "devel",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "",
-            "updated": "2024-06-21T00:06:07+0000"
+            "updated": "2024-09-28T23:09:52+0000"
         },
         {
             "bbclassextend": "",
@@ -790,7 +818,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:07+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -813,7 +841,7 @@
             "section": "base",
             "srcrev": "df4c50aecc9aad7ab3eb1ca9ebacfe473fcad7c5",
             "summary": "Firmware for IPU to suppor Accelerated MM decode and encode",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -836,7 +864,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "TI Usage & Load Monitor Implementation",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -859,7 +887,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -882,7 +910,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -905,7 +933,7 @@
             "section": "base",
             "srcrev": "5ec05007f2662f460f881c5868311fd3ab7e6e71",
             "summary": "",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -928,7 +956,7 @@
             "section": "base",
             "srcrev": "0ee619b598d023fffc77679f099bc2a4815510e4",
             "summary": "",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -951,7 +979,7 @@
             "section": "base",
             "srcrev": "00a5efa5157feb84cb2e4bf50b481f7082acca82",
             "summary": "",
-            "updated": "2024-06-21T00:06:08+0000"
+            "updated": "2024-09-28T23:09:53+0000"
         },
         {
             "bbclassextend": "",
@@ -974,13 +1002,13 @@
             "section": "base",
             "srcrev": "de6e599f067b25c46cc0c8f74a22cc3b8aafbae8",
             "summary": "Firmware for DSP for an example application called copycodectest",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " IPC_HEADERS=/tmp/tmpe5ue1vy5/tmp-glibc/work/core2-32-oe-linux/libdce/3.00.15.00/recipe-sysroot/usr/include/ti/ipc/mm ",
+            "configopts": " IPC_HEADERS=/tmp/tmplfms8sm4/tmp-glibc/work/core2-32-oe-linux/libdce/3.00.15.00/recipe-sysroot/usr/include/ti/ipc/mm ",
             "description": "",
             "filename": "libdce_3.00.15.00.bb",
             "filepath": "recipes-multimedia/libdce",
@@ -997,7 +1025,7 @@
             "section": "base",
             "srcrev": "ec14e1d5cea1ed3c3ea0e2b9cf1fd581acff93e3",
             "summary": "Library for remotely invoking HW accelerated codecs on IVA-HD",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1048,7 @@
             "section": "devel",
             "srcrev": "7d1c85e686b1466cd2d535fc9cac5baf1aae24a4",
             "summary": "TI Software Tools",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,7 +1071,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1066,7 +1094,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1089,7 +1117,7 @@
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
             "summary": "",
-            "updated": "2024-06-21T00:06:09+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1112,7 +1140,7 @@
             "section": "jailhouse",
             "srcrev": "9b494ddf4bd8845a2c1063352d08a274ef61777b",
             "summary": "Linux-based partitioning hypervisor",
-            "updated": "2024-07-30T21:07:59+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1135,7 +1163,7 @@
             "section": "jailhouse",
             "srcrev": "9b494ddf4bd8845a2c1063352d08a274ef61777b",
             "summary": "Linux-based partitioning hypervisor",
-            "updated": "2024-07-30T21:07:59+0000"
+            "updated": "2024-09-28T23:09:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1158,7 +1186,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1181,7 +1209,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1204,7 +1232,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1227,7 +1255,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1250,7 +1278,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1273,7 +1301,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1296,7 +1324,7 @@
             "section": "base",
             "srcrev": "eadcc9547faf69789661b004bb0b5ef53bb69951",
             "summary": "MATHLIB contains optimized floating-point math functions for TI DSPs",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1319,30 +1347,7 @@
             "section": "base",
             "srcrev": "eadcc9547faf69789661b004bb0b5ef53bb69951",
             "summary": "MATHLIB contains optimized floating-point math functions for TI DSPs",
-            "updated": "2024-06-21T00:06:10+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "TI OpenMP RTOS",
-            "filename": "openmp-rtos_git.bb",
-            "filepath": "recipes-ti/openmp-rtos",
-            "homepage": "git://git.ti.com/git/openmp/ti-openmp-dsp-runtime.git",
-            "id": 2073387,
-            "inherits": "features_check",
-            "layerbranch": 1000732,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openmp-rtos",
-            "pr": "r0",
-            "provides": "openmp-rtos ",
-            "pv": "2_06_03_00",
-            "section": "base",
-            "srcrev": "c090eb664d9815a36ead0e14f31e102590680fb8",
-            "summary": "",
-            "updated": "2024-06-21T00:06:10+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1365,7 +1370,7 @@
             "section": "base",
             "srcrev": "de7954abab0f0caa8a2c7b53095c30226d901a31",
             "summary": "TI Emulation CTools AET library",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1388,7 +1393,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1411,7 +1416,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1434,7 +1439,7 @@
             "section": "base",
             "srcrev": "05bedba192646152b7bc80b0accaea75aef864e5",
             "summary": "BeagleBone Getting Started Guide",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1457,7 +1462,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1485,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:11+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1503,7 +1508,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:12+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1526,7 +1531,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:12+0000"
+            "updated": "2024-09-28T23:09:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1549,7 +1554,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:12+0000"
+            "updated": "2024-09-28T23:09:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1572,7 +1577,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:59+0000"
+            "updated": "2024-09-28T23:09:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1595,7 +1600,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2024-06-21T00:06:13+0000"
+            "updated": "2024-09-28T23:09:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1618,7 +1623,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2024-06-21T00:06:13+0000"
+            "updated": "2024-09-28T23:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1641,7 +1646,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:13+0000"
+            "updated": "2024-09-28T23:09:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1664,7 +1669,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:13+0000"
+            "updated": "2024-09-28T23:09:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1687,7 +1692,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI ARM Code Generation Tools",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1710,7 +1715,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1733,7 +1738,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1756,7 +1761,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1779,7 +1784,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1802,7 +1807,7 @@
             "section": "base",
             "srcrev": "5048b59a444ac59ba7171d6e122d5a84581aebf2",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1825,7 +1830,7 @@
             "section": "base",
             "srcrev": "a75f45be2d5c74fc1dd913d08afc30f09a230aa9",
             "summary": "",
-            "updated": "2024-06-21T00:06:14+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1848,7 +1853,7 @@
             "section": "base",
             "srcrev": "5048b59a444ac59ba7171d6e122d5a84581aebf2",
             "summary": "",
-            "updated": "2024-06-21T00:06:15+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1871,7 +1876,7 @@
             "section": "base",
             "srcrev": "8bcee075061527d61f26d6d506aebdfd496037d9",
             "summary": "",
-            "updated": "2024-06-21T00:06:15+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1894,7 +1899,7 @@
             "section": "base",
             "srcrev": "988ded3a7d4d0e46de62e9ebfcb685c502bd9edf",
             "summary": "Firmware files for use with TI cc33xx",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2024-09-28T23:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1917,7 +1922,7 @@
             "section": "base",
             "srcrev": "89d7e55b40972cbfc84f0734c35a7a6b4f7f5b31",
             "summary": "The calibrator utility for TI wireless solution based on cc33xx driver",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2024-09-28T23:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1940,7 +1945,7 @@
             "section": "base",
             "srcrev": "a2f84140b8d67cfc94472cf92676a409d1e47d86",
             "summary": "Configuration utility for TI CC33xx wireless devices",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2024-09-28T23:09:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1963,7 +1968,7 @@
             "section": "base",
             "srcrev": "4371c93ea01b339f6f73f77d6d6bfcc185def8c0",
             "summary": "Scripts and configuration files for TI cc33xx wireless drivers",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2024-09-28T23:09:00+0000"
         }
     ],
     "wrtemplates": []

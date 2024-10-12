@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 990870,
             "layer": 353,
             "local_path": "",
-            "updated": "2024-08-14T19:08:46+0000",
-            "vcs_last_commit": "2024-08-14T18:08:44+0000",
-            "vcs_last_fetch": "2024-08-14T19:08:46+0000",
-            "vcs_last_rev": "45cf1e98e1285d76ee67b2152101302348f09507",
+            "updated": "2024-10-11T23:10:53+0000",
+            "vcs_last_commit": "2024-10-11T22:10:58+0000",
+            "vcs_last_fetch": "2024-10-11T23:10:53+0000",
+            "vcs_last_rev": "06336d288f7f32cd9595709836e281645a2d87d6",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44189
@@ -721,13 +749,13 @@
             "section": "base",
             "srcrev": "ae6817256ac557981906e93a1f866349db85053e",
             "summary": "Automatically generates Rust FFI bindings to C and C++ libraries.",
-            "updated": "2024-05-28T04:05:44+0000"
+            "updated": "2024-09-28T23:09:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "        -DBASE_LLVM_VERSION=18.1.5         -DBUILD_SHARED_LIBS=OFF         -DCMAKE_BUILD_TYPE=Release         -DCMAKE_POSITION_INDEPENDENT_CODE=ON         -DCMAKE_SKIP_RPATH=ON         -DLLVM_EXTERNAL_LIT=lit         -DLLVM_INCLUDE_TESTS=ON         -Wno-dev         -DCCACHE_ALLOWED=FALSE         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/spirv-llvm-translator/18.0.0+git/git/SPIRV-Headers  ",
+            "configopts": "        -DBASE_LLVM_VERSION=18.1.6         -DBUILD_SHARED_LIBS=OFF         -DCMAKE_BUILD_TYPE=Release         -DCMAKE_POSITION_INDEPENDENT_CODE=ON         -DCMAKE_SKIP_RPATH=ON         -DLLVM_EXTERNAL_LIT=lit         -DLLVM_INCLUDE_TESTS=ON         -Wno-dev         -DCCACHE_ALLOWED=FALSE         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/tmp/tmppknkuqt0/tmp-glibc/work/core2-32-oe-linux/spirv-llvm-translator/18.0.0+git/git/SPIRV-Headers  ",
             "description": "",
             "filename": "spirv-llvm-translator_git.bb",
             "filepath": "recipes-devtools/spirv-llvm-translator",
@@ -744,13 +772,13 @@
             "section": "base",
             "srcrev": "0e87aefecf7c5006e315427189bff87878e392c1",
             "summary": "",
-            "updated": "2024-05-28T04:05:45+0000"
+            "updated": "2024-09-28T23:09:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=OFF                   -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                   -DCOMPILER_RT_USE_BUILTINS_LIBRARY=ON                   -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                   -DCOMPILER_RT_BUILD_BUILTINS=OFF                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DSANITIZER_CXX_ABI_LIBNAME=libstdc++                   -DCOMPILER_RT_BUILD_XRAY=ON                   -DCOMPILER_RT_BUILD_SANITIZERS=ON                   -DCOMPILER_RT_BUILD_LIBFUZZER=ON                   -DCOMPILER_RT_BUILD_PROFILE=ON                   -DCOMPILER_RT_BUILD_MEMPROF=ON                   -DLLVM_ENABLE_PROJECTS='compiler-rt'                   -DCMAKE_RANLIB=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                   -DCMAKE_AR=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                   -DCMAKE_NM=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                   -DLLVM_LIBDIR_SUFFIX=   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF               -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=OFF                   -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                   -DCOMPILER_RT_USE_BUILTINS_LIBRARY=ON                   -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                   -DCOMPILER_RT_BUILD_BUILTINS=OFF                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DSANITIZER_CXX_ABI_LIBNAME=libstdc++                   -DCOMPILER_RT_BUILD_XRAY=ON                   -DCOMPILER_RT_BUILD_SANITIZERS=ON                   -DCOMPILER_RT_BUILD_LIBFUZZER=ON                   -DCOMPILER_RT_BUILD_PROFILE=ON                   -DCOMPILER_RT_BUILD_MEMPROF=ON                   -DLLVM_ENABLE_PROJECTS='compiler-rt'                   -DLLVM_LIBDIR_SUFFIX=   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF               -DCMAKE_RANLIB=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                -DCMAKE_AR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                -DCMAKE_NM=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt-sanitizers/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
             "description": "LLVM based C/C++ compiler Runtime",
             "filename": "compiler-rt-sanitizers_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -763,11 +791,11 @@
             "pn": "compiler-rt-sanitizers",
             "pr": "r0",
             "provides": "compiler-rt-sanitizers ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "base",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:45+0000"
+            "updated": "2024-10-11T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -786,11 +814,11 @@
             "pn": "clang-crosssdk-x86_64",
             "pr": "r0",
             "provides": "clang-crosssdk-x86_64 ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "devel",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:45+0000"
+            "updated": "2024-10-11T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -809,17 +837,17 @@
             "pn": "clang-cross-i686",
             "pr": "r0",
             "provides": "clang-cross-i686 ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "devel",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:45+0000"
+            "updated": "2024-10-11T23:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                                  -DCMAKE_BUILD_TYPE=RelWithDebInfo                                 -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF \t\t\t\t-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/qemuwrapper \t\t\t\t-DLLVM_CLANG=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/recipe-sysroot-native/usr/bin/clang \t\t\t\t-DLLVM_AS=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/recipe-sysroot-native/usr/bin/llvm-as \t\t\t\t-DLLVM_LINK=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/recipe-sysroot-native/usr/bin/llvm-link \t\t\t\t-DLLVM_OPT=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/recipe-sysroot-native/usr/bin/opt \t\t\t\t-DLLVM_SPIRV=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.5/recipe-sysroot-native/usr/bin/llvm-spirv \t\t\t\t-Dclc_comp_in:FILEPATH=/tmp/tmp0sefvlt4/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src/libclc/cmake/CMakeCLCCompiler.cmake.in \t\t\t\t-Dll_comp_in:FILEPATH=/tmp/tmp0sefvlt4/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src/libclc/cmake/CMakeLLAsmCompiler.cmake.in \t\t\t\t-DCMAKE_POSITION_INDEPENDENT_CODE=ON \t\t\t ",
+            "configopts": "                                  -DCMAKE_BUILD_TYPE=RelWithDebInfo                                 -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF \t\t\t\t-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/qemuwrapper \t\t\t\t-DLLVM_CLANG=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/recipe-sysroot-native/usr/bin/clang \t\t\t\t-DLLVM_AS=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/recipe-sysroot-native/usr/bin/llvm-as \t\t\t\t-DLLVM_LINK=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/recipe-sysroot-native/usr/bin/llvm-link \t\t\t\t-DLLVM_OPT=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/recipe-sysroot-native/usr/bin/opt \t\t\t\t-DLLVM_SPIRV=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libclc/18.1.6/recipe-sysroot-native/usr/bin/llvm-spirv \t\t\t\t-Dclc_comp_in:FILEPATH=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src/libclc/cmake/CMakeCLCCompiler.cmake.in \t\t\t\t-Dll_comp_in:FILEPATH=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src/libclc/cmake/CMakeLLAsmCompiler.cmake.in \t\t\t\t-DCMAKE_POSITION_INDEPENDENT_CODE=ON \t\t\t ",
             "description": "LLVM based OpenCL runtime support library",
             "filename": "libclc_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -832,17 +860,17 @@
             "pn": "libclc",
             "pr": "r0",
             "provides": "libclc ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "libs",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:45+0000"
+            "updated": "2024-10-11T23:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DOPENMP_LIBDIR_SUFFIX=                   -DOPENMP_STANDALONE_BUILD=ON                   -DCLANG_TOOL=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/clang                   -DLINK_TOOL=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/llvm-link                   -DOPT_TOOL=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/opt                   -DOPENMP_LLVM_LIT_EXECUTABLE=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/llvm-lit                   -DEXTRACT_TOOL=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/llvm-extract                   -DPACKAGER_TOOL=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.5/recipe-sysroot-native/usr/bin/clang-offload-packager                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON                     -DLIBOMP_INSTALL_ALIASES=OFF -DOPENMP_ENABLE_OMPT_TOOLS=ON",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DOPENMP_LIBDIR_SUFFIX=                   -DOPENMP_STANDALONE_BUILD=ON                   -DCLANG_TOOL=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/clang                   -DLINK_TOOL=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/llvm-link                   -DOPT_TOOL=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/opt                   -DOPENMP_LLVM_LIT_EXECUTABLE=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/llvm-lit                   -DEXTRACT_TOOL=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/llvm-extract                   -DPACKAGER_TOOL=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/openmp/18.1.6/recipe-sysroot-native/usr/bin/clang-offload-packager                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON                     -DLIBOMP_INSTALL_ALIASES=OFF -DOPENMP_ENABLE_OMPT_TOOLS=ON",
             "description": "LLVM based C/C++ compiler Runtime",
             "filename": "openmp_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -855,11 +883,11 @@
             "pn": "openmp",
             "pr": "r0",
             "provides": "openmp ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "libs",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:46+0000"
+            "updated": "2024-10-11T23:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -882,13 +910,13 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:46+0000"
+            "updated": "2024-09-28T23:09:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DCLANG_DEFAULT_PIE_ON_LINUX=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_ZSTD=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_BUILD_EXTERNAL_COMPILER_RT=ON                   -DCMAKE_SYSTEM_NAME=Linux                   -DCMAKE_BUILD_TYPE=Release                   -DCMAKE_CXX_FLAGS_RELEASE=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src=/usr/src/debug/clang/18.1.5  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/build=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/build=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native=  -fvisibility-inlines-hidden -DNDEBUG -g0'                   -DCMAKE_C_FLAGS_RELEASE=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src=/usr/src/debug/clang/18.1.5  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/build=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/build=/usr/src/debug/clang/18.1.5  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native=  -DNDEBUG -g0'                   -DBUILD_SHARED_LIBS=OFF                   -DLLVM_ENABLE_PROJECTS='clang;clang-tools-extra;lld;lldb'                   -DLLVM_BINUTILS_INCDIR=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot/usr/include                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;AArch64;ARM;BPF;Mips;PowerPC;RISCV;X86;LoongArch'                   -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=';'   -DENABLE_LINKER_BUILD_ID=ON -DCLANG_ENABLE_CLANGD=OFF -DCLANG_DEFAULT_RTLIB=compiler-rt -DLLVM_ENABLE_EH=ON -DCLANG_DEFAULT_CXX_STDLIB=libc++ -DLLVM_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LUA=OFF -DLLDB_EDITLINE_USE_WCHAR=1 -DLLVM_ENABLE_LIBPFM=OFF -DLLVM_ENABLE_RTTI=ON -DLLVM_BUILD_LLVM_DYLIB=ON -DLLVM_LINK_LLVM_DYLIB=ON -DLLVM_USE_SPLIT_DWARF=OFF -DLLVM_ENABLE_TERMINFO=ON -DCOMPILER_RT_TERMINFO_LIB=ON -DCLANG_DEFAULT_UNWINDLIB=libgcc                  -DLLVM_NATIVE_TOOL_DIR=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native/usr/bin                   -DLLVM_HEADERS_TABLEGEN=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native/usr/bin/llvm-min-tblgen                   -DCMAKE_RANLIB=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                   -DCMAKE_AR=/tmp/tmp__4pc8x1/tmp-glibc/work/core2-32-oe-linux/clang/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i68",
+            "configopts": " -DLLVM_ENABLE_ASSERTIONS=OFF                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DLLVM_ENABLE_EXPENSIVE_CHECKS=OFF                   -DLLVM_ENABLE_PIC=ON                   -DCLANG_DEFAULT_PIE_ON_LINUX=ON                   -DLLVM_BINDINGS_LIST=''                   -DLLVM_ENABLE_FFI=ON                   -DLLVM_ENABLE_ZSTD=ON                   -DFFI_INCLUDE_DIR=$(pkg-config --variable=includedir libffi)                   -DLLVM_OPTIMIZED_TABLEGEN=ON                   -DLLVM_BUILD_EXTERNAL_COMPILER_RT=ON                   -DCMAKE_SYSTEM_NAME=Linux                   -DCMAKE_BUILD_TYPE=Release                   -DCMAKE_CXX_FLAGS_RELEASE=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src=/usr/src/debug/clang/18.1.6  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/build=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/build=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native=  -fvisibility-inlines-hidden -DNDEBUG -g0'                   -DCMAKE_C_FLAGS_RELEASE=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src=/usr/src/debug/clang/18.1.6  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/build=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/build=/usr/src/debug/clang/18.1.6  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native=  -DNDEBUG -g0'                   -DBUILD_SHARED_LIBS=OFF                   -DLLVM_ENABLE_PROJECTS='clang;clang-tools-extra;lld;lldb'                   -DLLVM_BINUTILS_INCDIR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot/usr/include                   -DLLVM_VERSION_SUFFIX=''                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_TARGETS_TO_BUILD='AMDGPU;AArch64;ARM;BPF;Mips;PowerPC;RISCV;X86;LoongArch'                   -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=';'   -DENABLE_LINKER_BUILD_ID=ON -DCLANG_ENABLE_CLANGD=OFF -DCLANG_DEFAULT_RTLIB=compiler-rt -DLLVM_ENABLE_EH=ON -DCLANG_DEFAULT_CXX_STDLIB=libc++ -DLLVM_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LIBEDIT=ON -DLLDB_ENABLE_LUA=OFF -DLLDB_EDITLINE_USE_WCHAR=1 -DLLVM_ENABLE_LIBPFM=OFF -DLLVM_ENABLE_RTTI=ON -DLLVM_BUILD_LLVM_DYLIB=ON -DLLVM_LINK_LLVM_DYLIB=ON -DLLVM_USE_SPLIT_DWARF=OFF -DLLVM_ENABLE_TERMINFO=ON -DCOMPILER_RT_TERMINFO_LIB=ON -DCLANG_DEFAULT_UNWINDLIB=libgcc                  -DLLVM_NATIVE_TOOL_DIR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native/usr/bin                   -DLLVM_HEADERS_TABLEGEN=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native/usr/bin/llvm-min-tblgen                   -DCMAKE_RANLIB=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                   -DCMAKE_AR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/clang/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i68",
             "description": "LLVM based C/C++ compiler",
             "filename": "clang_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -901,17 +929,17 @@
             "pn": "clang",
             "pr": "r0",
             "provides": "clang ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "devel",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-07-08T23:07:22+0000"
+            "updated": "2024-10-11T23:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=OFF                   -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                   -DCOMPILER_RT_BUILD_XRAY=OFF                   -DCOMPILER_RT_BUILD_SANITIZERS=OFF                   -DCOMPILER_RT_BUILD_MEMPROF=OFF                   -DCOMPILER_RT_BUILD_LIBFUZZER=OFF                   -DLLVM_ENABLE_PROJECTS='compiler-rt'                   -DLLVM_LIBDIR_SUFFIX=   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF -DCOMPILER_RT_BUILD_PROFILE=OFF               -DCMAKE_RANLIB=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                -DCMAKE_AR=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                -DCMAKE_NM=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "configopts": " -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCOMPILER_RT_STANDALONE_BUILD=OFF                   -DCOMPILER_RT_DEFAULT_TARGET_ONLY=ON                   -DCOMPILER_RT_INCLUDE_TESTS=OFF                   -DCMAKE_C_COMPILER_TARGET=i686-oe-linux                   -DCOMPILER_RT_BUILD_XRAY=OFF                   -DCOMPILER_RT_BUILD_SANITIZERS=OFF                   -DCOMPILER_RT_BUILD_MEMPROF=OFF                   -DCOMPILER_RT_BUILD_LIBFUZZER=OFF                   -DLLVM_ENABLE_PROJECTS='compiler-rt'                   -DLLVM_LIBDIR_SUFFIX=   -DCOMPILER_RT_BUILD_CRT:BOOL=OFF -DCOMPILER_RT_BUILD_PROFILE=OFF               -DCMAKE_RANLIB=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ranlib                -DCMAKE_AR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-ar                -DCMAKE_NM=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/compiler-rt/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-llvm-nm                -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
             "description": "LLVM based C/C++ compiler Runtime",
             "filename": "compiler-rt_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -924,11 +952,11 @@
             "pn": "compiler-rt",
             "pr": "r0",
             "provides": "compiler-rt ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "base",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:47+0000"
+            "updated": "2024-10-11T23:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -944,20 +972,20 @@
             "layerbranch": 990870,
             "license": "Apache-2.0-with-LLVM-exception",
             "pe": "",
-            "pn": "llvm-project-source-18.1.5",
+            "pn": "llvm-project-source-18.1.6",
             "pr": "r0",
-            "provides": "llvm-project-source-18.1.5 ",
-            "pv": "18.1.5",
+            "provides": "llvm-project-source-18.1.6 ",
+            "pv": "18.1.6",
             "section": "base",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "This is the canonical git mirror of the LLVM subversion repository.",
-            "updated": "2024-05-28T04:05:47+0000"
+            "updated": "2024-10-11T23:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCMAKE_CROSSCOMPILING=ON                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_ENABLE_RTTI=ON                   -DLIBUNWIND_ENABLE_CROSS_UNWINDING=ON                   -DLIBCXX_ENABLE_STATIC_ABI_LIBRARY=ON                   -DLIBCXXABI_INCLUDE_TESTS=OFF                   -DLIBCXXABI_ENABLE_SHARED=ON                   -DLIBCXXABI_LIBCXX_INCLUDES=/tmp/tmptqezohu1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src/libcxx/include                   -DLIBCXX_CXX_ABI=libcxxabi                   -DLIBCXX_CXX_ABI_INCLUDE_PATHS=/tmp/tmptqezohu1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src/libcxxabi/include                   -DLIBCXX_CXX_ABI_LIBRARY_PATH=/tmp/tmptqezohu1/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.5/build/lib                   -S /tmp/tmptqezohu1/tmp-glibc/work-shared/llvm-project-source-18.1.5-r0/llvm-project-18.1.5.src/runtimes                   -DLLVM_ENABLE_RUNTIMES='libcxx;libcxxabi;libunwind'                   -DLLVM_RUNTIME_TARGETS=i686-oe-linux                   -DLLVM_LIBDIR_SUFFIX=                   -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON   -DLIBCXX_USE_COMPILER_RT=ON -DLIBCXXABI_USE_COMPILER_RT=ON -DLIBUNWIND_USE_COMPILER_RT=ON -DLIBCXXABI_ENABLE_EXCEPTIONS=ON -DDLIBCXX_ENABLE_EXCEPTIONS=ON -DLIBCXXABI_USE_LLVM_UNWINDER=OFF -DLIBUNWIND_ENABLE_SHARED=OFF                   -DCMAKE_AR=/tmp/tmptqezohu1/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar                   -DCMAKE_NM=/tmp/tmptqezohu1/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-nm                   -DCMAKE_RANLIB=/tmp/tmptqezohu1/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.5/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib                   -DLLVM_DEFAULT_TARGET_TRIPLE=i686-oe-linux                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
+            "configopts": "                   -DCMAKE_BUILD_TYPE=RelWithDebInfo                   -DLLVM_ENABLE_PER_TARGET_RUNTIME_DIR=OFF                   -DCMAKE_CROSSCOMPILING=ON                   -DLLVM_TEMPORARILY_ALLOW_OLD_TOOLCHAIN=ON                   -DLLVM_ENABLE_RTTI=ON                   -DLIBUNWIND_ENABLE_CROSS_UNWINDING=ON                   -DLIBCXX_ENABLE_STATIC_ABI_LIBRARY=ON                   -DLIBCXXABI_INCLUDE_TESTS=OFF                   -DLIBCXXABI_ENABLE_SHARED=ON                   -DLIBCXXABI_LIBCXX_INCLUDES=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src/libcxx/include                   -DLIBCXX_CXX_ABI=libcxxabi                   -DLIBCXX_CXX_ABI_INCLUDE_PATHS=/tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src/libcxxabi/include                   -DLIBCXX_CXX_ABI_LIBRARY_PATH=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.6/build/lib                   -S /tmp/tmpqzcqk3p5/tmp-glibc/work-shared/llvm-project-source-18.1.6-r0/llvm-project-18.1.6.src/runtimes                   -DLLVM_ENABLE_RUNTIMES='libcxx;libcxxabi;libunwind'                   -DLLVM_RUNTIME_TARGETS=i686-oe-linux                   -DLLVM_LIBDIR_SUFFIX=                   -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON   -DLIBCXX_USE_COMPILER_RT=ON -DLIBCXXABI_USE_COMPILER_RT=ON -DLIBUNWIND_USE_COMPILER_RT=ON -DLIBCXXABI_ENABLE_EXCEPTIONS=ON -DLIBCXX_ENABLE_EXCEPTIONS=ON -DLIBCXXABI_USE_LLVM_UNWINDER=OFF -DLIBUNWIND_ENABLE_SHARED=OFF                   -DCMAKE_AR=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar                   -DCMAKE_NM=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-nm                   -DCMAKE_RANLIB=/tmp/tmpqzcqk3p5/tmp-glibc/work/core2-32-oe-linux/libcxx/18.1.6/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib                   -DLLVM_DEFAULT_TARGET_TRIPLE=i686-oe-linux                   -DCMAKE_POSITION_INDEPENDENT_CODE=ON ",
             "description": "libc++ is a new implementation of the C++ standard library, targeting C++11",
             "filename": "libcxx_git.bb",
             "filepath": "recipes-devtools/clang",
@@ -970,11 +998,11 @@
             "pn": "libcxx",
             "pr": "r0",
             "provides": "libcxx ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "base",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:12+0000"
+            "updated": "2024-10-11T23:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -993,11 +1021,11 @@
             "pn": "clang-cross-canadian-i686",
             "pr": "r0",
             "provides": "clang-cross-canadian-i686 ",
-            "pv": "18.1.5",
+            "pv": "18.1.6",
             "section": "devel",
-            "srcrev": "617a15a9eac96088ae5e9134248d8236e34b91b1",
+            "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:47+0000"
+            "updated": "2024-10-11T23:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1020,7 +1048,7 @@
             "section": "base",
             "srcrev": "1a460924d456d9983082d615e0df5f797fdeb635",
             "summary": "C-family abstract syntax tree XML output tool.",
-            "updated": "2024-05-28T04:05:47+0000"
+            "updated": "2024-09-28T23:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,13 +1071,13 @@
             "section": "base",
             "srcrev": "fe6362b4e2c1b9d0833c7d3f308c1d4006b54723",
             "summary": "bpftrace",
-            "updated": "2024-08-14T19:08:46+0000"
+            "updated": "2024-09-28T23:09:20+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DPY_SKIP_DEB_LAYOUT=ON     -DPYTHON_CMD=/tmp/tmp0sefvlt4/tmp-glibc/work/core2-32-oe-linux/bcc/0.29.1/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.12/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
+            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DPY_SKIP_DEB_LAYOUT=ON     -DPYTHON_CMD=/tmp/tmppknkuqt0/tmp-glibc/work/core2-32-oe-linux/bcc/0.29.1/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.12/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
             "description": "",
             "filename": "bcc_0.29.1.bb",
             "filepath": "dynamic-layers/meta-python/recipes-devtools/bcc",
@@ -1066,7 +1094,7 @@
             "section": "base",
             "srcrev": "eb8ede2d70b17350757f2570ef76ea4c2e1dbff8",
             "summary": "BPF Compiler Collection (BCC)",
-            "updated": "2024-05-28T04:05:48+0000"
+            "updated": "2024-09-28T23:09:20+0000"
         }
     ],
     "wrtemplates": []

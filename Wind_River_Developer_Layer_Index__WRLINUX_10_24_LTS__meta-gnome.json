@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-09-26T05:09:01+0000",
-            "vcs_last_commit": "2024-09-26T04:09:46+0000",
-            "vcs_last_fetch": "2024-09-26T05:09:01+0000",
-            "vcs_last_rev": "6c296fe48e5cff647f67c865f6219ee6fb3bfb78",
+            "updated": "2024-10-10T02:10:47+0000",
+            "vcs_last_commit": "2024-10-09T23:10:42+0000",
+            "vcs_last_fetch": "2024-10-10T02:10:47+0000",
+            "vcs_last_rev": "fa0ad5ff240a40bfa63ccf2477fe821c4686ca5b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -656,10 +684,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-08-18T22:08:44+0000",
-            "vcs_last_commit": "2024-08-18T20:08:51+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:44+0000",
-            "vcs_last_rev": "fc748c961623e45c1d52e95b5dc2b20a22ad87ca",
+            "updated": "2024-10-08T23:10:12+0000",
+            "vcs_last_commit": "2024-10-08T22:10:19+0000",
+            "vcs_last_fetch": "2024-10-08T23:10:12+0000",
+            "vcs_last_rev": "cfc1e49d78fcac728af0014b372fe195d0dab88f",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -671,10 +699,10 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2024-08-01T03:08:57+0000",
-            "vcs_last_commit": "2024-08-01T02:08:23+0000",
-            "vcs_last_fetch": "2024-08-01T03:08:57+0000",
-            "vcs_last_rev": "95f0bb301c61f6e19975545dffe49586e362bf2d",
+            "updated": "2024-10-11T02:10:50+0000",
+            "vcs_last_commit": "2024-10-11T01:10:15+0000",
+            "vcs_last_fetch": "2024-10-11T02:10:50+0000",
+            "vcs_last_rev": "8156c6f01b93a09c1d2136e651f8c4d800ec3b26",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44188
@@ -686,10 +714,10 @@
             "id": 990877,
             "layer": 15,
             "local_path": "",
-            "updated": "2024-07-01T22:07:41+0000",
-            "vcs_last_commit": "2024-06-02T11:06:06+0000",
-            "vcs_last_fetch": "2024-07-01T22:07:41+0000",
-            "vcs_last_rev": "3179df61703cb05d2083ec83b2a5ecb2c0d9c781",
+            "updated": "2024-09-28T21:09:19+0000",
+            "vcs_last_commit": "2024-09-15T09:09:56+0000",
+            "vcs_last_fetch": "2024-09-28T21:09:19+0000",
+            "vcs_last_rev": "94d83e480b8dc7380d0e85dd7b7d7d6947e60185",
             "vcs_subdir": "meta-gnome",
             "version": "1",
             "yp_compatible_version": 44188
@@ -3264,22 +3292,22 @@
             "bugtracker": "",
             "configopts": "  -Drdp=true -Dsystemd=false -Dtests=false -Dvnc=false",
             "description": "",
-            "filename": "gnome-remote-desktop_46.1.bb",
+            "filename": "gnome-remote-desktop_46.2.bb",
             "filepath": "dynamic-layers/meta-security/recipes-gnome/gnome-remote-desktop",
             "homepage": "",
             "id": 2028639,
-            "inherits": "features_check gettext gnomebase gsettings meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "inherits": "features_check gettext gnomebase gsettings meson meson-routines pkgconfig python3-dir python3native qemu siteinfo useradd useradd_base",
             "layerbranch": 990877,
             "license": "GPL-2.0-only",
             "pe": "",
             "pn": "gnome-remote-desktop",
             "pr": "r0",
             "provides": "gnome-remote-desktop ",
-            "pv": "46.1",
+            "pv": "46.2",
             "section": "base",
             "srcrev": "",
             "summary": "Remote desktop daemon for GNOME using pipewire.",
-            "updated": "2024-05-28T04:05:39+0000"
+            "updated": "2024-09-28T21:09:19+0000"
         },
         {
             "bbclassextend": "",

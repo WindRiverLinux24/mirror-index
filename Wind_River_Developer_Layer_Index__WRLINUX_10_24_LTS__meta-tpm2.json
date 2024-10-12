@@ -601,6 +601,34 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1"
+        },
+        {
+            "description": "",
+            "id": 44204,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2 wrl"
+        },
+        {
+            "description": "",
+            "id": 44205,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44206,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.2"
+        },
+        {
+            "description": "",
+            "id": 44207,
+            "image_url": "",
+            "link_url": "",
+            "name": "5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -613,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-09-27T00:09:07+0000",
+            "updated": "2024-10-11T00:10:07+0000",
             "updates_enabled": true
         }
     ],
@@ -626,10 +654,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-09-20T05:09:27+0000",
-            "vcs_last_commit": "2024-09-19T21:09:10+0000",
-            "vcs_last_fetch": "2024-09-20T05:09:27+0000",
-            "vcs_last_rev": "60e02d2015920f2a3a8c7ddacd4510a32917be2b",
+            "updated": "2024-10-11T06:10:13+0000",
+            "vcs_last_commit": "2024-10-11T05:10:41+0000",
+            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
+            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -641,10 +669,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-09-26T05:09:01+0000",
-            "vcs_last_commit": "2024-09-26T04:09:46+0000",
-            "vcs_last_fetch": "2024-09-26T05:09:01+0000",
-            "vcs_last_rev": "6c296fe48e5cff647f67c865f6219ee6fb3bfb78",
+            "updated": "2024-10-10T02:10:47+0000",
+            "vcs_last_commit": "2024-10-09T23:10:42+0000",
+            "vcs_last_fetch": "2024-10-10T02:10:47+0000",
+            "vcs_last_rev": "fa0ad5ff240a40bfa63ccf2477fe821c4686ca5b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -656,10 +684,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-08-18T22:08:44+0000",
-            "vcs_last_commit": "2024-08-18T20:08:51+0000",
-            "vcs_last_fetch": "2024-08-18T22:08:44+0000",
-            "vcs_last_rev": "fc748c961623e45c1d52e95b5dc2b20a22ad87ca",
+            "updated": "2024-10-08T23:10:12+0000",
+            "vcs_last_commit": "2024-10-08T22:10:19+0000",
+            "vcs_last_fetch": "2024-10-08T23:10:12+0000",
+            "vcs_last_rev": "cfc1e49d78fcac728af0014b372fe195d0dab88f",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -671,9 +699,9 @@
             "id": 990866,
             "layer": 152,
             "local_path": "",
-            "updated": "2024-07-08T23:07:16+0000",
+            "updated": "2024-10-11T19:10:31+0000",
             "vcs_last_commit": "2024-07-04T21:07:21+0000",
-            "vcs_last_fetch": "2024-07-08T23:07:16+0000",
+            "vcs_last_fetch": "2024-10-11T19:10:31+0000",
             "vcs_last_rev": "f3f928d097917b8a131044fe718440eb7f7e381b",
             "vcs_subdir": "meta-tpm2",
             "version": null,
@@ -801,7 +829,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "A PKCS#11 interface for TPM2 hardware",
-            "updated": "2024-05-09T02:05:54+0000"
+            "updated": "2024-10-11T19:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -824,7 +852,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Software stack for TPM2.",
-            "updated": "2024-07-08T23:07:16+0000"
+            "updated": "2024-10-11T19:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -847,7 +875,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2024-05-09T02:05:55+0000"
+            "updated": "2024-10-11T19:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -870,7 +898,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Attest the trustworthiness of a device against a human using time-based one-time passwords",
-            "updated": "2024-05-09T02:05:55+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -893,7 +921,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "A cryptographic engine for OpenSSL for TPM 2.0",
-            "updated": "2024-05-09T02:05:55+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -916,7 +944,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Trusted Platform Module 2.0 tools",
-            "updated": "2024-05-28T04:05:21+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -939,7 +967,7 @@
             "section": "tpm",
             "srcrev": "",
             "summary": "Provider for integration of TPM 2.0 to OpenSSL 3.X",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -962,7 +990,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for TSS",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -985,7 +1013,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1008,7 +1036,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2024-10-11T19:10:31+0000"
         }
     ],
     "wrtemplates": []
