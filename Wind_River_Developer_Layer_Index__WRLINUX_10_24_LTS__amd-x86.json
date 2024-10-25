@@ -658,36 +658,6 @@
         {
             "actual_branch": "",
             "branch": 400,
-            "collection": "xilinx",
-            "id": 990873,
-            "layer": 436,
-            "local_path": "",
-            "updated": "2024-08-14T22:08:53+0000",
-            "vcs_last_commit": "2024-08-14T21:08:21+0000",
-            "vcs_last_fetch": "2024-08-14T22:08:53+0000",
-            "vcs_last_rev": "74c8787162893474cd8ce9994f2df661e066ddd7",
-            "vcs_subdir": "meta-xilinx-core",
-            "version": null,
-            "yp_compatible_version": 44188
-        },
-        {
-            "actual_branch": "",
-            "branch": 400,
-            "collection": "xilinx-tools",
-            "id": 990890,
-            "layer": 357,
-            "local_path": "",
-            "updated": "2024-07-30T21:07:30+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:30+0000",
-            "vcs_last_rev": "b9fde1d080acfe3cc9c47ab413ba1e106029b39d",
-            "vcs_subdir": "",
-            "version": null,
-            "yp_compatible_version": 44188
-        },
-        {
-            "actual_branch": "",
-            "branch": 400,
             "collection": "wrlinux",
             "id": 990892,
             "layer": 49,
@@ -703,14 +673,14 @@
         {
             "actual_branch": "",
             "branch": 400,
-            "collection": "wr-amd-zynq",
-            "id": 999448,
-            "layer": 556,
+            "collection": "wr-amd-x86",
+            "id": 1014218,
+            "layer": 481,
             "local_path": "",
-            "updated": "2024-08-05T07:08:50+0000",
-            "vcs_last_commit": "2024-08-05T06:08:38+0000",
-            "vcs_last_fetch": "2024-08-05T07:08:50+0000",
-            "vcs_last_rev": "7616de23d5e6f8e1eec0376b55f45eb056da6a98",
+            "updated": "2024-10-21T20:10:54+0000",
+            "vcs_last_commit": "2024-10-21T17:10:32+0000",
+            "vcs_last_fetch": "2024-10-21T20:10:54+0000",
+            "vcs_last_rev": "55d0729eb1189541e8b6976d4476ffa32ed0a416",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -719,26 +689,14 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 132127,
-            "layerbranch": 999448,
+            "id": 136044,
+            "layerbranch": 1014218,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 132128,
-            "layerbranch": 999448,
-            "required": true
-        },
-        {
-            "dependency": 436,
-            "id": 132129,
-            "layerbranch": 999448,
-            "required": true
-        },
-        {
-            "dependency": 357,
-            "id": 132130,
-            "layerbranch": 999448,
+            "id": 136045,
+            "layerbranch": 1014218,
             "required": true
         }
     ],
@@ -782,58 +740,20 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "xilinx-tools",
+            "collection": "wr-amd-x86",
             "comparison": false,
-            "description": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
-            "id": 357,
-            "index_preference": 0,
-            "layer_type": "S",
-            "mailing_list_url": "",
-            "name": "meta-xilinx-tools",
-            "status": "P",
-            "summary": "This layer provides support for using Xilinx tools on supported architectures MicroBlaze, Zynq and ZynqMP.",
-            "updated": "2020-07-06T01:07:38+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-xilinx-tools",
-            "vcs_web_commit_url": "",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "collection": "xilinx",
-            "comparison": false,
-            "description": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
-            "id": 436,
+            "description": "amd-x86 BSP provides a few carefully selected tune options and generic hardware support to cover the majority of current Intel CPUs and devices.  See the README.hardware for more information.",
+            "id": 481,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-xilinx-core",
+            "name": "amd-x86",
             "status": "P",
-            "summary": "This layer provides support for MicroBlaze, Zynq and ZynqMP.",
-            "updated": "2022-03-03T00:03:48+0000",
+            "summary": "BSP layer for AMD x86",
+            "updated": "2022-09-05T00:09:01+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-xilinx",
-            "vcs_web_commit_url": "",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "collection": "wr-amd-zynq",
-            "comparison": false,
-            "description": "xilinx-zynq machine layer",
-            "id": 556,
-            "index_preference": 0,
-            "layer_type": "B",
-            "mailing_list_url": "",
-            "name": "amd-zynq",
-            "status": "P",
-            "summary": "BSP for Zynq7000",
-            "updated": "2024-06-12T00:06:52+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/amd-zynq",
-            "vcs_web_commit_url": "",
+            "vcs_url": "#BASE_URL#/amd-x86",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/amd-x86.git/commit/?id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -841,21 +761,21 @@
     ],
     "machines": [
         {
-            "description": " AMD Zynq-7000 SoC",
-            "id": 88362,
-            "layerbranch": 999448,
-            "name": "amd-zynq",
-            "updated": "2024-06-19T06:06:50+0000"
+            "description": " AMD snowyowl systems",
+            "id": 91909,
+            "layerbranch": 1014218,
+            "name": "amd-snowyowl-64",
+            "updated": "2024-10-15T23:10:02+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 119874,
-            "layerbranch": 999448,
+            "id": 122531,
+            "layerbranch": 1014218,
             "name": "default",
-            "updated": "2024-06-27T19:06:52+0000"
+            "updated": "2024-10-15T23:10:02+0000"
         }
     ]
 }

@@ -634,38 +634,38 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-10-14T00:10:07+0000",
+            "updated": "2024-10-25T00:10:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "NXP i.MX Release Distro",
-            "id": 14299,
+            "id": 14870,
             "layerbranch": 993811,
             "name": "fsl-imx-xwayland",
-            "updated": "2024-05-09T19:05:49+0000"
+            "updated": "2024-10-25T00:10:32+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 14300,
+            "id": 14871,
             "layerbranch": 993811,
             "name": "fsl-imx-fb",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:33+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 14301,
+            "id": 14872,
             "layerbranch": 993811,
             "name": "fsl-imx-x11",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:33+0000"
         },
         {
             "description": "NXP i.MX Release Distro",
-            "id": 14302,
+            "id": 14873,
             "layerbranch": 993811,
             "name": "fsl-imx-wayland",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:33+0000"
         }
     ],
     "layerBranches": [
@@ -676,27 +676,12 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-10-11T06:10:13+0000",
-            "vcs_last_commit": "2024-10-11T05:10:41+0000",
-            "vcs_last_fetch": "2024-10-11T06:10:13+0000",
-            "vcs_last_rev": "a43c299ff1345d0ebb61daf18b3474ef3dfc9df7",
+            "updated": "2024-10-17T05:10:11+0000",
+            "vcs_last_commit": "2024-10-14T22:10:44+0000",
+            "vcs_last_fetch": "2024-10-17T05:10:11+0000",
+            "vcs_last_rev": "73f30255821cb0eea26d634f1d3066ebb40d588a",
             "vcs_subdir": "meta",
             "version": "15",
-            "yp_compatible_version": 44187
-        },
-        {
-            "actual_branch": "",
-            "branch": 400,
-            "collection": "yocto",
-            "id": 990864,
-            "layer": 59,
-            "local_path": "",
-            "updated": "2024-09-28T23:09:49+0000",
-            "vcs_last_commit": "2024-09-27T21:09:41+0000",
-            "vcs_last_fetch": "2024-09-28T23:09:49+0000",
-            "vcs_last_rev": "05ba62c7ffd714b33b3192004bf9a6880d854324",
-            "vcs_subdir": "meta-poky",
-            "version": "3",
             "yp_compatible_version": 44187
         },
         {
@@ -706,13 +691,13 @@
             "id": 993811,
             "layer": 552,
             "local_path": "",
-            "updated": "2024-07-02T02:07:19+0000",
-            "vcs_last_commit": "2024-07-02T00:07:41+0000",
-            "vcs_last_fetch": "2024-07-02T02:07:19+0000",
-            "vcs_last_rev": "35c4c0e32b1c3e8b05c64e70ee62684a45190695",
+            "updated": "2024-10-25T00:10:19+0000",
+            "vcs_last_commit": "2024-10-09T17:10:53+0000",
+            "vcs_last_fetch": "2024-10-25T00:10:33+0000",
+            "vcs_last_rev": "946611ea8ba0ded499222ba612633a217bb85da3",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
-            "yp_compatible_version": 44188
+            "yp_compatible_version": 44195
         },
         {
             "actual_branch": "",
@@ -721,13 +706,13 @@
             "id": 993812,
             "layer": 553,
             "local_path": "",
-            "updated": "2024-10-09T03:10:00+0000",
-            "vcs_last_commit": "2024-10-09T01:10:20+0000",
-            "vcs_last_fetch": "2024-10-09T03:10:00+0000",
-            "vcs_last_rev": "248e9fbc097d9004ba5791a0fd3d4db37c339cd3",
+            "updated": "2024-10-23T00:10:00+0000",
+            "vcs_last_commit": "2024-10-22T18:10:25+0000",
+            "vcs_last_fetch": "2024-10-23T00:10:00+0000",
+            "vcs_last_rev": "bca8e75aa50c93d0c5723b8cc8c25ba41faaa8ea",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
-            "yp_compatible_version": 44188
+            "yp_compatible_version": 44195
         }
     ],
     "layerDependencies": [
@@ -740,12 +725,6 @@
         {
             "dependency": 553,
             "id": 129420,
-            "layerbranch": 993811,
-            "required": true
-        },
-        {
-            "dependency": 59,
-            "id": 129421,
             "layerbranch": 993811,
             "required": true
         }
@@ -765,25 +744,6 @@
             "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
-            "vcs_web_commit_url": "",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "collection": "yocto",
-            "comparison": false,
-            "description": "Poky is an integration of various components to form a complete prepackaged\r\nbuild system and development environment. It features support for building\r\ncustomised embedded device style images. There are reference demo images\r\nfeaturing a X11/Matchbox/GTK themed UI called Sato. The system supports\r\ncross-architecture application development using QEMU emulation and a\r\nstandalone toolchain and SDK with IDE integration.",
-            "id": 59,
-            "index_preference": 800,
-            "layer_type": "D",
-            "mailing_list_url": "",
-            "name": "meta-poky",
-            "status": "P",
-            "summary": "Poky reference distribution for the Yocto Project",
-            "updated": "2018-05-30T22:05:36+0000",
-            "usage_url": "README",
-            "vcs_url": "#BASE_URL#/meta-yocto",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -851,7 +811,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -874,7 +834,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -897,7 +857,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2024-05-09T19:05:50+0000"
+            "updated": "2024-10-25T00:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +880,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale package group - pulseaudio",
-            "updated": "2024-05-09T19:05:51+0000"
+            "updated": "2024-10-25T00:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +903,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:51+0000"
+            "updated": "2024-10-25T00:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -966,7 +926,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2024-05-09T19:05:51+0000"
+            "updated": "2024-10-25T00:10:23+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +949,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2024-05-09T19:05:51+0000"
+            "updated": "2024-10-25T00:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +972,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:51+0000"
+            "updated": "2024-10-25T00:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,7 +995,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:52+0000"
+            "updated": "2024-10-25T00:10:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1018,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:52+0000"
+            "updated": "2024-10-25T00:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1041,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:52+0000"
+            "updated": "2024-10-25T00:10:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1064,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:53+0000"
+            "updated": "2024-10-25T00:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1127,13 +1087,13 @@
             "section": "base",
             "srcrev": "f3ba6e5c2126f2fb07e3d890f990d50c3e204e67",
             "summary": "tinycompress library for compress audio offload in alsa",
-            "updated": "2024-05-09T19:05:53+0000"
+            "updated": "2024-10-25T00:10:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Denable_kmods=false                 -Dexamples=l2fwd,l3fwd,cmdif,l2fwd-qdma,l2fwd-crypto,ipsec-secgw,vhost,kni,ip_fragmentation,ip_reassembly                 --cross-file /tmp/tmp82zfnxvh/tmp-glibc/work/core2-32-oe-linux/dpdk/22.11/git/config/arm/arm64_poky_linux_gcc  ",
+            "configopts": "     -Ddrivers_install_subdir=     -Denable_examples_source_install=false   -Denable_examples_bin_install=true -Dexamples=",
             "description": "Intel(r) Data Plane Development Kit",
             "filename": "dpdk_22.11.bb",
             "filepath": "recipes-extended/dpdk",
@@ -1148,9 +1108,9 @@
             "provides": "dpdk ",
             "pv": "22.11",
             "section": "base",
-            "srcrev": "5479bb82b12306a32283d2ef88efb63a696e0d78",
+            "srcrev": "9298b898fe38482fbb293d431cdeea4297c17e70",
             "summary": "",
-            "updated": "2024-05-09T19:05:53+0000"
+            "updated": "2024-10-25T00:10:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1133,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2024-05-09T19:05:53+0000"
+            "updated": "2024-10-25T00:10:27+0000"
         },
         {
             "bbclassextend": "",
@@ -1196,13 +1156,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "i.MX StandAlomeMM binary produced by EDK2",
-            "updated": "2024-05-09T19:05:54+0000"
+            "updated": "2024-10-25T00:10:27+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmp82zfnxvh/tmp-glibc/work/core2-32-oe-linux/el2go-agent/git/recipe-sysroot     -DNXP_SMW_DIR=/tmp/tmp82zfnxvh/tmp-glibc/work/core2-32-oe-linux/el2go-agent/git/recipe-sysroot/usr/lib/cmake ",
+            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/lib/cmake ",
             "description": "NXP i.MX EdgeLock 2GO IoT Agent",
             "filename": "el2go-agent_git.bb",
             "filepath": "recipes-security/iot-agent",
@@ -1215,80 +1175,34 @@
             "pn": "el2go-agent",
             "pr": "r0",
             "provides": "el2go-agent ",
-            "pv": "git",
+            "pv": "5.2.1+gitX",
             "section": "base",
-            "srcrev": "eb57e0121788452ac336bc41383c7db5c5d70b7b",
+            "srcrev": "54bd67ea2f47d56af8db378497b1dde6394ac0d6",
             "summary": "NXP i.MX EdgeLock 2GO IoT Agent",
-            "updated": "2024-05-09T19:05:54+0000"
+            "updated": "2024-10-25T00:10:27+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  -DENABLE_PROGRAMS=OFF -DUSE_SHARED_MBEDTLS_LIBRARY=OFF -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF",
+            "configopts": "  -DENABLE_PROGRAMS=OFF -DUSE_SHARED_MBEDTLS_LIBRARY=OFF -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF \t-DCMAKE_INSTALL_PREFIX=/usr/local/el2go ",
             "description": "Custom mbedtls static library build enabling PSA Cryptographic",
-            "filename": "el2go-agent-mbedtls_3.3.0.bb",
+            "filename": "el2go-agent-mbedtls_3.6.0.bb",
             "filepath": "recipes-security/iot-agent",
             "homepage": "https://tls.mbed.org/",
             "id": 2029499,
-            "inherits": "cmake ptest python3-dir python3native update-alternatives",
+            "inherits": "cmake",
             "layerbranch": 993811,
-            "license": "Apache-2.0",
+            "license": "Apache-2.0 | GPL-2.0-or-later",
             "pe": "",
             "pn": "el2go-agent-mbedtls",
             "pr": "r0",
-            "provides": "el2go-agent-mbedtls  polarssl",
-            "pv": "3.3.0",
+            "provides": "el2go-agent-mbedtls ",
+            "pv": "3.6.0",
             "section": "libs",
-            "srcrev": "01f6e617816b9b73381244013a4e1112406f8853",
+            "srcrev": "2ca6c285a0dd3f33982dd57299012dacab1ff206",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2024-05-09T19:05:54+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": " -DBUILD_SHARED_LIBS=ON ",
-            "description": "{fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.",
-            "filename": "fmt_10.0.0.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-support/fmt",
-            "homepage": "https://fmt.dev",
-            "id": 2029500,
-            "inherits": "cmake ptest",
-            "layerbranch": 993811,
-            "license": "MIT",
-            "pe": "",
-            "pn": "fmt",
-            "pr": "r0",
-            "provides": "fmt ",
-            "pv": "10.0.0",
-            "section": "base",
-            "srcrev": "a0b8a92e3d1532361c2f7feb63babc5c18d00ef2",
-            "summary": "open-source formatting library for C++",
-            "updated": "2024-05-09T19:05:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": " ",
-            "description": "OpenGL and OpenGL ES conformance tests from the Khronos GPU testing suite called dEQP (drawElements Quality Program). The tests are expanded versions of the OpenGL ES 2.x Conformance Test.",
-            "filename": "opengl-es-cts_3.2.4.0.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-graphics/vk-gl-cts",
-            "homepage": "https://github.com/KhronosGroup/VK-GL-CTS",
-            "id": 2029501,
-            "inherits": "cmake pkgconfig python3-dir python3native",
-            "layerbranch": 993811,
-            "license": "Apache-2.0",
-            "pe": "",
-            "pn": "opengl-es-cts",
-            "pr": "r0",
-            "provides": "opengl-es-cts ",
-            "pv": "3.2.4.0",
-            "section": "graphics",
-            "srcrev": "",
-            "summary": "dEQP OpenGL and OpenGL ES Conformance Tests",
-            "updated": "2024-05-09T19:05:55+0000"
+            "updated": "2024-10-25T00:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1334,7 +1248,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:55+0000"
+            "updated": "2024-10-25T00:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1357,7 +1271,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:55+0000"
+            "updated": "2024-10-25T00:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1403,7 +1317,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:55+0000"
+            "updated": "2024-10-20T19:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1455,32 +1369,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DENABLE_QRENDERDOC=OFF     -DENABLE_PYRENDERDOC=OFF     -DENABLE_RENDERDOCCMD=ON     -DCMAKE_BUILD_TYPE=Release      -DWAYLAND_SCANNER=/tmp/tmp82zfnxvh/tmp-glibc/work/core2-32-oe-linux/renderdoc/1.17.imx/recipe-sysroot-native/usr/bin/wayland-scanner     -DWAYLAND_PROTOCOLS_DIR=/tmp/tmp82zfnxvh/tmp-glibc/work/core2-32-oe-linux/renderdoc/1.17.imx/recipe-sysroot/usr/share/wayland-protocols   -DENABLE_EGL=ON -DENABLE_GL=OFF -DENABLE_GLES=OFF -DENABLE_VULKAN=OFF -DENABLE_WAYLAND=OFF -DENABLE_XCB=OFF -DENABLE_XLIB=OFF",
-            "description": "RenderDoc is a frame-capture based graphics debugger",
-            "filename": "renderdoc_1.17.imx.bb",
-            "filepath": "recipes-graphics/renderdoc",
-            "homepage": "https://github.com/baldurk/renderdoc",
-            "id": 2029509,
-            "inherits": "cmake features_check pkgconfig python3-dir python3native",
-            "layerbranch": 993811,
-            "license": "MIT",
-            "pe": "",
-            "pn": "renderdoc",
-            "pr": "r0",
-            "provides": "renderdoc ",
-            "pv": "1.17.imx",
-            "section": "base",
-            "srcrev": "22d4dc45749c8d1ddbb9e869ec5db142bfe1d7bd",
-            "summary": "RenderDoc recipe providing renderdoccmd",
-            "updated": "2024-05-09T19:05:56+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "configopts": " ",
             "description": "Sample program to monitor i.MX GPU performance data",
-            "filename": "gputop_6.4.11.p2.4.bb",
+            "filename": "gputop_git.bb",
             "filepath": "recipes-graphics/libgpuperfcnt",
             "homepage": "",
             "id": 2029510,
@@ -1491,11 +1382,11 @@
             "pn": "gputop",
             "pr": "r0",
             "provides": "gputop ",
-            "pv": "6.4.11.p2.4",
+            "pv": "git",
             "section": "base",
-            "srcrev": "0040dfebf644adeb32ee52c96f9b4b37fef962e4",
+            "srcrev": "627e8823e1ba17c6d12b408835029a1c065bea84",
             "summary": "",
-            "updated": "2024-05-09T19:05:56+0000"
+            "updated": "2024-10-25T00:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1503,7 +1394,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "libgpuperfcnt_6.4.11.p2.4.bb",
+            "filename": "libgpuperfcnt_git.bb",
             "filepath": "recipes-graphics/libgpuperfcnt",
             "homepage": "",
             "id": 2029511,
@@ -1518,7 +1409,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:56+0000"
+            "updated": "2024-10-20T19:10:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1541,7 +1432,7 @@
             "section": "base",
             "srcrev": "186a85bea780414f55baec2b6c803002080b4ac8",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2024-05-09T19:05:56+0000"
+            "updated": "2024-10-25T00:10:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -1564,7 +1455,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2024-05-09T19:05:56+0000"
+            "updated": "2024-10-25T00:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1587,7 +1478,7 @@
             "section": "x11/apps",
             "srcrev": "",
             "summary": "Intel GPU tools",
-            "updated": "2024-05-09T19:05:57+0000"
+            "updated": "2024-10-25T00:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1595,7 +1486,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Set of sample applications for i.MX GPU",
-            "filename": "imx-gpu-sdk_6.2.4.bb",
+            "filename": "imx-gpu-sdk_6.4.1.bb",
             "filepath": "recipes-graphics/imx-gpu-sdk",
             "homepage": "",
             "id": 2029515,
@@ -1606,11 +1497,11 @@
             "pn": "imx-gpu-sdk",
             "pr": "r0",
             "provides": "imx-gpu-sdk ",
-            "pv": "6.2.4",
+            "pv": "6.4.1",
             "section": "base",
-            "srcrev": "7875ca6fd4c7962c7a0e7e40f891ab46fb79ee98",
+            "srcrev": "b590482544bbb1d4e491ba604f57a65204fc9405",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2024-05-09T19:05:57+0000"
+            "updated": "2024-10-25T00:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1633,7 +1524,122 @@
             "section": "base",
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
-            "updated": "2024-05-09T19:05:57+0000"
+            "updated": "2024-10-25T00:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -Dpipelines=auto     -Dcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled   -Dgstreamer=disabled -Dv4l2=true",
+            "description": "",
+            "filename": "libcamera_0.2.0.bb",
+            "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera",
+            "homepage": "",
+            "id": 2121068,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 993811,
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+            "pe": "1",
+            "pn": "libcamera",
+            "pr": "r0",
+            "provides": "libcamera ",
+            "pv": "0.2.0",
+            "section": "libs",
+            "srcrev": "89227a428a82e724548399d35c98ea89566f9045",
+            "summary": "Linux libcamera framework",
+            "updated": "2024-10-25T00:10:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "     -Dpipelines=auto     -Dv4l2=true     -Dcam=enabled     -Dlc-compliance=disabled     -Dtest=false     -Ddocumentation=disabled   -Dgstreamer=enabled",
+            "description": "",
+            "filename": "libcamera_0.2.0.imx.bb",
+            "filepath": "dynamic-layers/multimedia-layer/recipes-multimedia/libcamera",
+            "homepage": "",
+            "id": 2121069,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 993811,
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+            "pe": "1",
+            "pn": "libcamera",
+            "pr": "r0",
+            "provides": "libcamera ",
+            "pv": "0.2.0.imx",
+            "section": "libs",
+            "srcrev": "21c550433219d9793263919d138ffc51c383e284",
+            "summary": "Linux libcamera framework",
+            "updated": "2024-10-25T00:10:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "xen-tools_4.18.imx.bb",
+            "filepath": "dynamic-layers/virtualization-layer/recipes-extended/xen",
+            "homepage": "",
+            "id": 2121070,
+            "inherits": "",
+            "layerbranch": 993811,
+            "license": "",
+            "pe": "",
+            "pn": "xen-tools",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-10-20T19:10:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "xen_4.18.imx.bb",
+            "filepath": "dynamic-layers/virtualization-layer/recipes-extended/xen",
+            "homepage": "",
+            "id": 2121071,
+            "inherits": "",
+            "layerbranch": 993811,
+            "license": "",
+            "pe": "",
+            "pn": "xen",
+            "pr": "",
+            "provides": "",
+            "pv": "",
+            "section": "",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-10-20T19:10:58+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "DPDK based Fast Path Routing",
+            "filename": "dpdk-fpr_22.11.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 2121072,
+            "inherits": "pkgconfig",
+            "layerbranch": 993811,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "dpdk-fpr",
+            "pr": "r0",
+            "provides": "dpdk-fpr ",
+            "pv": "22.11",
+            "section": "base",
+            "srcrev": "4be3498dd4e816785129e3a49d52270410548dc6",
+            "summary": "",
+            "updated": "2024-10-25T00:10:32+0000"
         }
     ],
     "wrtemplates": []
