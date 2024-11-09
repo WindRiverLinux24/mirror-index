@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-10-31T00:10:06+0000",
+            "updated": "2024-11-07T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-10-17T05:10:11+0000",
-            "vcs_last_commit": "2024-10-14T22:10:44+0000",
-            "vcs_last_fetch": "2024-10-17T05:10:11+0000",
-            "vcs_last_rev": "73f30255821cb0eea26d634f1d3066ebb40d588a",
+            "updated": "2024-11-07T20:11:08+0000",
+            "vcs_last_commit": "2024-11-07T06:11:09+0000",
+            "vcs_last_fetch": "2024-11-07T20:11:08+0000",
+            "vcs_last_rev": "64d2b8c7c695afdd01105f1d8b3fb6fdbd14c756",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -1653,7 +1653,7 @@
             "bugtracker": "",
             "configopts": "    --disable-versioned-paths     --disable-rpath     --disable-dtrace     --enable-shared     --enable-load-relative     --with-pkg-config=pkg-config     --with-static-linked-ext     --with-mantype=man    --with-gmp=no --enable-ipv6 --disable-install-rdoc  --with-valgrind=no",
             "description": "Ruby is an interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible. ",
-            "filename": "ruby_3.2.2.bb",
+            "filename": "ruby_3.3.5.bb",
             "filepath": "recipes-devtools/ruby",
             "homepage": "http://www.ruby-lang.org/",
             "id": 2025112,
@@ -1664,11 +1664,11 @@
             "pn": "ruby",
             "pr": "r0",
             "provides": "ruby ",
-            "pv": "3.2.2",
+            "pv": "3.3.5",
             "section": "devel/ruby",
             "srcrev": "",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2024-10-11T06:10:54+0000"
+            "updated": "2024-11-01T00:11:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6473,15 +6473,15 @@
             "provides": "binutils ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
+            "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpr72kdvom/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-cross_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6496,9 +6496,9 @@
             "provides": "binutils-cross-i686 virtual/i686-oe-linux-binutils",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
+            "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:23+0000"
         },
         {
             "bbclassextend": "",
@@ -6519,15 +6519,15 @@
             "provides": "binutils-cross-canadian-i686 ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
+            "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpr72kdvom/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-crosssdk_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6542,9 +6542,9 @@
             "provides": "binutils-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-binutils",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
+            "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -6565,15 +6565,15 @@
             "provides": "binutils-cross-testsuite ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "71ef12cbf140a637e4ea4e2239ee5daedc8640de",
+            "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DPY_PYGMENTS_FOUND=OFF     -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF     -DPY_YAML_FOUND=OFF      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
+            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DPY_PYGMENTS_FOUND=OFF     -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF     -DPY_YAML_FOUND=OFF      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
             "description": "",
             "filename": "rust-llvm_1.75.0.bb",
             "filepath": "recipes-devtools/rust",
@@ -6590,7 +6590,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "LLVM compiler framework (packaged with rust)",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:24+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -6613,7 +6613,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Rust standard libaries",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:25+0000"
         },
         {
             "bbclassextend": "",
@@ -6659,7 +6659,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Rust compiler and runtime libaries",
-            "updated": "2024-10-11T06:10:53+0000"
+            "updated": "2024-11-01T00:11:26+0000"
         },
         {
             "bbclassextend": "",
@@ -6705,7 +6705,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Cargo, a package manager for Rust.",
-            "updated": "2024-10-11T06:10:55+0000"
+            "updated": "2024-11-01T00:11:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7303,7 +7303,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-10-11T06:10:00+0000"
+            "updated": "2024-11-01T00:11:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7533,7 +7533,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Host side USB console utilities",
-            "updated": "2024-10-11T06:10:02+0000"
+            "updated": "2024-11-01T00:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -9128,7 +9128,7 @@
             "bugtracker": "https://bugs.webkit.org/",
             "configopts": "-Dgtk_doc=false -Dintrospection=true ",
             "description": "",
-            "filename": "webkitgtk_2.44.1.bb",
+            "filename": "webkitgtk_2.44.3.bb",
             "filepath": "recipes-sato/webkit",
             "homepage": "https://www.webkitgtk.org/",
             "id": 2025437,
@@ -9139,11 +9139,11 @@
             "pn": "webkitgtk",
             "pr": "r0",
             "provides": "webkitgtk ",
-            "pv": "2.44.1",
+            "pv": "2.44.3",
             "section": "base",
             "srcrev": "",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2024-10-11T06:10:16+0000"
+            "updated": "2024-11-01T00:11:08+0000"
         },
         {
             "bbclassextend": "",
@@ -9270,7 +9270,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "https://www.yoctoproject.org/",
             "id": 2025443,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -9281,7 +9281,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-10-11T06:10:17+0000"
+            "updated": "2024-11-01T01:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -9293,7 +9293,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "https://www.yoctoproject.org/",
             "id": 2025444,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -9304,7 +9304,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-10-11T06:10:17+0000"
+            "updated": "2024-11-01T01:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -9316,7 +9316,7 @@
             "filepath": "recipes-sato/images",
             "homepage": "https://www.yoctoproject.org/",
             "id": 2025445,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -9327,7 +9327,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-10-11T06:10:17+0000"
+            "updated": "2024-11-01T01:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -10253,7 +10253,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
+            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_8.7.1.bb",
             "filepath": "recipes-support/curl",
@@ -10270,7 +10270,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2024-10-11T06:10:27+0000"
+            "updated": "2024-11-01T00:11:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10552,7 +10552,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--enable-gpg-is-gpg2 \t\t--disable-tests                  --enable-gnutls  --disable-sqlite --enable-nls",
+            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.4/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--enable-gpg-is-gpg2 \t\t--disable-tests                  --enable-gnutls  --disable-sqlite --enable-nls",
             "description": "A complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.",
             "filename": "gnupg_2.4.4.bb",
             "filepath": "recipes-support/gnupg",
@@ -10569,7 +10569,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2024-10-11T06:10:30+0000"
+            "updated": "2024-11-01T00:11:08+0000"
         },
         {
             "bbclassextend": "",
@@ -11359,7 +11359,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The ptest-runner2 package installs a ptest-runner program which loops through all installed ptest test suites and runs them in sequence.",
-            "filename": "ptest-runner_2.4.4.bb",
+            "filename": "ptest-runner_2.4.5.bb",
             "filepath": "recipes-support/ptest-runner",
             "homepage": "http://git.yoctoproject.org/cgit/cgit.cgi/ptest-runner2/about/",
             "id": 2025534,
@@ -11370,11 +11370,11 @@
             "pn": "ptest-runner",
             "pr": "r0",
             "provides": "ptest-runner ",
-            "pv": "2.4.4+git",
+            "pv": "2.4.5+git",
             "section": "base",
-            "srcrev": "95f528cff0bc52903b98c292d4a322fcffa74471",
+            "srcrev": "aea9f42f87f2a78a973ae22cade8e45259f754e1",
             "summary": "A C program to run all installed ptests",
-            "updated": "2024-10-11T06:10:38+0000"
+            "updated": "2024-11-01T00:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11673,7 +11673,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Perl Compatible Regular Expressions version 2",
-            "updated": "2024-10-11T06:10:42+0000"
+            "updated": "2024-11-01T00:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11972,7 +11972,7 @@
             "section": "base",
             "srcrev": "db2bf750eaef7fc0832e13ada8291343bbcc3afe",
             "summary": "Baremetal examples to work with the several QEMU architectures supported on OpenEmbedded",
-            "updated": "2024-10-11T06:10:45+0000"
+            "updated": "2024-11-01T01:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -12225,7 +12225,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Utility for viewing/manipulating IDE disk drive/driver parameters",
-            "updated": "2024-10-11T06:10:47+0000"
+            "updated": "2024-11-07T07:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -12881,7 +12881,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 2025600,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "",
             "pe": "",
@@ -12892,7 +12892,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image with more full-featured Linux system functionality installed.",
-            "updated": "2024-10-11T06:10:53+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12904,7 +12904,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 2025601,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -12915,7 +12915,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device with custom install scripts, adding a second rootfs, used for testing.",
-            "updated": "2024-10-11T06:10:53+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12927,7 +12927,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 2025602,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -12938,7 +12938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:54+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12950,7 +12950,7 @@
             "filepath": "recipes-extended/images",
             "homepage": "",
             "id": 2025603,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "",
             "pe": "",
@@ -12961,7 +12961,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A test controller image to be deployed on a target useful for testing other images using the OEQA runtime tests",
-            "updated": "2024-10-11T06:10:54+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13151,7 +13151,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
+            "configopts": "                --enable-dbus                --with-dbusdir=/etc/dbus-1                --enable-browsing                --disable-gssapi                --enable-debug                --disable-relro                --enable-libusb                --with-system-groups=lpadmin,root,sys,wheel                --with-cups-group=lp                --with-domainsocket=/run/cups/cups.sock                --with-pkgconfpath=/usr/lib/pkgconfig                DSOFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fmacro-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/cups-2.4.10=/usr/src/debug/cups/2.4.10  -fdebug-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/cups/2.4.10/recipe-sysroot-native= '                  --disable-acl --with-dnssd=avahi --with-tls=openssl  --disable-pam --without-systemd --disable-webif --without-xinetd",
             "description": "The Common UNIX Printing System is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and has its own filtering driver model for handling various document types.",
             "filename": "cups_2.4.10.bb",
             "filepath": "recipes-extended/cups",
@@ -13168,7 +13168,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "An Internet printing system for Unix",
-            "updated": "2024-10-11T06:10:56+0000"
+            "updated": "2024-11-01T00:11:12+0000"
         },
         {
             "bbclassextend": "",
@@ -13996,7 +13996,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Support for reading various archive formats",
-            "updated": "2024-10-11T06:10:04+0000"
+            "updated": "2024-11-01T00:11:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14027,7 +14027,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Cryptodev-linux is a device that allows access to Linux kernel cryptographic drivers; thus allowing of userspace applications to take advantage of hardware accelerators. Cryptodev-linux is implemented as a standalone module that requires no dependencies other than a stock linux kernel. Its API is compatible with OpenBSD's cryptodev userspace API (/dev/crypto).",
-            "filename": "cryptodev-tests_1.13.bb",
+            "filename": "cryptodev-tests_1.14.bb",
             "filepath": "recipes-kernel/cryptodev",
             "homepage": "http://cryptodev-linux.org/",
             "id": 2025650,
@@ -14038,11 +14038,11 @@
             "pn": "cryptodev-tests",
             "pr": "r0",
             "provides": "cryptodev-tests ",
-            "pv": "1.13+gitX",
+            "pv": "1.14",
             "section": "base",
-            "srcrev": "bb8bc7cf60d2c0b097c8b3b0e807f805b577a53f",
+            "srcrev": "135cbff90af2ba97d88f1472be595ce78721972c",
             "summary": "A test suite for /dev/crypto device driver",
-            "updated": "2024-10-11T06:10:04+0000"
+            "updated": "2024-11-01T00:11:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14050,7 +14050,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Cryptodev-linux is a device that allows access to Linux kernel cryptographic drivers; thus allowing of userspace applications to take advantage of hardware accelerators. Cryptodev-linux is implemented as a standalone module that requires no dependencies other than a stock linux kernel. Its API is compatible with OpenBSD's cryptodev userspace API (/dev/crypto).",
-            "filename": "cryptodev-linux_1.13.bb",
+            "filename": "cryptodev-linux_1.14.bb",
             "filepath": "recipes-kernel/cryptodev",
             "homepage": "http://cryptodev-linux.org/",
             "id": 2025651,
@@ -14061,11 +14061,11 @@
             "pn": "cryptodev-linux",
             "pr": "r0",
             "provides": "cryptodev-linux ",
-            "pv": "1.13+gitX",
+            "pv": "1.14",
             "section": "base",
-            "srcrev": "bb8bc7cf60d2c0b097c8b3b0e807f805b577a53f",
+            "srcrev": "135cbff90af2ba97d88f1472be595ce78721972c",
             "summary": "A /dev/crypto device driver header file",
-            "updated": "2024-10-11T06:10:04+0000"
+            "updated": "2024-11-01T00:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -14073,7 +14073,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Cryptodev-linux is a device that allows access to Linux kernel cryptographic drivers; thus allowing of userspace applications to take advantage of hardware accelerators. Cryptodev-linux is implemented as a standalone module that requires no dependencies other than a stock linux kernel. Its API is compatible with OpenBSD's cryptodev userspace API (/dev/crypto).",
-            "filename": "cryptodev-module_1.13.bb",
+            "filename": "cryptodev-module_1.14.bb",
             "filepath": "recipes-kernel/cryptodev",
             "homepage": "http://cryptodev-linux.org/",
             "id": 2025652,
@@ -14084,11 +14084,11 @@
             "pn": "cryptodev-module",
             "pr": "r0",
             "provides": "cryptodev-module ",
-            "pv": "1.13+gitX",
+            "pv": "1.14",
             "section": "base",
-            "srcrev": "bb8bc7cf60d2c0b097c8b3b0e807f805b577a53f",
+            "srcrev": "135cbff90af2ba97d88f1472be595ce78721972c",
             "summary": "A /dev/crypto device driver kernel module",
-            "updated": "2024-10-11T06:10:05+0000"
+            "updated": "2024-11-01T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -14475,11 +14475,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "6.6.35+git",
+            "pv": "6.6.50+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-10-11T06:10:09+0000"
+            "updated": "2024-11-01T00:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -14498,11 +14498,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "6.6.35+git",
+            "pv": "6.6.50+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-10-11T06:10:09+0000"
+            "updated": "2024-11-01T00:11:07+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -14521,11 +14521,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "6.6.35+git",
+            "pv": "6.6.50+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-10-11T06:10:09+0000"
+            "updated": "2024-11-01T00:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -14548,7 +14548,7 @@
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel Development Source",
-            "updated": "2024-10-11T06:10:09+0000"
+            "updated": "2024-11-01T00:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -14648,7 +14648,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux firmware is a package distributed alongside the Linux kernel that contains firmware binary blobs necessary for partial or full functionality of certain hardware devices.",
-            "filename": "linux-firmware_20240312.bb",
+            "filename": "linux-firmware_20240909.bb",
             "filepath": "recipes-kernel/linux-firmware",
             "homepage": "https://www.kernel.org/",
             "id": 2025680,
@@ -14659,17 +14659,17 @@
             "pn": "linux-firmware",
             "pr": "r0",
             "provides": "linux-firmware ",
-            "pv": "20240312",
+            "pv": "20240909",
             "section": "kernel",
             "srcrev": "",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2024-10-11T06:10:10+0000"
+            "updated": "2024-11-01T00:11:06+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libelf=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/systemtap/5.0/recipe-sysroot --without-rpm             --without-nss --without-avahi --without-dyninst             --disable-server --disable-grapher --enable-prologues             --with-python3 --without-python2-probes             ac_cv_prog_have_javac=no             ac_cv_prog_have_jar=no  --disable-docs --disable-publican --disable-refdocs   --with-debuginfod --disable-libvirt --enable-monitor --with-python3-probes --enable-sqlite --enable-translator --enable-nls",
+            "configopts": " --with-libelf=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/systemtap/5.0/recipe-sysroot --without-rpm             --without-nss --without-avahi --without-dyninst             --disable-server --disable-grapher --enable-prologues             --with-python3 --without-python2-probes             ac_cv_prog_have_javac=no             ac_cv_prog_have_jar=no  --disable-docs --disable-publican --disable-refdocs   --with-debuginfod --disable-libvirt --enable-monitor --with-python3-probes --enable-sqlite --enable-translator --enable-nls",
             "description": "It provides free software infrastructure to simplify the gathering of information about the running Linux system. This assists diagnosis of a performance or functional problem.",
             "filename": "systemtap_git.bb",
             "filepath": "recipes-kernel/systemtap",
@@ -14686,7 +14686,7 @@
             "section": "base",
             "srcrev": "e72dc118e563c645d93a1a2d771e8d90e8fec1ae",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2024-10-11T06:10:11+0000"
+            "updated": "2024-11-01T00:11:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14709,7 +14709,7 @@
             "section": "base",
             "srcrev": "e72dc118e563c645d93a1a2d771e8d90e8fec1ae",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2024-10-11T06:10:11+0000"
+            "updated": "2024-11-01T00:11:21+0000"
         },
         {
             "bbclassextend": "",
@@ -14767,7 +14767,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 2025685,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -14778,7 +14778,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:11+0000"
+            "updated": "2024-11-01T01:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -14790,7 +14790,7 @@
             "filepath": "recipes-rt/images",
             "homepage": "",
             "id": 2025686,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -14801,7 +14801,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:11+0000"
+            "updated": "2024-11-01T01:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -15727,7 +15727,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.libsdl.org/",
-            "configopts": "-DSDL_OSS=OFF -DSDL_ESD=OFF -DSDL_ARTS=OFF                  -DSDL_DISKAUDIO=OFF -DSDL_NAS=OFF -DSDL_ESD_SHARED=OFF                  -DSDL_DUMMYVIDEO=OFF                  -DSDL_RPI=OFF                  -DSDL_PTHREADS=ON                  -DSDL_RPATH=OFF                  -DSDL_SNDIO=OFF                  -DSDL_X11_XCURSOR=OFF                  -DSDL_X11_XDBE=OFF                  -DSDL_X11_XFIXES=OFF                  -DSDL_X11_XINPUT=OFF                  -DSDL_X11_XRANDR=OFF                  -DSDL_X11_XSCRNSAVER=OFF                  -DSDL_X11_XSHAPE=OFF   -DSDL_ALSA=ON -DSDL_ARMNEON=OFF -DSDL_DIRECTFB=OFF -DSDL_OPENGLES=OFF -DSDL_JACK=OFF -DSDL_KMSDRM=OFF -DSDL_WAYLAND_LIBDECOR=OFF -DSDL_OPENGL=OFF -DSDL_PIPEWIRE_SHARED=OFF -DSDL_PULSEAUDIO=ON -DSDL_VULKAN=OFF -DSDL_WAYLAND=OFF -DSDL_X11=ON",
+            "configopts": "-DSDL_OSS=OFF -DSDL_ESD=OFF -DSDL_ARTS=OFF                  -DSDL_DISKAUDIO=OFF -DSDL_NAS=OFF -DSDL_ESD_SHARED=OFF                  -DSDL_DUMMYVIDEO=OFF                  -DSDL_RPI=OFF                  -DSDL_PTHREADS=ON                  -DSDL_RPATH=OFF                  -DSDL_SNDIO=OFF                  -DSDL_X11_XCURSOR=OFF                  -DSDL_X11_XDBE=OFF                  -DSDL_X11_XFIXES=OFF                  -DSDL_X11_XINPUT=OFF                  -DSDL_X11_XRANDR=OFF                  -DSDL_X11_XSCRNSAVER=OFF                  -DSDL_X11_XSHAPE=OFF   -DSDL_ALSA=ON -DSDL_ARMNEON=OFF -DSDL_DIRECTFB=OFF -DSDL_OPENGLES=OFF -DSDL_JACK=OFF -DSDL_KMSDRM=OFF -DSDL_WAYLAND_LIBDECOR=OFF -DSDL_LIBSAMPLERATE=OFF -DSDL_OPENGL=OFF -DSDL_PIPEWIRE_SHARED=OFF -DSDL_PULSEAUDIO=ON -DSDL_VULKAN=OFF -DSDL_WAYLAND=OFF -DSDL_X11=ON",
             "description": "Simple DirectMedia Layer is a cross-platform multimedia library designed to provide low level access to audio, keyboard, mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer.",
             "filename": "libsdl2_2.30.1.bb",
             "filepath": "recipes-graphics/libsdl2",
@@ -15744,7 +15744,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Simple DirectMedia Layer",
-            "updated": "2024-10-11T06:10:19+0000"
+            "updated": "2024-11-01T00:11:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15951,7 +15951,7 @@
             "section": "base",
             "srcrev": "690680e5f0f952e22424fca1538c1b24457a0868",
             "summary": "VirGL virtual OpenGL renderer",
-            "updated": "2024-10-11T06:10:21+0000"
+            "updated": "2024-11-01T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -16170,7 +16170,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "",
             "id": 2025746,
-            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -16181,7 +16181,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2024-10-11T06:10:22+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -16193,7 +16193,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "",
             "id": 2025747,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -16204,7 +16204,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-10-11T06:10:23+0000"
+            "updated": "2024-11-01T01:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -16216,7 +16216,7 @@
             "filepath": "recipes-graphics/images",
             "homepage": "https://www.yoctoproject.org/",
             "id": 2025748,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -16227,7 +16227,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-10-11T06:10:23+0000"
+            "updated": "2024-11-01T01:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -18694,7 +18694,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/glibc-y2038-tests/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/glibc-y2038-tests/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-y2038-tests_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18711,7 +18711,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "glibc tests using time32/time64 interfaces to be run with ptest for the purpose of checking y2038 compatiblity",
-            "updated": "2024-10-11T06:10:45+0000"
+            "updated": "2024-11-01T00:11:10+0000"
         },
         {
             "bbclassextend": "",
@@ -18740,7 +18740,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/glibc/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/glibc/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18757,7 +18757,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-01T00:11:11+0000"
         },
         {
             "bbclassextend": "",
@@ -18809,7 +18809,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-glibc=/tmp/tmpj0y8t8q6/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.39+git/git ",
+            "configopts": "--with-glibc=/tmp/tmpr72kdvom/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.39+git/git ",
             "description": "",
             "filename": "cross-localedef-native_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18826,13 +18826,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Cross locale generation tool for glibc",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-01T00:11:11+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-testsuite_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18849,7 +18849,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-01T00:11:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -19309,7 +19309,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Standalone tarball for running builds on systems with inadequate software and ancient compilers",
-            "updated": "2024-10-11T06:10:50+0000"
+            "updated": "2024-11-01T00:11:13+0000"
         },
         {
             "bbclassextend": "",
@@ -19355,7 +19355,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Integrated Development Environment support",
-            "updated": "2024-10-11T06:10:50+0000"
+            "updated": "2024-11-01T00:11:03+0000"
         },
         {
             "bbclassextend": "",
@@ -19367,7 +19367,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 2025885,
-            "inherits": "",
+            "inherits": "nopackages nospdx",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -19378,7 +19378,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Pulls in pkgdata for world",
-            "updated": "2024-10-11T06:10:50+0000"
+            "updated": "2024-11-01T01:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -19447,7 +19447,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Standalone tarball for test systems with missing software",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:13+0000"
         },
         {
             "bbclassextend": "",
@@ -19482,7 +19482,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 2025890,
-            "inherits": "nopackages",
+            "inherits": "nopackages nospdx",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -19493,7 +19493,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Build old style sysroot based on everything in the components directory that matches the current MACHINE",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T01:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -19585,7 +19585,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "libc and patchelf tarball for use with uninative.bbclass",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:13+0000"
         },
         {
             "bbclassextend": "",
@@ -19597,7 +19597,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 2025895,
-            "inherits": "image-artifact-names image-postinst-intercepts populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-artifact-names image-postinst-intercepts nopackages populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -19608,7 +19608,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building a installable Go toolchain",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-01T00:11:14+0000"
         },
         {
             "bbclassextend": "",
@@ -19631,7 +19631,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Standalone tarball for running builds on systems with inadequate software",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:14+0000"
         },
         {
             "bbclassextend": "",
@@ -19643,7 +19643,7 @@
             "filepath": "recipes-core/meta",
             "homepage": "",
             "id": 2025897,
-            "inherits": "image-artifact-names image-postinst-intercepts populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-artifact-names image-postinst-intercepts nopackages populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -19654,7 +19654,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:14+0000"
         },
         {
             "bbclassextend": "",
@@ -19746,7 +19746,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Standalone tarball for running builds on systems with inadequate make",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:14+0000"
         },
         {
             "bbclassextend": "",
@@ -19769,7 +19769,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SDK type target for building a standalone tarball containing the tools needed to build the project docs.",
-            "updated": "2024-10-11T06:10:52+0000"
+            "updated": "2024-11-01T00:11:14+0000"
         },
         {
             "bbclassextend": "",
@@ -20218,7 +20218,7 @@
             "filepath": "recipes-core/sysvinit",
             "homepage": "http://savannah.nongnu.org/projects/sysvinit/",
             "id": 2025922,
-            "inherits": "features_check update-alternatives",
+            "inherits": "features_check github-releases update-alternatives",
             "layerbranch": 990853,
             "license": "GPL-2.0-or-later",
             "pe": "",
@@ -20229,7 +20229,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "System-V like init",
-            "updated": "2024-10-11T06:10:54+0000"
+            "updated": "2024-11-01T00:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -20356,7 +20356,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025928,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20367,7 +20367,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny image capable of booting a device.",
-            "updated": "2024-10-11T06:10:55+0000"
+            "updated": "2024-11-01T01:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -20379,7 +20379,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025929,
-            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20390,7 +20390,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic initramfs to boot a fully-featured rootfs",
-            "updated": "2024-10-11T06:10:55+0000"
+            "updated": "2024-11-01T01:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -20402,7 +20402,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025930,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20413,7 +20413,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device.",
-            "updated": "2024-10-11T06:10:56+0000"
+            "updated": "2024-11-01T01:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -20448,7 +20448,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025932,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20459,7 +20459,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:57+0000"
+            "updated": "2024-11-01T01:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -20471,7 +20471,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025933,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20482,7 +20482,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:57+0000"
+            "updated": "2024-11-01T01:11:58+0000"
         },
         {
             "bbclassextend": "",
@@ -20494,7 +20494,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025934,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20505,7 +20505,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-10-11T06:10:57+0000"
+            "updated": "2024-11-01T01:11:58+0000"
         },
         {
             "bbclassextend": "",
@@ -20517,7 +20517,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2025935,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20528,7 +20528,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:58+0000"
+            "updated": "2024-11-01T01:11:58+0000"
         },
         {
             "bbclassextend": "mcextend:apr mcextend:bzip2 mcextend:coreutils mcextend:curl mcextend:dbus mcextend:e2fsprogs mcexte",
@@ -20540,7 +20540,7 @@
             "filepath": "recipes-core/images",
             "homepage": "https://www.yoctoproject.org/",
             "id": 2025936,
-            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20551,7 +20551,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-10-11T06:10:00+0000"
+            "updated": "2024-11-01T01:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -20563,7 +20563,7 @@
             "filepath": "recipes-core/images",
             "homepage": "https://docs.yoctoproject.org/overview-manual/yp-intro.html#archived-components",
             "id": 2025937,
-            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext python3-dir python3native python3targetconfig python_pep517 qemuboot root",
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext python3-dir python3native python3targetconfig python_pep517 qe",
             "layerbranch": 990853,
             "license": "MIT",
             "pe": "",
@@ -20574,7 +20574,7 @@
             "section": "base",
             "srcrev": "bf88a67b45235236d6655dce604e632eb94a813c",
             "summary": "An image containing the build system itself",
-            "updated": "2024-10-11T06:10:00+0000"
+            "updated": "2024-11-01T01:11:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20977,7 +20977,7 @@
             "filepath": "recipes-core/ovmf",
             "homepage": "",
             "id": 2025955,
-            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990853,
             "license": "",
             "pe": "",
@@ -20988,7 +20988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "boot image with UEFI shell and tools",
-            "updated": "2024-10-11T06:10:04+0000"
+            "updated": "2024-11-01T01:11:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -21425,7 +21425,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2024-10-11T06:10:07+0000"
+            "updated": "2024-11-01T00:11:03+0000"
         },
         {
             "bbclassextend": "",
@@ -21448,7 +21448,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "Client for Wi-Fi Protected Access (WPA)",
-            "updated": "2024-10-11T06:10:07+0000"
+            "updated": "2024-11-01T00:11:03+0000"
         },
         {
             "bbclassextend": "",

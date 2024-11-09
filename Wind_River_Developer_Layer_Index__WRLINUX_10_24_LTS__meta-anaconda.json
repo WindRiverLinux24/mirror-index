@@ -634,17 +634,17 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-10-31T00:10:06+0000",
+            "updated": "2024-11-07T23:11:05+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 14284,
+            "id": 14874,
             "layerbranch": 990889,
             "name": "anaconda",
-            "updated": "2024-05-09T03:05:02+0000"
+            "updated": "2024-11-01T00:11:37+0000"
         }
     ],
     "layerBranches": [
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-10-17T05:10:11+0000",
-            "vcs_last_commit": "2024-10-14T22:10:44+0000",
-            "vcs_last_fetch": "2024-10-17T05:10:11+0000",
-            "vcs_last_rev": "73f30255821cb0eea26d634f1d3066ebb40d588a",
+            "updated": "2024-11-07T20:11:08+0000",
+            "vcs_last_commit": "2024-11-07T06:11:09+0000",
+            "vcs_last_fetch": "2024-11-07T20:11:08+0000",
+            "vcs_last_rev": "64d2b8c7c695afdd01105f1d8b3fb6fdbd14c756",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -685,10 +685,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-10-25T02:10:59+0000",
-            "vcs_last_commit": "2024-10-24T20:10:45+0000",
-            "vcs_last_fetch": "2024-10-25T02:10:59+0000",
-            "vcs_last_rev": "0cf3fc8ac9967862da719645a78f0ebf89c95118",
+            "updated": "2024-11-05T03:11:02+0000",
+            "vcs_last_commit": "2024-11-05T01:11:45+0000",
+            "vcs_last_fetch": "2024-11-05T03:11:02+0000",
+            "vcs_last_rev": "4cd77acff008a251f3139401f2740d57c0332d92",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -700,10 +700,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-10-08T23:10:12+0000",
-            "vcs_last_commit": "2024-10-08T22:10:19+0000",
-            "vcs_last_fetch": "2024-10-08T23:10:12+0000",
-            "vcs_last_rev": "cfc1e49d78fcac728af0014b372fe195d0dab88f",
+            "updated": "2024-11-01T00:11:54+0000",
+            "vcs_last_commit": "2024-10-29T22:10:31+0000",
+            "vcs_last_fetch": "2024-11-01T00:11:54+0000",
+            "vcs_last_rev": "6c631128b649d6f6103f33297a7dac3e859ef41d",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -715,10 +715,10 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2024-10-23T00:10:54+0000",
-            "vcs_last_commit": "2024-10-22T19:10:30+0000",
-            "vcs_last_fetch": "2024-10-23T00:10:54+0000",
-            "vcs_last_rev": "b7c630ae1ffef49e6ce47d9fc410f550452833ef",
+            "updated": "2024-11-06T02:11:23+0000",
+            "vcs_last_commit": "2024-11-06T00:11:38+0000",
+            "vcs_last_fetch": "2024-11-06T02:11:23+0000",
+            "vcs_last_rev": "f4f596593064a383f311ab291b15dac7b135b158",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44188
@@ -760,10 +760,10 @@
             "id": 990889,
             "layer": 235,
             "local_path": "",
-            "updated": "2024-08-12T02:08:42+0000",
-            "vcs_last_commit": "2024-08-11T19:08:52+0000",
-            "vcs_last_fetch": "2024-08-12T02:08:42+0000",
-            "vcs_last_rev": "1b67b857c1e31fde13c040502b7b92f80f72cb0f",
+            "updated": "2024-11-01T00:11:37+0000",
+            "vcs_last_commit": "2024-10-29T21:10:24+0000",
+            "vcs_last_fetch": "2024-11-01T00:11:37+0000",
+            "vcs_last_rev": "4680f709bda8d9fec54aaa861a1b21a2b242ddef",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44188
@@ -990,7 +990,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "GNOME keyboard library",
-            "updated": "2024-05-09T03:05:02+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1013,7 +1013,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-01T22:07:52+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1036,7 @@
             "section": "devel",
             "srcrev": "a8268944c8a6064697ccb4d24e52dc666ab03ed4",
             "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
-            "updated": "2024-05-09T03:05:03+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1059,7 +1059,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T03:05:03+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1082,7 +1082,7 @@
             "section": "devel",
             "srcrev": "cf7a049623432acbdb8ec23eeadbfa666761e109",
             "summary": "A text UI framework",
-            "updated": "2024-05-09T03:05:03+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1105,7 +1105,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T03:05:04+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1117,7 +1117,7 @@
             "filepath": "recipes-installer/images",
             "homepage": "",
             "id": 2029129,
-            "inherits": "anaconda_image core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "anaconda_image core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990889,
             "license": "MIT",
             "pe": "",
@@ -1128,7 +1128,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:06+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1140,7 +1140,7 @@
             "filepath": "recipes-installer/images",
             "homepage": "",
             "id": 2029130,
-            "inherits": "anaconda_image core-image fs-uuid image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk",
+            "inherits": "anaconda_image core-image fs-uuid image image-artifact-names image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands",
             "layerbranch": 990889,
             "license": "MIT",
             "pe": "",
@@ -1151,7 +1151,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:07+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1174,7 +1174,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T03:05:04+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1197,7 +1197,7 @@
             "section": "devel",
             "srcrev": "1a4aed721074ddcd84df88089024378c894ec65e",
             "summary": "The anaconda package",
-            "updated": "2024-08-07T23:08:01+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1220,7 +1220,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-08-07T23:08:01+0000"
+            "updated": "2024-11-01T00:11:37+0000"
         }
     ],
     "wrtemplates": []

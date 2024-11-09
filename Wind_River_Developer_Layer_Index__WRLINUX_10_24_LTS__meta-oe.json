@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-10-31T00:10:06+0000",
+            "updated": "2024-11-07T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-10-17T05:10:11+0000",
-            "vcs_last_commit": "2024-10-14T22:10:44+0000",
-            "vcs_last_fetch": "2024-10-17T05:10:11+0000",
-            "vcs_last_rev": "73f30255821cb0eea26d634f1d3066ebb40d588a",
+            "updated": "2024-11-07T20:11:08+0000",
+            "vcs_last_commit": "2024-11-07T06:11:09+0000",
+            "vcs_last_fetch": "2024-11-07T20:11:08+0000",
+            "vcs_last_rev": "64d2b8c7c695afdd01105f1d8b3fb6fdbd14c756",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-10-25T02:10:59+0000",
-            "vcs_last_commit": "2024-10-24T20:10:45+0000",
-            "vcs_last_fetch": "2024-10-25T02:10:59+0000",
-            "vcs_last_rev": "0cf3fc8ac9967862da719645a78f0ebf89c95118",
+            "updated": "2024-11-05T03:11:02+0000",
+            "vcs_last_commit": "2024-11-05T01:11:45+0000",
+            "vcs_last_fetch": "2024-11-05T03:11:02+0000",
+            "vcs_last_rev": "4cd77acff008a251f3139401f2740d57c0332d92",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -880,7 +880,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-08-06T01:08:50+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1890,9 +1890,9 @@
             "provides": "xmlrpc-c ",
             "pv": "1.59.01",
             "section": "base",
-            "srcrev": "352aeaa9ae49e90e55187cbda839f2113df06278",
+            "srcrev": "08b052692b70171a6fcb437d4f52a46977eda62e",
             "summary": "",
-            "updated": "2024-05-09T02:05:54+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5572,7 +5572,7 @@
             "section": "base",
             "srcrev": "8b829acc65569019edb896c5150d427f288e8aba",
             "summary": "",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2024-11-01T00:11:38+0000"
         },
         {
             "bbclassextend": "",
@@ -10264,7 +10264,7 @@
             "section": "devel",
             "srcrev": "c99c8d491850dc3a6e0b8604a2729d8bc5c0eff1",
             "summary": "The GNU portability library",
-            "updated": "2024-05-09T02:05:33+0000"
+            "updated": "2024-11-05T03:11:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10299,7 +10299,7 @@
             "filepath": "recipes-support/lvm2",
             "homepage": "https://www.sourceware.org/lvm2/",
             "id": 2026431,
-            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep nopackages pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 990855,
             "license": "GPL-2.0-only & LGPL-2.1-only",
             "pe": "",
@@ -10310,7 +10310,7 @@
             "section": "utils",
             "srcrev": "016e469caf856f1eb8dde39df0d1aa2e74225aed",
             "summary": "",
-            "updated": "2024-05-09T02:05:34+0000"
+            "updated": "2024-11-01T00:11:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -14479,7 +14479,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    -DPORTABLE=ON     -DWITH_TESTS=OFF     -DWITH_BENCHMARK_TOOLS=OFF     -DWITH_TOOLS=OFF     -DFAIL_ON_WARNINGS=OFF   -DWITH_BZ2=ON -DWITH_GFLAGS=ON -DROCKSDB_LITE=OFF -DWITH_LZ4=ON -DWITH_ZLIB=ON -DWITH_ZSTD=OFF",
+            "configopts": "    -DPORTABLE=ON     -DWITH_TESTS=OFF     -DWITH_BENCHMARK_TOOLS=OFF     -DWITH_TOOLS=OFF     -DFAIL_ON_WARNINGS=OFF     -DROCKSDB_BUILD_STATIC=OFF   -DWITH_BZ2=ON -DWITH_GFLAGS=ON -DROCKSDB_LITE=OFF -DWITH_LZ4=ON -DWITH_ZLIB=ON -DWITH_ZSTD=OFF",
             "description": "RocksDB is library that provides an embeddable, persistent key-value store for fast storage.",
             "filename": "rocksdb_9.0.0.bb",
             "filepath": "recipes-dbs/rocksdb",
@@ -14496,7 +14496,7 @@
             "section": "base",
             "srcrev": "f4441966592636253fd5ab0bb9ed44fc2697fc53",
             "summary": "RocksDB an embeddable, persistent key-value store",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -14594,9 +14594,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmphed85r34/tmp-glibc/work/x86_64-linux/mariadb-native/10.11.7/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmphed85r34/tmp-glibc/work/x86_64-linux/mariadb-native/10.11.7/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DSTACK_DIRECTION=1                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmphcqds6js/tmp-glibc/work/x86_64-linux/mariadb-native/10.11.9/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmphcqds6js/tmp-glibc/work/x86_64-linux/mariadb-native/10.11.9/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DSTACK_DIRECTION=1                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DCMAKE_AR:FILEPATH=ar      -DWITH_SSL='bundled' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb-native_10.11.7.bb",
+            "filename": "mariadb-native_10.11.9.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2026618,
@@ -14607,11 +14607,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "10.11.7",
+            "pv": "10.11.9",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2024-09-10T00:09:00+0000"
+            "updated": "2024-11-01T00:11:33+0000"
         },
         {
             "bbclassextend": "",
@@ -14642,7 +14642,7 @@
             "bugtracker": "",
             "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DSTACK_DIRECTION=1                  -DHAVE_SYSTEM_LIBFMT_EXITCODE=0                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITH_SSL='system' -DPLUGIN_AUTH_PAM=NO -DWITH_VALGRIND=FALSE",
             "description": "",
-            "filename": "mariadb_10.11.7.bb",
+            "filename": "mariadb_10.11.9.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 2026620,
@@ -14653,11 +14653,11 @@
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "10.11.7",
+            "pv": "10.11.9",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2024-09-10T00:09:00+0000"
+            "updated": "2024-11-01T00:11:34+0000"
         },
         {
             "bbclassextend": "",
@@ -14979,7 +14979,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
@@ -15347,7 +15347,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Inspect and manipulate eBPF programs and maps",
-            "updated": "2024-05-09T02:05:32+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -15462,7 +15462,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Test SPI devices",
-            "updated": "2024-05-09T02:05:33+0000"
+            "updated": "2024-11-01T00:11:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -15508,7 +15508,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel selftest for Linux",
-            "updated": "2024-05-09T02:05:34+0000"
+            "updated": "2024-11-01T00:11:37+0000"
         },
         {
             "bbclassextend": "",
@@ -15669,7 +15669,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Shows and sets processor power related values",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -15738,7 +15738,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A tool to validate Intel Speed Select commands",
-            "updated": "2024-05-09T02:05:37+0000"
+            "updated": "2024-11-01T00:11:36+0000"
         },
         {
             "bbclassextend": "",
@@ -22822,7 +22822,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2024-09-28T21:09:45+0000"
+            "updated": "2024-11-01T00:11:35+0000"
         },
         {
             "bbclassextend": "",
