@@ -576,13 +576,6 @@
         },
         {
             "description": "",
-            "id": 44200,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.1 4.2 4.3 5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44202,
             "image_url": "",
             "link_url": "",
@@ -641,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-11-11T23:11:06+0000",
+            "updated": "2024-11-24T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-11-11T20:11:58+0000",
-            "vcs_last_commit": "2024-11-11T19:11:21+0000",
-            "vcs_last_fetch": "2024-11-11T20:11:58+0000",
-            "vcs_last_rev": "ebb5a0d2dbd8486358db84a91fb080e3b7c9fb9c",
+            "updated": "2024-11-25T00:11:57+0000",
+            "vcs_last_commit": "2024-11-24T22:11:51+0000",
+            "vcs_last_fetch": "2024-11-25T00:11:57+0000",
+            "vcs_last_rev": "61ee7dd8c477291c2bca7207fad20e881f650e2c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -669,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-11-05T03:11:02+0000",
-            "vcs_last_commit": "2024-11-05T01:11:45+0000",
-            "vcs_last_fetch": "2024-11-05T03:11:02+0000",
-            "vcs_last_rev": "4cd77acff008a251f3139401f2740d57c0332d92",
+            "updated": "2024-11-20T23:11:31+0000",
+            "vcs_last_commit": "2024-11-20T21:11:40+0000",
+            "vcs_last_fetch": "2024-11-20T23:11:31+0000",
+            "vcs_last_rev": "c82a5d528a61abb97b9f5478692171522db33743",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -699,10 +692,10 @@
             "id": 990869,
             "layer": 349,
             "local_path": "",
-            "updated": "2024-08-05T04:08:04+0000",
-            "vcs_last_commit": "2024-08-05T02:08:29+0000",
-            "vcs_last_fetch": "2024-08-05T04:08:04+0000",
-            "vcs_last_rev": "590550adc2c3c2472b924ef3211c7e4ce11d1bbe",
+            "updated": "2024-11-20T23:11:05+0000",
+            "vcs_last_commit": "2024-11-13T00:11:31+0000",
+            "vcs_last_fetch": "2024-11-20T23:11:05+0000",
+            "vcs_last_rev": "13c63057d7fa1d10d929258c0d0ff74ea3e8637a",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44188
@@ -829,7 +822,7 @@
             "section": "base",
             "srcrev": "5bc9d26649cca274750ad3625bd93422617eed4b",
             "summary": "",
-            "updated": "2024-06-28T06:06:08+0000"
+            "updated": "2024-11-20T23:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -852,7 +845,7 @@
             "section": "base",
             "srcrev": "5bc9d26649cca274750ad3625bd93422617eed4b",
             "summary": "",
-            "updated": "2024-06-28T06:06:09+0000"
+            "updated": "2024-11-20T23:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -875,7 +868,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-10T00:05:50+0000"
+            "updated": "2024-11-20T23:11:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -921,7 +914,7 @@
             "section": "base",
             "srcrev": "5bc9d26649cca274750ad3625bd93422617eed4b",
             "summary": "",
-            "updated": "2024-06-28T06:06:08+0000"
+            "updated": "2024-11-20T23:11:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -944,29 +937,6 @@
             "section": "base",
             "srcrev": "7fb2e8b64dd12a61109abdad341bbf63888a0ce6",
             "summary": "",
-            "updated": "2024-05-09T02:05:51+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "This library simplifies using Google\u2019s various server-to-server authentication mechanisms to access Google APIs.",
-            "filename": "python3-google-auth_2.0.0.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "https://github.com/googleapis/google-auth-library-python",
-            "id": 2028060,
-            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
-            "layerbranch": 990869,
-            "license": "Apache-2.0",
-            "pe": "",
-            "pn": "python3-google-auth",
-            "pr": "r0",
-            "provides": "python3-google-auth ",
-            "pv": "2.0.0",
-            "section": "devel/python",
-            "srcrev": "",
-            "summary": "Google Authentication Library",
             "updated": "2024-05-09T02:05:51+0000"
         },
         {
@@ -1043,29 +1013,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "This library provides oauthlib integration with google-auth.",
-            "filename": "python3-google-auth-oauthlib_0.4.5.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "https://github.com/googleapis/google-auth-library-python-oauthlib",
-            "id": 2028064,
-            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
-            "layerbranch": 990869,
-            "license": "Apache-2.0",
-            "pe": "",
-            "pn": "python3-google-auth-oauthlib",
-            "pr": "r0",
-            "provides": "python3-google-auth-oauthlib ",
-            "pv": "0.4.5",
-            "section": "devel/python",
-            "srcrev": "",
-            "summary": "The oauthlib integration for Google Auth",
-            "updated": "2024-05-09T02:05:52+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "",
             "filename": "python3-opt-einsum_3.3.0.bb",
             "filepath": "recipes-devtools/python",
@@ -1082,29 +1029,6 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A tensor contraction order optimizer",
-            "updated": "2024-05-09T02:05:52+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "python3-gast_0.4.0.bb",
-            "filepath": "recipes-devtools/python",
-            "homepage": "https://github.com/serge-sans-paille/gast",
-            "id": 2028066,
-            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
-            "layerbranch": 990869,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "python3-gast",
-            "pr": "r0",
-            "provides": "python3-gast ",
-            "pv": "0.4.0",
-            "section": "devel/python",
-            "srcrev": "",
-            "summary": "A generic AST to represent Python3's Abstract Syntax Tree(AST).",
             "updated": "2024-05-09T02:05:52+0000"
         },
         {

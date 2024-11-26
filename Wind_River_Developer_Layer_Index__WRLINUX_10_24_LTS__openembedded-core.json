@@ -576,13 +576,6 @@
         },
         {
             "description": "",
-            "id": 44200,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 4.1 4.2 4.3 5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44202,
             "image_url": "",
             "link_url": "",
@@ -641,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-11-11T23:11:06+0000",
+            "updated": "2024-11-24T23:11:05+0000",
             "updates_enabled": true
         }
     ],
@@ -662,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-11-11T20:11:58+0000",
-            "vcs_last_commit": "2024-11-11T19:11:21+0000",
-            "vcs_last_fetch": "2024-11-11T20:11:58+0000",
-            "vcs_last_rev": "ebb5a0d2dbd8486358db84a91fb080e3b7c9fb9c",
+            "updated": "2024-11-25T00:11:57+0000",
+            "vcs_last_commit": "2024-11-24T22:11:51+0000",
+            "vcs_last_fetch": "2024-11-25T00:11:57+0000",
+            "vcs_last_rev": "61ee7dd8c477291c2bca7207fad20e881f650e2c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -7310,7 +7303,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-11-10T22:11:55+0000"
+            "updated": "2024-11-20T23:11:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7333,7 +7326,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-10-11T06:10:00+0000"
+            "updated": "2024-11-20T23:11:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -12347,7 +12340,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Very high-quality data compression program",
-            "updated": "2024-10-11T06:10:48+0000"
+            "updated": "2024-11-20T23:11:22+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -12853,7 +12846,7 @@
             "section": "console/tools",
             "srcrev": "170fc3076a86777077637f10b05c32ac21ac13aa",
             "summary": "ACPICA tools for the development and debug of ACPI tables",
-            "updated": "2024-10-11T06:10:53+0000"
+            "updated": "2024-11-25T00:11:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20236,7 +20229,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "System-V like init",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2024-11-20T01:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -21018,7 +21011,7 @@
             "section": "base",
             "srcrev": "edc6681206c1a8791981a2f911d2fb8b3d2f5768",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2024-10-11T06:10:04+0000"
+            "updated": "2024-11-22T01:11:58+0000"
         },
         {
             "bbclassextend": "",
