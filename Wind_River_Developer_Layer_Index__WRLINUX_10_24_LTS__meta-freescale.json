@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-11-24T23:11:05+0000",
+            "updated": "2024-12-04T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-11-25T00:11:57+0000",
-            "vcs_last_commit": "2024-11-24T22:11:51+0000",
-            "vcs_last_fetch": "2024-11-25T00:11:57+0000",
-            "vcs_last_rev": "61ee7dd8c477291c2bca7207fad20e881f650e2c",
+            "updated": "2024-12-04T23:12:50+0000",
+            "vcs_last_commit": "2024-12-04T22:12:13+0000",
+            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
+            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2024-11-01T00:11:28+0000",
-            "vcs_last_commit": "2024-10-29T21:10:24+0000",
-            "vcs_last_fetch": "2024-11-01T00:11:28+0000",
-            "vcs_last_rev": "e3819ab2ca71c76f0a557df1affebc11a95228ab",
+            "updated": "2024-11-27T20:11:02+0000",
+            "vcs_last_commit": "2024-11-25T23:11:09+0000",
+            "vcs_last_fetch": "2024-11-27T20:11:02+0000",
+            "vcs_last_rev": "77f86f265f46502bf5100c62c9f64e7c1ba34d27",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -2041,7 +2041,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--imx-linux-headers-path=/tmp/tmp3ndsv16d/tmp-glibc/work/core2-32-oe-linux/libimxdmabuffer/1.1.3+gitX/recipe-sysroot/usr/include/imx                 --libdir=/usr/lib                 --with-dma-heap-allocator=no                                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no",
+            "configopts": "--imx-linux-headers-path=/tmp/tmp1ib_tou5/tmp-glibc/work/core2-32-oe-linux/libimxdmabuffer/1.1.3+gitX/recipe-sysroot/usr/include/imx                 --libdir=/usr/lib                 --with-dma-heap-allocator=no                                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no                                                                               --with-dwl-allocator=no                 --with-g2d-allocator=no                 --with-ion-allocator=no                 --with-ipu-allocator=no                 --with-pxp-allocator=no",
             "description": "Library for allocating and managing physically contiguous memory                (\"DMA memory\" or \"DMA buffers\") on i.MX devices.",
             "filename": "libimxdmabuffer_1.1.3.bb",
             "filepath": "recipes-bsp/libimxdmabuffer",
@@ -2058,7 +2058,7 @@
             "section": "base",
             "srcrev": "faf547cc2345bfbf95507ab7e86530f85289bb5b",
             "summary": "",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2263,9 +2263,9 @@
             "provides": "uefi ",
             "pv": "git",
             "section": "bootloaders",
-            "srcrev": "15deb924ff063007592ee647602dd454353f5aee",
+            "srcrev": "55789d536850e00c6f2284fb28eaf21712cd276b",
             "summary": "",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2401,9 +2401,9 @@
             "provides": "rcw ",
             "pv": "git",
             "section": "base",
-            "srcrev": "020dcf0645959afec6705f518e8350476891ef4f",
+            "srcrev": "64abe70cf0abab053c37db460c12e367e6adf7a4",
             "summary": "Reset Configuration Word",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2447,9 +2447,9 @@
             "provides": "imx-boot ",
             "pv": "1.0",
             "section": "BSP",
-            "srcrev": "ca5d6b2d3fd9ab15825b97f7ef6f1ce9a8644966",
+            "srcrev": "4622115cbc037f79039c4522faeced4aabea986b",
             "summary": "",
-            "updated": "2024-11-01T00:11:21+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2470,9 +2470,9 @@
             "provides": "imx-mkimage ",
             "pv": "git",
             "section": "BSP",
-            "srcrev": "ca5d6b2d3fd9ab15825b97f7ef6f1ce9a8644966",
+            "srcrev": "4622115cbc037f79039c4522faeced4aabea986b",
             "summary": "",
-            "updated": "2024-09-28T21:09:38+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2493,9 +2493,9 @@
             "provides": "mc-utils ",
             "pv": "git",
             "section": "mc-utils",
-            "srcrev": "8efeeac253ff780cbf1382ff40e09436d65e220d",
+            "srcrev": "5ccc2688b72c4a05119a393cbe3573b5f81d10bc",
             "summary": "",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2963,7 +2963,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "management-complex_10.37.0.bb",
+            "filename": "management-complex_10.39.0.bb",
             "filepath": "recipes-dpaa2/management-complex",
             "homepage": "",
             "id": 2027979,
@@ -2974,11 +2974,11 @@
             "pn": "management-complex",
             "pr": "r0",
             "provides": "management-complex ",
-            "pv": "10.37.0",
+            "pv": "10.39.0",
             "section": "base",
-            "srcrev": "bb19f586b87b97878b4bd0d3e57da2ca40c5c69f",
+            "srcrev": "7d82686272f8a60b803818bbc7c5396819ee3b06",
             "summary": "DPAA2 Management Complex Firmware",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2992,7 +2992,7 @@
             "id": 2027980,
             "inherits": "",
             "layerbranch": 993783,
-            "license": "BSD",
+            "license": "BSD-3-Clause",
             "pe": "",
             "pn": "gpp-aioptool",
             "pr": "r0",
@@ -3001,7 +3001,7 @@
             "section": "dpaa2",
             "srcrev": "6ead470dde043f3ca67f1ba19b313dd64ec199e1",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3022,9 +3022,9 @@
             "provides": "restool ",
             "pv": "git",
             "section": "base",
-            "srcrev": "46604e41f4c7e54efa62503c6b4629321b21e056",
+            "srcrev": "d9fbfc68018c8dbe33bdf236dc6b4c02f15aa6e1",
             "summary": "DPAA2 Resource Manager Tool",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3045,9 +3045,9 @@
             "provides": "spc ",
             "pv": "git",
             "section": "base",
-            "srcrev": "d624b7809be48e4cf29a7bfa201028e4de1d1955",
+            "srcrev": "b8d69580e5c6aeeb9f1354ee2faed6e0134eaef4",
             "summary": "Soft Parser Configuration tool",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3107,7 +3107,7 @@
             "id": 2027985,
             "inherits": "",
             "layerbranch": 993783,
-            "license": "GPL-2.0-only & BSD",
+            "license": "GPL-2.0-only",
             "pe": "",
             "pn": "libpkcs11",
             "pr": "r0",
@@ -3116,7 +3116,7 @@
             "section": "base",
             "srcrev": "8d85182b7a7cd393ab6dd72930f8d1b69468f741",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3137,9 +3137,9 @@
             "provides": "jailhouse-imx jailhouse",
             "pv": "git",
             "section": "jailhouse",
-            "srcrev": "ce11ba42dfa34f96aca76016a51d21e5d2539001",
+            "srcrev": "327e56941e3e96ef9a291d2decb7add21078d8de",
             "summary": "Jailhouse, i.MX fork",
-            "updated": "2024-09-28T21:09:34+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3153,16 +3153,16 @@
             "id": 2027987,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig python3-dir python3native",
             "layerbranch": 993783,
-            "license": "BSD",
+            "license": "BSD-3-Clause",
             "pe": "",
             "pn": "secure-obj-module",
             "pr": "r0",
             "provides": "secure-obj-module ",
             "pv": "git",
             "section": "base",
-            "srcrev": "5ff1231f74b4b01744be95a3137a14ad0a483e61",
+            "srcrev": "4706a6534ec09f9a46bfe305c5e49badca32b4c6",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3176,16 +3176,16 @@
             "id": 2027988,
             "inherits": "python3-dir python3native",
             "layerbranch": 993783,
-            "license": "BSD",
+            "license": "BSD-3-Clause",
             "pe": "",
             "pn": "secure-obj",
             "pr": "r0",
             "provides": "secure-obj ",
             "pv": "git",
             "section": "base",
-            "srcrev": "5ff1231f74b4b01744be95a3137a14ad0a483e61",
+            "srcrev": "4706a6534ec09f9a46bfe305c5e49badca32b4c6",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3735,9 +3735,9 @@
             "provides": "fmc ",
             "pv": "git",
             "section": "base",
-            "srcrev": "63c8ac99899a9bcd723801579b4d786594670455",
+            "srcrev": "5b9f4b16a864e9dfa58cdcc860be278a7f66ac18",
             "summary": "Frame Manager Configuration tool",
-            "updated": "2024-07-01T22:07:14+0000"
+            "updated": "2024-11-27T20:11:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4057,9 +4057,9 @@
             "provides": "linux-fslc-imx  virtual/kernel linux-mfgtool",
             "pv": "6.6.54+gitX",
             "section": "base",
-            "srcrev": "47d927c130da97d140d1455103e3cacecef94807",
+            "srcrev": "ea326ecb9fc05493c53e51832e447c157268e2ab",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2024-11-01T00:11:24+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4090,7 +4090,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux kernel based on mainline kernel used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was applied in linux-next and takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "linux-fslc_6.11.bb",
+            "filename": "linux-fslc_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 2028028,
@@ -4101,11 +4101,11 @@
             "pn": "linux-fslc",
             "pr": "r0",
             "provides": "linux-fslc  virtual/kernel linux-mfgtool",
-            "pv": "6.11.4+gitX",
+            "pv": "6.12.1+gitX",
             "section": "base",
-            "srcrev": "ea947c5d06275e548ddfac48af577063aa6f9d71",
+            "srcrev": "d390303b28dabbb91b2d32016a4f72da478733b9",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2024-11-01T00:11:24+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -4934,6 +4934,29 @@
             "srcrev": "2473dfed9007471b503efe1f7de74d63eaf4c699",
             "summary": "FSL Community BSP Linux LTS based kernel with backported features and fixes",
             "updated": "2024-11-01T00:11:28+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "imx-m7-demos_2.16.001.bb",
+            "filepath": "recipes-fsl/mcore-demos",
+            "homepage": "",
+            "id": 2139435,
+            "inherits": "deploy fsl-eula-unpack",
+            "layerbranch": 993783,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "imx-m7-demos",
+            "pr": "r0",
+            "provides": "imx-m7-demos ",
+            "pv": "2.16.001",
+            "section": "app",
+            "srcrev": "",
+            "summary": "i.MX M4/M7/M33 core Demo images",
+            "updated": "2024-11-27T20:11:02+0000"
         }
     ],
     "wrtemplates": []

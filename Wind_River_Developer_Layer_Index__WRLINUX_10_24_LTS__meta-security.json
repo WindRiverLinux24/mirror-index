@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-11-24T23:11:05+0000",
+            "updated": "2024-12-04T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-11-25T00:11:57+0000",
-            "vcs_last_commit": "2024-11-24T22:11:51+0000",
-            "vcs_last_fetch": "2024-11-25T00:11:57+0000",
-            "vcs_last_rev": "61ee7dd8c477291c2bca7207fad20e881f650e2c",
+            "updated": "2024-12-04T23:12:50+0000",
+            "vcs_last_commit": "2024-12-04T22:12:13+0000",
+            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
+            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-11-20T23:11:31+0000",
-            "vcs_last_commit": "2024-11-20T21:11:40+0000",
-            "vcs_last_fetch": "2024-11-20T23:11:31+0000",
-            "vcs_last_rev": "c82a5d528a61abb97b9f5478692171522db33743",
+            "updated": "2024-11-28T20:11:01+0000",
+            "vcs_last_commit": "2024-11-28T01:11:30+0000",
+            "vcs_last_fetch": "2024-11-28T20:11:01+0000",
+            "vcs_last_rev": "04076b23b23dc3ef659bf5a78b3a43807df6bb1e",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990860,
             "layer": 18,
             "local_path": "",
-            "updated": "2024-10-11T19:10:23+0000",
-            "vcs_last_commit": "2024-09-27T21:09:01+0000",
-            "vcs_last_fetch": "2024-10-11T19:10:23+0000",
-            "vcs_last_rev": "40fddb261cd1e1f751b9dfcaa57b8e8627ee1a12",
+            "updated": "2024-11-27T20:11:29+0000",
+            "vcs_last_commit": "2024-11-25T23:11:10+0000",
+            "vcs_last_fetch": "2024-11-27T20:11:29+0000",
+            "vcs_last_rev": "836e9f322b62966538d891ef5a6c1c1bb2d1d5f0",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44189
@@ -2208,7 +2208,7 @@
             "section": "security Monitor/Admin",
             "srcrev": "8bdfe7b9d04e5e948c8fbaa7472e14d884cc00af",
             "summary": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces.",
-            "updated": "2024-10-11T19:10:22+0000"
+            "updated": "2024-11-27T20:11:28+0000"
         },
         {
             "bbclassextend": "",

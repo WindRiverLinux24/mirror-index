@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-11-24T23:11:05+0000",
+            "updated": "2024-12-04T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-11-25T00:11:57+0000",
-            "vcs_last_commit": "2024-11-24T22:11:51+0000",
-            "vcs_last_fetch": "2024-11-25T00:11:57+0000",
-            "vcs_last_rev": "61ee7dd8c477291c2bca7207fad20e881f650e2c",
+            "updated": "2024-12-04T23:12:50+0000",
+            "vcs_last_commit": "2024-12-04T22:12:13+0000",
+            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
+            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -894,7 +894,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go_1.22.6.bb",
+            "filename": "go_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025079,
@@ -905,11 +905,11 @@
             "pn": "go",
             "pr": "r0",
             "provides": "go ",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2024-10-11T06:10:45+0000"
+            "updated": "2024-11-27T20:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -917,7 +917,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross-canadian_1.22.6.bb",
+            "filename": "go-cross-canadian_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025080,
@@ -928,11 +928,11 @@
             "pn": "go-cross-canadian-i686",
             "pr": "r0",
             "provides": "go-cross-canadian-i686 ",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-27T20:11:58+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -940,7 +940,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-runtime_1.22.6.bb",
+            "filename": "go-runtime_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025081,
@@ -951,11 +951,11 @@
             "pn": "go-runtime",
             "pr": "r0",
             "provides": "go-runtime virtual/i686-oe-linux-go-runtime",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-27T20:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -963,7 +963,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "go-binary-native_1.22.6.bb",
+            "filename": "go-binary-native_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025082,
@@ -974,11 +974,11 @@
             "pn": "go-binary-native",
             "pr": "r0",
             "provides": "go-binary-native go-native",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler (upstream binary for bootstrap)",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-27T20:11:03+0000"
         },
         {
             "bbclassextend": "",
@@ -986,7 +986,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-crosssdk_1.22.6.bb",
+            "filename": "go-crosssdk_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025083,
@@ -997,11 +997,11 @@
             "pn": "go-crosssdk-x86_64-oesdk-linux",
             "pr": "r0",
             "provides": "go-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-go",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-27T20:11:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1009,7 +1009,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": " The Go programming language is an open source project to make  programmers more productive. Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.",
-            "filename": "go-cross_1.22.6.bb",
+            "filename": "go-cross_1.22.8.bb",
             "filepath": "recipes-devtools/go",
             "homepage": " http://golang.org/",
             "id": 2025084,
@@ -1020,11 +1020,11 @@
             "pn": "go-cross-core2-32",
             "pr": "r0",
             "provides": "go-cross-core2-32 virtual/core2-32-go",
-            "pv": "1.22.6",
+            "pv": "1.22.8",
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2024-10-11T06:10:46+0000"
+            "updated": "2024-11-27T20:11:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1124,7 +1124,7 @@
             "bugtracker": "",
             "configopts": "-Dgtk_doc=disabled  ",
             "description": "Optimised Inner Loop Runtime Compiler is a Library and set of tools for compiling and executing SIMD assembly language-like programs that operate on arrays of data.",
-            "filename": "orc_0.4.39.bb",
+            "filename": "orc_0.4.40.bb",
             "filepath": "recipes-devtools/orc",
             "homepage": "http://gstreamer.freedesktop.org/modules/orc.html",
             "id": 2025089,
@@ -1135,11 +1135,11 @@
             "pn": "orc",
             "pr": "r0",
             "provides": "orc ",
-            "pv": "0.4.39",
+            "pv": "0.4.40",
             "section": "base",
             "srcrev": "",
             "summary": "Optimised Inner Loop Runtime Compiler",
-            "updated": "2024-10-11T06:10:47+0000"
+            "updated": "2024-11-27T20:11:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1653,7 +1653,7 @@
             "bugtracker": "",
             "configopts": "    --disable-versioned-paths     --disable-rpath     --disable-dtrace     --enable-shared     --enable-load-relative     --with-pkg-config=pkg-config     --with-static-linked-ext     --with-mantype=man    --with-gmp=no --enable-ipv6 --disable-install-rdoc  --with-valgrind=no",
             "description": "Ruby is an interpreted scripting language for quick and easy object-oriented programming. It has many features to process text files and to do system management tasks (as in Perl). It is simple, straight-forward, and extensible. ",
-            "filename": "ruby_3.3.5.bb",
+            "filename": "ruby_3.2.2.bb",
             "filepath": "recipes-devtools/ruby",
             "homepage": "http://www.ruby-lang.org/",
             "id": 2025112,
@@ -1664,11 +1664,11 @@
             "pn": "ruby",
             "pr": "r0",
             "provides": "ruby ",
-            "pv": "3.3.5",
+            "pv": "3.2.2",
             "section": "devel/ruby",
             "srcrev": "",
             "summary": "An interpreter of object-oriented scripting language",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2024-12-04T23:12:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3531,7 +3531,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Backport of pathlib-compatible object wrapper for zip files",
-            "updated": "2024-10-11T06:10:17+0000"
+            "updated": "2024-11-28T20:11:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4045,7 +4045,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "lxml is a Pythonic, mature binding for the libxml2 and libxslt libraries. It provides safe and convenient access to these libraries using the ElementTree API. It extends the ElementTree API significantly to offer support for XPath, RelaxNG, XML Schema, XSLT, C14N and much more.",
-            "filename": "python3-lxml_5.0.0.bb",
+            "filename": "python3-lxml_5.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://lxml.de/",
             "id": 2025216,
@@ -4056,11 +4056,11 @@
             "pn": "python3-lxml",
             "pr": "r0",
             "provides": "python3-lxml ",
-            "pv": "5.0.0",
+            "pv": "5.0.2",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2024-10-11T06:10:24+0000"
+            "updated": "2024-11-27T20:11:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5141,7 +5141,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2024-10-11T06:10:37+0000"
+            "updated": "2024-11-27T20:11:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5762,7 +5762,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2024-10-11T06:10:43+0000"
+            "updated": "2024-11-27T20:11:11+0000"
         },
         {
             "bbclassextend": "",
@@ -5785,7 +5785,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2024-10-11T06:10:43+0000"
+            "updated": "2024-11-27T20:11:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6222,7 +6222,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML::Parser - A perl module for parsing XML documents",
-            "updated": "2024-10-11T06:10:48+0000"
+            "updated": "2024-11-27T20:11:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6475,7 +6475,7 @@
             "section": "devel",
             "srcrev": "8a6764d35e5c15d78de8aef8f27af3eefd9d7544",
             "summary": "GNU binary utilities",
-            "updated": "2024-11-01T00:11:23+0000"
+            "updated": "2024-11-27T20:11:03+0000"
         },
         {
             "bbclassextend": "",
@@ -6573,7 +6573,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DPY_PYGMENTS_FOUND=OFF     -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF     -DPY_YAML_FOUND=OFF      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
+            "configopts": "     -DCMAKE_BUILD_TYPE=Release     -DLLVM_TARGETS_TO_BUILD='ARM;AArch64;Mips;PowerPC;RISCV;X86'     -DLLVM_BUILD_DOCS=OFF     -DLLVM_ENABLE_TERMINFO=OFF     -DLLVM_ENABLE_ZLIB=OFF     -DLLVM_ENABLE_ZSTD=OFF     -DLLVM_ENABLE_LIBXML2=OFF     -DLLVM_ENABLE_FFI=OFF     -DLLVM_INSTALL_UTILS=ON     -DLLVM_BUILD_EXAMPLES=OFF     -DLLVM_INCLUDE_EXAMPLES=OFF     -DLLVM_BUILD_TESTS=OFF     -DLLVM_INCLUDE_TESTS=OFF     -DLLVM_TARGET_ARCH=i686     -DCMAKE_INSTALL_PREFIX:PATH=/usr/lib/llvm-rust      -DPY_PYGMENTS_FOUND=OFF     -DPY_PYGMENTS_LEXERS_C_CPP_FOUND=OFF     -DPY_YAML_FOUND=OFF      -DLLVM_BUILD_TOOLS=OFF     -DLLVM_TABLEGEN=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-tblgen     -DLLVM_CONFIG_PATH=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/rust-llvm/1.75.0/recipe-sysroot-native/usr/lib/llvm-rust/bin/llvm-config ",
             "description": "",
             "filename": "rust-llvm_1.75.0.bb",
             "filepath": "recipes-devtools/rust",
@@ -6590,7 +6590,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "LLVM compiler framework (packaged with rust)",
-            "updated": "2024-11-01T00:11:24+0000"
+            "updated": "2024-11-27T20:11:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -7048,9 +7048,9 @@
             "provides": "pseudo  virtual/fakeroot",
             "pv": "1.9.0+git",
             "section": "base",
-            "srcrev": "374089f2ed83da4d0d4e58df067142ff99c7eb12",
+            "srcrev": "28dcefb809ce95db997811b5662f0b893b9923e0",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2024-10-11T06:10:58+0000"
+            "updated": "2024-11-27T20:11:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8131,7 +8131,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2024-10-11T06:10:07+0000"
+            "updated": "2024-11-27T20:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8292,7 +8292,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "ATSC A/52 surround sound stream decoder",
-            "updated": "2024-10-11T06:10:08+0000"
+            "updated": "2024-11-27T20:11:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8344,7 +8344,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot-native= '     --sysroot='/tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib",
+            "configopts": "     --disable-stripping     --enable-pic     --enable-shared     --enable-pthreads              --cross-prefix=i686-oe-linux-         --ld='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --cc='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --cxx='i686-oe-linux-g++  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --arch=i686     --target-os='linux'     --enable-cross-compile     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot-native=   -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/ffmpeg-6.1.1=/usr/src/debug/ffmpeg/6.1.1  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/build=/usr/src/debug/ffmpeg/6.1.1  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot-native= '     --sysroot='/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/ffmpeg/6.1.1/recipe-sysroot'     ${EXTRA_FFCONF}     --libdir=/usr/lib     --shlibdir=/usr/lib     --datadir=/usr/share/ffmpeg     --disable-mipsdsp --disable-mipsdspr2     --cpu=generic     --pkg-config=pkg-config       --enable-alsa --disable-altivec --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-bzlib --disable-libfdk-aac --disable-gpl --disable-libgsm --disable-indev=jack --disable-libopus --disable-libvorbis --enable-lzma --disable-libmfx --disable-libmp3lame --disable-openssl --enable-postproc --disable-sdl2 --disable-libspeex --disable-libsrt --enable-swresample --enable-swscale --enable-libtheora --disable-libv4l2 --disable-vaapi --disable-vdpau --disable-libvpx --disable-libx264 --disable-libx265 --enable-libxcb --enable-outdev=xv --enable-zlib",
             "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                mux, demux, stream, filter and play pretty much anything that humans and machines                have created. It supports the most obscure ancient formats up to the cutting edge.",
             "filename": "ffmpeg_6.1.1.bb",
             "filepath": "recipes-multimedia/ffmpeg",
@@ -8361,7 +8361,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A complete, cross-platform solution to record, convert and stream audio and video.",
-            "updated": "2024-10-11T06:10:08+0000"
+            "updated": "2024-11-27T20:11:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9281,7 +9281,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-11-01T01:11:01+0000"
+            "updated": "2024-11-27T20:11:16+0000"
         },
         {
             "bbclassextend": "",
@@ -9304,7 +9304,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-11-01T01:11:01+0000"
+            "updated": "2024-11-27T20:11:16+0000"
         },
         {
             "bbclassextend": "",
@@ -9327,7 +9327,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-11-01T01:11:02+0000"
+            "updated": "2024-11-27T20:11:16+0000"
         },
         {
             "bbclassextend": "",
@@ -9649,7 +9649,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "General purpose cryptographic library based on the code from GnuPG",
-            "updated": "2024-10-11T06:10:20+0000"
+            "updated": "2024-11-26T03:11:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10140,7 +10140,7 @@
             "bugtracker": "",
             "configopts": "     --enable-shared     --enable-threadsafe     --disable-static-shell   --enable-dynamic-extensions --disable-editline --disable-fts3 --enable-fts4 --enable-fts5 --disable-readline --enable-rtree --disable-session",
             "description": "A library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day",
-            "filename": "sqlite3_3.45.1.bb",
+            "filename": "sqlite3_3.45.3.bb",
             "filepath": "recipes-support/sqlite",
             "homepage": "http://www.sqlite.org",
             "id": 2025481,
@@ -10151,11 +10151,11 @@
             "pn": "sqlite3",
             "pr": "r0",
             "provides": "sqlite3 ",
-            "pv": "3.45.1",
+            "pv": "3.45.3",
             "section": "libs",
             "srcrev": "",
             "summary": "Embeddable SQL database engine",
-            "updated": "2024-10-11T06:10:26+0000"
+            "updated": "2024-11-27T20:11:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10197,11 +10197,11 @@
             "pn": "vim-tiny",
             "pr": "r0",
             "provides": "vim-tiny ",
-            "pv": "9.1.0698",
+            "pv": "9.1.0764",
             "section": "console/utils",
-            "srcrev": "d56c451e1c05310562c5282352d7bb287c16323c",
+            "srcrev": "51b62387be93c65fa56bbabe1c3c1ea5df187641",
             "summary": "Vi IMproved - enhanced vi editor  (with tiny features)",
-            "updated": "2024-10-11T06:10:26+0000"
+            "updated": "2024-11-27T20:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10220,11 +10220,11 @@
             "pn": "vim",
             "pr": "r0",
             "provides": "vim xxd",
-            "pv": "9.1.0698",
+            "pv": "9.1.0764",
             "section": "console/utils",
-            "srcrev": "d56c451e1c05310562c5282352d7bb287c16323c",
+            "srcrev": "51b62387be93c65fa56bbabe1c3c1ea5df187641",
             "summary": "Vi IMproved - enhanced vi editor",
-            "updated": "2024-10-11T06:10:26+0000"
+            "updated": "2024-11-27T20:11:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10253,7 +10253,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpr72kdvom/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
+            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpr6sdual9/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_8.7.1.bb",
             "filepath": "recipes-support/curl",
@@ -10270,7 +10270,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2024-11-01T00:11:08+0000"
+            "updated": "2024-11-27T20:11:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10339,13 +10339,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Enchant Spell checker API Library",
-            "updated": "2024-10-11T06:10:28+0000"
+            "updated": "2024-11-27T20:11:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpj0y8t8q6/tmp-glibc/work/core2-32-oe-linux/libsoup/3.4.4/soup.cross",
+            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp9orwy3g8/tmp-glibc/work/core2-32-oe-linux/libsoup/3.4.4/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup_3.4.4.bb",
             "filepath": "recipes-support/libsoup",
@@ -10362,7 +10362,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2024-10-11T06:10:28+0000"
+            "updated": "2024-11-28T02:11:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11972,7 +11972,7 @@
             "section": "base",
             "srcrev": "db2bf750eaef7fc0832e13ada8291343bbcc3afe",
             "summary": "Baremetal examples to work with the several QEMU architectures supported on OpenEmbedded",
-            "updated": "2024-11-01T01:11:01+0000"
+            "updated": "2024-11-27T20:11:15+0000"
         },
         {
             "bbclassextend": "",
@@ -12892,7 +12892,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image with more full-featured Linux system functionality installed.",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12915,7 +12915,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device with custom install scripts, adding a second rootfs, used for testing.",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12938,7 +12938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:09+0000"
         },
         {
             "bbclassextend": "",
@@ -12961,7 +12961,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A test controller image to be deployed on a target useful for testing other images using the OEQA runtime tests",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13306,7 +13306,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "lsb_release support for OpenEmbedded",
-            "updated": "2024-10-11T06:10:58+0000"
+            "updated": "2024-11-27T20:11:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -14475,11 +14475,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "6.6.50+git",
+            "pv": "6.6.54+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-11-10T22:11:55+0000"
+            "updated": "2024-11-27T20:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -14498,11 +14498,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "6.6.50+git",
+            "pv": "6.6.54+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-11-10T22:11:55+0000"
+            "updated": "2024-11-27T20:11:06+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -14521,11 +14521,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "6.6.50+git",
+            "pv": "6.6.54+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-11-10T22:11:55+0000"
+            "updated": "2024-11-27T20:11:06+0000"
         },
         {
             "bbclassextend": "",
@@ -14778,7 +14778,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:01+0000"
+            "updated": "2024-11-27T20:11:15+0000"
         },
         {
             "bbclassextend": "",
@@ -14801,7 +14801,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:01+0000"
+            "updated": "2024-11-27T20:11:15+0000"
         },
         {
             "bbclassextend": "",
@@ -16181,7 +16181,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:10+0000"
         },
         {
             "bbclassextend": "",
@@ -16204,7 +16204,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-11-01T01:11:56+0000"
+            "updated": "2024-11-27T20:11:10+0000"
         },
         {
             "bbclassextend": "",
@@ -16227,7 +16227,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-11-01T01:11:57+0000"
+            "updated": "2024-11-27T20:11:10+0000"
         },
         {
             "bbclassextend": "",
@@ -16327,7 +16327,7 @@
             "bugtracker": "",
             "configopts": "                   -Dxnest=false                  -Ddtrace=false                  -Dint10=x86emu                  -Dxkb_output_dir=/var/lib/xkb   -Ddga=true -Ddri1=false -Ddri2=true -Ddri3=false -Dglamor=false -Dglx=false -Dsha1=libcrypto -Dsystemd_logind=false -Dudev=true -Dlibunwind=false -Dxinerama=false -Dxvfb=false",
             "description": "",
-            "filename": "xserver-xorg_21.1.13.bb",
+            "filename": "xserver-xorg_21.1.14.bb",
             "filepath": "recipes-graphics/xorg-xserver",
             "homepage": "http://www.x.org",
             "id": 2025753,
@@ -16338,11 +16338,11 @@
             "pn": "xserver-xorg",
             "pr": "r0",
             "provides": "xserver-xorg virtual/xserver-xf86 virtual/xserver",
-            "pv": "21.1.13",
+            "pv": "21.1.14",
             "section": "x11/base",
             "srcrev": "",
             "summary": "The X.Org X server",
-            "updated": "2024-10-11T06:10:23+0000"
+            "updated": "2024-11-27T20:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -17170,7 +17170,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2024-10-11T06:10:30+0000"
+            "updated": "2024-11-27T20:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -19286,7 +19286,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2024-10-11T06:10:50+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",
@@ -19516,7 +19516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Updates the NVD CVE database",
-            "updated": "2024-10-11T06:10:51+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -20367,7 +20367,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny image capable of booting a device.",
-            "updated": "2024-11-01T01:11:57+0000"
+            "updated": "2024-11-27T20:11:11+0000"
         },
         {
             "bbclassextend": "",
@@ -20390,7 +20390,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic initramfs to boot a fully-featured rootfs",
-            "updated": "2024-11-01T01:11:57+0000"
+            "updated": "2024-11-27T20:11:11+0000"
         },
         {
             "bbclassextend": "",
@@ -20413,7 +20413,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device.",
-            "updated": "2024-11-01T01:11:57+0000"
+            "updated": "2024-11-27T20:11:11+0000"
         },
         {
             "bbclassextend": "",
@@ -20459,7 +20459,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:57+0000"
+            "updated": "2024-11-27T20:11:12+0000"
         },
         {
             "bbclassextend": "",
@@ -20482,7 +20482,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:58+0000"
+            "updated": "2024-11-27T20:11:12+0000"
         },
         {
             "bbclassextend": "",
@@ -20505,7 +20505,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-11-01T01:11:58+0000"
+            "updated": "2024-11-27T20:11:12+0000"
         },
         {
             "bbclassextend": "",
@@ -20528,7 +20528,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:58+0000"
+            "updated": "2024-11-27T20:11:12+0000"
         },
         {
             "bbclassextend": "mcextend:apr mcextend:bzip2 mcextend:coreutils mcextend:curl mcextend:dbus mcextend:e2fsprogs mcexte",
@@ -20551,7 +20551,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-11-01T01:11:00+0000"
+            "updated": "2024-11-27T20:11:15+0000"
         },
         {
             "bbclassextend": "",
@@ -20572,9 +20572,9 @@
             "provides": "build-appliance-image ",
             "pv": "15.0.0",
             "section": "base",
-            "srcrev": "bf88a67b45235236d6655dce604e632eb94a813c",
+            "srcrev": "98d2128bd5c41285b8982d4bbc3a2db28f2209ce",
             "summary": "An image containing the build system itself",
-            "updated": "2024-11-01T01:11:00+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20743,7 +20743,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
-            "filename": "expat_2.6.3.bb",
+            "filename": "expat_2.6.4.bb",
             "filepath": "recipes-core/expat",
             "homepage": "https://github.com/libexpat/libexpat",
             "id": 2025945,
@@ -20754,11 +20754,11 @@
             "pn": "expat",
             "pr": "r0",
             "provides": "expat ",
-            "pv": "2.6.3",
+            "pv": "2.6.4",
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2024-10-11T06:10:02+0000"
+            "updated": "2024-11-27T20:11:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20988,7 +20988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "boot image with UEFI shell and tools",
-            "updated": "2024-11-01T01:11:02+0000"
+            "updated": "2024-11-27T20:11:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -21586,7 +21586,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "Secure Socket Layer",
-            "updated": "2024-10-11T06:10:08+0000"
+            "updated": "2024-11-27T20:11:01+0000"
         },
         {
             "bbclassextend": "",

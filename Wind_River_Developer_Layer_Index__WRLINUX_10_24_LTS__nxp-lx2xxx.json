@@ -703,21 +703,6 @@
         {
             "actual_branch": "",
             "branch": 400,
-            "collection": "imx-machine-learning",
-            "id": 993810,
-            "layer": 551,
-            "local_path": "",
-            "updated": "2024-11-25T23:11:09+0000",
-            "vcs_last_commit": "2024-11-25T20:11:06+0000",
-            "vcs_last_fetch": "2024-11-25T23:11:09+0000",
-            "vcs_last_rev": "137cb7df85a633877c7ea10f1391e43d41336a0d",
-            "vcs_subdir": "meta-imx-ml",
-            "version": null,
-            "yp_compatible_version": 44195
-        },
-        {
-            "actual_branch": "",
-            "branch": 400,
             "collection": "fsl-sdk-release",
             "id": 993811,
             "layer": 552,
@@ -748,14 +733,29 @@
         {
             "actual_branch": "",
             "branch": 400,
-            "collection": "wr-nxp-imx8",
-            "id": 996136,
-            "layer": 271,
+            "collection": "meta-qoriq",
+            "id": 993873,
+            "layer": 516,
             "local_path": "",
-            "updated": "2024-11-28T02:11:06+0000",
-            "vcs_last_commit": "2024-11-27T19:11:29+0000",
-            "vcs_last_fetch": "2024-11-28T02:11:06+0000",
-            "vcs_last_rev": "f753b7099c3215babac81eea266447d18a5f3410",
+            "updated": "2024-06-19T20:06:45+0000",
+            "vcs_last_commit": "2024-06-18T07:06:46+0000",
+            "vcs_last_fetch": "2024-06-19T20:06:45+0000",
+            "vcs_last_rev": "bd0f2f6b407fe9af1795521f8da2c1b2872f36d2",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 44195
+        },
+        {
+            "actual_branch": "",
+            "branch": 400,
+            "collection": "wr-nxp-lx2xxx",
+            "id": 1014804,
+            "layer": 253,
+            "local_path": "",
+            "updated": "2024-11-18T06:11:01+0000",
+            "vcs_last_commit": "2024-11-18T00:11:19+0000",
+            "vcs_last_fetch": "2024-11-18T06:11:01+0000",
+            "vcs_last_rev": "7bf0dcd838bd59446270b91be804954198cdd484",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -764,44 +764,44 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 130832,
-            "layerbranch": 996136,
+            "id": 136046,
+            "layerbranch": 1014804,
             "required": true
         },
         {
             "dependency": 470,
-            "id": 130833,
-            "layerbranch": 996136,
+            "id": 136047,
+            "layerbranch": 1014804,
             "required": true
         },
         {
             "dependency": 231,
-            "id": 130834,
-            "layerbranch": 996136,
+            "id": 136048,
+            "layerbranch": 1014804,
             "required": true
         },
         {
             "dependency": 553,
-            "id": 130835,
-            "layerbranch": 996136,
+            "id": 136049,
+            "layerbranch": 1014804,
             "required": true
         },
         {
             "dependency": 552,
-            "id": 130836,
-            "layerbranch": 996136,
+            "id": 136050,
+            "layerbranch": 1014804,
             "required": true
         },
         {
-            "dependency": 551,
-            "id": 130837,
-            "layerbranch": 996136,
+            "dependency": 516,
+            "id": 136051,
+            "layerbranch": 1014804,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 130838,
-            "layerbranch": 996136,
+            "id": 136052,
+            "layerbranch": 1014804,
             "required": true
         }
     ],
@@ -864,20 +864,20 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-nxp-imx8",
+            "collection": "wr-nxp-lx2xxx",
             "comparison": false,
-            "description": "The bsp nxp-imx8 machine layer.",
-            "id": 271,
+            "description": "NXP ARM64 BSP.",
+            "id": 253,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "nxp-imx8",
+            "name": "nxp-lx2xxx",
             "status": "P",
-            "summary": "The bsp nxp-imx8 machine layer.",
-            "updated": "2018-11-12T18:11:35+0000",
+            "summary": "nxp-lx2xxx",
+            "updated": "2018-10-09T00:10:37+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/nxp-imx8",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-imx8.git/commit/id=%hash%",
+            "vcs_url": "#BASE_URL#/nxp-lx2xxx",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-lx2xxx/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -902,19 +902,19 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "imx-machine-learning",
+            "collection": "meta-qoriq",
             "comparison": false,
-            "description": "meta-imx/meta-imx-ml",
-            "id": 551,
+            "description": "meta-qoriq is used for NXP ls/lx series BSP",
+            "id": 516,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-imx-ml",
+            "name": "meta-qoriq",
             "status": "P",
-            "summary": "meta-imx/meta-imx-ml",
-            "updated": "2024-05-09T07:05:46+0000",
+            "summary": "meta-qoriq is used for NXP ls/lx series BSP",
+            "updated": "2023-08-08T02:08:06+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-imx",
+            "vcs_url": "#BASE_URL#/meta-qoriq",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -961,21 +961,21 @@
     ],
     "machines": [
         {
-            "description": "nxp-imx8",
-            "id": 87557,
-            "layerbranch": 996136,
-            "name": "nxp-imx8",
-            "updated": "2024-11-25T18:11:21+0000"
+            "description": " NXP Layerscape LX2160A SoC",
+            "id": 91917,
+            "layerbranch": 1014804,
+            "name": "nxp-lx2xxx",
+            "updated": "2024-10-22T01:10:14+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 119145,
-            "layerbranch": 996136,
+            "id": 122593,
+            "layerbranch": 1014804,
             "name": "default",
-            "updated": "2024-06-20T22:06:56+0000"
+            "updated": "2024-10-22T01:10:14+0000"
         }
     ]
 }
