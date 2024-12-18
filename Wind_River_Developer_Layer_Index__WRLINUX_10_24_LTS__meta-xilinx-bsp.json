@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-04T23:12:05+0000",
+            "updated": "2024-12-17T23:12:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2024-08-14T22:08:53+0000",
-            "vcs_last_commit": "2024-08-14T21:08:21+0000",
-            "vcs_last_fetch": "2024-08-14T22:08:53+0000",
-            "vcs_last_rev": "74c8787162893474cd8ce9994f2df661e066ddd7",
+            "updated": "2024-12-13T01:12:57+0000",
+            "vcs_last_commit": "2024-12-12T19:12:41+0000",
+            "vcs_last_fetch": "2024-12-13T01:12:57+0000",
+            "vcs_last_rev": "de79935321b7a42051661fab028694e33215280c",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -662,10 +662,10 @@
             "id": 990874,
             "layer": 437,
             "local_path": "",
-            "updated": "2024-07-30T21:07:28+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:28+0000",
-            "vcs_last_rev": "670978c494f5d0898d2e01e9235ffc9b66262b3e",
+            "updated": "2024-12-12T20:12:40+0000",
+            "vcs_last_commit": "2024-12-10T19:12:25+0000",
+            "vcs_last_fetch": "2024-12-12T20:12:40+0000",
+            "vcs_last_rev": "223199aa9fb678ea330b7e3eec94bdb77fb2bed6",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -719,190 +719,7 @@
             "vcs_web_url": ""
         }
     ],
-    "machines": [
-        {
-            "description": " ZCU106 evaluation board.",
-            "id": 86319,
-            "layerbranch": 990874,
-            "name": "zcu106-zynqmp",
-            "updated": "2024-06-17T03:06:36+0000"
-        },
-        {
-            "description": " ZCU1285 evaluation board.",
-            "id": 86320,
-            "layerbranch": 990874,
-            "name": "zcu1285-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VPK120 evaluation board.",
-            "id": 86321,
-            "layerbranch": 990874,
-            "name": "vpk120-versal",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZC702 evaluation boards.",
-            "id": 86322,
-            "layerbranch": 990874,
-            "name": "zc702-zynq7",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VMK180 evaluation board.",
-            "id": 86323,
-            "layerbranch": 990874,
-            "name": "vmk180-versal",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " AC701 evaluation board.",
-            "id": 86324,
-            "layerbranch": 990874,
-            "name": "ac701-microblazeel",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " a ZynqMP DR system on QEMU w/ testimage",
-            "id": 86325,
-            "layerbranch": 990874,
-            "name": "qemu-zynqmp-dr",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " a ZynqMP CG system on QEMU w/ testimage",
-            "id": 86326,
-            "layerbranch": 990874,
-            "name": "qemu-zynqmp-cg",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VCU118 evaluation board.",
-            "id": 86327,
-            "layerbranch": 990874,
-            "name": "vcu118-microblazeel",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU216 evaluation board.",
-            "id": 86328,
-            "layerbranch": 990874,
-            "name": "zcu216-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU111 evaluation board.",
-            "id": 86329,
-            "layerbranch": 990874,
-            "name": "zcu111-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " a ZynqMP EG system on QEMU w/ testimage",
-            "id": 86330,
-            "layerbranch": 990874,
-            "name": "qemu-zynqmp-eg",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VEK280 evaluation boards.",
-            "id": 86331,
-            "layerbranch": 990874,
-            "name": "vek280-versal",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " KCU105 evaluation board.",
-            "id": 86332,
-            "layerbranch": 990874,
-            "name": "kcu105-microblazeel",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU208 evaluation board.",
-            "id": 86333,
-            "layerbranch": 990874,
-            "name": "zcu208-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU104 evaluation board.",
-            "id": 86334,
-            "layerbranch": 990874,
-            "name": "zcu104-zynqmp",
-            "updated": "2024-06-17T03:06:36+0000"
-        },
-        {
-            "description": " ZC706 evaluation boards.",
-            "id": 86335,
-            "layerbranch": 990874,
-            "name": "zc706-zynq7",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VCK190 evaluation board.",
-            "id": 86336,
-            "layerbranch": 990874,
-            "name": "vck190-versal",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " a ZynqMP EV system on QEMU w/ testimage",
-            "id": 86337,
-            "layerbranch": 990874,
-            "name": "qemu-zynqmp-ev",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " a ZynqMP system on QEMU w/ testimage",
-            "id": 86338,
-            "layerbranch": 990874,
-            "name": "qemu-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU1275 evaluation board.",
-            "id": 86339,
-            "layerbranch": 990874,
-            "name": "zcu1275-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " KC705 evaluation board.",
-            "id": 86340,
-            "layerbranch": 990874,
-            "name": "kc705-microblazeel",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " VPK180 evaluation board.",
-            "id": 86341,
-            "layerbranch": 990874,
-            "name": "vpk180-versal",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": " ZCU102 evaluation board.",
-            "id": 86342,
-            "layerbranch": 990874,
-            "name": "zcu102-zynqmp",
-            "updated": "2024-05-09T02:05:13+0000"
-        },
-        {
-            "description": "Machine support for ZC1254 Evaluation Board.",
-            "id": 86343,
-            "layerbranch": 990874,
-            "name": "zc1254-zynqmp",
-            "updated": "2024-07-30T21:07:28+0000"
-        },
-        {
-            "description": " SP701 boards.",
-            "id": 88682,
-            "layerbranch": 990874,
-            "name": "sp701-microblazeel",
-            "updated": "2024-06-17T03:06:36+0000"
-        }
-    ],
+    "machines": [],
     "recipes": [],
     "wrtemplates": []
 }

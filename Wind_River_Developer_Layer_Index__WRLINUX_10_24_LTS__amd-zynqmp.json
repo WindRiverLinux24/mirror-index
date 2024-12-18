@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-04T23:12:05+0000",
+            "updated": "2024-12-17T23:12:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-04T23:12:50+0000",
-            "vcs_last_commit": "2024-12-04T22:12:13+0000",
-            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
-            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
+            "updated": "2024-12-17T20:12:10+0000",
+            "vcs_last_commit": "2024-12-17T19:12:02+0000",
+            "vcs_last_fetch": "2024-12-17T20:12:10+0000",
+            "vcs_last_rev": "666ae349879e9db7d296dcaf8112e35db56226c9",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2024-08-14T22:08:53+0000",
-            "vcs_last_commit": "2024-08-14T21:08:21+0000",
-            "vcs_last_fetch": "2024-08-14T22:08:53+0000",
-            "vcs_last_rev": "74c8787162893474cd8ce9994f2df661e066ddd7",
+            "updated": "2024-12-13T01:12:57+0000",
+            "vcs_last_commit": "2024-12-12T19:12:41+0000",
+            "vcs_last_fetch": "2024-12-13T01:12:57+0000",
+            "vcs_last_rev": "de79935321b7a42051661fab028694e33215280c",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990890,
             "layer": 357,
             "local_path": "",
-            "updated": "2024-07-30T21:07:30+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:30+0000",
-            "vcs_last_rev": "b9fde1d080acfe3cc9c47ab413ba1e106029b39d",
+            "updated": "2024-12-16T02:12:19+0000",
+            "vcs_last_commit": "2024-12-16T00:12:39+0000",
+            "vcs_last_fetch": "2024-12-16T02:12:19+0000",
+            "vcs_last_rev": "5c9cc642cde6adca7a511b144274d11065112a70",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -692,13 +692,28 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2024-12-05T00:12:06+0000",
-            "vcs_last_commit": "2024-12-04T23:12:06+0000",
-            "vcs_last_fetch": "2024-12-05T00:12:06+0000",
-            "vcs_last_rev": "906b0f0e12d07f0574205fa45efe489c56baf4b3",
+            "updated": "2024-12-18T06:12:04+0000",
+            "vcs_last_commit": "2024-12-18T06:12:05+0000",
+            "vcs_last_fetch": "2024-12-18T06:12:04+0000",
+            "vcs_last_rev": "b0de8803c49a2e7af643bd999f855cb26b5781e1",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
+        },
+        {
+            "actual_branch": "",
+            "branch": 400,
+            "collection": "meta-arm",
+            "id": 993872,
+            "layer": 474,
+            "local_path": "",
+            "updated": "2024-09-28T23:09:31+0000",
+            "vcs_last_commit": "2024-09-27T21:09:28+0000",
+            "vcs_last_fetch": "2024-09-28T23:09:31+0000",
+            "vcs_last_rev": "d30c7d29f93e766ddcee0d706c3b9b2a8717147d",
+            "vcs_subdir": "meta-arm",
+            "version": null,
+            "yp_compatible_version": 44189
         },
         {
             "actual_branch": "",
@@ -707,10 +722,10 @@
             "id": 999370,
             "layer": 555,
             "local_path": "",
-            "updated": "2024-09-12T21:09:49+0000",
-            "vcs_last_commit": "2024-09-12T20:09:46+0000",
-            "vcs_last_fetch": "2024-09-12T21:09:49+0000",
-            "vcs_last_rev": "012af1ee34f83644813fa52e342079a5bf2a2c3f",
+            "updated": "2024-12-17T00:12:54+0000",
+            "vcs_last_commit": "2024-12-16T23:12:42+0000",
+            "vcs_last_fetch": "2024-12-17T00:12:54+0000",
+            "vcs_last_rev": "91a25aa79cfeee059daa2939b05b4c14abd2db04",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -722,10 +737,10 @@
             "id": 1006331,
             "layer": 561,
             "local_path": "",
-            "updated": "2024-08-15T21:08:55+0000",
-            "vcs_last_commit": "2024-08-15T19:08:40+0000",
-            "vcs_last_fetch": "2024-08-15T21:08:55+0000",
-            "vcs_last_rev": "d1b9c3e9b82084451791c788371f32570fad8ccd",
+            "updated": "2024-12-16T21:12:20+0000",
+            "vcs_last_commit": "2024-12-16T19:12:02+0000",
+            "vcs_last_fetch": "2024-12-16T21:12:20+0000",
+            "vcs_last_rev": "67f9628314d6fd8680724aed7601568331f88330",
             "vcs_subdir": "meta-xilinx-mali400",
             "version": null,
             "yp_compatible_version": 44188
@@ -739,26 +754,32 @@
             "required": true
         },
         {
+            "dependency": 474,
+            "id": 137930,
+            "layerbranch": 999370,
+            "required": true
+        },
+        {
             "dependency": 49,
-            "id": 132118,
+            "id": 137931,
             "layerbranch": 999370,
             "required": true
         },
         {
             "dependency": 436,
-            "id": 132119,
+            "id": 137932,
             "layerbranch": 999370,
             "required": true
         },
         {
             "dependency": 561,
-            "id": 134211,
+            "id": 137933,
             "layerbranch": 999370,
             "required": true
         },
         {
             "dependency": 357,
-            "id": 134212,
+            "id": 137934,
             "layerbranch": 999370,
             "required": true
         }
@@ -841,6 +862,25 @@
             "vcs_web_url": ""
         },
         {
+            "collection": "meta-arm",
+            "comparison": false,
+            "description": "This repository contains the Arm layers for OpenEmbedded.",
+            "id": 474,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-arm",
+            "status": "P",
+            "summary": "This repository contains the Arm layers for OpenEmbedded.",
+            "updated": "2022-05-31T02:05:06+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-arm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
             "collection": "wr-amd-zynqmp",
             "comparison": false,
             "description": "ZCU102 of Xilinx ZYNQ UltraScale MPSoC",
@@ -885,7 +925,21 @@
             "id": 88358,
             "layerbranch": 999370,
             "name": "amd-zynqmp",
-            "updated": "2024-06-12T00:06:12+0000"
+            "updated": "2024-12-17T00:12:54+0000"
+        },
+        {
+            "description": "",
+            "id": 93623,
+            "layerbranch": 999370,
+            "name": "zynqmp-ostree",
+            "updated": "2024-12-11T06:12:55+0000"
+        },
+        {
+            "description": "",
+            "id": 93624,
+            "layerbranch": 999370,
+            "name": "zynqmp-secureboot",
+            "updated": "2024-12-11T06:12:55+0000"
         }
     ],
     "recipes": [],
@@ -895,7 +949,7 @@
             "id": 119871,
             "layerbranch": 999370,
             "name": "default",
-            "updated": "2024-06-26T20:06:20+0000"
+            "updated": "2024-12-11T06:12:56+0000"
         }
     ]
 }

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-04T23:12:05+0000",
+            "updated": "2024-12-17T23:12:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-04T23:12:50+0000",
-            "vcs_last_commit": "2024-12-04T22:12:13+0000",
-            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
-            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
+            "updated": "2024-12-17T20:12:10+0000",
+            "vcs_last_commit": "2024-12-17T19:12:02+0000",
+            "vcs_last_fetch": "2024-12-17T20:12:10+0000",
+            "vcs_last_rev": "666ae349879e9db7d296dcaf8112e35db56226c9",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2024-08-14T22:08:53+0000",
-            "vcs_last_commit": "2024-08-14T21:08:21+0000",
-            "vcs_last_fetch": "2024-08-14T22:08:53+0000",
-            "vcs_last_rev": "74c8787162893474cd8ce9994f2df661e066ddd7",
+            "updated": "2024-12-13T01:12:57+0000",
+            "vcs_last_commit": "2024-12-12T19:12:41+0000",
+            "vcs_last_fetch": "2024-12-13T01:12:57+0000",
+            "vcs_last_rev": "de79935321b7a42051661fab028694e33215280c",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990883,
             "layer": 435,
             "local_path": "",
-            "updated": "2024-07-30T21:07:21+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:21+0000",
-            "vcs_last_rev": "670978c494f5d0898d2e01e9235ffc9b66262b3e",
+            "updated": "2024-12-13T01:12:05+0000",
+            "vcs_last_commit": "2024-12-12T19:12:36+0000",
+            "vcs_last_fetch": "2024-12-13T01:12:05+0000",
+            "vcs_last_rev": "3ca749d6ee08d82728fb119a174d40dec0234d9b",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 44188
@@ -692,10 +692,10 @@
             "id": 990890,
             "layer": 357,
             "local_path": "",
-            "updated": "2024-07-30T21:07:30+0000",
-            "vcs_last_commit": "2024-07-29T05:07:48+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:30+0000",
-            "vcs_last_rev": "b9fde1d080acfe3cc9c47ab413ba1e106029b39d",
+            "updated": "2024-12-16T02:12:19+0000",
+            "vcs_last_commit": "2024-12-16T00:12:39+0000",
+            "vcs_last_fetch": "2024-12-16T02:12:19+0000",
+            "vcs_last_rev": "5c9cc642cde6adca7a511b144274d11065112a70",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -799,31 +799,233 @@
             "vcs_web_url": ""
         }
     ],
-    "machines": [],
-    "recipes": [
+    "machines": [
         {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "mb-realoc",
-            "filename": "mb-realoc.bb",
-            "filepath": "recipes-utils/mb-realoc",
-            "homepage": "",
-            "id": 2029135,
-            "inherits": "check_xsct_enabled deploy",
+            "description": " AC701 evaluation board.",
+            "id": 93947,
             "layerbranch": 990890,
-            "license": "CLOSED",
-            "pe": "",
-            "pn": "mb-realoc",
-            "pr": "r0",
-            "provides": "mb-realoc virtual/elfrealloc",
-            "pv": "0.1",
-            "section": "base",
-            "srcrev": "",
-            "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "name": "ac701-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
         },
+        {
+            "description": " KC705 evaluation board.",
+            "id": 93948,
+            "layerbranch": 990890,
+            "name": "kc705-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " KCU105 evaluation board.",
+            "id": 93949,
+            "layerbranch": 990890,
+            "name": "kcu105-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " qemu-microblazeel boards.",
+            "id": 93950,
+            "layerbranch": 990890,
+            "name": "qemu-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " qemu-versal-net boards.",
+            "id": 93951,
+            "layerbranch": 990890,
+            "name": "qemu-versal-net",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " qemu-versal boards.",
+            "id": 93952,
+            "layerbranch": 990890,
+            "name": "qemu-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " qemu-zynq7 boards.",
+            "id": 93953,
+            "layerbranch": 990890,
+            "name": "qemu-zynq7",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " qemu-zynqmp boards.",
+            "id": 93954,
+            "layerbranch": 990890,
+            "name": "qemu-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " SP701 boards.",
+            "id": 93955,
+            "layerbranch": 990890,
+            "name": "sp701-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " vck190-emmc-versal boards.",
+            "id": 93956,
+            "layerbranch": 990890,
+            "name": "vck190-emmc-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " vck190-ospi-versal boards.",
+            "id": 93957,
+            "layerbranch": 990890,
+            "name": "vck190-ospi-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VCK190 evaluation board.",
+            "id": 93958,
+            "layerbranch": 990890,
+            "name": "vck190-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VCU118 evaluation board.",
+            "id": 93959,
+            "layerbranch": 990890,
+            "name": "vcu118-microblazeel",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VEK280 evaluation boards.",
+            "id": 93960,
+            "layerbranch": 990890,
+            "name": "vek280-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VHK158 evaluation board.",
+            "id": 93961,
+            "layerbranch": 990890,
+            "name": "vhk158-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " vmk180-emmc-versal boards.",
+            "id": 93962,
+            "layerbranch": 990890,
+            "name": "vmk180-emmc-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " vmk180-ospi-versal boards.",
+            "id": 93963,
+            "layerbranch": 990890,
+            "name": "vmk180-ospi-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VMK180 evaluation board.",
+            "id": 93964,
+            "layerbranch": 990890,
+            "name": "vmk180-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VPK120 evaluation board.",
+            "id": 93965,
+            "layerbranch": 990890,
+            "name": "vpk120-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " VPK180 evaluation board.",
+            "id": 93966,
+            "layerbranch": 990890,
+            "name": "vpk180-versal",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZC702 evaluation boards.",
+            "id": 93967,
+            "layerbranch": 990890,
+            "name": "zc702-zynq7",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZC706 evaluation boards.",
+            "id": 93968,
+            "layerbranch": 990890,
+            "name": "zc706-zynq7",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU102 evaluation board.",
+            "id": 93969,
+            "layerbranch": 990890,
+            "name": "zcu102-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU104 evaluation board.",
+            "id": 93970,
+            "layerbranch": 990890,
+            "name": "zcu104-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU106 evaluation board.",
+            "id": 93971,
+            "layerbranch": 990890,
+            "name": "zcu106-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU111 evaluation board.",
+            "id": 93972,
+            "layerbranch": 990890,
+            "name": "zcu111-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU1275 evaluation board.",
+            "id": 93973,
+            "layerbranch": 990890,
+            "name": "zcu1275-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU1285 evaluation board.",
+            "id": 93974,
+            "layerbranch": 990890,
+            "name": "zcu1285-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " zcu208-sdfec-zynqmp boards.",
+            "id": 93975,
+            "layerbranch": 990890,
+            "name": "zcu208-sdfec-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU208 evaluation board.",
+            "id": 93976,
+            "layerbranch": 990890,
+            "name": "zcu208-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU216 evaluation board.",
+            "id": 93977,
+            "layerbranch": 990890,
+            "name": "zcu216-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        },
+        {
+            "description": " ZCU670 evaluation board.",
+            "id": 93978,
+            "layerbranch": 990890,
+            "name": "zcu670-zynqmp",
+            "updated": "2024-12-12T20:12:06+0000"
+        }
+    ],
+    "recipes": [
         {
             "bbclassextend": "",
             "blacklisted": "",
@@ -845,7 +1047,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:27+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -876,22 +1078,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Selector",
-            "filename": "imgsel_git.bb",
-            "filepath": "recipes-bsp/imgsel",
+            "filename": "image-selector-xsct_git.bb",
+            "filepath": "recipes-bsp/image-selector",
             "homepage": "",
             "id": 2029138,
             "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
-            "pn": "imgsel",
+            "pn": "image-selector-xsct",
             "pr": "r0",
-            "provides": "imgsel virtual/imgsel",
+            "provides": "image-selector-xsct ",
             "pv": "git+git",
             "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +1105,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029139,
-            "inherits": "check_xsct_enabled deploy",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -914,7 +1116,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +1128,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029140,
-            "inherits": "check_xsct_enabled deploy",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -937,7 +1139,7 @@
             "section": "base",
             "srcrev": "ffb2ad9fb8f6e08ef579b03845c00f189db69999",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +1151,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029141,
-            "inherits": "check_xsct_enabled deploy",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -960,7 +1162,7 @@
             "section": "base",
             "srcrev": "e7669d3aaca520c0c1bc2c9a64c67864daafb499",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -972,7 +1174,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2029142,
-            "inherits": "check_xsct_enabled deploy",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -983,7 +1185,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -991,22 +1193,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Recovery",
-            "filename": "imgrcry-make_2023.1.bb",
-            "filepath": "recipes-bsp/imgrcry",
+            "filename": "image-recovery-make_2023.1.bb",
+            "filepath": "recipes-bsp/image-recovery",
             "homepage": "",
             "id": 2029144,
             "inherits": "check_xsct_enabled deploy xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
-            "pn": "imgrcry-make",
+            "pn": "image-recovery-make",
             "pr": "r0",
-            "provides": "imgrcry-make virtual/imgrcry",
+            "provides": "image-recovery-make ",
             "pv": "2023.1+git",
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1014,22 +1216,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Recovery",
-            "filename": "imgrcry_git.bb",
-            "filepath": "recipes-bsp/imgrcry",
+            "filename": "image-recovery_git.bb",
+            "filepath": "recipes-bsp/image-recovery",
             "homepage": "",
             "id": 2029145,
             "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
-            "pn": "imgrcry",
+            "pn": "image-recovery",
             "pr": "r0",
-            "provides": "imgrcry virtual/imgrcry",
+            "provides": "image-recovery ",
             "pv": "git+git",
             "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,22 +1239,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Recovery",
-            "filename": "imgrcry-make_2023.2.bb",
-            "filepath": "recipes-bsp/imgrcry",
+            "filename": "image-recovery-make_2023.2.bb",
+            "filepath": "recipes-bsp/image-recovery",
             "homepage": "",
             "id": 2029146,
             "inherits": "check_xsct_enabled deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
-            "pn": "imgrcry-make",
+            "pn": "image-recovery-make",
             "pr": "r0",
-            "provides": "imgrcry-make virtual/imgrcry",
+            "provides": "image-recovery-make ",
             "pv": "2023.2+git",
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1071,11 +1273,11 @@
             "pn": "uboot-device-tree",
             "pr": "r0",
             "provides": "uboot-device-tree virtual/uboot-dtb",
-            "pv": "xilinx-v2024.1+git",
+            "pv": "xilinx-v2024.2+git",
             "section": "bsp",
-            "srcrev": "e30e471c0b466c0d6f51fa5c9611cb7ad2c83da1",
+            "srcrev": "5627d845bcc9006c18cb957f8f360b405d60c86d",
             "summary": "Xilinx BSP u-boot device trees",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,9 +1298,9 @@
             "provides": "fs-boot virtual/fsboot",
             "pv": "git+git",
             "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1121,7 +1323,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1144,7 +1346,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1167,7 +1369,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1190,7 +1392,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1213,7 +1415,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1236,7 +1438,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1259,7 +1461,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1282,7 +1484,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1305,7 +1507,7 @@
             "section": "base",
             "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1328,7 +1530,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1351,7 +1553,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1374,7 +1576,7 @@
             "section": "base",
             "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
             "summary": "",
-            "updated": "2024-07-30T21:07:30+0000"
+            "updated": "2024-12-16T02:12:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1395,9 +1597,9 @@
             "provides": "esw-baremetal-hello-world ",
             "pv": "1.0+git",
             "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Hello World baremetal Application for both APU and RPU using XSCT",
-            "updated": "2024-07-30T21:07:27+0000"
+            "updated": "2024-12-16T02:12:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1418,9 +1620,9 @@
             "provides": "esw-freertos-hello-world ",
             "pv": "1.0+git",
             "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Hello World FreeRTOS Application for RPU using XSCT",
-            "updated": "2024-07-30T21:07:27+0000"
+            "updated": "2024-12-16T02:12:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1443,7 +1645,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-06-17T03:06:58+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1455,7 +1657,7 @@
             "filepath": "recipes-bsp/hdf",
             "homepage": "",
             "id": 2073288,
-            "inherits": "check_xsct_enabled deploy",
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
             "layerbranch": 990890,
             "license": "CLOSED",
             "pe": "",
@@ -1466,7 +1668,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-12T20:12:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1474,22 +1676,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Recovery",
-            "filename": "imgrcry-make_2024.1.bb",
-            "filepath": "recipes-bsp/imgrcry",
+            "filename": "image-recovery-make_2024.1.bb",
+            "filepath": "recipes-bsp/image-recovery",
             "homepage": "",
             "id": 2073289,
             "inherits": "check_xsct_enabled deploy image-artifact-names xlnx-embeddedsw xsct-tc xsctbase",
             "layerbranch": 990890,
             "license": "MIT",
             "pe": "",
-            "pn": "imgrcry-make",
+            "pn": "image-recovery-make",
             "pr": "r0",
-            "provides": "imgrcry-make virtual/imgrcry",
+            "provides": "image-recovery-make ",
             "pv": "2024.1+git",
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-07-30T21:07:28+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1512,7 +1714,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1535,7 +1737,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1558,7 +1760,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-16T02:12:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1581,7 +1783,145 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trigger XSCT to download and install",
-            "updated": "2024-07-30T21:07:29+0000"
+            "updated": "2024-12-12T20:12:08+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2024.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2157054,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 990890,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2024-12-12T20:12:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Recipe to copy and install externally built XSA to deploy",
+            "filename": "external-hdf_2024.2.bb",
+            "filepath": "recipes-bsp/hdf",
+            "homepage": "",
+            "id": 2157055,
+            "inherits": "check_xsct_enabled deploy image-artifact-names",
+            "layerbranch": 990890,
+            "license": "CLOSED",
+            "pe": "",
+            "pn": "external-hdf",
+            "pr": "r0",
+            "provides": "external-hdf virtual/hdf",
+            "pv": "2024.2",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2024-12-12T20:12:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Image Recovery",
+            "filename": "image-recovery-make_2024.2.bb",
+            "filepath": "recipes-bsp/image-recovery",
+            "homepage": "",
+            "id": 2157056,
+            "inherits": "check_xsct_enabled deploy xlnx-embeddedsw xsct-tc xsctbase",
+            "layerbranch": 990890,
+            "license": "MIT",
+            "pe": "",
+            "pn": "image-recovery-make",
+            "pr": "r0",
+            "provides": "image-recovery-make ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2024-12-16T02:12:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-echo-testd_2024.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 2157057,
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 990890,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-echo-testd",
+            "pr": "r0",
+            "provides": "openamp-fw-echo-testd ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2024-12-16T02:12:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-mat-muld_2024.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 2157058,
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 990890,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-mat-muld",
+            "pr": "r0",
+            "provides": "openamp-fw-mat-muld ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2024-12-16T02:12:17+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "OpenAMP demo firmware",
+            "filename": "openamp-fw-rpc-demo_2024.2.bb",
+            "filepath": "recipes-openamp/examples",
+            "homepage": "",
+            "id": 2157059,
+            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
+            "layerbranch": 990890,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "openamp-fw-rpc-demo",
+            "pr": "r0",
+            "provides": "openamp-fw-rpc-demo ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2024-12-16T02:12:17+0000"
         }
     ],
     "wrtemplates": []

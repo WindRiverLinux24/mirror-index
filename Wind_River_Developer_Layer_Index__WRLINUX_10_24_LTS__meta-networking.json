@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-04T23:12:05+0000",
+            "updated": "2024-12-17T23:12:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-04T23:12:50+0000",
-            "vcs_last_commit": "2024-12-04T22:12:13+0000",
-            "vcs_last_fetch": "2024-12-04T23:12:50+0000",
-            "vcs_last_rev": "ba2c581c9313792c55ecfb16af80d9d3334afed7",
+            "updated": "2024-12-17T20:12:10+0000",
+            "vcs_last_commit": "2024-12-17T19:12:02+0000",
+            "vcs_last_fetch": "2024-12-17T20:12:10+0000",
+            "vcs_last_rev": "666ae349879e9db7d296dcaf8112e35db56226c9",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-11-28T20:11:01+0000",
-            "vcs_last_commit": "2024-11-28T01:11:30+0000",
-            "vcs_last_fetch": "2024-11-28T20:11:01+0000",
-            "vcs_last_rev": "04076b23b23dc3ef659bf5a78b3a43807df6bb1e",
+            "updated": "2024-12-12T20:12:53+0000",
+            "vcs_last_commit": "2024-12-10T19:12:18+0000",
+            "vcs_last_fetch": "2024-12-12T20:12:53+0000",
+            "vcs_last_rev": "2aa3a0bfedb8f89e0f1e008cdaa862b17620cdd9",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-11-01T00:11:54+0000",
-            "vcs_last_commit": "2024-10-29T22:10:31+0000",
-            "vcs_last_fetch": "2024-11-01T00:11:54+0000",
-            "vcs_last_rev": "6c631128b649d6f6103f33297a7dac3e859ef41d",
+            "updated": "2024-12-12T20:12:00+0000",
+            "vcs_last_commit": "2024-12-10T19:12:18+0000",
+            "vcs_last_fetch": "2024-12-12T20:12:00+0000",
+            "vcs_last_rev": "2aa3a0bfedb8f89e0f1e008cdaa862b17620cdd9",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -692,10 +692,10 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2024-11-06T02:11:23+0000",
-            "vcs_last_commit": "2024-11-06T00:11:38+0000",
-            "vcs_last_fetch": "2024-11-06T02:11:23+0000",
-            "vcs_last_rev": "f4f596593064a383f311ab291b15dac7b135b158",
+            "updated": "2024-12-12T20:12:06+0000",
+            "vcs_last_commit": "2024-12-11T18:12:37+0000",
+            "vcs_last_fetch": "2024-12-12T20:12:06+0000",
+            "vcs_last_rev": "ab13c5cea2db040056633bd4423a5698e1655f87",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44188
@@ -2231,7 +2231,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmpyg_4q__1/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.4/recipe-sysroot/usr ",
+            "configopts": " --with-libpcap=/tmp/tmp8xxwxmn2/tmp-glibc/work/core2-32-oe-linux/tcpreplay/4.4.4/recipe-sysroot/usr ",
             "description": "",
             "filename": "tcpreplay_4.4.4.bb",
             "filepath": "recipes-support/tcpreplay",
@@ -2248,7 +2248,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2024-08-01T03:08:57+0000"
+            "updated": "2024-12-12T20:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3128,9 +3128,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--disable-static                 --with-perl='/tmp/tmp6dtz6gxx/tmp-glibc/work/core2-32-oe-linux/openipmi/2.0.34/recipe-sysroot-native/usr/bin/perl-native/perl'                 --with-glibver=2.0                 --with-pythoncflags='-I/tmp/tmp6dtz6gxx/tmp-glibc/work/core2-32-oe-linux/openipmi/2.0.34/recipe-sysroot/usr/include/python3.12'                  ac_cv_header_gdbm_h=yes",
+            "configopts": "--disable-static                 --with-perl='/tmp/tmp8xxwxmn2/tmp-glibc/work/core2-32-oe-linux/openipmi/2.0.36/recipe-sysroot-native/usr/bin/perl-native/perl'                 --with-glibver=2.0                 --with-pythoncflags='-I/tmp/tmp8xxwxmn2/tmp-glibc/work/core2-32-oe-linux/openipmi/2.0.36/recipe-sysroot/usr/include/python3.12'                  ac_cv_header_gdbm_h=yes",
             "description": "OpenIPMI is an effort to create a full-function IPMI system, to allow full access to all IPMI information on a server and to abstract it to a level that will make it easy to use",
-            "filename": "openipmi_2.0.34.bb",
+            "filename": "openipmi_2.0.36.bb",
             "filepath": "recipes-support/openipmi",
             "homepage": "http://openipmi.sourceforge.net",
             "id": 2028409,
@@ -3141,11 +3141,11 @@
             "pn": "openipmi",
             "pr": "r0",
             "provides": "openipmi ",
-            "pv": "2.0.34",
+            "pv": "2.0.36",
             "section": "base",
             "srcrev": "",
             "summary": "IPMI (Intelligent Platform Management Interface) library and tools",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2024-12-12T20:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4096,7 +4096,7 @@
             "bugtracker": "",
             "configopts": " --enable-iproute2 --disable-plugin-auth-pam IPROUTE=/sbin/ip SYSTEMD_UNIT_DIR=/lib/systemd/system                  TMPFILES_DIR=/usr/lib/tmpfiles.d                   --disable-selinux --disable-systemd",
             "description": "",
-            "filename": "openvpn_2.6.10.bb",
+            "filename": "openvpn_2.6.12.bb",
             "filepath": "recipes-support/openvpn",
             "homepage": "https://openvpn.net/",
             "id": 2028451,
@@ -4107,11 +4107,11 @@
             "pn": "openvpn",
             "pr": "r0",
             "provides": "openvpn ",
-            "pv": "2.6.10",
+            "pv": "2.6.12",
             "section": "net",
             "srcrev": "",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2024-11-06T02:11:23+0000"
+            "updated": "2024-12-12T20:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4272,7 +4272,7 @@
             "section": "networking",
             "srcrev": "3ba6527130c502144e7388b900138bca6260f4e8",
             "summary": "WireGuard is an extremely simple yet fast and modern VPN",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2024-12-12T20:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4571,7 +4571,7 @@
             "section": "web",
             "srcrev": "",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2024-09-28T21:09:10+0000"
+            "updated": "2024-12-12T20:12:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4922,9 +4922,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-strict-dependencies         --with-docdir=/usr/share/doc/freeradius-3.2.3         --with-openssl-includes=/tmp/tmp6dtz6gxx/tmp-glibc/work/core2-32-oe-linux/freeradius/3.2.3/recipe-sysroot/usr/include         --with-openssl-libraries=/tmp/tmp6dtz6gxx/tmp-glibc/work/core2-32-oe-linux/freeradius/3.2.3/recipe-sysroot/usr/lib         --with-raddbdir=/etc/raddb         --without-rlm_ippool         --without-rlm_cache_memcached         --without-rlm_counter         --without-rlm_couchbase         --without-rlm_dbm         --without-rlm_eap_tnc         --without-rlm_eap_ikev2         --without-rlm_opendirectory         --without-rlm_redis         --without-rlm_rediswho         --without-rlm_cache_redis         --without-rlm_sql_db2         --without-rlm_sql_firebird         --without-rlm_sql_freetds         --without-rlm_sql_iodbc         --without-rlm_sql_oracle         --without-rlm_sql_sybase         --without-rlm_sql_mongo         --without-rlm_sqlhpwippool         --without-rlm_securid         --without-rlm_unbound         --without-rlm_python         ac_cv_path_PERL=/usr/bin/perl         ax_cv_cc_builtin_choose_expr=no         ax_cv_cc_builtin_types_compatible_p=no         ax_cv_cc_builtin_bswap64=no         ax_cv_cc_bounded_attribute=no   --without-rlm_krb5 --without-rlm_ldap --with-libcap --without-rlm_sql_mysql --with-openssl --without-rlm_pam --with-pcre --without-rlm_perl --without-rlm_sql_postgresql --without-rlm_python3 --without-rlm_rest --without-rlm_json --with-rlm_eap_fast --with-rlm_eap_pwd --without-rlm_ruby --without-rlm_sql_sqlite --without-rlm_sql_unixodbc",
+            "configopts": " --enable-strict-dependencies         --with-docdir=/usr/share/doc/freeradius-3.2.5         --with-openssl-includes=/tmp/tmp8xxwxmn2/tmp-glibc/work/core2-32-oe-linux/freeradius/3.2.5/recipe-sysroot/usr/include         --with-openssl-libraries=/tmp/tmp8xxwxmn2/tmp-glibc/work/core2-32-oe-linux/freeradius/3.2.5/recipe-sysroot/usr/lib         --with-raddbdir=/etc/raddb         --without-rlm_ippool         --without-rlm_cache_memcached         --without-rlm_counter         --without-rlm_couchbase         --without-rlm_dbm         --without-rlm_eap_tnc         --without-rlm_eap_ikev2         --without-rlm_opendirectory         --without-rlm_redis         --without-rlm_rediswho         --without-rlm_cache_redis         --without-rlm_sql_db2         --without-rlm_sql_firebird         --without-rlm_sql_freetds         --without-rlm_sql_iodbc         --without-rlm_sql_oracle         --without-rlm_sql_sybase         --without-rlm_sql_mongo         --without-rlm_sqlhpwippool         --without-rlm_securid         --without-rlm_unbound         --without-rlm_python         ac_cv_path_PERL=/usr/bin/perl         ax_cv_cc_builtin_choose_expr=no         ax_cv_cc_builtin_types_compatible_p=no         ax_cv_cc_builtin_bswap64=no         ax_cv_cc_bounded_attribute=no   --without-rlm_krb5 --without-rlm_ldap --with-libcap --without-rlm_sql_mysql --with-openssl --without-rlm_pam --with-pcre --without-rlm_perl --without-rlm_sql_postgresql --without-rlm_python3 --without-rlm_rest --without-rlm_json --with-rlm_eap_fast --with-rlm_eap_pwd --without-rlm_ruby --without-rlm_sql_sqlite --without-rlm_sql_unixodbc",
             "description": "FreeRADIUS is an Internet authentication daemon, which implements the RADIUS protocol, as defined in RFC 2865 (and others). It allows Network Access Servers (NAS boxes) to perform authentication for dial-up users. There are also RADIUS clients available for Web servers, firewalls, Unix logins, and more.  Using RADIUS allows authentication and authorization for a network to be centralized, and minimizes the amount of re-configuration which has to be done when adding or deleting new users.",
-            "filename": "freeradius_3.2.3.bb",
+            "filename": "freeradius_3.2.5.bb",
             "filepath": "recipes-connectivity/freeradius",
             "homepage": "http://www.freeradius.org/",
             "id": 2028487,
@@ -4935,11 +4935,11 @@
             "pn": "freeradius",
             "pr": "r0",
             "provides": "freeradius ",
-            "pv": "3.2.3",
+            "pv": "3.2.5",
             "section": "System/Servers",
-            "srcrev": "db3d1924d9a2e8d37c43872932621f69cfdbb099",
+            "srcrev": "a7acce80f5ba2271d9aeb737a4a91a5bf8317f31",
             "summary": "High-performance and highly configurable RADIUS server",
-            "updated": "2024-05-09T02:05:39+0000"
+            "updated": "2024-12-12T20:12:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5361,7 +5361,7 @@
             "bugtracker": "",
             "configopts": "-DLIB_INSTALL_DIR:STRING=/usr/lib  -DENABLE_PROGRAMS=ON -DUSE_SHARED_MBEDTLS_LIBRARY=ON -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_3.6.1.bb",
+            "filename": "mbedtls_3.6.2.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 2028506,
@@ -5372,11 +5372,11 @@
             "pn": "mbedtls",
             "pr": "r0",
             "provides": "mbedtls  polarssl",
-            "pv": "3.6.1",
+            "pv": "3.6.2",
             "section": "libs",
-            "srcrev": "71c569d44bf3a8bd53d874c81ee8ac644dd6e9e3",
+            "srcrev": "107ea89daaefb9867ea9121002fbbdf926780e98",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2024-10-11T02:10:50+0000"
+            "updated": "2024-12-12T20:12:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
