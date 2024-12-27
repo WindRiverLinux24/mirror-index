@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-17T23:12:06+0000",
+            "updated": "2024-12-26T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-17T20:12:10+0000",
-            "vcs_last_commit": "2024-12-17T19:12:02+0000",
-            "vcs_last_fetch": "2024-12-17T20:12:10+0000",
-            "vcs_last_rev": "666ae349879e9db7d296dcaf8112e35db56226c9",
+            "updated": "2024-12-26T01:12:52+0000",
+            "vcs_last_commit": "2024-12-24T21:12:16+0000",
+            "vcs_last_fetch": "2024-12-26T01:12:52+0000",
+            "vcs_last_rev": "10a47bbb2ce9807e87828759e6bbfcea894e7e6a",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -677,10 +677,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2024-12-12T20:12:47+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2024-12-12T20:12:47+0000",
-            "vcs_last_rev": "7456e547a0a0f2e82fc46208fa4bc9fb393b4afe",
+            "updated": "2024-12-26T01:12:23+0000",
+            "vcs_last_commit": "2024-12-24T21:12:03+0000",
+            "vcs_last_fetch": "2024-12-26T01:12:23+0000",
+            "vcs_last_rev": "7bfb6ea172f0740ee66ab7fb18a72e4af908acd4",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -761,13 +761,6 @@
     ],
     "machines": [
         {
-            "description": " BeagleBone AI-64 board (A72 core)",
-            "id": 91822,
-            "layerbranch": 1000731,
-            "name": "beaglebone-ai64",
-            "updated": "2024-09-28T23:09:48+0000"
-        },
-        {
             "description": " TI J742S2 EVM",
             "id": 91823,
             "layerbranch": 1000731,
@@ -779,7 +772,7 @@
             "id": 91824,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm",
-            "updated": "2024-11-27T20:11:16+0000"
+            "updated": "2024-12-26T01:12:23+0000"
         },
         {
             "description": " TI AM64xx EVM (R5F core)",
@@ -901,13 +894,6 @@
             "updated": "2024-11-27T20:11:16+0000"
         },
         {
-            "description": " BeagleBone AI-64 (R5F core)",
-            "id": 91842,
-            "layerbranch": 1000731,
-            "name": "beaglebone-ai64-k3r5",
-            "updated": "2024-09-28T23:09:48+0000"
-        },
-        {
             "description": " TI AM68 SK (R5F core)",
             "id": 91843,
             "layerbranch": 1000731,
@@ -995,15 +981,8 @@
             "description": " BeaglePlay (R5F core)",
             "id": 91855,
             "layerbranch": 1000731,
-            "name": "beagleplay-k3r5",
-            "updated": "2024-11-27T20:11:16+0000"
-        },
-        {
-            "description": " BeagleBoard X15",
-            "id": 91856,
-            "layerbranch": 1000731,
-            "name": "beagle-x15",
-            "updated": "2024-09-28T23:09:48+0000"
+            "name": "beagleplay-ti-k3r5",
+            "updated": "2024-12-26T01:12:23+0000"
         },
         {
             "description": " TI AM57xx EVM",
@@ -1062,25 +1041,11 @@
             "updated": "2024-09-28T23:09:48+0000"
         },
         {
-            "description": " http://beagleboard.org/bone board",
-            "id": 91865,
-            "layerbranch": 1000731,
-            "name": "beaglebone",
-            "updated": "2024-09-28T23:09:48+0000"
-        },
-        {
             "description": " TI AM69 SK (R5F core)",
             "id": 91866,
             "layerbranch": 1000731,
             "name": "am69-sk-k3r5",
             "updated": "2024-09-28T23:09:48+0000"
-        },
-        {
-            "description": " BeaglePlay board (A53 core)",
-            "id": 91867,
-            "layerbranch": 1000731,
-            "name": "beagleplay",
-            "updated": "2024-11-27T20:11:16+0000"
         },
         {
             "description": " TI AM437x EVM",
@@ -1158,6 +1123,13 @@
             "layerbranch": 1000731,
             "name": "dra7xx-hs-evm",
             "updated": "2024-09-28T23:09:48+0000"
+        },
+        {
+            "description": " BeaglePlay board (A53 core)",
+            "id": 94907,
+            "layerbranch": 1000731,
+            "name": "beagleplay-ti",
+            "updated": "2024-12-26T01:12:23+0000"
         }
     ],
     "recipes": [
@@ -1488,29 +1460,6 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
-            "filename": "u-boot-bb.org_git.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2073321,
-            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-or-later",
-            "pe": "1",
-            "pn": "u-boot-bb.org",
-            "pr": "r0",
-            "provides": "u-boot-bb.org virtual/bootloader u-boot",
-            "pv": "2023.04+git",
-            "section": "bootloaders",
-            "srcrev": "b0d717b732ee28e446baf94522b3491e590f7fbb",
-            "summary": "BeagleBoard.org U-Boot",
-            "updated": "2024-11-27T20:11:21+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
             "description": "",
             "filename": "prusw-fw_3.2.9.bb",
             "filepath": "recipes-bsp/prusw-fw",
@@ -1809,7 +1758,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmpdi4pch92/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmpdi4pch92/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
+            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmpg2dcy61v/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmpg2dcy61v/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
             "description": "TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi- Processor Configurations)",
             "filename": "ti-ipc_git.bb",
             "filepath": "recipes-ti/ipc",
@@ -1826,7 +1775,7 @@
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
             "summary": "",
-            "updated": "2024-09-28T23:09:45+0000"
+            "updated": "2024-12-26T01:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1988,29 +1937,6 @@
             "srcrev": "a7758da17c2807e5285d6546b6797aae1d34a7d6",
             "summary": "Linux kernel for TI devices",
             "updated": "2024-12-12T20:12:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-bb.org_git.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2073345,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-bb.org",
-            "pr": "r0",
-            "provides": "linux-bb.org  virtual/kernel",
-            "pv": "git",
-            "section": "kernel",
-            "srcrev": "",
-            "summary": "BeagleBoard.org Linux kernel",
-            "updated": "2024-11-27T20:11:18+0000"
         },
         {
             "bbclassextend": "",

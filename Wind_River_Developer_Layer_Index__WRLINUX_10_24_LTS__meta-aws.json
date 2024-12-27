@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-17T23:12:06+0000",
+            "updated": "2024-12-26T23:12:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-17T20:12:10+0000",
-            "vcs_last_commit": "2024-12-17T19:12:02+0000",
-            "vcs_last_fetch": "2024-12-17T20:12:10+0000",
-            "vcs_last_rev": "666ae349879e9db7d296dcaf8112e35db56226c9",
+            "updated": "2024-12-26T01:12:52+0000",
+            "vcs_last_commit": "2024-12-24T21:12:16+0000",
+            "vcs_last_fetch": "2024-12-26T01:12:52+0000",
+            "vcs_last_rev": "10a47bbb2ce9807e87828759e6bbfcea894e7e6a",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -722,10 +722,10 @@
             "id": 990884,
             "layer": 517,
             "local_path": "",
-            "updated": "2024-12-12T20:12:04+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2024-12-12T20:12:04+0000",
-            "vcs_last_rev": "9d2aec4f50c8097c74880862f5f81cfe60d2c388",
+            "updated": "2024-12-26T01:12:40+0000",
+            "vcs_last_commit": "2024-12-24T21:12:03+0000",
+            "vcs_last_fetch": "2024-12-26T01:12:40+0000",
+            "vcs_last_rev": "16cb0e41f5de784b3a73a20014a52527929468a8",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -971,7 +971,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Python bindings for the AWS Common Runtime",
-            "filename": "aws-crt-python_0.23.3.bb",
+            "filename": "aws-crt-python_0.23.6.bb",
             "filepath": "recipes-sdk/aws-crt-python",
             "homepage": "https://github.com/awslabs/aws-crt-python",
             "id": 2028799,
@@ -982,11 +982,11 @@
             "pn": "aws-crt-python",
             "pr": "r0",
             "provides": "aws-crt-python ",
-            "pv": "0.23.3",
+            "pv": "0.23.6",
             "section": "base",
-            "srcrev": "1aa082257306ff34ea4ff685f676cffb9cf6fe7c",
+            "srcrev": "2abf5680c4aada7486dac9e57d669168f4805893",
             "summary": "AWS CRT Python",
-            "updated": "2024-12-12T20:12:03+0000"
+            "updated": "2024-12-26T01:12:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -994,7 +994,7 @@
             "bugtracker": "",
             "configopts": "     -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release     -DBUILD_SHARED_LIBS=ON   -DBUILD_SHARED_LIBS=ON",
             "description": "Core c99 package for AWS SDK for C. Includes cross-platform primitives, configuration, data structures, and error handling.",
-            "filename": "aws-c-common_0.10.5.bb",
+            "filename": "aws-c-common_0.10.6.bb",
             "filepath": "recipes-sdk/aws-c-common",
             "homepage": "https://github.com/awslabs/aws-c-common",
             "id": 2028800,
@@ -1005,11 +1005,11 @@
             "pn": "aws-c-common",
             "pr": "r0",
             "provides": "aws-c-common aws/crt-c-common",
-            "pv": "0.10.5",
+            "pv": "0.10.6",
             "section": "base",
-            "srcrev": "fadfef492042ae53387d4369a6de652c930a5be4",
+            "srcrev": "7a6f5df201cb4b1910932ea3221de83edaa39880",
             "summary": "AWS C Common",
-            "updated": "2024-12-12T20:12:02+0000"
+            "updated": "2024-12-26T01:12:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1017,7 +1017,7 @@
             "bugtracker": "",
             "configopts": "     -DDISABLE_PERL=ON     -DDISABLE_GO=ON   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It \u0456s based on code from the Google BoringSSL project and the OpenSSL project.",
-            "filename": "aws-lc_1.40.0.bb",
+            "filename": "aws-lc_1.41.1.bb",
             "filepath": "recipes-sdk/aws-lc",
             "homepage": "https://github.com/awslabs/aws-lc",
             "id": 2028801,
@@ -1028,19 +1028,19 @@
             "pn": "aws-lc",
             "pr": "r0",
             "provides": "aws-lc  aws/lc",
-            "pv": "1.40.0",
+            "pv": "1.41.1",
             "section": "base",
-            "srcrev": "59828538a790094113eacd5dd23d01be2885b36a",
+            "srcrev": "1be42a3e16a53c229690ae8215f0de8e2a1a54e7",
             "summary": "AWS libcrypto (AWS-LC)",
-            "updated": "2024-12-12T20:12:03+0000"
+            "updated": "2024-12-26T01:12:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DBUILD_DEPS=OFF      -DCMAKE_MODULE_PATH=/tmp/tmpaquykik5/tmp-glibc/work/core2-32-oe-linux/aws-sdk-cpp/1.11.462/recipe-sysroot/usr/lib/cmake   -DPULSEAUDIO=TRUE -DBUILD_SHARED_LIBS=ON -DENABLE_TESTING=OFF -DAUTORUN_UNIT_TESTS=OFF",
+            "configopts": "      -DBUILD_DEPS=OFF      -DCMAKE_MODULE_PATH=/tmp/tmpsv5psxct/tmp-glibc/work/core2-32-oe-linux/aws-sdk-cpp/1.11.471/recipe-sysroot/usr/lib/cmake   -DPULSEAUDIO=TRUE -DBUILD_SHARED_LIBS=ON -DENABLE_TESTING=OFF -DAUTORUN_UNIT_TESTS=OFF",
             "description": "AWS C++ SDK and ptest",
-            "filename": "aws-sdk-cpp_1.11.462.bb",
+            "filename": "aws-sdk-cpp_1.11.471.bb",
             "filepath": "recipes-sdk/aws-sdk-cpp",
             "homepage": "https://github.com/aws/aws-sdk-cpp",
             "id": 2028802,
@@ -1051,11 +1051,11 @@
             "pn": "aws-sdk-cpp",
             "pr": "r0",
             "provides": "aws-sdk-cpp ",
-            "pv": "1.11.462",
+            "pv": "1.11.471",
             "section": "base",
-            "srcrev": "081f41365baac00246beeb3de5d36938499eb3b0",
+            "srcrev": "881a7f347b1c20dd59441ddecb7e9a8d3ccf0ab0",
             "summary": "AWS C++ SDK",
-            "updated": "2024-12-12T20:12:03+0000"
+            "updated": "2024-12-26T01:12:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1084,9 +1084,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmpaquykik5/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.7.4/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=/tmp/tmpaquykik5/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.7.4/recipe-sysroot/usr/lib   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmpsv5psxct/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.7.7/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=/tmp/tmpsv5psxct/tmp-glibc/work/core2-32-oe-linux/aws-c-s3/0.7.7/recipe-sysroot/usr/lib   -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C99 library implementation for communicating with the S3 service, designed for maximizing throughput on high bandwidth EC2 instances.",
-            "filename": "aws-c-s3_0.7.4.bb",
+            "filename": "aws-c-s3_0.7.7.bb",
             "filepath": "recipes-sdk/aws-c-s3",
             "homepage": "https://github.com/awslabs/aws-c-s3",
             "id": 2028804,
@@ -1097,11 +1097,11 @@
             "pn": "aws-c-s3",
             "pr": "r0",
             "provides": "aws-c-s3  aws/crt-c-s3",
-            "pv": "0.7.4",
+            "pv": "0.7.7",
             "section": "base",
-            "srcrev": "9c1bd193f43555ff5da5438e079118b04c022f5a",
+            "srcrev": "21a4ab4dacd1eaf61e6c044c7a299d68fd4c1876",
             "summary": "AWS C S3",
-            "updated": "2024-12-12T20:12:02+0000"
+            "updated": "2024-12-26T01:12:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1109,7 +1109,7 @@
             "bugtracker": "",
             "configopts": "     -DCMAKE_BUILD_TYPE=Release  -DUNSAFE_TREAT_WARNINGS_AS_ERRORS=OFF  -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "s2n is a C99 implementation of the TLS/SSL protocols that is designed to be simple, small, fast, and with security as a priority.",
-            "filename": "s2n_1.5.9.bb",
+            "filename": "s2n_1.5.10.bb",
             "filepath": "recipes-sdk/s2n",
             "homepage": "https://github.com/aws/s2n-tls",
             "id": 2028805,
@@ -1120,11 +1120,11 @@
             "pn": "s2n",
             "pr": "r0",
             "provides": "s2n  aws/s2n",
-            "pv": "1.5.9",
+            "pv": "1.5.10",
             "section": "base",
-            "srcrev": "493b77167dc367c394de23cfe78a029298e2a254",
+            "srcrev": "2e79e7efeb26f06eb59a1d4f3444ea63fc3e20c3",
             "summary": "s2n",
-            "updated": "2024-11-27T20:11:45+0000"
+            "updated": "2024-12-26T01:12:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1245,9 +1245,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmpaquykik5/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.29.6/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=/tmp/tmpaquykik5/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.29.6/recipe-sysroot/usr/lib     -DBUILD_DEPS=OFF       -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
+            "configopts": "     -DCMAKE_MODULE_PATH=/tmp/tmpsv5psxct/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.29.8/recipe-sysroot/usr/lib/cmake     -DCMAKE_PREFIX_PATH=/tmp/tmpsv5psxct/tmp-glibc/work/core2-32-oe-linux/aws-crt-cpp/0.29.8/recipe-sysroot/usr/lib     -DBUILD_DEPS=OFF       -DBUILD_SHARED_LIBS=ON -DBUILD_TESTING=OFF",
             "description": "C++ wrapper around the aws-c-* libraries. Provides Cross-Platform Transport Protocols and SSL/TLS implementations for C++.",
-            "filename": "aws-crt-cpp_0.29.6.bb",
+            "filename": "aws-crt-cpp_0.29.8.bb",
             "filepath": "recipes-sdk/aws-crt-cpp",
             "homepage": "https://github.com/awslabs/aws-crt-cpp",
             "id": 2028811,
@@ -1258,11 +1258,11 @@
             "pn": "aws-crt-cpp",
             "pr": "r0",
             "provides": "aws-crt-cpp  aws/crt-cpp",
-            "pv": "0.29.6",
+            "pv": "0.29.8",
             "section": "base",
-            "srcrev": "57a0b8f03e11dc34b2c423519934e492ed96fa96",
+            "srcrev": "a947367807498c7d9f40b8402a021271da7426f3",
             "summary": "AWS CRT CPP",
-            "updated": "2024-12-12T20:12:03+0000"
+            "updated": "2024-12-26T01:12:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1339,7 +1339,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "AWS IoT devices can use the AWS IoT Device SDK for Python to communicate with AWS IoT and AWS IoT Greengrass core devices (using the Python programming language).",
-            "filename": "aws-iot-device-sdk-python-v2_1.22.0.bb",
+            "filename": "aws-iot-device-sdk-python-v2_1.22.1.bb",
             "filepath": "recipes-sdk/aws-iot-device-sdk-python-v2",
             "homepage": "https://github.com/aws/aws-iot-device-sdk-python-v2",
             "id": 2028815,
@@ -1350,11 +1350,11 @@
             "pn": "aws-iot-device-sdk-python-v2",
             "pr": "r0",
             "provides": "aws-iot-device-sdk-python-v2 ",
-            "pv": "1.22.0",
+            "pv": "1.22.1",
             "section": "base",
-            "srcrev": "1ef6533b08b239e9cdf30555077334604c1ac610",
+            "srcrev": "22ea68fbc82d4abae1e1c9f275674ca395e412a6",
             "summary": "AWS IoT Device SDK v2 for Python",
-            "updated": "2024-09-28T23:09:48+0000"
+            "updated": "2024-12-26T01:12:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1454,7 +1454,7 @@
             "bugtracker": "",
             "configopts": "     -DBUILD_DEPENDENCIES=OFF     -DCODE_COVERAGE=OFF     -DADDRESS_SANITIZER=OFF     -DMEMORY_SANITIZER=OFF     -DTHREAD_SANITIZER=OFF     -DUNDEFINED_BEHAVIOR_SANITIZER=OFF     -DDEBUG_HEAP=OFF     -DCOMPILER_WARNINGS=OFF     -DALIGNED_MEMORY_MODEL=OFF     -DBUILD_TEST=OFF -DCMAKE_BUILD_TYPE=Release  -DCMAKE_SKIP_RPATH=1  -DBUILD_SHARED_LIBS=ON -DBUILD_SAMPLE=OFF -DBUILD_TEST=OFF",
             "description": "Pure C WebRTC Client for Amazon Kinesis Video Streams",
-            "filename": "amazon-kvs-webrtc-sdk_1.11.0.bb",
+            "filename": "amazon-kvs-webrtc-sdk_1.12.0.bb",
             "filepath": "recipes-sdk/amazon-kvs-webrtc-sdk",
             "homepage": "https://github.com/awslabs/amazon-kinesis-video-streams-webrtc-sdk-c",
             "id": 2028820,
@@ -1465,11 +1465,11 @@
             "pn": "amazon-kvs-webrtc-sdk",
             "pr": "r0",
             "provides": "amazon-kvs-webrtc-sdk  aws/amazon-kvs-webrtc-sdk",
-            "pv": "1.11.0",
+            "pv": "1.12.0",
             "section": "base",
-            "srcrev": "30f52d18e647747de1ec29ad6f6d3f62128f5494",
+            "srcrev": "339f24ff4eb03d430d11d0ba6bf63e7946fbfbd8",
             "summary": "Amazon Kinesis Video Streams WebRTC",
-            "updated": "2024-12-12T20:12:02+0000"
+            "updated": "2024-12-26T01:12:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1477,7 +1477,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The low-level, core functionality of boto3 and the AWS CLI.",
-            "filename": "python3-botocore_1.35.76.bb",
+            "filename": "python3-botocore_1.35.85.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/botocore",
             "id": 2028822,
@@ -1488,11 +1488,11 @@
             "pn": "python3-botocore",
             "pr": "r0",
             "provides": "python3-botocore ",
-            "pv": "1.35.76",
+            "pv": "1.35.85",
             "section": "base",
-            "srcrev": "b36ec84d879688fe6f37d50b942a2d78e8df548d",
+            "srcrev": "e53ea2c124f4768dd0364a1d79b872574d821f1b",
             "summary": "python3 botocore",
-            "updated": "2024-12-12T20:12:02+0000"
+            "updated": "2024-12-26T01:12:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1546,7 +1546,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2.",
-            "filename": "python3-boto3_1.35.76.bb",
+            "filename": "python3-boto3_1.35.85.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/boto3",
             "id": 2028825,
@@ -1557,11 +1557,11 @@
             "pn": "python3-boto3",
             "pr": "r0",
             "provides": "python3-boto3 ",
-            "pv": "1.35.76",
+            "pv": "1.35.85",
             "section": "base",
-            "srcrev": "a73c0780d40e4a3e4892dc0a134a1cdaae1d19a6",
+            "srcrev": "32d54c8797e062b152ef7ea726388545c05168a2",
             "summary": "Python Boto3",
-            "updated": "2024-12-12T20:12:01+0000"
+            "updated": "2024-12-26T01:12:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1684,7 +1684,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The Greengrass nucleus component provides functionality for device side orchestration of deployments and lifecycle management for execution of Greengrass components and applications.",
-            "filename": "greengrass-bin_2.13.0.bb",
+            "filename": "greengrass-bin_2.14.0.bb",
             "filepath": "recipes-iot/aws-iot-greengrass",
             "homepage": "https://github.com/aws-greengrass/aws-greengrass-nucleus",
             "id": 2028831,
@@ -1695,11 +1695,11 @@
             "pn": "greengrass-bin",
             "pr": "r0",
             "provides": "greengrass-bin ",
-            "pv": "2.13.0",
+            "pv": "2.14.0",
             "section": "base",
             "srcrev": "",
             "summary": "AWS IoT Greengrass Nucleus - Binary Distribution",
-            "updated": "2024-11-27T20:11:40+0000"
+            "updated": "2024-12-26T01:12:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1845,7 +1845,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Universal Command Line Interface for Amazon Web Services and ptest scripts",
-            "filename": "aws-cli_1.36.17.bb",
+            "filename": "aws-cli_1.36.26.bb",
             "filepath": "recipes-support/aws-cli",
             "homepage": "https://github.com/aws/aws-cli",
             "id": 2028838,
@@ -1856,11 +1856,11 @@
             "pn": "aws-cli",
             "pr": "r0",
             "provides": "aws-cli ",
-            "pv": "1.36.17",
+            "pv": "1.36.26",
             "section": "base",
-            "srcrev": "38337c34bf948b3e73291c4a1af08632fd7690c3",
+            "srcrev": "ff45104b2d1036bdc7fb32fb98c224f84f3c6ce2",
             "summary": "Universal Command Line Interface for Amazon Web Services",
-            "updated": "2024-12-12T20:12:04+0000"
+            "updated": "2024-12-26T01:12:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1976,6 +1976,29 @@
             "srcrev": "",
             "summary": "YAML parser/emitter",
             "updated": "2024-12-12T20:12:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " -DFETCHCONTENT_FULLY_DISCONNECTED=OFF -DCMAKE_BUILD_TYPE=RelWithDebInfo -DGGL_LOG_LEVEL=DEBUG  -DGGL_SYSTEMD_SYSTEM_USER=ggcore -DGGL_SYSTEMD_SYSTEM_GROUP=ggcore -DGGL_SYSTEMD_SYSTEM_DIR=/lib/systemd/system",
+            "description": "AWS IoT Greengrass runtime for constrained devices",
+            "filename": "greengrass-lite_2.0.0.bb",
+            "filepath": "recipes-iot/aws-iot-greengrass",
+            "homepage": "https://github.com/aws-greengrass/aws-greengrass-lite",
+            "id": 2171263,
+            "inherits": "cmake features_check pkgconfig ptest systemd useradd useradd_base",
+            "layerbranch": 990884,
+            "license": "Apache-2.0",
+            "pe": "",
+            "pn": "greengrass-lite",
+            "pr": "r0",
+            "provides": "greengrass-lite ",
+            "pv": "2.0.0",
+            "section": "base",
+            "srcrev": "1ecbd6d6e47de144b7cb586b063ea4b6d232f16d",
+            "summary": "AWS IoT Greengrass lite",
+            "updated": "2024-12-26T01:12:40+0000"
         }
     ],
     "wrtemplates": []
