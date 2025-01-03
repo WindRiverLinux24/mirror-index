@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2024-12-26T23:12:05+0000",
+            "updated": "2025-01-02T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2024-12-26T01:12:52+0000",
-            "vcs_last_commit": "2024-12-24T21:12:16+0000",
-            "vcs_last_fetch": "2024-12-26T01:12:52+0000",
-            "vcs_last_rev": "10a47bbb2ce9807e87828759e6bbfcea894e7e6a",
+            "updated": "2025-01-03T01:01:05+0000",
+            "vcs_last_commit": "2025-01-03T00:01:45+0000",
+            "vcs_last_fetch": "2025-01-03T01:01:05+0000",
+            "vcs_last_rev": "d9f4869c9ceab1616f5e4b2f172216d4ab86038f",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -692,10 +692,10 @@
             "id": 990887,
             "layer": 45,
             "local_path": "",
-            "updated": "2024-12-12T20:12:21+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2024-12-12T20:12:21+0000",
-            "vcs_last_rev": "fb5a5ffddf68a617abe2b8c0c1486a7a9d183d96",
+            "updated": "2025-01-02T19:01:00+0000",
+            "vcs_last_commit": "2025-01-01T23:01:34+0000",
+            "vcs_last_fetch": "2025-01-02T19:01:00+0000",
+            "vcs_last_rev": "ae7243c391b2d195991820425ebcda41632cbf66",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44189
