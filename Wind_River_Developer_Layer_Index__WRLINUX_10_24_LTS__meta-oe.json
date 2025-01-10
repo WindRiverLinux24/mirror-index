@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-01-02T23:01:05+0000",
+            "updated": "2025-01-09T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2024-12-12T20:12:53+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2024-12-12T20:12:53+0000",
-            "vcs_last_rev": "2aa3a0bfedb8f89e0f1e008cdaa862b17620cdd9",
+            "updated": "2025-01-09T23:01:50+0000",
+            "vcs_last_commit": "2025-01-09T19:01:42+0000",
+            "vcs_last_fetch": "2025-01-09T23:01:50+0000",
+            "vcs_last_rev": "d8a7122a394217c9b3179edae912cdd32c844dc7",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -8010,7 +8010,7 @@
             "section": "base",
             "srcrev": "ca9dd5b810dc04ea38048ae9be491654c8596ef9",
             "summary": "API for managing information about operating systems, hypervisors and the (virtual) hardware devices.",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-01-09T02:01:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -23030,6 +23030,52 @@
             "srcrev": "b6442c3e0147f1019990520483fa3a30e4ccf059",
             "summary": "PAM module for RADIUS authentication",
             "updated": "2024-12-09T21:12:03+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "osinfo-db-tools_1.11.0.bb",
+            "filepath": "recipes-support/libosinfo",
+            "homepage": "https://libosinfo.org",
+            "id": 2175435,
+            "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 990855,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "osinfo-db-tools",
+            "pr": "r0",
+            "provides": "osinfo-db-tools ",
+            "pv": "1.11.0",
+            "section": "base",
+            "srcrev": "85a1788c6977419b6facad11dbfbf823e739eb3b",
+            "summary": "Tools for managing the libosinfo database files",
+            "updated": "2025-01-09T23:01:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": " ",
+            "description": "",
+            "filename": "osinfo-db_20240701.bb",
+            "filepath": "recipes-support/libosinfo",
+            "homepage": "https://libosinfo.org",
+            "id": 2175436,
+            "inherits": "allarch autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 990855,
+            "license": "GPL-2.0-or-later",
+            "pe": "",
+            "pn": "osinfo-db",
+            "pr": "r0",
+            "provides": "osinfo-db ",
+            "pv": "20240701",
+            "section": "base",
+            "srcrev": "cde78484ab747c87532d47cf3f09b76f280c0b74",
+            "summary": "osinfo-db provides the database files for use with the libosinfo library",
+            "updated": "2025-01-09T02:01:11+0000"
         }
     ],
     "wrtemplates": []
