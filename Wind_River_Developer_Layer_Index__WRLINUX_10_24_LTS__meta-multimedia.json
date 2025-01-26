@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-01-09T23:01:05+0000",
+            "updated": "2025-01-25T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-01-03T01:01:05+0000",
-            "vcs_last_commit": "2025-01-03T00:01:45+0000",
-            "vcs_last_fetch": "2025-01-03T01:01:05+0000",
-            "vcs_last_rev": "d9f4869c9ceab1616f5e4b2f172216d4ab86038f",
+            "updated": "2025-01-20T20:01:37+0000",
+            "vcs_last_commit": "2025-01-20T19:01:11+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:37+0000",
+            "vcs_last_rev": "d374c9be43b6e70d5bb7b166accce25342f0b0b1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-01-09T23:01:50+0000",
-            "vcs_last_commit": "2025-01-09T19:01:42+0000",
-            "vcs_last_fetch": "2025-01-09T23:01:50+0000",
-            "vcs_last_rev": "d8a7122a394217c9b3179edae912cdd32c844dc7",
+            "updated": "2025-01-21T03:01:11+0000",
+            "vcs_last_commit": "2025-01-21T01:01:41+0000",
+            "vcs_last_fetch": "2025-01-21T03:01:11+0000",
+            "vcs_last_rev": "24b39df7e881341d98afefa738e60b6480d9e431",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2024-12-12T20:12:00+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2024-12-12T20:12:00+0000",
-            "vcs_last_rev": "2aa3a0bfedb8f89e0f1e008cdaa862b17620cdd9",
+            "updated": "2025-01-20T20:01:55+0000",
+            "vcs_last_commit": "2025-01-19T19:01:21+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:55+0000",
+            "vcs_last_rev": "9735d0f3e712ef13f90134f36463ace697531dcc",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -692,10 +692,10 @@
             "id": 990859,
             "layer": 16,
             "local_path": "",
-            "updated": "2024-05-28T04:05:54+0000",
-            "vcs_last_commit": "2024-04-30T11:04:34+0000",
-            "vcs_last_fetch": "2024-05-28T04:05:54+0000",
-            "vcs_last_rev": "566703d589a3cb426a8d658cfc439235227d15e8",
+            "updated": "2025-01-20T20:01:04+0000",
+            "vcs_last_commit": "2024-12-15T11:12:14+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:04+0000",
+            "vcs_last_rev": "2ee358a0654f745bf2c85f436ffd6d925b8a2cf2",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 44188
@@ -2409,7 +2409,7 @@
             "section": "multimedia",
             "srcrev": "a2287be601710eea0d073261223ec34b92384c8a",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-01-20T20:01:03+0000"
         },
         {
             "bbclassextend": "",

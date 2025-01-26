@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-01-09T23:01:05+0000",
+            "updated": "2025-01-25T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-01-03T01:01:05+0000",
-            "vcs_last_commit": "2025-01-03T00:01:45+0000",
-            "vcs_last_fetch": "2025-01-03T01:01:05+0000",
-            "vcs_last_rev": "d9f4869c9ceab1616f5e4b2f172216d4ab86038f",
+            "updated": "2025-01-20T20:01:37+0000",
+            "vcs_last_commit": "2025-01-20T19:01:11+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:37+0000",
+            "vcs_last_rev": "d374c9be43b6e70d5bb7b166accce25342f0b0b1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -670,10 +670,10 @@
             "id": 990864,
             "layer": 59,
             "local_path": "",
-            "updated": "2024-12-26T01:12:57+0000",
-            "vcs_last_commit": "2024-12-24T21:12:03+0000",
-            "vcs_last_fetch": "2024-12-26T01:12:57+0000",
-            "vcs_last_rev": "d0d298c042adcfcf2272ff30322968a2ab128be1",
+            "updated": "2025-01-20T20:01:09+0000",
+            "vcs_last_commit": "2025-01-19T19:01:20+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:09+0000",
+            "vcs_last_rev": "fb2749cc3b49a04e417120aec45e2a48a0df62cb",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 44187
@@ -685,10 +685,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2024-12-26T01:12:03+0000",
-            "vcs_last_commit": "2024-12-24T21:12:03+0000",
-            "vcs_last_fetch": "2024-12-26T01:12:03+0000",
-            "vcs_last_rev": "5f20c1f45823e31b1810d635250b67ee8e928b23",
+            "updated": "2025-01-21T03:01:07+0000",
+            "vcs_last_commit": "2025-01-21T01:01:20+0000",
+            "vcs_last_fetch": "2025-01-21T03:01:07+0000",
+            "vcs_last_rev": "34ded8f9c66c6422de679a6a161f042cff3ed76f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -715,13 +715,13 @@
             "id": 993873,
             "layer": 516,
             "local_path": "",
-            "updated": "2024-06-19T20:06:45+0000",
-            "vcs_last_commit": "2024-06-18T07:06:46+0000",
-            "vcs_last_fetch": "2024-06-19T20:06:45+0000",
-            "vcs_last_rev": "bd0f2f6b407fe9af1795521f8da2c1b2872f36d2",
+            "updated": "2025-01-14T19:01:00+0000",
+            "vcs_last_commit": "2025-01-14T03:01:33+0000",
+            "vcs_last_fetch": "2025-01-14T19:01:00+0000",
+            "vcs_last_rev": "c2c2e4dc643c900a2f204916b7e2b8d50a183679",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 44195
+            "yp_compatible_version": 44188
         }
     ],
     "layerDependencies": [
@@ -1265,7 +1265,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029346,
-            "inherits": "image-artifact-names image-postinst-intercepts populate_sdk populate_sdk_base rootfs_ipk",
+            "inherits": "image-artifact-names image-postinst-intercepts nopackages populate_sdk populate_sdk_base rootfs_ipk",
             "layerbranch": 993873,
             "license": "MIT",
             "pe": "",
@@ -1276,7 +1276,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2024-05-09T19:05:11+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1376,7 +1376,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot provided by Freescale with focus on QorIQ boards",
-            "filename": "u-boot-qoriq_2023.04.bb",
+            "filename": "u-boot-qoriq_2024.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 2029351,
@@ -1387,11 +1387,11 @@
             "pn": "u-boot-qoriq",
             "pr": "r0",
             "provides": "u-boot-qoriq virtual/bootloader u-boot",
-            "pv": "2023.04+X+fslgit",
+            "pv": "2024.04+X+fslgit",
             "section": "base",
-            "srcrev": "f8a2983ec83afd43731d905b4ff0ffd57b57f2f0",
+            "srcrev": "de16f4f17221b2ff72b8cb18c28cd8a29f3c2710",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-06-07T04:06:52+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1514,7 +1514,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "ARM Trusted Firmware",
-            "filename": "qoriq-atf-tools_2.8.bb",
+            "filename": "qoriq-atf-tools_2.10.bb",
             "filepath": "recipes-bsp/atf",
             "homepage": "",
             "id": 2029357,
@@ -1525,11 +1525,11 @@
             "pn": "qoriq-atf-tools",
             "pr": "r0",
             "provides": "qoriq-atf-tools ",
-            "pv": "2.8+X",
+            "pv": "2.10+X",
             "section": "base",
-            "srcrev": "8dbe28631802a51b3ec8179b2c5635b00393ad97",
+            "srcrev": "28affcae957cb8194917b5246276630f9e6343e1",
             "summary": "",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-01-13T21:01:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1537,7 +1537,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "ARM Trusted Firmware",
-            "filename": "qoriq-atf_2.8.bb",
+            "filename": "qoriq-atf_2.10.bb",
             "filepath": "recipes-bsp/atf",
             "homepage": "",
             "id": 2029358,
@@ -1548,11 +1548,11 @@
             "pn": "qoriq-atf",
             "pr": "r0",
             "provides": "qoriq-atf ",
-            "pv": "2.8+X",
+            "pv": "2.10+X",
             "section": "base",
-            "srcrev": "8dbe28631802a51b3ec8179b2c5635b00393ad97",
+            "srcrev": "28affcae957cb8194917b5246276630f9e6343e1",
             "summary": "",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1675,7 +1675,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "management-complex_10.38.0.bb",
+            "filename": "management-complex_10.39.0.bb",
             "filepath": "recipes-dpaa2/management-complex",
             "homepage": "",
             "id": 2029364,
@@ -1686,11 +1686,11 @@
             "pn": "management-complex",
             "pr": "r0",
             "provides": "management-complex ",
-            "pv": "10.38.0",
+            "pv": "10.39.0",
             "section": "base",
-            "srcrev": "6e3fb1acec6a6355c6c92b3a7c2cebf552a7e315",
+            "srcrev": "7d82686272f8a60b803818bbc7c5396819ee3b06",
             "summary": "DPAA2 Management Complex Firmware",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1742,7 +1742,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Denable_kmods=false         -Dexamples=all         -Doptimization=3         --cross-file /tmp/tmpniq_8ayi/tmp-glibc/work/core2-32-oe-linux/dpdk/22.11/git/config/arm/arm64_poky_linux_gcc         -Denable_driver_sdk=true           ",
+            "configopts": " -Denable_kmods=false         -Dexamples=all         -Doptimization=3         --cross-file /tmp/tmpr5l_hfke/tmp-glibc/work/core2-32-oe-linux/dpdk/22.11/git/config/arm/arm64_poky_linux_gcc         -Denable_driver_sdk=true           ",
             "description": "Data Plane Development Kit",
             "filename": "dpdk_22.11.bb",
             "filepath": "recipes-extended/dpdk",
@@ -1757,9 +1757,9 @@
             "provides": "dpdk ",
             "pv": "22.11",
             "section": "base",
-            "srcrev": "5479bb82b12306a32283d2ef88efb63a696e0d78",
+            "srcrev": "9298b898fe38482fbb293d431cdeea4297c17e70",
             "summary": "",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-01-13T21:01:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1859,7 +1859,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Open Portable Trusted Execution Environment - Test suite",
-            "filename": "optee-test-qoriq_4.0.0.bb",
+            "filename": "optee-test-qoriq_4.2.0.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://www.op-tee.org/",
             "id": 2029372,
@@ -1870,11 +1870,11 @@
             "pn": "optee-test-qoriq",
             "pr": "r0",
             "provides": "optee-test-qoriq ",
-            "pv": "4.0.0+gitX",
+            "pv": "4.2.0+gitX",
             "section": "base",
-            "srcrev": "95c49d950f50fa774e4530d19a967079b3b61279",
+            "srcrev": "5b52b48a73b4cc3f228ec66ae6cf9920897bb2e6",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-01-13T21:01:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1882,22 +1882,22 @@
             "bugtracker": "",
             "configopts": "     -DBUILD_SHARED_LIBS=ON     -DCFG_TEE_FS_PARENT_PATH='/var/lib/tee'     -DCFG_TEE_PLUGIN_LOAD_PATH='/usr/lib/tee-supplicant/plugins/'  ",
             "description": "Open Portable Trusted Execution Environment - Normal World Client side of the TEE",
-            "filename": "optee-client-qoriq_4.0.0.bb",
+            "filename": "optee-client-qoriq_4.2.0.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://www.op-tee.org/",
             "id": 2029373,
-            "inherits": "cmake pkgconfig systemd update-rc.d",
+            "inherits": "cmake pkgconfig systemd update-rc.d useradd useradd_base",
             "layerbranch": 993873,
             "license": "BSD-2-Clause",
             "pe": "",
             "pn": "optee-client-qoriq",
             "pr": "r0",
             "provides": "optee-client-qoriq ",
-            "pv": "4.0.0+gitX",
+            "pv": "4.2.0+gitX",
             "section": "base",
-            "srcrev": "acb0885c117e73cb6c5c9b1dd9054cb3f93507ee",
+            "srcrev": "3eac340a781c00ccd61b151b0e9c22a8c6e9f9f0",
             "summary": "OP-TEE Client API",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-01-14T19:01:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1905,7 +1905,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OP-TEE TA devkit for build TAs",
-            "filename": "optee-os-qoriq-tadevkit_4.0.0.bb",
+            "filename": "optee-os-qoriq-tadevkit_4.2.0.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://www.op-tee.org/",
             "id": 2029374,
@@ -1916,11 +1916,11 @@
             "pn": "optee-os-qoriq-tadevkit",
             "pr": "r0",
             "provides": "optee-os-qoriq-tadevkit ",
-            "pv": "4.0.0+gitX",
+            "pv": "4.2.0+gitX",
             "section": "base",
-            "srcrev": "e0a3e77735941e6057a1994a576b83a93ea0bdb9",
+            "srcrev": "612bc5a642a4608d282abeee2349d86de996d7ee",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-01-14T19:01:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1928,7 +1928,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
-            "filename": "optee-os-qoriq_4.0.0.bb",
+            "filename": "optee-os-qoriq_4.2.0.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://www.op-tee.org/",
             "id": 2029375,
@@ -1939,11 +1939,11 @@
             "pn": "optee-os-qoriq",
             "pr": "r0",
             "provides": "optee-os-qoriq ",
-            "pv": "4.0.0+gitX",
+            "pv": "4.2.0+gitX",
             "section": "base",
-            "srcrev": "e0a3e77735941e6057a1994a576b83a93ea0bdb9",
+            "srcrev": "612bc5a642a4608d282abeee2349d86de996d7ee",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-01-14T19:01:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2010,9 +2010,9 @@
             "provides": "kernel-module-nxp-wlan ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "a84df583155bad2a396a937056805550bdf655ab",
+            "srcrev": "e5c9a169d7b7a441a20d2cf10a9752e249b71cff",
             "summary": "Kernel loadable module for NXP Wi-Fi module 88w8801/8987/8997/9098 IW416/612",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-01-13T21:01:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2054,11 +2054,11 @@
             "pn": "linux-qoriq",
             "pr": "r0",
             "provides": "linux-qoriq  virtual/kernel",
-            "pv": "6.6.y+gitX",
+            "pv": "6.6.36+gitX",
             "section": "kernel",
-            "srcrev": "ccf0a99701a701fb48a04e31ffe3f9d585a8374a",
+            "srcrev": "d23d64eea5111e1607efcce1d601834fceec92cb",
             "summary": "Linux Kernel for NXP QorIQ platforms",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2112,7 +2112,7 @@
             "bugtracker": "",
             "configopts": " -Dpipewire=false  -Dsimple-clients= -Ddemo-clients=false -Ddeprecated-color-management-colord=false -Drenderer-gl=false -Dbackend-headless=false -Dimage-jpeg=true -Drenderer-g2d=false -Dbackend-drm=false -Dlauncher-libseat=true -Ddeprecated-launcher-logind=false -Dcolor-management-lcms=false -Dbackend-pipewire=false -Dbackend-rdp=false -Dremoting=false -Dscreenshare=true -Dshell-desktop=true -Dshell-fullscreen=true -Dshell-ivi=true -Dshell-kiosk=true -Dsystemd=false -Dbackend-drm-screencast-vaapi=false -Dbackend-vnc=false -Dbackend-wayland=false -Dimage-webp=false -Dbackend-x11=false -Dxwayland=false",
             "description": "Weston is the reference implementation of a Wayland compositor",
-            "filename": "weston_12.0.3.imx.bb",
+            "filename": "weston_12.0.4.imx.bb",
             "filepath": "recipes-graphics/wayland",
             "homepage": "http://wayland.freedesktop.org",
             "id": 2029383,
@@ -2123,11 +2123,11 @@
             "pn": "weston",
             "pr": "r0",
             "provides": "weston ",
-            "pv": "12.0.3.imx",
+            "pv": "12.0.4.imx",
             "section": "base",
-            "srcrev": "b0d890915ee191ceb10e79ea9a830281f5c6258f",
+            "srcrev": "c3c1f9ff7824123dd4808ace3c9476345cb84177",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2024-05-09T19:05:17+0000"
+            "updated": "2025-01-13T21:01:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2158,7 +2158,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p2.4-aarch64.bb",
+            "filename": "imx-gpu-viv_6.4.11.p2.8-aarch64.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 2029385,
@@ -2169,11 +2169,11 @@
             "pn": "imx-gpu-viv",
             "pr": "r0",
             "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
-            "pv": "6.4.11.p2.4-aarch64",
+            "pv": "6.4.11.p2.8-aarch64",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:17+0000"
+            "updated": "2025-01-13T21:01:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2194,9 +2194,9 @@
             "provides": "nxp-wlan-sdk ",
             "pv": "git",
             "section": "base",
-            "srcrev": "a84df583155bad2a396a937056805550bdf655ab",
+            "srcrev": "e5c9a169d7b7a441a20d2cf10a9752e249b71cff",
             "summary": "NXP Wi-Fi SDK",
-            "updated": "2024-05-09T19:05:17+0000"
+            "updated": "2025-01-13T21:01:07+0000"
         },
         {
             "bbclassextend": "",

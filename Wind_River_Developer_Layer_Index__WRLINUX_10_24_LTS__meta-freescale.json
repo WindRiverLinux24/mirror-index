@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-01-09T23:01:05+0000",
+            "updated": "2025-01-25T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-01-03T01:01:05+0000",
-            "vcs_last_commit": "2025-01-03T00:01:45+0000",
-            "vcs_last_fetch": "2025-01-03T01:01:05+0000",
-            "vcs_last_rev": "d9f4869c9ceab1616f5e4b2f172216d4ab86038f",
+            "updated": "2025-01-20T20:01:37+0000",
+            "vcs_last_commit": "2025-01-20T19:01:11+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:37+0000",
+            "vcs_last_rev": "d374c9be43b6e70d5bb7b166accce25342f0b0b1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2024-12-26T01:12:03+0000",
-            "vcs_last_commit": "2024-12-24T21:12:03+0000",
-            "vcs_last_fetch": "2024-12-26T01:12:03+0000",
-            "vcs_last_rev": "5f20c1f45823e31b1810d635250b67ee8e928b23",
+            "updated": "2025-01-21T03:01:07+0000",
+            "vcs_last_commit": "2025-01-21T01:01:20+0000",
+            "vcs_last_fetch": "2025-01-21T03:01:07+0000",
+            "vcs_last_rev": "34ded8f9c66c6422de679a6a161f042cff3ed76f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -760,7 +760,7 @@
             "id": 86233,
             "layerbranch": 993783,
             "name": "imx8qxp-mek",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "description": " NXP i.MX6QP/Q/DL SABRE Smart Device",
@@ -844,7 +844,7 @@
             "id": 86245,
             "layerbranch": 993783,
             "name": "imx8qm-mek",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
@@ -942,7 +942,7 @@
             "id": 86259,
             "layerbranch": 993783,
             "name": "imx8ulp-lpddr4-evk",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "description": " LX2162AQDS in 64-bit mode",
@@ -963,7 +963,7 @@
             "id": 86262,
             "layerbranch": 993783,
             "name": "imx8mp-lpddr4-evk",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "description": " NXP i.MX 8M Nano EVK with DDR4",
@@ -1068,7 +1068,7 @@
             "id": 86277,
             "layerbranch": 993783,
             "name": "imx93-9x9-lpddr4-qsb",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "description": " NXP i.MX 8M Mini Evaluation Kit with DDR4",
@@ -1389,9 +1389,9 @@
             "provides": "qoriq-cst ",
             "pv": "git",
             "section": "cst",
-            "srcrev": "af56e6c5c66dd2bc86a83b0bee8cb61b88d2120c",
+            "srcrev": "e96dead3c339f6addb1600249be67e1884cdbcc5",
             "summary": "utility for security boot",
-            "updated": "2024-05-09T02:05:18+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1780,9 +1780,9 @@
             "provides": "firmware-nxp-wifi ",
             "pv": "1.0",
             "section": "kernel",
-            "srcrev": "7e038c6afba3118bcee91608764ac3c633bce0c4",
+            "srcrev": "2978f3c88d6bcc5695a7b45f1936f18d31eebfa8",
             "summary": "Wi-Fi firmware redistributed by NXP",
-            "updated": "2024-09-28T21:09:33+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1826,9 +1826,9 @@
             "provides": "qe-ucode ",
             "pv": "git",
             "section": "qe-ucode",
-            "srcrev": "57401f6dff6507055558eaa6838116baa8a2fd46",
+            "srcrev": "c89d7843943fd3bd52aa5f1ff7a91200a2f7f63b",
             "summary": "",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-01-21T03:01:07+0000"
         },
         {
             "bbclassextend": "",
@@ -3022,9 +3022,9 @@
             "provides": "restool ",
             "pv": "git",
             "section": "base",
-            "srcrev": "d9fbfc68018c8dbe33bdf236dc6b4c02f15aa6e1",
+            "srcrev": "8c45e04363bf2a984a87b24d1dac80a286dd40d8",
             "summary": "DPAA2 Resource Manager Tool",
-            "updated": "2024-11-27T20:11:01+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3068,9 +3068,9 @@
             "provides": "dce ",
             "pv": "git",
             "section": "dpaa2",
-            "srcrev": "9db9c08379aa89f45f514f4f3f0a8e8212198758",
+            "srcrev": "88ef2e8c3845532ee64cea4349fd38fb2bd5f807",
             "summary": "",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3137,9 +3137,9 @@
             "provides": "jailhouse-imx jailhouse",
             "pv": "git",
             "section": "jailhouse",
-            "srcrev": "327e56941e3e96ef9a291d2decb7add21078d8de",
+            "srcrev": "44dd492a745cd8b8313fb6c7c03fb45a36d70e8a",
             "summary": "Jailhouse, i.MX fork",
-            "updated": "2024-11-27T20:11:01+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3804,9 +3804,9 @@
             "provides": "kernel-module-nxp-wlan  kernel-module-nxp89xx",
             "pv": "git",
             "section": "base",
-            "srcrev": "88372772badbf30152b3ad12ae251dc567095cab",
-            "summary": "NXP Wi-Fi driver for module 88w8801/8987/8997/9098 IW416/612",
-            "updated": "2024-09-28T21:09:35+0000"
+            "srcrev": "5ad19e194f49ed9447bee7864eb562618ccaf9b1",
+            "summary": "NXP Wi-Fi driver for module 88w8801/8987/8997/9098 IW416/610/612",
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3965,9 +3965,9 @@
             "provides": "linux-imx-headers ",
             "pv": "6.6",
             "section": "base",
-            "srcrev": "d23d64eea5111e1607efcce1d601834fceec92cb",
+            "srcrev": "e0f9e2afd4cff3f02d71891244b4aa5899dfc786",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2024-11-01T00:11:24+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -4032,11 +4032,11 @@
             "pn": "linux-imx",
             "pr": "r0",
             "provides": "linux-imx  virtual/kernel linux-mfgtool",
-            "pv": "6.6.36+gitX",
+            "pv": "6.6.52+gitX",
             "section": "base",
-            "srcrev": "d23d64eea5111e1607efcce1d601834fceec92cb",
+            "srcrev": "e0f9e2afd4cff3f02d71891244b4aa5899dfc786",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2024-11-01T00:11:24+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -4055,11 +4055,11 @@
             "pn": "linux-fslc-imx",
             "pr": "r0",
             "provides": "linux-fslc-imx  virtual/kernel linux-mfgtool",
-            "pv": "6.6.54+gitX",
+            "pv": "6.6.69+gitX",
             "section": "base",
-            "srcrev": "6605f549a71ef3af9c65609cba985086ac4edf2b",
+            "srcrev": "657504d5644f24a41822960ed31b883062ca30c9",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2024-12-12T20:12:13+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",

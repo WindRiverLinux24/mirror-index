@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-01-09T23:01:05+0000",
+            "updated": "2025-01-25T23:01:05+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-01-03T01:01:05+0000",
-            "vcs_last_commit": "2025-01-03T00:01:45+0000",
-            "vcs_last_fetch": "2025-01-03T01:01:05+0000",
-            "vcs_last_rev": "d9f4869c9ceab1616f5e4b2f172216d4ab86038f",
+            "updated": "2025-01-20T20:01:37+0000",
+            "vcs_last_commit": "2025-01-20T19:01:11+0000",
+            "vcs_last_fetch": "2025-01-20T20:01:37+0000",
+            "vcs_last_rev": "d374c9be43b6e70d5bb7b166accce25342f0b0b1",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -2757,7 +2757,7 @@
             "bugtracker": "",
             "configopts": " --without-ensurepip --enable-shared --with-platlibdir=lib --with-system-expat  --with-readline=editline --without-lto --with-build-python=nativepython3",
             "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
-            "filename": "python3_3.12.6.bb",
+            "filename": "python3_3.12.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python.org",
             "id": 2025160,
@@ -2768,11 +2768,11 @@
             "pn": "python3",
             "pr": "r0",
             "provides": "python3 ",
-            "pv": "3.12.6",
+            "pv": "3.12.8",
             "section": "devel/python",
             "srcrev": "",
             "summary": "The Python Programming Language",
-            "updated": "2024-12-26T01:12:44+0000"
+            "updated": "2025-01-20T20:01:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -5080,22 +5080,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-requests_2.32.0.bb",
+            "filename": "python3-requests_2.32.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://requests.readthedocs.io",
             "id": 2025261,
-            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 setuptools3 setuptools3-base",
+            "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 990853,
             "license": "Apache-2.0",
             "pe": "",
             "pn": "python3-requests",
             "pr": "r0",
             "provides": "python3-requests ",
-            "pv": "2.32.0",
+            "pv": "2.32.3",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python HTTP for Humans.",
-            "updated": "2024-12-12T20:12:35+0000"
+            "updated": "2025-01-20T20:01:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7970,7 +7970,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "'Good' GStreamer plugins",
-            "updated": "2024-12-09T01:12:23+0000"
+            "updated": "2025-01-20T20:01:29+0000"
         },
         {
             "bbclassextend": "",
@@ -8131,7 +8131,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-01-20T20:01:30+0000"
         },
         {
             "bbclassextend": "",
@@ -8154,7 +8154,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "'Base' GStreamer plugins and helper libraries",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-01-20T20:01:29+0000"
         },
         {
             "bbclassextend": "",
@@ -9281,7 +9281,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-01-20T20:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -9304,7 +9304,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-01-20T20:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -9327,7 +9327,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image with Sato, a mobile environment and visual style for mobile devices.",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-01-20T20:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -12478,7 +12478,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Troff software",
-            "updated": "2024-12-12T20:12:37+0000"
+            "updated": "2025-01-20T20:01:27+0000"
         },
         {
             "bbclassextend": "",
@@ -12892,7 +12892,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image with more full-featured Linux system functionality installed.",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-01-20T20:01:30+0000"
         },
         {
             "bbclassextend": "",
@@ -12915,7 +12915,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device with custom install scripts, adding a second rootfs, used for testing.",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-01-20T20:01:30+0000"
         },
         {
             "bbclassextend": "",
@@ -12938,7 +12938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-01-20T20:01:30+0000"
         },
         {
             "bbclassextend": "",
@@ -12961,7 +12961,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A test controller image to be deployed on a target useful for testing other images using the OEQA runtime tests",
-            "updated": "2024-12-09T01:12:18+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -13996,7 +13996,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Support for reading various archive formats",
-            "updated": "2024-12-09T01:12:30+0000"
+            "updated": "2025-01-20T20:01:27+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14456,7 +14456,7 @@
             "section": "base",
             "srcrev": "91c00f70884887ff5c4849a8e3d47e311a22ba9d",
             "summary": "Babeltrace - Trace Format Babel Tower",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-01-16T22:01:57+0000"
         },
         {
             "bbclassextend": "",
@@ -14475,11 +14475,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "6.6.54+git",
+            "pv": "6.6.69+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-01-20T20:01:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14498,11 +14498,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "6.6.54+git",
+            "pv": "6.6.69+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-01-20T20:01:28+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -14521,11 +14521,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "6.6.54+git",
+            "pv": "6.6.69+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2024-12-09T01:12:36+0000"
+            "updated": "2025-01-20T20:01:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14778,7 +14778,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-01-20T20:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -14801,7 +14801,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-01-20T20:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -16181,7 +16181,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2024-12-22T23:12:58+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -16204,7 +16204,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-12-09T01:12:51+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -16227,7 +16227,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2024-12-09T01:12:51+0000"
+            "updated": "2025-01-20T20:01:31+0000"
         },
         {
             "bbclassextend": "",
@@ -19039,7 +19039,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Dnobody-user=nobody                   -Dnobody-group=nogroup                   -Drootlibdir=/lib                   -Drootprefix=                   -Ddefault-locale=C                   -Dmode=release                   -Dsystem-alloc-uid-min=101                   -Dsystem-uid-max=999                   -Dsystem-alloc-gid-min=101                   -Dsystem-gid-max=999                   -Dcreate-log-dirs=false                   -Ddefault-mdns=no -Ddefault-llmnr=no                    -Dkexec-path=/usr/sbin/kexec                   -Dkmod-path=/bin/kmod                   -Dmount-path=/bin/mount                   -Dquotacheck-path=/usr/sbin/quotacheck                   -Dquotaon-path=/usr/sbin/quotaon                   -Dsulogin-path=/sbin/sulogin                   -Dnologin-path=/sbin/nologin                   -Dumount-path=/bin/umount                   -Dloadkeys-path=/usr/bin/loadkeys                   -Dsetfont-path=/usr/bin/setfont  -Dacl=true -Daudit=false -Dbacklight=true -Dbinfmt=true -Dbzip2=false -Ddefault-hierarchy=unified -Dcoredump=false -Dlibcryptsetup=false -Dlibcryptsetup-plugins=false -Ddbus=false -Defi=false -Dbootloader=false -Delfutils=false -Dfirstboot=false -Dgcrypt=false -Dgnutls=false -Dgshadow=true -Dhibernate=true -Dhomed=false -Dhostnamed=true -Didn=true -Dima=true -Dimportd=false -Dlibiptc=false -Dlibcurl=false -Dkmod=true -Dldconfig=true -Dlibidn=false -Dlibidn2=false -Dlink-udev-shared=false -Dlocaled=true -Dlogind=true -Dlz4=false -Dmachined=true -Dman=false -Dmicrohttpd=false -Dnss-myhostname=true -Dnetworkd=true -Dnss-systemd=true -Dnss-mymachines=true -Dnss-resolve=true -Doomd=false -Dopenssl=false -Dp11kit=false -Dpam=false -Dpcre2=false -Dpolkit=false -Dportabled=false -Dpstore=false -Dqrencode=false -Dquotacheck=true -Drandomseed=true -Drepart=false -Dresolve=true -Drfkill=true -Dsplit-bin=true -Dseccomp=true -Dselinux=false -Dtime-epoch=1302044400 -Dsmack=false  -Dsysext=false -Dsysusers=true -Dsysvinit-path=/etc/init.d -Dsysvrcnd-path=/etc -Dtimedated=true -Dtimesyncd=true -Dtpm2=false -Duserdb=true -Dsplit-usr=true -Dutmp=true -Dvconsole=true -Dwheel-group=true -Dxdg-autostart=false -Dxkbcommon=true -Dxz=false -Dzlib=false -Dzstd=true",
+            "configopts": " -Dnobody-user=nobody                   -Dnobody-group=nogroup                   -Drootlibdir=/lib                   -Drootprefix=                   -Ddefault-locale=C                   -Dmode=release                   -Dsystem-alloc-uid-min=101                   -Dsystem-uid-max=999                   -Dsystem-alloc-gid-min=101                   -Dsystem-gid-max=999                   -Ddefault-mdns=no -Ddefault-llmnr=no                    -Dkexec-path=/usr/sbin/kexec                   -Dkmod-path=/bin/kmod                   -Dmount-path=/bin/mount                   -Dquotacheck-path=/usr/sbin/quotacheck                   -Dquotaon-path=/usr/sbin/quotaon                   -Dsulogin-path=/sbin/sulogin                   -Dnologin-path=/sbin/nologin                   -Dumount-path=/bin/umount                   -Dloadkeys-path=/usr/bin/loadkeys                   -Dsetfont-path=/usr/bin/setfont  -Dacl=true -Daudit=false -Dbacklight=true -Dbinfmt=true -Dbzip2=false -Ddefault-hierarchy=unified -Dcoredump=false -Dlibcryptsetup=false -Dlibcryptsetup-plugins=false -Ddbus=false -Defi=false -Dbootloader=false -Delfutils=false -Dfirstboot=false -Dgcrypt=false -Dgnutls=false -Dgshadow=true -Dhibernate=true -Dhomed=false -Dhostnamed=true -Didn=true -Dima=true -Dimportd=false -Dlibiptc=false -Dlibcurl=false -Dkmod=true -Dldconfig=true -Dlibidn=false -Dlibidn2=false -Dlink-udev-shared=false -Dlocaled=true -Dlogind=true -Dlz4=false -Dmachined=true -Dman=false -Dmicrohttpd=false -Dnss-myhostname=true -Dnetworkd=true -Dnss-systemd=true -Dnss-mymachines=true -Dnss-resolve=true -Doomd=false -Dopenssl=false -Dp11kit=false -Dpam=false -Dpcre2=false -Dpolkit=false -Dportabled=false -Dpstore=false -Dqrencode=false -Dquotacheck=true -Drandomseed=true -Drepart=false -Dresolve=true -Drfkill=true -Dsplit-bin=true -Dseccomp=true -Dselinux=false -Dtime-epoch=1302044400 -Dsmack=false  -Dsysext=false -Dsysusers=true -Dsysvinit-path=/etc/init.d -Dsysvrcnd-path=/etc -Dtimedated=true -Dtimesyncd=true -Dtpm2=false -Duserdb=true -Dsplit-usr=true -Dutmp=true -Dvconsole=true -Dwheel-group=true -Dxdg-autostart=false -Dxkbcommon=true -Dxz=false -Dzlib=false -Dzstd=true",
             "description": "systemd is a system and service manager for Linux, compatible with SysV and LSB init scripts. systemd provides aggressive parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux cgroups, supports snapshotting and restoring of the system state, maintains mount and automount points and implements an elaborate transactional dependency-based service control logic. It can work as a drop-in replacement for sysvinit.",
             "filename": "systemd_255.13.bb",
             "filepath": "recipes-core/systemd",
@@ -19056,7 +19056,7 @@
             "section": "base/shell",
             "srcrev": "565916c245b53b49f5917f5326d21246f46ae3db",
             "summary": "A System and service manager",
-            "updated": "2024-12-26T01:12:43+0000"
+            "updated": "2025-01-20T20:01:25+0000"
         },
         {
             "bbclassextend": "",
@@ -19108,9 +19108,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmpz55r7mfe/tmp-glibc/work/core2-32-oe-linux/libxml2/2.12.8/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmporbwi0h8/tmp-glibc/work/core2-32-oe-linux/libxml2/2.12.9/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
-            "filename": "libxml2_2.12.8.bb",
+            "filename": "libxml2_2.12.9.bb",
             "filepath": "recipes-core/libxml",
             "homepage": "https://gitlab.gnome.org/GNOME/libxml2",
             "id": 2025874,
@@ -19121,11 +19121,11 @@
             "pn": "libxml2",
             "pr": "r0",
             "provides": "libxml2 ",
-            "pv": "2.12.8",
+            "pv": "2.12.9",
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2024-12-09T01:12:19+0000"
+            "updated": "2025-01-20T20:01:23+0000"
         },
         {
             "bbclassextend": "",
@@ -19516,7 +19516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Updates the NVD CVE database",
-            "updated": "2024-12-26T01:12:43+0000"
+            "updated": "2025-01-20T20:01:23+0000"
         },
         {
             "bbclassextend": "",
@@ -20367,7 +20367,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny image capable of booting a device.",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -20390,7 +20390,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic initramfs to boot a fully-featured rootfs",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -20413,7 +20413,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image capable of booting a device.",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -20459,7 +20459,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-01-20T20:01:32+0000"
         },
         {
             "bbclassextend": "",
@@ -20482,7 +20482,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-01-20T20:01:33+0000"
         },
         {
             "bbclassextend": "",
@@ -20505,7 +20505,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-12-09T01:12:29+0000"
+            "updated": "2025-01-20T20:01:33+0000"
         },
         {
             "bbclassextend": "",
@@ -20528,7 +20528,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-09T01:12:29+0000"
+            "updated": "2025-01-20T20:01:33+0000"
         },
         {
             "bbclassextend": "mcextend:apr mcextend:bzip2 mcextend:coreutils mcextend:curl mcextend:dbus mcextend:e2fsprogs mcexte",
@@ -20551,7 +20551,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2024-12-22T23:12:20+0000"
+            "updated": "2025-01-20T20:01:36+0000"
         },
         {
             "bbclassextend": "",
@@ -20574,7 +20574,7 @@
             "section": "base",
             "srcrev": "6a80352d51bd2cf141b0dc4dd946d1b131ed94a7",
             "summary": "An image containing the build system itself",
-            "updated": "2024-12-26T01:12:42+0000"
+            "updated": "2025-01-20T20:01:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20988,7 +20988,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "boot image with UEFI shell and tools",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-01-20T20:01:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -21011,7 +21011,7 @@
             "section": "base",
             "srcrev": "edc6681206c1a8791981a2f911d2fb8b3d2f5768",
             "summary": "OVMF - UEFI firmware for Qemu and KVM",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-01-20T20:01:24+0000"
         },
         {
             "bbclassextend": "",
@@ -21379,7 +21379,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-01-20T20:01:37+0000"
         },
         {
             "bbclassextend": "",
@@ -21638,7 +21638,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-boost-libs=-lboost_system                 --with-log4cplus=/tmp/tmptyw2suox/tmp-glibc/work/core2-32-oe-linux/kea/2.4.1/recipe-sysroot/usr                 --with-openssl=/tmp/tmptyw2suox/tmp-glibc/work/core2-32-oe-linux/kea/2.4.1/recipe-sysroot/usr ",
+            "configopts": "--with-boost-libs=-lboost_system                 --with-log4cplus=/tmp/tmpx85e_yb5/tmp-glibc/work/core2-32-oe-linux/kea/2.4.1/recipe-sysroot/usr                 --with-openssl=/tmp/tmpx85e_yb5/tmp-glibc/work/core2-32-oe-linux/kea/2.4.1/recipe-sysroot/usr ",
             "description": "Kea is the next generation of DHCP software developed by ISC. It supports both DHCPv4 and DHCPv6 protocols along with their extensions, e.g. prefix delegation and dynamic updates to DNS.",
             "filename": "kea_2.4.1.bb",
             "filepath": "recipes-connectivity/kea",
@@ -21655,7 +21655,7 @@
             "section": "connectivity",
             "srcrev": "",
             "summary": "ISC Kea DHCP Server",
-            "updated": "2025-01-02T18:01:51+0000"
+            "updated": "2025-01-14T19:01:52+0000"
         },
         {
             "bbclassextend": "",
