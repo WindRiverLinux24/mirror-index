@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-12T23:02:05+0000",
+            "updated": "2025-02-24T23:02:07+0000",
             "updates_enabled": true
         }
     ],
@@ -655,10 +655,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-13T05:02:52+0000",
-            "vcs_last_commit": "2025-02-13T04:02:58+0000",
-            "vcs_last_fetch": "2025-02-13T05:02:52+0000",
-            "vcs_last_rev": "1e087f16cdcbf579dab6d3ac3fa8c8309ec3a42e",
+            "updated": "2025-02-19T04:02:52+0000",
+            "vcs_last_commit": "2025-02-18T22:02:51+0000",
+            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
+            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -1576,7 +1576,7 @@
             "section": "base",
             "srcrev": "566a61f9d8a2830ac6dcc3a94c59224cef1c3d03",
             "summary": "Package manager forked from Yum, using libsolv as a dependency resolver",
-            "updated": "2024-12-26T01:12:43+0000"
+            "updated": "2025-02-17T01:02:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1990,7 +1990,7 @@
             "section": "base",
             "srcrev": "60abf7a90776c2405f616182ef6129474bbcb109",
             "summary": "Checksumming Copy on Write Filesystem utilities",
-            "updated": "2024-12-09T01:12:08+0000"
+            "updated": "2025-02-17T01:02:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2220,7 +2220,7 @@
             "section": "base",
             "srcrev": "4ade5ea5c4c636f045f29a2d8d8a57241fc5d24e",
             "summary": "C implementation of createrepo.",
-            "updated": "2024-12-09T01:12:11+0000"
+            "updated": "2025-02-17T01:02:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -2266,7 +2266,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A linter for YAML files.",
-            "updated": "2024-12-09T01:12:11+0000"
+            "updated": "2025-02-17T01:02:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2289,7 +2289,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Poetry PEP 517 Build Backend",
-            "updated": "2024-12-26T01:12:44+0000"
+            "updated": "2025-02-17T01:02:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2312,7 +2312,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A sphinx extension which renders display math in HTML via JavaScript",
-            "updated": "2024-12-09T01:12:12+0000"
+            "updated": "2025-02-17T01:02:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2335,7 +2335,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The Cython language",
-            "updated": "2024-12-09T01:12:12+0000"
+            "updated": "2025-02-17T01:02:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2358,7 +2358,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Canonical source for classifiers on PyPI (pypi.org).",
-            "updated": "2024-12-09T01:12:13+0000"
+            "updated": "2025-02-17T01:02:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -2381,7 +2381,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python interface to libarchive",
-            "updated": "2024-12-09T01:12:13+0000"
+            "updated": "2025-02-17T01:02:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2404,7 +2404,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Backported and Experimental Type Hints for Python 3.7+",
-            "updated": "2024-12-09T01:12:13+0000"
+            "updated": "2025-02-17T01:02:54+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -2427,7 +2427,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python implementation of subunit test streaming protocol",
-            "updated": "2024-12-09T01:12:13+0000"
+            "updated": "2025-02-17T01:02:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2450,7 +2450,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Provides enhanced HTTPS support for httplib and urllib2 using PyOpenSSL",
-            "updated": "2024-12-09T01:12:14+0000"
+            "updated": "2025-02-17T01:02:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2473,7 +2473,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Object-oriented filesystem paths",
-            "updated": "2024-12-09T01:12:14+0000"
+            "updated": "2025-02-17T01:02:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2496,7 +2496,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "PEP 621 metadata parsing",
-            "updated": "2024-12-09T01:12:14+0000"
+            "updated": "2025-02-17T01:02:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2519,7 +2519,7 @@
             "section": "base",
             "srcrev": "3268d8acf2c345f32a1c5f08ba25dc67f76cca81",
             "summary": "Setuptools extension for CalVer package versions",
-            "updated": "2024-12-09T01:12:15+0000"
+            "updated": "2025-02-17T01:02:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -2542,7 +2542,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python vcversioner, automagically update the project's version",
-            "updated": "2024-12-09T01:12:15+0000"
+            "updated": "2025-02-17T01:02:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2565,7 +2565,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python documentation generator",
-            "updated": "2024-12-09T01:12:15+0000"
+            "updated": "2025-02-17T01:02:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2588,7 +2588,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Snowball compiler and stemming algorithms",
-            "updated": "2024-12-09T01:12:15+0000"
+            "updated": "2025-02-17T01:02:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2611,7 +2611,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A library for property-based testing",
-            "updated": "2024-12-09T01:12:16+0000"
+            "updated": "2025-02-17T01:02:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2634,7 +2634,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A lil' TOML parser",
-            "updated": "2024-12-09T01:12:16+0000"
+            "updated": "2025-02-17T01:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2657,7 +2657,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "URI parsing, classification and composition",
-            "updated": "2024-12-09T01:12:16+0000"
+            "updated": "2025-02-17T01:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2680,7 +2680,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python tool to parse, validate and convert spdx files",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-02-17T01:02:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2703,7 +2703,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A library for stubbing in Python",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-02-17T01:02:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2726,7 +2726,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Cryptographic library for Python",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-02-17T01:02:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2749,7 +2749,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python implementation of a sliding window memory map manager",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-02-17T01:02:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2795,7 +2795,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "File type identification using libmagic",
-            "updated": "2024-12-09T01:12:19+0000"
+            "updated": "2025-02-17T01:02:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2818,7 +2818,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python library for creating editable wheels",
-            "updated": "2024-12-09T01:12:19+0000"
+            "updated": "2025-02-17T01:02:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2841,7 +2841,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A pure python RFC3339 validator",
-            "updated": "2024-12-09T01:12:19+0000"
+            "updated": "2025-02-17T01:02:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2864,7 +2864,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "sphinxcontrib-serializinghtml is a sphinx extension which outputs \"serialized\" HTML files (json and pickle).",
-            "updated": "2024-12-09T01:12:20+0000"
+            "updated": "2025-02-17T01:02:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2887,7 +2887,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Is a sphinx extension which outputs QtHelp document.",
-            "updated": "2024-12-09T01:12:20+0000"
+            "updated": "2025-02-17T01:02:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2910,7 +2910,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Library with cross-python path, ini-parsing, io, code, log facilities",
-            "updated": "2024-12-09T01:12:20+0000"
+            "updated": "2025-02-17T01:02:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2933,7 +2933,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python parsing module",
-            "updated": "2024-12-09T01:12:20+0000"
+            "updated": "2025-02-17T01:02:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2956,7 +2956,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Utility library to parse, compare, simplify and normalize license expressions",
-            "updated": "2024-12-09T01:12:20+0000"
+            "updated": "2025-02-17T01:02:00+0000"
         },
         {
             "bbclassextend": "native",
@@ -3002,7 +3002,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pygments is a syntax highlighting package written in Python.",
-            "updated": "2024-12-09T01:12:21+0000"
+            "updated": "2025-02-17T01:02:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3025,7 +3025,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books",
-            "updated": "2024-12-09T01:12:21+0000"
+            "updated": "2025-02-17T01:02:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3048,7 +3048,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A simple wrapper around optparse for powerful command line utilities.",
-            "updated": "2024-12-09T01:12:22+0000"
+            "updated": "2025-02-17T01:02:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3071,7 +3071,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Persistent/Immutable/Functional data structures for Python",
-            "updated": "2024-12-09T01:12:22+0000"
+            "updated": "2025-02-17T01:02:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3094,7 +3094,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document.",
-            "updated": "2024-12-09T01:12:22+0000"
+            "updated": "2025-02-17T01:02:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3117,7 +3117,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An implementation-agnostic implementation of JSON reference resolution.",
-            "updated": "2024-12-09T01:12:22+0000"
+            "updated": "2025-02-17T01:02:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3140,7 +3140,7 @@
             "section": "bootloader",
             "srcrev": "039a99414e778332d8f9c04cbd3072e1dcc62798",
             "summary": "Python Library for the Device Tree Compiler",
-            "updated": "2024-12-09T01:12:23+0000"
+            "updated": "2025-02-17T01:02:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3163,7 +3163,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A small and simple INI-file parser module",
-            "updated": "2024-12-09T01:12:23+0000"
+            "updated": "2025-02-17T01:02:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3186,7 +3186,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An implementation of the WebSocket Protocol (RFC 6455)",
-            "updated": "2024-12-09T01:12:23+0000"
+            "updated": "2025-02-17T01:02:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3209,7 +3209,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple module to parse ISO 8601 dates",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-02-17T01:02:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3232,7 +3232,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Unbearably fast runtime type checking in pure Python.",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-02-17T01:02:04+0000"
         },
         {
             "bbclassextend": "native",
@@ -3255,7 +3255,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A cross-platform process and system utilities module for Python",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-02-17T01:02:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3278,7 +3278,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "unittest subTest() support and subtests fixture.",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-02-17T01:02:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3301,7 +3301,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2024-12-09T01:12:24+0000"
+            "updated": "2025-02-17T01:02:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -3324,7 +3324,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python GObject bindings",
-            "updated": "2024-12-09T01:12:25+0000"
+            "updated": "2025-02-17T01:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3347,7 +3347,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Filters to enhance web typography, including support for Django & Jinja templates",
-            "updated": "2024-12-09T01:12:25+0000"
+            "updated": "2025-02-17T01:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3370,7 +3370,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A library implementing the 'SemVer' scheme.",
-            "updated": "2024-12-09T01:12:25+0000"
+            "updated": "2025-02-17T01:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3393,7 +3393,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "This provides a PEP 517 build backend for packages using Flit.",
-            "updated": "2024-12-09T01:12:25+0000"
+            "updated": "2025-02-17T01:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3416,7 +3416,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The PyPA recommended tool for installing Python packages",
-            "updated": "2024-12-09T01:12:26+0000"
+            "updated": "2025-02-17T01:02:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3439,7 +3439,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2024-12-09T01:12:26+0000"
+            "updated": "2025-02-17T01:02:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3462,7 +3462,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Sphinx Theme reader",
-            "updated": "2024-12-09T01:12:27+0000"
+            "updated": "2025-02-17T01:02:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3485,7 +3485,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A pure-Python git object database",
-            "updated": "2024-12-09T01:12:27+0000"
+            "updated": "2025-02-17T01:02:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3508,7 +3508,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Build Reasonableness",
-            "updated": "2024-12-09T01:12:27+0000"
+            "updated": "2025-02-17T01:02:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3531,7 +3531,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Backport of pathlib-compatible object wrapper for zip files",
-            "updated": "2024-12-12T20:12:36+0000"
+            "updated": "2025-02-17T01:02:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3554,7 +3554,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-02-17T01:02:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3577,7 +3577,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-02-17T01:02:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3600,7 +3600,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Universal encoding detector for Python 2 and 3",
-            "updated": "2024-12-09T01:12:28+0000"
+            "updated": "2025-02-17T01:02:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3623,7 +3623,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A collection of tools for internationalizing Python applications",
-            "updated": "2024-12-09T01:12:29+0000"
+            "updated": "2025-02-17T01:02:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3646,7 +3646,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python library used to interact with Git repositories",
-            "updated": "2024-12-09T01:12:29+0000"
+            "updated": "2025-02-17T01:02:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3669,7 +3669,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Docutils is a modular system for processing documentation into useful formats",
-            "updated": "2024-12-09T01:12:29+0000"
+            "updated": "2025-02-17T01:02:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3692,7 +3692,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Setuptools Rust extension plugin",
-            "updated": "2024-12-09T01:12:30+0000"
+            "updated": "2025-02-17T01:02:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3715,7 +3715,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Foreign Function Interface for Python calling C code",
-            "updated": "2024-12-09T01:12:30+0000"
+            "updated": "2025-02-17T01:02:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3738,7 +3738,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Classes Without Boilerplate",
-            "updated": "2024-12-09T01:12:30+0000"
+            "updated": "2025-02-17T01:02:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3761,7 +3761,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2024-12-09T01:12:31+0000"
+            "updated": "2025-02-17T01:02:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3784,7 +3784,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Extension to include jQuery on newer Sphinx releases",
-            "updated": "2024-12-09T01:12:31+0000"
+            "updated": "2025-02-17T01:02:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3807,7 +3807,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Build and publish crates with pyo3, rust-cpython, cffi bindings and rust binaries as python packages",
-            "updated": "2024-12-09T01:12:31+0000"
+            "updated": "2025-02-17T01:02:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3830,7 +3830,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2024-12-09T01:12:33+0000"
+            "updated": "2025-02-17T01:02:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3853,7 +3853,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Hatch plugin for fancy PyPI readmes ",
-            "updated": "2024-12-09T01:12:33+0000"
+            "updated": "2025-02-17T01:02:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3876,7 +3876,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Utility library for gitignore style pattern matching of file paths.",
-            "updated": "2024-12-09T01:12:34+0000"
+            "updated": "2025-02-17T01:02:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3899,7 +3899,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python bindings to the Rust rpds crate for persistent data structures.",
-            "updated": "2024-12-09T01:12:34+0000"
+            "updated": "2025-02-17T01:02:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3922,7 +3922,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A fast, pure Python library for parsing and serializing ASN.1 structures",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-02-17T01:02:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3945,7 +3945,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple Python module for working with HTML/CSS color definitions.",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-02-17T01:02:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3968,7 +3968,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Parser of the C language, written in pure Python",
-            "updated": "2024-12-09T01:12:35+0000"
+            "updated": "2025-02-17T01:02:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3991,7 +3991,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Accessing and Modifying INI files",
-            "updated": "2024-12-09T01:12:36+0000"
+            "updated": "2025-02-17T01:02:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4014,7 +4014,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A low-level library for calling build-backends in pyproject.toml-based projects",
-            "updated": "2024-12-09T01:12:36+0000"
+            "updated": "2025-02-17T01:02:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4037,7 +4037,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Translator of plain ASCII punctuation characters into 'smart' typographic punctuation HTML entities",
-            "updated": "2024-12-09T01:12:36+0000"
+            "updated": "2025-02-17T01:02:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4060,7 +4060,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2024-12-09T01:12:36+0000"
+            "updated": "2025-02-17T01:02:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4083,7 +4083,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Jinja2: A small but fast and easy to use stand-alone template engine written in pure python.",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-02-17T01:02:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4106,7 +4106,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-02-17T01:02:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4129,7 +4129,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order.",
-            "updated": "2024-12-09T01:12:37+0000"
+            "updated": "2025-02-17T01:02:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4152,7 +4152,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Powerful Python library for atomic file writes",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-02-17T01:02:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4175,7 +4175,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Read metadata from Python packages",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-02-17T01:02:20+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -4198,7 +4198,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Extensions to the Python standard library unit testing framework",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-02-17T01:02:20+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4221,7 +4221,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The extensible, standards compliant build backend used by Hatch",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-02-17T01:02:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -4244,7 +4244,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "With this program/Python library you can easily create mock objects on D-Bus",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-02-17T01:02:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4267,7 +4267,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files",
-            "updated": "2024-12-09T01:12:39+0000"
+            "updated": "2025-02-17T01:02:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4290,7 +4290,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2024-12-12T20:12:36+0000"
+            "updated": "2025-02-17T01:02:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4313,7 +4313,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Lex and Yacc",
-            "updated": "2024-12-09T01:12:40+0000"
+            "updated": "2025-02-17T01:02:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4336,7 +4336,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "the blessed package to manage your versions by scm tags",
-            "updated": "2024-12-09T01:12:40+0000"
+            "updated": "2025-02-17T01:02:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4359,7 +4359,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Plugin and hook calling mechanisms for python",
-            "updated": "2024-12-09T01:12:40+0000"
+            "updated": "2025-02-17T01:02:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4382,7 +4382,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python support for YAML",
-            "updated": "2024-12-09T01:12:41+0000"
+            "updated": "2025-02-17T01:02:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4405,7 +4405,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Core utilities for Python packages",
-            "updated": "2024-12-09T01:12:41+0000"
+            "updated": "2025-02-17T01:02:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4428,7 +4428,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Resolve JSON Pointers in Python",
-            "updated": "2024-12-09T01:12:41+0000"
+            "updated": "2025-02-17T01:02:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4451,7 +4451,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Makes working with XML feel like you are working with JSON",
-            "updated": "2024-12-09T01:12:41+0000"
+            "updated": "2025-02-17T01:02:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4474,7 +4474,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python SOCKS client module",
-            "updated": "2024-12-09T01:12:42+0000"
+            "updated": "2025-02-17T01:02:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4497,7 +4497,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Hatch plugin for versioning with your preferred VCS",
-            "updated": "2024-12-09T01:12:42+0000"
+            "updated": "2025-02-17T01:02:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4520,7 +4520,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Templating library for Python",
-            "updated": "2024-12-09T01:12:42+0000"
+            "updated": "2025-02-17T01:02:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4543,7 +4543,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)",
-            "updated": "2024-12-09T01:12:42+0000"
+            "updated": "2025-02-17T01:02:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4566,7 +4566,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Alabaster is a visually (c)lean, responsive, configurable theme for the Sphinx documentation system.",
-            "updated": "2024-12-09T01:12:43+0000"
+            "updated": "2025-02-17T01:02:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4589,7 +4589,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple Python wrapper around the OpenSSL library",
-            "updated": "2024-12-09T01:12:43+0000"
+            "updated": "2025-02-17T01:02:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -4612,7 +4612,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Software Construction tool (make/autotools replacement)",
-            "updated": "2024-12-09T01:12:43+0000"
+            "updated": "2025-02-17T01:02:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4635,7 +4635,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pure python rfc3986 validator",
-            "updated": "2024-12-09T01:12:44+0000"
+            "updated": "2025-02-17T01:02:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4658,7 +4658,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Sorted Containers is an Apache2 licensed sorted collections library, written in pure-Python, and fast as C-extensions.",
-            "updated": "2024-12-09T01:12:44+0000"
+            "updated": "2025-02-17T01:02:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4681,7 +4681,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2024-12-09T01:12:44+0000"
+            "updated": "2025-02-17T01:02:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4704,7 +4704,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Implements a XML/HTML/XHTML Markup safe string for Python",
-            "updated": "2024-12-09T01:12:44+0000"
+            "updated": "2025-02-17T01:02:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4727,7 +4727,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2024-12-09T01:12:45+0000"
+            "updated": "2025-02-17T01:02:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4750,7 +4750,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "RDFLib is a pure Python package for working with RDF",
-            "updated": "2024-12-09T01:12:45+0000"
+            "updated": "2025-02-17T01:02:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4773,7 +4773,7 @@
             "section": "base",
             "srcrev": "aebdfb188e368c690ea55cf6c9c9ffa1a52def65",
             "summary": "Modules to make unittest and pytest look like Automake output, for ptest",
-            "updated": "2024-12-09T01:12:45+0000"
+            "updated": "2025-02-17T01:02:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4796,7 +4796,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An implementation of JSON Schema validation for Python",
-            "updated": "2024-12-09T01:12:46+0000"
+            "updated": "2025-02-17T01:02:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4819,7 +4819,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Define boolean algebras, create and parse boolean expressions and create custom boolean DSL",
-            "updated": "2024-12-09T01:12:46+0000"
+            "updated": "2025-02-17T01:02:28+0000"
         },
         {
             "bbclassextend": "",
@@ -4842,7 +4842,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Modern password hashing for your software and your servers.",
-            "updated": "2024-12-09T01:12:46+0000"
+            "updated": "2025-02-17T01:02:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4865,7 +4865,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Meson Python build backend (PEP 517)",
-            "updated": "2024-12-09T01:12:47+0000"
+            "updated": "2025-02-17T01:02:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4888,7 +4888,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Library for Tom's Obvious, Minimal Language",
-            "updated": "2024-12-09T01:12:48+0000"
+            "updated": "2025-02-17T01:02:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4911,7 +4911,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "ISO 8601 date/time parser",
-            "updated": "2024-12-09T01:12:48+0000"
+            "updated": "2025-02-17T01:02:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -4934,7 +4934,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "pyelftools is a pure-Python library for parsing and analyzing ELF files and DWARF debugging information",
-            "updated": "2024-12-09T01:12:48+0000"
+            "updated": "2025-02-17T01:02:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4957,7 +4957,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Tooling for devicetree validation using YAML and jsonschema",
-            "updated": "2024-12-09T01:12:48+0000"
+            "updated": "2025-02-17T01:02:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4980,7 +4980,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The official binary distribution format for Python ",
-            "updated": "2024-12-09T01:12:49+0000"
+            "updated": "2025-02-17T01:02:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5003,7 +5003,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Cryptographic library for Python",
-            "updated": "2024-12-09T01:12:49+0000"
+            "updated": "2025-02-17T01:02:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5026,7 +5026,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple powerful testing with python",
-            "updated": "2024-12-09T01:12:49+0000"
+            "updated": "2025-02-17T01:02:31+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -5049,7 +5049,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Useful extra bits for Python - things that should be in the standard library",
-            "updated": "2024-12-09T01:12:49+0000"
+            "updated": "2025-02-17T01:02:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5072,7 +5072,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "More routines for operating on iterables, beyond itertools",
-            "updated": "2024-12-09T01:12:50+0000"
+            "updated": "2025-02-17T01:02:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5095,7 +5095,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python HTTP for Humans.",
-            "updated": "2025-01-20T20:01:26+0000"
+            "updated": "2025-02-17T01:02:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5118,7 +5118,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A simple, correct PEP517 package builder",
-            "updated": "2024-12-09T01:12:50+0000"
+            "updated": "2025-02-17T01:02:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5141,7 +5141,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Download, build, install, upgrade, and uninstall Python packages",
-            "updated": "2024-12-09T01:12:50+0000"
+            "updated": "2025-02-17T01:02:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5164,7 +5164,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2024-12-09T01:12:51+0000"
+            "updated": "2025-02-17T01:02:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5187,7 +5187,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python implementation of John Gruber's Markdown.",
-            "updated": "2024-12-09T01:12:51+0000"
+            "updated": "2025-02-17T01:02:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5210,7 +5210,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2024-12-09T01:12:52+0000"
+            "updated": "2025-02-17T01:02:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5233,7 +5233,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2024-12-09T01:12:52+0000"
+            "updated": "2025-02-17T01:02:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5256,7 +5256,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Parses image files\u2019 header and return image size.",
-            "updated": "2024-12-09T01:12:52+0000"
+            "updated": "2025-02-17T01:02:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5279,7 +5279,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Library and tool for installing Python wheels",
-            "updated": "2024-12-09T01:12:53+0000"
+            "updated": "2025-02-17T01:02:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5808,7 +5808,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A high performance build system",
-            "updated": "2024-12-09T01:12:59+0000"
+            "updated": "2025-02-17T01:02:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6291,7 +6291,7 @@
             "section": "base",
             "srcrev": "854fbb9fe733b774981e1ffcf825b2d2ce0f8072",
             "summary": "Libcomps is alternative for yum.comps library (which is for managing rpm package groups).",
-            "updated": "2024-12-09T01:12:05+0000"
+            "updated": "2025-02-17T01:02:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6429,7 +6429,7 @@
             "section": "base",
             "srcrev": "86bbb159732e43dd6dff98c96e99382843f7c63b",
             "summary": "Library providing simplified C and Python API to libsolv",
-            "updated": "2024-12-09T01:12:06+0000"
+            "updated": "2025-02-17T01:02:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7073,7 +7073,7 @@
             "section": "base",
             "srcrev": "ae727d99086f70f39fba5695af5460e1da908c1b",
             "summary": "A library providing C and Python (libcURL like) API            for downloading linux repository metadata and packages.",
-            "updated": "2024-12-09T01:12:15+0000"
+            "updated": "2025-02-17T01:02:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7303,7 +7303,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:40+0000"
+            "updated": "2025-02-19T04:02:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7326,7 +7326,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-12-09T01:12:17+0000"
+            "updated": "2025-02-19T04:02:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -7901,7 +7901,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Python bindings for GStreamer 1.0",
-            "updated": "2024-12-22T23:12:15+0000"
+            "updated": "2025-02-17T01:02:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8890,7 +8890,7 @@
             "section": "base",
             "srcrev": "96f2e9b93e1d8a5338eb05b87fd879856ab7b3cc",
             "summary": "Documentation tool for GObject-based libraries",
-            "updated": "2024-12-09T01:12:34+0000"
+            "updated": "2025-02-17T01:02:36+0000"
         },
         {
             "bbclassextend": "",
@@ -9580,7 +9580,7 @@
             "section": "console/utils",
             "srcrev": "2ff5750b8a3e0b36a9993c20e2ea10a07bc62085",
             "summary": "Tools to generate block map (AKA bmap) and flash images using bmap",
-            "updated": "2024-12-09T01:12:40+0000"
+            "updated": "2025-02-17T01:02:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11236,7 +11236,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "in-depth comparison of files, archives, and directories",
-            "updated": "2024-12-09T01:12:59+0000"
+            "updated": "2025-02-17T01:02:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13260,7 +13260,7 @@
             "section": "base",
             "srcrev": "545b79b8d7dae70d12bf0657359bdd36de0c5c26",
             "summary": "Tool for creating HTML, PDF, EPUB, man pages",
-            "updated": "2024-12-09T01:12:21+0000"
+            "updated": "2025-02-17T01:02:50+0000"
         },
         {
             "bbclassextend": "",
@@ -14669,7 +14669,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libelf=/tmp/tmpz55r7mfe/tmp-glibc/work/core2-32-oe-linux/systemtap/5.0/recipe-sysroot --without-rpm             --without-nss --without-avahi --without-dyninst             --disable-server --disable-grapher --enable-prologues             --with-python3 --without-python2-probes             ac_cv_prog_have_javac=no             ac_cv_prog_have_jar=no  --disable-docs --disable-publican --disable-refdocs   --with-debuginfod --disable-libvirt --enable-monitor --with-python3-probes --enable-sqlite --enable-translator --enable-nls",
+            "configopts": " --with-libelf=/tmp/tmpjwjzd6ag/tmp-glibc/work/core2-32-oe-linux/systemtap/5.0/recipe-sysroot --without-rpm             --without-nss --without-avahi --without-dyninst             --disable-server --disable-grapher --enable-prologues             --with-python3 --without-python2-probes             ac_cv_prog_have_javac=no             ac_cv_prog_have_jar=no  --disable-docs --disable-publican --disable-refdocs   --with-debuginfod --disable-libvirt --enable-monitor --with-python3-probes --enable-sqlite --enable-translator --enable-nls",
             "description": "It provides free software infrastructure to simplify the gathering of information about the running Linux system. This assists diagnosis of a performance or functional problem.",
             "filename": "systemtap_git.bb",
             "filepath": "recipes-kernel/systemtap",
@@ -14686,7 +14686,7 @@
             "section": "base",
             "srcrev": "e72dc118e563c645d93a1a2d771e8d90e8fec1ae",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-02-17T01:02:01+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14709,7 +14709,7 @@
             "section": "base",
             "srcrev": "e72dc118e563c645d93a1a2d771e8d90e8fec1ae",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2024-12-09T01:12:38+0000"
+            "updated": "2025-02-17T01:02:35+0000"
         },
         {
             "bbclassextend": "",
@@ -20574,7 +20574,7 @@
             "section": "base",
             "srcrev": "6a80352d51bd2cf141b0dc4dd946d1b131ed94a7",
             "summary": "An image containing the build system itself",
-            "updated": "2025-01-20T20:01:36+0000"
+            "updated": "2025-02-17T01:02:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",

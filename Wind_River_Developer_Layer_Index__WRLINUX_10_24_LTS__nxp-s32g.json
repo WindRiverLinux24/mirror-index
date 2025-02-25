@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-12T23:02:05+0000",
+            "updated": "2025-02-24T23:02:07+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-13T05:02:52+0000",
-            "vcs_last_commit": "2025-02-13T04:02:58+0000",
-            "vcs_last_fetch": "2025-02-13T05:02:52+0000",
-            "vcs_last_rev": "1e087f16cdcbf579dab6d3ac3fa8c8309ec3a42e",
+            "updated": "2025-02-19T04:02:52+0000",
+            "vcs_last_commit": "2025-02-18T22:02:51+0000",
+            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
+            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-02-13T06:02:09+0000",
-            "vcs_last_commit": "2025-02-13T05:02:58+0000",
-            "vcs_last_fetch": "2025-02-13T06:02:09+0000",
-            "vcs_last_rev": "802f369f0750189022d34ffec2bf6b5cb7ef274d",
+            "updated": "2025-02-24T02:02:16+0000",
+            "vcs_last_commit": "2025-02-24T00:02:51+0000",
+            "vcs_last_fetch": "2025-02-24T02:02:16+0000",
+            "vcs_last_rev": "662834dddf821f72b133ca171a8e6f953858ea3f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -692,10 +692,10 @@
             "id": 1001101,
             "layer": 439,
             "local_path": "",
-            "updated": "2024-12-16T02:12:28+0000",
-            "vcs_last_commit": "2024-12-15T22:12:14+0000",
-            "vcs_last_fetch": "2024-12-16T02:12:28+0000",
-            "vcs_last_rev": "79fe93c3bcebc3cb051a42d64a886ac8286518c2",
+            "updated": "2025-02-24T02:02:28+0000",
+            "vcs_last_commit": "2025-02-23T23:02:46+0000",
+            "vcs_last_fetch": "2025-02-24T02:02:28+0000",
+            "vcs_last_rev": "bf6277dfbedc47a3e2bc6fb57b845626f0b29f76",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -805,7 +805,7 @@
             "id": 88738,
             "layerbranch": 1001101,
             "name": "nxp-s32g",
-            "updated": "2024-11-05T00:11:43+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         }
     ],
     "recipes": [
@@ -851,9 +851,9 @@
             "provides": "pkcs11-hse  pkcs11-hse",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "e5842676f2666ea15175de3e4bed2ee5a2b552bb",
+            "srcrev": "65fae37f96cae1c04330148fa4aeb3c11e11ee16",
             "summary": "",
-            "updated": "2024-07-23T01:07:51+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -897,9 +897,9 @@
             "provides": "m7-sample ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "39104f1b57cc40cb1e21042cfab01d25fde638ee",
+            "srcrev": "84cf69931d26e950d39ed8c01704275a7736effd",
             "summary": "Sample M7 Bootloader",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -920,9 +920,9 @@
             "provides": "u-boot-s32 virtual/bootloader u-boot",
             "pv": "2022.04",
             "section": "bootloaders",
-            "srcrev": "4744d0e2c8c7f7a60d36c761adbcc30e94d6fffb",
+            "srcrev": "c01b3bf7b109d2833c61dbce74d53769be605d97",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-06-26T00:06:07+0000"
+            "updated": "2025-02-24T02:02:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -943,9 +943,9 @@
             "provides": "u-boot-tools u-boot-mkimage u-boot-mkenvimage u-boot-mkeficapsule u-boot-tools-scmi",
             "pv": "2022.04-s32",
             "section": "bootloaders",
-            "srcrev": "4744d0e2c8c7f7a60d36c761adbcc30e94d6fffb",
+            "srcrev": "c01b3bf7b109d2833c61dbce74d53769be605d97",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-26T00:06:08+0000"
+            "updated": "2025-02-24T02:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -966,9 +966,9 @@
             "provides": "atf-s32g ",
             "pv": "2.10",
             "section": "base",
-            "srcrev": "0cd12bb2630a23e760683bf3d911e3c1e282efd5",
+            "srcrev": "7e70e6bd69b14be23dcc42bf20c7c19bf7c4e0af",
             "summary": "",
-            "updated": "2024-06-24T19:06:50+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1045,7 +1045,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "pfe_1.7.0.bb",
+            "filename": "pfe_1.8.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
             "id": 2073431,
@@ -1056,11 +1056,11 @@
             "pn": "pfe",
             "pr": "r0",
             "provides": "pfe ",
-            "pv": "1.7.0",
+            "pv": "1.8.0",
             "section": "base",
-            "srcrev": "fa89bd271719146c6f6103a348ea727568504c25",
+            "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2024-12-10T00:12:50+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1068,7 +1068,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libFCI networking acceleration library",
-            "filename": "libfci_1.6.0.bb",
+            "filename": "libfci_1.8.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
             "id": 2073432,
@@ -1079,11 +1079,11 @@
             "pn": "libfci",
             "pr": "r0",
             "provides": "libfci ",
-            "pv": "1.6.0",
+            "pv": "1.8.0",
             "section": "base",
-            "srcrev": "fa89bd271719146c6f6103a348ea727568504c25",
+            "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2024-06-24T19:06:51+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1091,7 +1091,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "pfe-slave_1.7.0.bb",
+            "filename": "pfe-slave_1.8.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
             "id": 2073433,
@@ -1102,11 +1102,11 @@
             "pn": "pfe-slave",
             "pr": "r0",
             "provides": "pfe-slave ",
-            "pv": "1.7.0",
+            "pv": "1.8.0",
             "section": "base",
-            "srcrev": "fa89bd271719146c6f6103a348ea727568504c25",
+            "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2024-12-10T00:12:50+0000"
+            "updated": "2025-02-24T02:02:26+0000"
         },
         {
             "bbclassextend": "",
@@ -1114,7 +1114,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "LibFCI Example: Command line tool for configuration of PFE",
-            "filename": "libfci-cli_1.6.0.bb",
+            "filename": "libfci-cli_1.8.0.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "https://source.codeaurora.org/external/autobsps32/extra/pfeng",
             "id": 2073434,
@@ -1125,11 +1125,34 @@
             "pn": "libfci-cli",
             "pr": "r0",
             "provides": "libfci-cli ",
-            "pv": "1.6.0",
+            "pv": "1.8.0",
             "section": "base",
-            "srcrev": "fa89bd271719146c6f6103a348ea727568504c25",
+            "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2024-06-24T19:06:51+0000"
+            "updated": "2025-02-24T02:02:25+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "ARM Trusted Firmware Tools",
+            "filename": "atf-s32g-tools_2.10.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 2189221,
+            "inherits": "",
+            "layerbranch": 1001101,
+            "license": "BSD-3-Clause",
+            "pe": "",
+            "pn": "atf-s32g-tools",
+            "pr": "r0",
+            "provides": "atf-s32g-tools ",
+            "pv": "2.10",
+            "section": "base",
+            "srcrev": "7e70e6bd69b14be23dcc42bf20c7c19bf7c4e0af",
+            "summary": "",
+            "updated": "2025-02-24T02:02:28+0000"
         }
     ],
     "wrtemplates": [
