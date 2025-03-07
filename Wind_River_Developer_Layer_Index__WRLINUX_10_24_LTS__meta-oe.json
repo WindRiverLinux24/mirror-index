@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-24T23:02:07+0000",
+            "updated": "2025-03-06T23:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-19T04:02:52+0000",
-            "vcs_last_commit": "2025-02-18T22:02:51+0000",
-            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
-            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
+            "updated": "2025-03-06T19:03:00+0000",
+            "vcs_last_commit": "2025-03-06T18:03:24+0000",
+            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
+            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-01-21T03:01:11+0000",
-            "vcs_last_commit": "2025-01-21T01:01:41+0000",
-            "vcs_last_fetch": "2025-01-21T03:01:11+0000",
-            "vcs_last_rev": "24b39df7e881341d98afefa738e60b6480d9e431",
+            "updated": "2025-02-26T19:02:06+0000",
+            "vcs_last_commit": "2025-02-25T18:02:34+0000",
+            "vcs_last_fetch": "2025-02-26T19:02:06+0000",
+            "vcs_last_rev": "772dec51cfb603cf7b0edf632973373027116d8d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -1208,7 +1208,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DBUILD_SHARED_LIBS=ON                                      -DLAPACKE=OFF",
+            "configopts": " -DBUILD_SHARED_LIBS=ON                                      -DCBLAS=OFF -DLAPACKE=OFF",
             "description": "",
             "filename": "lapack_3.12.0.bb",
             "filepath": "recipes-devtools/lapack",
@@ -1225,7 +1225,7 @@
             "section": "base",
             "srcrev": "04b044e020a3560ccfa9988c8a80a1fb7083fc2e",
             "summary": "Linear Algebra PACKage",
-            "updated": "2024-05-09T02:05:45+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1417,7 +1417,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OE helper for manipulating npm cache",
-            "filename": "nodejs-oe-cache-native_20.12.bb",
+            "filename": "nodejs-oe-cache-native_20.18.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "",
             "id": 2026045,
@@ -1428,11 +1428,11 @@
             "pn": "nodejs-oe-cache-native",
             "pr": "r0",
             "provides": "nodejs-oe-cache-native ",
-            "pv": "20.12",
+            "pv": "20.18",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:16+0000"
+            "updated": "2025-02-26T19:02:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -1440,7 +1440,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nodeJS Evented I/O for V8 JavaScript",
-            "filename": "nodejs_20.12.2.bb",
+            "filename": "nodejs_20.18.2.bb",
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 2026046,
@@ -1451,11 +1451,11 @@
             "pn": "nodejs",
             "pr": "r0",
             "provides": "nodejs ",
-            "pv": "20.12.2",
+            "pv": "20.18.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-20T23:11:31+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1668,7 +1668,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DgRPC_CARES_PROVIDER=package     -DgRPC_ZLIB_PROVIDER=package     -DgRPC_SSL_PROVIDER=package     -DgRPC_PROTOBUF_PROVIDER=package     -D_gRPC_PROTOBUF_PROTOC_EXECUTABLE=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/grpc/1.60.1/recipe-sysroot-native/usr/bin/protoc     -DgRPC_ABSL_PROVIDER=package     -DgRPC_RE2_PROVIDER=package     -DgRPC_INSTALL=ON     -DCMAKE_CROSSCOMPILING=ON     -DgRPC_INSTALL_LIBDIR=lib     -DgRPC_INSTALL_CMAKEDIR=lib/cmake/grpc       -DgRPC_BUILD_GRPC_CPP_PLUGIN=ON -DgRPC_BUILD_GRPC_CSHARP_PLUGIN=OFF -DgRPC_BUILD_GRPC_NODE_PLUGIN=OFF -DgRPC_BUILD_GRPC_OBJECTIVE_C_PLUGIN=OFF -DgRPC_BUILD_GRPC_PHP_PLUGIN=OFF -DgRPC_USE_PROTO_LITE=OFF -DgRPC_BUILD_GRPC_PYTHON_PLUGIN=OFF -DgRPC_BUILD_GRPC_RUBY_PLUGIN=OFF -DBUILD_SHARED_LIBS=ON",
+            "configopts": "     -DgRPC_CARES_PROVIDER=package     -DgRPC_ZLIB_PROVIDER=package     -DgRPC_SSL_PROVIDER=package     -DgRPC_PROTOBUF_PROVIDER=package     -D_gRPC_PROTOBUF_PROTOC_EXECUTABLE=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/grpc/1.60.1/recipe-sysroot-native/usr/bin/protoc     -DgRPC_ABSL_PROVIDER=package     -DgRPC_RE2_PROVIDER=package     -DgRPC_INSTALL=ON     -DCMAKE_CROSSCOMPILING=ON     -DgRPC_INSTALL_LIBDIR=lib     -DgRPC_INSTALL_CMAKEDIR=lib/cmake/grpc       -DgRPC_BUILD_GRPC_CPP_PLUGIN=ON -DgRPC_BUILD_GRPC_CSHARP_PLUGIN=OFF -DgRPC_BUILD_GRPC_NODE_PLUGIN=OFF -DgRPC_BUILD_GRPC_OBJECTIVE_C_PLUGIN=OFF -DgRPC_BUILD_GRPC_PHP_PLUGIN=OFF -DgRPC_USE_PROTO_LITE=OFF -DgRPC_BUILD_GRPC_PYTHON_PLUGIN=OFF -DgRPC_BUILD_GRPC_RUBY_PLUGIN=OFF -DBUILD_SHARED_LIBS=ON",
             "description": "A high performance, open source, general-purpose RPC framework. Provides gRPC libraries for multiple languages written on top of shared C core library (C++, Node.js, Python, Ruby, Objective-C, PHP, C#)",
             "filename": "grpc_1.60.1.bb",
             "filepath": "recipes-devtools/grpc",
@@ -1685,7 +1685,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-01-20T20:01:46+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -2611,9 +2611,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot                        --with-imap-ssl=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmp6_uyp_nk/tmp-glibc/work/core2-32-oe-linux/php/8.2.24/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php8                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php8    --with-imap=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot                        --with-imap-ssl=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/php/8.2.26/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_8.2.24.bb",
+            "filename": "php_8.2.26.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 2026097,
@@ -2624,11 +2624,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "8.2.24",
+            "pv": "8.2.26",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2025-01-20T20:01:46+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -3134,7 +3134,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-02-26T19:02:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7803,7 +7803,7 @@
             "section": "System Environment/Libraries",
             "srcrev": "0a4b772d6fdab9bfaaa3123775a48a7cb6c5e7c6",
             "summary": "Smart card library and applications",
-            "updated": "2024-12-12T20:12:53+0000"
+            "updated": "2025-02-26T19:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -11023,7 +11023,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poppler is a PDF rendering library based on the xpdf-3.0 code base",
-            "updated": "2024-08-18T22:08:35+0000"
+            "updated": "2025-02-26T19:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -13377,7 +13377,7 @@
             "bugtracker": "",
             "configopts": "  USE_SYSTEMD=no",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_7.2.6.bb",
+            "filename": "redis_7.2.7.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 2026565,
@@ -13388,11 +13388,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "7.2.6",
+            "pv": "7.2.7",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2025-01-20T20:01:47+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "",
@@ -15347,7 +15347,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Inspect and manipulate eBPF programs and maps",
-            "updated": "2024-11-01T00:11:36+0000"
+            "updated": "2025-02-26T19:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -16664,7 +16664,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-jpeg-prefix=/tmp/tmpszx6zikp/tmp-glibc/work/core2-32-oe-linux/gphoto2/2.5.28/recipe-sysroot/usr/include                  --without-cdk   --enable-nls",
+            "configopts": " --with-jpeg-prefix=/tmp/tmpogi2u_0e/tmp-glibc/work/core2-32-oe-linux/gphoto2/2.5.28/recipe-sysroot/usr/include                  --without-cdk   --enable-nls",
             "description": "",
             "filename": "gphoto2_2.5.28.bb",
             "filepath": "recipes-graphics/gphoto2",
@@ -16681,7 +16681,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "gphoto2 - a command-line frontend to libgphoto2",
-            "updated": "2024-05-09T02:05:50+0000"
+            "updated": "2025-02-26T19:02:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -20760,7 +20760,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "uutils-coreutils_0.0.27.bb",
+            "filename": "uutils-coreutils_0.0.28.bb",
             "filepath": "recipes-core/uutils-coreutils",
             "homepage": "https://github.com/uutils/coreutils",
             "id": 2026886,
@@ -20771,11 +20771,11 @@
             "pn": "uutils-coreutils",
             "pr": "r0",
             "provides": "uutils-coreutils coreutils",
-            "pv": "0.0.27",
+            "pv": "0.0.28",
             "section": "base",
-            "srcrev": "9b11753e7cb06b0f76f4221fc237019c0a86f8f5",
+            "srcrev": "1d9e1626377cbaea3b21842a3525a62ba60f905f",
             "summary": "coreutils ~ GNU coreutils (updated); implemented as universal (cross-platform) utils, written in Rust",
-            "updated": "2024-09-28T21:09:47+0000"
+            "updated": "2025-02-26T19:02:04+0000"
         },
         {
             "bbclassextend": "",
@@ -22960,7 +22960,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Apache Thrift",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-02-26T19:02:03+0000"
         },
         {
             "bbclassextend": "",

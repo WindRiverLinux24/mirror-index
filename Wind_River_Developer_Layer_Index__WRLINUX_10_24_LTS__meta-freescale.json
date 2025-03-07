@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-24T23:02:07+0000",
+            "updated": "2025-03-06T23:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-19T04:02:52+0000",
-            "vcs_last_commit": "2025-02-18T22:02:51+0000",
-            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
-            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
+            "updated": "2025-03-06T19:03:00+0000",
+            "vcs_last_commit": "2025-03-06T18:03:24+0000",
+            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
+            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-01-21T03:01:07+0000",
-            "vcs_last_commit": "2025-01-21T01:01:20+0000",
-            "vcs_last_fetch": "2025-01-21T03:01:07+0000",
-            "vcs_last_rev": "34ded8f9c66c6422de679a6a161f042cff3ed76f",
+            "updated": "2025-02-26T19:02:50+0000",
+            "vcs_last_commit": "2025-02-25T18:02:41+0000",
+            "vcs_last_fetch": "2025-02-26T19:02:50+0000",
+            "vcs_last_rev": "b580bedc9273b682906d4ec5005396664b3564d5",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -760,7 +760,7 @@
             "id": 86233,
             "layerbranch": 993783,
             "name": "imx8qxp-mek",
-            "updated": "2025-01-20T20:01:31+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "description": " NXP i.MX6QP/Q/DL SABRE Smart Device",
@@ -844,7 +844,7 @@
             "id": 86245,
             "layerbranch": 993783,
             "name": "imx8qm-mek",
-            "updated": "2025-01-20T20:01:31+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
@@ -942,7 +942,7 @@
             "id": 86259,
             "layerbranch": 993783,
             "name": "imx8ulp-lpddr4-evk",
-            "updated": "2025-01-20T20:01:31+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "description": " LX2162AQDS in 64-bit mode",
@@ -1230,7 +1230,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1581,9 +1581,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.24.0/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON     -DCMAKE_INSTALL_LIBDIR=/usr/lib     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DAPPMODE=V4L2     -DTUNINGEXT=1     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSERVER_LESS=1     -DSUBDEV_V4L2=1     -DENABLE_IRQ=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev  ",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.24.4/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev   -DTUNINGEXT=1",
             "description": "i.MX Verisilicon Software ISP",
-            "filename": "isp-imx_4.2.2.24.0.bb",
+            "filename": "isp-imx_4.2.2.24.4.bb",
             "filepath": "recipes-bsp/isp-imx",
             "homepage": "",
             "id": 2027919,
@@ -1594,11 +1594,11 @@
             "pn": "isp-imx",
             "pr": "r0",
             "provides": "isp-imx ",
-            "pv": "4.2.2.24.0",
+            "pv": "4.2.2.24.4",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:27+0000"
+            "updated": "2025-02-26T19:02:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1621,7 +1621,7 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:27+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,7 +1690,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX ELE firmware",
-            "updated": "2024-12-12T20:12:13+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1767,7 +1767,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Additional Wi-Fi firmware redistributed by NXP. Some is available in linux-firmware, but what is here is the latest and should be preferred.",
-            "filename": "firmware-nxp-wifi_1.0.bb",
+            "filename": "firmware-nxp-wifi_1.1.bb",
             "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 2027927,
@@ -1778,11 +1778,11 @@
             "pn": "firmware-nxp-wifi",
             "pr": "r0",
             "provides": "firmware-nxp-wifi ",
-            "pv": "1.0",
+            "pv": "1.1",
             "section": "kernel",
             "srcrev": "2978f3c88d6bcc5695a7b45f1936f18d31eebfa8",
             "summary": "Wi-Fi firmware redistributed by NXP",
-            "updated": "2025-01-20T20:01:31+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1964,9 +1964,9 @@
             "provides": "u-boot-imx virtual/bootloader u-boot u-boot-mfgtool",
             "pv": "2024.04",
             "section": "base",
-            "srcrev": "de16f4f17221b2ff72b8cb18c28cd8a29f3c2710",
+            "srcrev": "6c4545203d123c246c5d7995f2893959506d28e0",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-11-01T00:11:27+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2334,7 +2334,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX SECO firmware",
-            "updated": "2024-11-01T00:11:27+0000"
+            "updated": "2025-02-26T19:02:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -2449,7 +2449,7 @@
             "section": "BSP",
             "srcrev": "4622115cbc037f79039c4522faeced4aabea986b",
             "summary": "",
-            "updated": "2024-11-27T20:11:02+0000"
+            "updated": "2025-02-26T19:02:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2570,7 +2570,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fmacro-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot-native=  -I/tmp/tmp3oqxud6i/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot/usr/include/imx\"  ",
+            "configopts": "-Dplatform=${PLATFORM}                  -Dc_args=\" -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/git=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fmacro-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/build=/usr/src/debug/imx-gst1.0-plugin/4.9.1+gitX  -fdebug-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot-native=  -I/tmp/tmpxoyv9ym9/tmp-glibc/work/core2-32-oe-linux/imx-gst1.0-plugin/4.9.1+gitX/recipe-sysroot/usr/include/imx\"  ",
             "description": "Gstreamer freescale plugins",
             "filename": "imx-gst1.0-plugin_git.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -2587,7 +2587,7 @@
             "section": "multimedia",
             "srcrev": "87135d5f084b6c61efa6671cddc3a5509ab11640",
             "summary": "",
-            "updated": "2024-11-01T00:11:26+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4055,11 +4055,11 @@
             "pn": "linux-fslc-imx",
             "pr": "r0",
             "provides": "linux-fslc-imx  virtual/kernel linux-mfgtool",
-            "pv": "6.6.69+gitX",
+            "pv": "6.6.74+gitX",
             "section": "base",
-            "srcrev": "657504d5644f24a41822960ed31b883062ca30c9",
+            "srcrev": "00aabf3c03c392a6993ab5037ac856b1e48edcad",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2025-01-20T20:01:32+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4101,11 +4101,11 @@
             "pn": "linux-fslc",
             "pr": "r0",
             "provides": "linux-fslc  virtual/kernel linux-mfgtool",
-            "pv": "6.12.6+gitX",
+            "pv": "6.12.13+gitX",
             "section": "base",
-            "srcrev": "0c877b020d2adbf68ead444b25452c832a228a1d",
+            "srcrev": "404e5a82446dbd2b7e7061e804afec00d16049e8",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2024-12-26T01:12:03+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4226,7 +4226,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DENABLE_GUI=OFF     -DENABLE_STATIC_LIBGCC=OFF     -DENABLE_STATIC_LIBSTDCXX=OFF     -DPython3_ROOT_DIR=/usr/bin/python3-native   -DENABLE_EGL=ON -DENABLE_GUI=OFF -DENABLE_MULTIARCH=OFF -DENABLE_VIVANTE=OFF -DENABLE_WAFFLE=OFF -DENABLE_X11=OFF",
+            "configopts": "     -DENABLE_GUI=OFF     -DENABLE_STATIC_LIBGCC=OFF     -DENABLE_STATIC_LIBSTDCXX=OFF     -DPython3_ROOT_DIR=/usr/bin/python3-native   -DENABLE_EGL=ON -DENABLE_GUI=OFF -DENABLE_MULTIARCH=OFF -DENABLE_VIVANTE=OFF -DENABLE_WAFFLE=OFF -DENABLE_X11=ON",
             "description": "",
             "filename": "imx-gpu-apitrace_10.0.0.bb",
             "filepath": "recipes-graphics/imx-gpu-apitrace",
@@ -4243,7 +4243,7 @@
             "section": "base",
             "srcrev": "522cb2981289b7ba20d6dd4b4bf75097e079815b",
             "summary": "Samples for OpenGL ES",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4274,7 +4274,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX DPU",
-            "filename": "imx-dpu-g2d_2.2.0.bb",
+            "filename": "imx-dpu-g2d_2.2.2.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 2028036,
@@ -4285,11 +4285,11 @@
             "pn": "imx-dpu-g2d",
             "pr": "r0",
             "provides": "imx-dpu-g2d  virtual/libg2d",
-            "pv": "2.2.0",
+            "pv": "2.2.2",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:23+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4297,7 +4297,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "G2D library using i.MX GPU",
-            "filename": "imx-gpu-g2d_6.4.11.p2.8.bb",
+            "filename": "imx-gpu-g2d_6.4.11.p2.10.bb",
             "filepath": "recipes-graphics/imx-g2d",
             "homepage": "",
             "id": 2028037,
@@ -4308,11 +4308,11 @@
             "pn": "imx-gpu-g2d",
             "pr": "r0",
             "provides": "imx-gpu-g2d virtual/libg2d",
-            "pv": "6.4.11.p2.8",
+            "pv": "6.4.11.p2.10",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:23+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4366,7 +4366,7 @@
             "bugtracker": "",
             "configopts": "  -Ddri3=false -Dglamor=false -Dglx=false -Dsha1=libcrypto -Dlibunwind=false -Dxinerama=false",
             "description": "XWayland is an X Server running as a Wayland client, and thus is capable of displaying native X11 client applications in a Wayland compositor environment. The goal of XWayland is to facilitate the transition from X Window System to Wayland environments, providing a way to run unported applications in the meantime.",
-            "filename": "xwayland_23.1.1.imx.bb",
+            "filename": "xwayland_23.2.5.imx.bb",
             "filepath": "recipes-graphics/xwayland",
             "homepage": "https://fedoraproject.org/wiki/Changes/XwaylandStandalone",
             "id": 2028040,
@@ -4377,11 +4377,11 @@
             "pn": "xwayland",
             "pr": "r0",
             "provides": "xwayland ",
-            "pv": "23.1.1.imx",
+            "pv": "23.2.5.imx",
             "section": "base",
             "srcrev": "",
             "summary": "XWayland is an X Server that runs under Wayland.",
-            "updated": "2024-05-27T02:05:47+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4402,9 +4402,9 @@
             "provides": "weston ",
             "pv": "12.0.4.imx",
             "section": "base",
-            "srcrev": "c3c1f9ff7824123dd4808ace3c9476345cb84177",
+            "srcrev": "de7f8df4b4275e9bb345cacab6962d1a490d9eab",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2024-11-01T00:11:23+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4425,9 +4425,9 @@
             "provides": "weston ",
             "pv": "10.0.5.imx",
             "section": "base",
-            "srcrev": "0cc822a1e5a8faea6835a4e9259887d8792b86b4",
+            "srcrev": "7129417ae04de57f9596ccf27f74ef967660a64f",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2024-05-09T02:05:37+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4458,7 +4458,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p2.8-aarch64.bb",
+            "filename": "imx-gpu-viv_6.4.11.p2.10-aarch64.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 2028044,
@@ -4468,12 +4468,12 @@
             "pe": "1",
             "pn": "imx-gpu-viv",
             "pr": "r0",
-            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
-            "pv": "6.4.11.p2.8-aarch64",
+            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd        ",
+            "pv": "6.4.11.p2.10-aarch64",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:28+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4481,7 +4481,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "GPU driver and apps for i.MX",
-            "filename": "imx-gpu-viv_6.4.11.p2.8-aarch32.bb",
+            "filename": "imx-gpu-viv_6.4.11.p2.10-aarch32.bb",
             "filepath": "recipes-graphics/imx-gpu-viv",
             "homepage": "",
             "id": 2028045,
@@ -4491,12 +4491,12 @@
             "pe": "1",
             "pn": "imx-gpu-viv",
             "pr": "r0",
-            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
-            "pv": "6.4.11.p2.8-aarch32",
+            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd        ",
+            "pv": "6.4.11.p2.10-aarch32",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:28+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4860,11 +4860,11 @@
             "pn": "imx-secure-enclave",
             "pr": "r0",
             "provides": "imx-secure-enclave ",
-            "pv": "lf-6.6.3_1.0.0",
+            "pv": "lf-6.6.52_2.2.0",
             "section": "base",
-            "srcrev": "964affa2cb3f9f7fc85a6a18db60f9213f744495",
+            "srcrev": "dffbb844e86f4a49058ffbb40548474059969c27",
             "summary": "NXP i.MX Secure Enclave Userspace Library",
-            "updated": "2024-09-28T21:09:39+0000"
+            "updated": "2025-02-26T19:02:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4895,7 +4895,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "mali-imx_r50.0.bb",
+            "filename": "mali-imx_r50.2.bb",
             "filepath": "recipes-graphics/mali",
             "homepage": "",
             "id": 2125748,
@@ -4906,11 +4906,11 @@
             "pn": "mali-imx",
             "pr": "r0",
             "provides": "mali-imx      virtual/egl     virtual/libgbm     virtual/libgles1     virtual/libgles2     virtual/libgles3",
-            "pv": "r50.0",
+            "pv": "r50.2",
             "section": "libs",
             "srcrev": "",
             "summary": "Graphics libraries and driver for i.MX Mali GPU",
-            "updated": "2024-11-01T00:11:28+0000"
+            "updated": "2025-02-26T19:02:49+0000"
         },
         {
             "bbclassextend": "",

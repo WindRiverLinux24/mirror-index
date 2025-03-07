@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-24T23:02:07+0000",
+            "updated": "2025-03-06T23:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-19T04:02:52+0000",
-            "vcs_last_commit": "2025-02-18T22:02:51+0000",
-            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
-            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
+            "updated": "2025-03-06T19:03:00+0000",
+            "vcs_last_commit": "2025-03-06T18:03:24+0000",
+            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
+            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -677,10 +677,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2024-12-26T01:12:23+0000",
-            "vcs_last_commit": "2024-12-24T21:12:03+0000",
-            "vcs_last_fetch": "2024-12-26T01:12:23+0000",
-            "vcs_last_rev": "7bfb6ea172f0740ee66ab7fb18a72e4af908acd4",
+            "updated": "2025-03-05T01:03:45+0000",
+            "vcs_last_commit": "2025-03-05T00:03:32+0000",
+            "vcs_last_fetch": "2025-03-05T01:03:45+0000",
+            "vcs_last_rev": "46a5ec419449edd2cc2be893be16db72e9d65f12",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -982,7 +982,7 @@
             "id": 91855,
             "layerbranch": 1000731,
             "name": "beagleplay-ti-k3r5",
-            "updated": "2024-12-26T01:12:23+0000"
+            "updated": "2025-02-26T19:02:08+0000"
         },
         {
             "description": " TI AM57xx EVM",
@@ -1031,7 +1031,7 @@
             "id": 91863,
             "layerbranch": 1000731,
             "name": "j722s-evm",
-            "updated": "2024-09-28T23:09:48+0000"
+            "updated": "2025-02-26T19:02:08+0000"
         },
         {
             "description": " TI AM62xx EVM (R5F core)",
@@ -1129,7 +1129,14 @@
             "id": 94907,
             "layerbranch": 1000731,
             "name": "beagleplay-ti",
-            "updated": "2024-12-26T01:12:23+0000"
+            "updated": "2025-02-26T19:02:08+0000"
+        },
+        {
+            "description": " TI AM62L EVM",
+            "id": 96335,
+            "layerbranch": 1000731,
+            "name": "am62lxx-evm",
+            "updated": "2025-02-26T19:02:08+0000"
         }
     ],
     "recipes": [
@@ -1198,9 +1205,9 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:20+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1267,9 +1274,9 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:20+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1288,11 +1295,11 @@
             "pn": "cnm-wave-fw",
             "pr": "r4.1",
             "provides": "cnm-wave-fw ",
-            "pv": "1.0.5",
+            "pv": "1.0.7",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1336,9 +1343,9 @@
             "provides": "ti-sgx-ddk-km virtual/gpudriver",
             "pv": "1.17.4948957",
             "section": "base",
-            "srcrev": "3005cf8145a6720daa47e4e273f9e421ff77cb58",
+            "srcrev": "f555b9e1ae4b2baf68ac778ca41dc0c17e96f89a",
             "summary": "",
-            "updated": "2024-11-27T20:11:16+0000"
+            "updated": "2025-02-26T19:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1346,7 +1353,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
-            "filename": "ti-img-rogue-driver_24.1.6554834.bb",
+            "filename": "ti-img-rogue-driver_24.2.6643903.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
             "id": 2073316,
@@ -1357,11 +1364,11 @@
             "pn": "ti-img-rogue-driver",
             "pr": "r0",
             "provides": "ti-img-rogue-driver virtual/gpudriver",
-            "pv": "24.1.6554834",
+            "pv": "24.2.6643903",
             "section": "base",
-            "srcrev": "707bb373902babf9ced5fd2f99139209ca0f605a",
+            "srcrev": "023eb5afde7e069bff1e5e37620b84a66b447936",
             "summary": "",
-            "updated": "2024-09-28T23:09:43+0000"
+            "updated": "2025-02-26T19:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1407,7 +1414,7 @@
             "section": "bootloaders",
             "srcrev": "29d0c23d67ee7b88e46fe1753cd020e2b04c2ef6",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-12-12T20:12:46+0000"
+            "updated": "2025-03-05T01:03:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1426,11 +1433,11 @@
             "pn": "u-boot-ti-mainline",
             "pr": "r0",
             "provides": "u-boot-ti-mainline virtual/bootloader u-boot",
-            "pv": "2024.10+git",
+            "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "f919c3a889f0ec7d63a48b5d0ed064386b0980bd",
+            "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
             "summary": "Mainline U-Boot for TI devices",
-            "updated": "2024-11-27T20:11:17+0000"
+            "updated": "2025-03-05T01:03:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1453,7 +1460,7 @@
             "section": "bootloaders",
             "srcrev": "0893e693e08f9fc864a6191051dccc818accf933",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-11-27T20:11:17+0000"
+            "updated": "2025-03-05T01:03:45+0000"
         },
         {
             "bbclassextend": "",
@@ -1474,9 +1481,9 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1543,9 +1550,9 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1564,11 +1571,11 @@
             "pn": "ti-sci-fw",
             "pr": "r4.0",
             "provides": "ti-sci-fw ",
-            "pv": "10.01.08",
+            "pv": "11.00.02",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1589,9 +1596,9 @@
             "provides": "ti-dm-fw ",
             "pv": "10.01.03",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1612,9 +1619,9 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1635,9 +1642,9 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1704,9 +1711,9 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1727,9 +1734,9 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1758,7 +1765,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmpg2dcy61v/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmpg2dcy61v/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
+            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmp_homscqf/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmp_homscqf/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
             "description": "TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi- Processor Configurations)",
             "filename": "ti-ipc_git.bb",
             "filepath": "recipes-ti/ipc",
@@ -1775,7 +1782,7 @@
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
             "summary": "",
-            "updated": "2024-12-26T01:12:23+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1842,9 +1849,9 @@
             "provides": "ti-rtos-firmware ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1eaf07dc4ec5cdeb98078f17a9d4635e88f43f75",
+            "srcrev": "a38d4919117436130c38738197b72558998ef463",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-02-26T19:02:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1978,11 +1985,11 @@
             "pn": "linux-ti-mainline",
             "pr": "r0",
             "provides": "linux-ti-mainline  virtual/kernel",
-            "pv": "6.11",
+            "pv": "6.12",
             "section": "kernel",
-            "srcrev": "fa7818b3a6dd56c7956f515d287ed9f80c7bf59a",
+            "srcrev": "adc218676eef25575469234709c2d87185ca223a",
             "summary": "Mainline Linux kernel for TI devices",
-            "updated": "2024-11-27T20:11:18+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2005,53 +2012,7 @@
             "section": "kernel",
             "srcrev": "6465e260f48790807eef06b583b38ca9789b6072",
             "summary": "Linux-next kernel for TI devices",
-            "updated": "2024-11-27T20:11:18+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-ti-staging-systest_6.6.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2073349,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-ti-staging-systest",
-            "pr": "r0",
-            "provides": "linux-ti-staging-systest  virtual/kernel",
-            "pv": "6.6.58+git",
-            "section": "kernel",
-            "srcrev": "a7758da17c2807e5285d6546b6797aae1d34a7d6",
-            "summary": "Linux kernel for TI devices",
-            "updated": "2024-12-12T20:12:47+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-ti-staging-systest_6.1.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2073350,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-ti-staging-systest",
-            "pr": "r0",
-            "provides": "linux-ti-staging-systest  virtual/kernel",
-            "pv": "6.1.112+git",
-            "section": "kernel",
-            "srcrev": "4ef41ca7ad952c7b13b7e40808ab1025796f9a6c",
-            "summary": "Linux kernel for TI devices",
-            "updated": "2024-11-27T20:11:20+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2082,7 +2043,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
-            "filename": "ti-img-rogue-umlibs_24.1.6554834.bb",
+            "filename": "ti-img-rogue-umlibs_24.2.6643903.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
             "id": 2073352,
@@ -2093,11 +2054,11 @@
             "pn": "ti-img-rogue-umlibs",
             "pr": "r3",
             "provides": "ti-img-rogue-umlibs ",
-            "pv": "24.1.6554834",
+            "pv": "24.2.6643903",
             "section": "base",
-            "srcrev": "ba93a3e38c683ccb03a7cf8f2e7dffe2f9cbcf1c",
+            "srcrev": "d578666fc6ecd09f7d6c3431747f1d93d128fe28",
             "summary": "",
-            "updated": "2024-11-01T00:11:37+0000"
+            "updated": "2025-02-26T19:02:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2120,7 +2081,7 @@
             "section": "base",
             "srcrev": "0b9e64254269be2fa95c4f3e1dd925d6e4d58199",
             "summary": "",
-            "updated": "2024-09-28T23:09:47+0000"
+            "updated": "2025-02-26T19:02:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2149,9 +2110,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org",
-            "configopts": "     -Dshared-glapi=enabled     -Dglx-read-only-text=true     -Dplatforms='x11'    -Ddri3=disabled  -Degl=disabled -Dgallium-drivers=swrast,i915,iris,crocus,i915,iris,crocus  -Dllvm=disabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=false -Dimagination-srv=false -Dlmsensors=disabled -Dgallium-opencl=disabled -Dopencl-spirv=false  -Dopengl=false -Dosmesa=false -Dperfetto=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled  -Dvulkan-drivers='' -Dvulkan-beta=false  -Dgallium-xa=disabled ",
+            "configopts": "     -Dshared-glapi=enabled     -Dglx-read-only-text=true     -Dplatforms='x11'    -Ddri3=disabled  -Degl=disabled -Dgallium-drivers=swrast,i915,iris,crocus,i915,iris,crocus  -Dllvm=disabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=false -Dimagination-srv=false -Dlmsensors=disabled -Dgallium-opencl=disabled -Dopencl-spirv=false  -Dopengl=false -Dosmesa=false -Dperfetto=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled -Dvideo-codecs=all_free  -Dvulkan-drivers='' -Dvulkan-beta=false  -Dgallium-xa=disabled ",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa-pvr_23.2.1.bb",
+            "filename": "mesa-pvr_24.0.1.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
             "id": 2073355,
@@ -2162,11 +2123,11 @@
             "pn": "mesa-pvr",
             "pr": "r0",
             "provides": "mesa-pvr                               virtual/mesa     ",
-            "pv": "23.2.1",
+            "pv": "24.0.1",
             "section": "x11",
-            "srcrev": "0e75e7ded360ea6aee4140393b30960e152f3994",
+            "srcrev": "82e6a9293c476267417c5b6b906b01fb73a34e38",
             "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2024-11-27T20:11:18+0000"
+            "updated": "2025-02-26T19:02:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2266,7 +2227,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
-            "filename": "u-boot-ti-staging_2024.10.bb",
+            "filename": "u-boot-ti-staging_2025.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 2125750,
@@ -2277,11 +2238,11 @@
             "pn": "u-boot-ti-staging",
             "pr": "r0",
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
-            "pv": "2024.10+git",
+            "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "f919c3a889f0ec7d63a48b5d0ed064386b0980bd",
+            "srcrev": "03740dcaec3959431cd59683d795aaaac216972f",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2024-11-27T20:11:20+0000"
+            "updated": "2025-03-05T01:03:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2300,34 +2261,11 @@
             "pn": "linux-ti-staging-rt",
             "pr": "r0",
             "provides": "linux-ti-staging-rt  virtual/kernel",
-            "pv": "6.12.0+git",
+            "pv": "6.12.13+git",
             "section": "kernel",
-            "srcrev": "ade72d105eb7c9a2a4addfd0204eb4551b8efa7a",
+            "srcrev": "5657fc069e8b33255b027a2416b51133a98df939",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-11-27T20:11:20+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-ti-staging-systest_6.12.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2125752,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-ti-staging-systest",
-            "pr": "r0",
-            "provides": "linux-ti-staging-systest  virtual/kernel",
-            "pv": "6.12.0+git",
-            "section": "kernel",
-            "srcrev": "ade72d105eb7c9a2a4addfd0204eb4551b8efa7a",
-            "summary": "Linux kernel for TI devices",
-            "updated": "2024-11-27T20:11:20+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2346,11 +2284,11 @@
             "pn": "linux-ti-staging",
             "pr": "r0",
             "provides": "linux-ti-staging  virtual/kernel",
-            "pv": "6.12.0+git",
+            "pv": "6.12.13+git",
             "section": "kernel",
-            "srcrev": "ade72d105eb7c9a2a4addfd0204eb4551b8efa7a",
+            "srcrev": "5657fc069e8b33255b027a2416b51133a98df939",
             "summary": "Linux kernel for TI devices",
-            "updated": "2024-11-27T20:11:19+0000"
+            "updated": "2025-02-26T19:02:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2369,11 +2307,11 @@
             "pn": "u-boot-ti-next",
             "pr": "r0",
             "provides": "u-boot-ti-next virtual/bootloader u-boot",
-            "pv": "2024.10+git",
+            "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "f919c3a889f0ec7d63a48b5d0ed064386b0980bd",
+            "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
             "summary": "U-Boot master-next for TI devices",
-            "updated": "2024-11-27T20:11:21+0000"
+            "updated": "2025-03-05T01:03:45+0000"
         }
     ],
     "wrtemplates": []

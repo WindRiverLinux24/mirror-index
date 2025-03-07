@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-02-24T23:02:07+0000",
+            "updated": "2025-03-06T23:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-02-19T04:02:52+0000",
-            "vcs_last_commit": "2025-02-18T22:02:51+0000",
-            "vcs_last_fetch": "2025-02-19T04:02:52+0000",
-            "vcs_last_rev": "e70667253e05ae7697e71cf63629604493a1b90e",
+            "updated": "2025-03-06T19:03:00+0000",
+            "vcs_last_commit": "2025-03-06T18:03:24+0000",
+            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
+            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2024-12-13T01:12:57+0000",
-            "vcs_last_commit": "2024-12-12T19:12:41+0000",
-            "vcs_last_fetch": "2024-12-13T01:12:57+0000",
-            "vcs_last_rev": "de79935321b7a42051661fab028694e33215280c",
+            "updated": "2025-03-04T23:03:10+0000",
+            "vcs_last_commit": "2025-03-04T17:03:28+0000",
+            "vcs_last_fetch": "2025-03-04T23:03:10+0000",
+            "vcs_last_rev": "77b2d78160c7b2798ea99ca9691307d83409d1c1",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -1198,7 +1198,7 @@
             "section": "bootloaders",
             "srcrev": "2b54ad6f1d278c419b927d10db2edf323d844578",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-17T03:06:14+0000"
+            "updated": "2025-03-04T23:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1244,7 +1244,7 @@
             "section": "bootloaders",
             "srcrev": "91ad7924e7f59584d597353e1bb86794341e0a7e",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-17T03:06:13+0000"
+            "updated": "2025-03-04T23:03:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1267,7 +1267,7 @@
             "section": "bootloaders",
             "srcrev": "1689570b68dd3827e527a520805aa0bb7f58ee09",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-17T03:06:14+0000"
+            "updated": "2025-03-04T23:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1290,7 +1290,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:26+0000"
+            "updated": "2025-03-04T23:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1313,7 +1313,7 @@
             "section": "bootloaders",
             "srcrev": "91ad7924e7f59584d597353e1bb86794341e0a7e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:26+0000"
+            "updated": "2025-03-04T23:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1336,7 +1336,7 @@
             "section": "bootloaders",
             "srcrev": "2b54ad6f1d278c419b927d10db2edf323d844578",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:26+0000"
+            "updated": "2025-03-04T23:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1359,7 +1359,7 @@
             "section": "bootloaders",
             "srcrev": "b31476685debf5512ed0d4e8000fa5167a22f530",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:26+0000"
+            "updated": "2025-03-04T23:03:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1382,7 +1382,7 @@
             "section": "bootloaders",
             "srcrev": "b31476685debf5512ed0d4e8000fa5167a22f530",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-17T03:06:13+0000"
+            "updated": "2025-03-04T23:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1405,7 +1405,7 @@
             "section": "bootloaders",
             "srcrev": "1689570b68dd3827e527a520805aa0bb7f58ee09",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:26+0000"
+            "updated": "2025-03-04T23:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2716,7 +2716,7 @@
             "section": "bootloaders",
             "srcrev": "fbed1010e50d75e7d25acc1c2d09e1c34cb7e882",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-06-17T03:06:25+0000"
+            "updated": "2025-03-04T23:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2739,7 +2739,7 @@
             "section": "bootloaders",
             "srcrev": "fbed1010e50d75e7d25acc1c2d09e1c34cb7e882",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:27+0000"
+            "updated": "2025-03-04T23:03:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -3153,7 +3153,7 @@
             "section": "bootloaders",
             "srcrev": "7f6ec94aac7eacfec07bd45c83a6d17df4b7d383",
             "summary": "U-Boot bootloader tools",
-            "updated": "2024-12-12T20:12:30+0000"
+            "updated": "2025-03-04T23:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -3176,7 +3176,7 @@
             "section": "bootloaders",
             "srcrev": "7f6ec94aac7eacfec07bd45c83a6d17df4b7d383",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2024-12-12T20:12:30+0000"
+            "updated": "2025-03-04T23:03:10+0000"
         },
         {
             "bbclassextend": "",
