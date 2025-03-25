@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-06T23:03:06+0000",
+            "updated": "2025-03-21T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-06T19:03:00+0000",
-            "vcs_last_commit": "2025-03-06T18:03:24+0000",
-            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
-            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
+            "updated": "2025-03-21T02:03:16+0000",
+            "vcs_last_commit": "2025-03-19T19:03:48+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-02-26T19:02:06+0000",
-            "vcs_last_commit": "2025-02-25T18:02:34+0000",
-            "vcs_last_fetch": "2025-02-26T19:02:06+0000",
-            "vcs_last_rev": "772dec51cfb603cf7b0edf632973373027116d8d",
+            "updated": "2025-03-21T02:03:26+0000",
+            "vcs_last_commit": "2025-03-19T19:03:54+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:26+0000",
+            "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -1233,7 +1233,7 @@
             "bugtracker": "",
             "configopts": "-DBUILD_SHARED_LIBS=ON                  -DCMAKE_CXX_STANDARD=14                  -DBUILD_TESTING=OFF                     -DABSL_ENABLE_INSTALL=ON                  ",
             "description": "Abseil provides pieces missing from the C++ standard. Contains additional useful libraries like algorithm, container, debugging, hash, memory, meta, numeric, strings, synchronization, time, types and utility.",
-            "filename": "abseil-cpp_20240116.2.bb",
+            "filename": "abseil-cpp_20240116.3.bb",
             "filepath": "recipes-devtools/abseil-cpp",
             "homepage": "https://abseil.io/",
             "id": 2026037,
@@ -1244,11 +1244,11 @@
             "pn": "abseil-cpp",
             "pr": "r0",
             "provides": "abseil-cpp ",
-            "pv": "20240116.2",
+            "pv": "20240116.3",
             "section": "libs",
-            "srcrev": "d7aaad83b488fd62bd51c81ecf16cd938532cc0a",
+            "srcrev": "54fac219c4ef0bc379dfffb0b8098725d77ac81b",
             "summary": "Abseil is a cpp library like STL",
-            "updated": "2024-07-01T22:07:21+0000"
+            "updated": "2025-03-21T02:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2454,11 +2454,11 @@
             "description": "",
             "filename": "sip_6.8.6.bb",
             "filepath": "recipes-devtools/sip",
-            "homepage": "https://www.riverbankcomputing.com/software/sip/",
+            "homepage": "https://github.com/Python-SIP/sip",
             "id": 2026090,
             "inherits": "pypi python3-dir python3native python3targetconfig python_pep517 python_setuptools_build_meta setuptools3-base",
             "layerbranch": 990855,
-            "license": "GPL-2.0-or-later",
+            "license": "BSD-2-Clause",
             "pe": "",
             "pn": "sip",
             "pr": "r0",
@@ -2467,7 +2467,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python bindings generator for C/C++ libraries",
-            "updated": "2025-01-20T20:01:46+0000"
+            "updated": "2025-03-21T02:03:25+0000"
         },
         {
             "bbclassextend": "native",
@@ -5618,7 +5618,7 @@
             "section": "libs",
             "srcrev": "1d6fb3e1383e559cacbada5e3f861c0dafaf5d30",
             "summary": "Modern, powerful open source cross-platform C++ class libraries",
-            "updated": "2024-05-09T02:05:36+0000"
+            "updated": "2025-03-21T02:03:26+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -7656,7 +7656,7 @@
             "id": 2026316,
             "inherits": "cmake",
             "layerbranch": 990855,
-            "license": "MPL-2.0 & Apache-2.0 & BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only & MINPACK",
+            "license": "MPL-2.0 & Apache-2.0 & BSD-3-Clause & GPL-2.0-only & MINPACK",
             "pe": "",
             "pn": "libeigen",
             "pr": "r0",
@@ -7665,7 +7665,7 @@
             "section": "base",
             "srcrev": "3147391d946bb4b6c68edd901f2add6ac1f31f8c",
             "summary": "",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2025-03-21T02:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -10931,7 +10931,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "C library and tools for interacting with the linux GPIO character device",
-            "updated": "2024-07-01T22:07:23+0000"
+            "updated": "2025-03-10T19:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -12541,7 +12541,7 @@
             "section": "console/utils",
             "srcrev": "0f2d4cfffada6f8448a2cb27995b38eb4271044f",
             "summary": "Diagnostic Log and Trace",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2025-03-21T02:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -18046,7 +18046,7 @@
             "bugtracker": "",
             "configopts": " -DOPENJPEG_INSTALL_LIB_DIR=lib ",
             "description": "OpenJPEG library is an open-source JPEG 2000 codec",
-            "filename": "openjpeg_2.5.0.bb",
+            "filename": "openjpeg_2.5.3.bb",
             "filepath": "recipes-graphics/openjpeg",
             "homepage": "http://www.openjpeg.org",
             "id": 2026768,
@@ -18057,11 +18057,11 @@
             "pn": "openjpeg",
             "pr": "r0",
             "provides": "openjpeg ",
-            "pv": "2.5.0",
+            "pv": "2.5.3",
             "section": "base",
-            "srcrev": "a5891555eb49ed7cc26b2901ea680acda136d811",
+            "srcrev": "210a8a5690d0da66f02d49420d7176a21ef409dc",
             "summary": "",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-21T02:03:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -18912,7 +18912,7 @@
             "section": "fonts",
             "srcrev": "",
             "summary": "Adobe OpenType Pan-CJK font family for Traditional Chinese",
-            "updated": "2024-05-09T02:05:14+0000"
+            "updated": "2025-03-21T02:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -18958,7 +18958,7 @@
             "section": "fonts",
             "srcrev": "",
             "summary": "Adobe OpenType Pan-CJK font family for Simplified Chinese",
-            "updated": "2024-05-09T02:05:14+0000"
+            "updated": "2025-03-21T02:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -19073,7 +19073,7 @@
             "section": "fonts",
             "srcrev": "",
             "summary": "Adobe OpenType Pan-CJK font family for Japanese",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-21T02:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -19188,7 +19188,7 @@
             "section": "fonts",
             "srcrev": "",
             "summary": "Adobe OpenType Pan-CJK font family for Korean",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-21T02:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -20344,7 +20344,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://github.com/esnet/iperf/issues",
-            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmpszx6zikp/tmp-glibc/work/core2-32-oe-linux/iperf3/3.16/recipe-sysroot/usr",
+            "configopts": "  ac_cv_header_netinet_sctp_h=no --with-openssl=/tmp/tmpflpnr_xw/tmp-glibc/work/core2-32-oe-linux/iperf3/3.16/recipe-sysroot/usr",
             "description": "iperf is a tool for active measurements of the maximum achievable bandwidth on IP networks. It supports tuning of various parameters related to timing, protocols, and buffers. For each test it reports the bandwidth, loss, and other parameters.",
             "filename": "iperf3_3.16.bb",
             "filepath": "recipes-benchmark/iperf3",
@@ -20361,7 +20361,7 @@
             "section": "console/network",
             "srcrev": "f9481e1cd35159929458513692e4a8f9fdd1bd6f",
             "summary": "Network benchmark tool",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-21T02:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -20775,7 +20775,7 @@
             "section": "base",
             "srcrev": "1d9e1626377cbaea3b21842a3525a62ba60f905f",
             "summary": "coreutils ~ GNU coreutils (updated); implemented as universal (cross-platform) utils, written in Rust",
-            "updated": "2025-02-26T19:02:04+0000"
+            "updated": "2025-03-21T02:03:24+0000"
         },
         {
             "bbclassextend": "",

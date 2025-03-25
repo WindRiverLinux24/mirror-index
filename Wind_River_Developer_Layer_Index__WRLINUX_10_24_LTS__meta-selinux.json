@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-06T23:03:06+0000",
+            "updated": "2025-03-21T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-06T19:03:00+0000",
-            "vcs_last_commit": "2025-03-06T18:03:24+0000",
-            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
-            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
+            "updated": "2025-03-21T02:03:16+0000",
+            "vcs_last_commit": "2025-03-19T19:03:48+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-02-26T19:02:20+0000",
-            "vcs_last_commit": "2025-02-25T18:02:34+0000",
-            "vcs_last_fetch": "2025-02-26T19:02:20+0000",
-            "vcs_last_rev": "772dec51cfb603cf7b0edf632973373027116d8d",
+            "updated": "2025-03-21T02:03:40+0000",
+            "vcs_last_commit": "2025-03-19T19:03:54+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:40+0000",
+            "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990861,
             "layer": 20,
             "local_path": "",
-            "updated": "2024-11-01T00:11:10+0000",
-            "vcs_last_commit": "2024-10-29T21:10:24+0000",
-            "vcs_last_fetch": "2024-11-01T00:11:10+0000",
-            "vcs_last_rev": "2d8144be9ddd1f851c9e2d054631025b9099d8a9",
+            "updated": "2025-03-21T02:03:49+0000",
+            "vcs_last_commit": "2025-03-19T19:03:54+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:49+0000",
+            "vcs_last_rev": "a7feef337062ea037fe612496b4e11c47d818fec",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44188
@@ -882,7 +882,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "SETools is a collection of graphical tools, command-line tools, and libraries designed to facilitate SELinux policy analysis.",
-            "filename": "setools_4.4.4.bb",
+            "filename": "setools_4.5.1.bb",
             "filepath": "recipes-security/setools",
             "homepage": "",
             "id": 2027840,
@@ -893,11 +893,11 @@
             "pn": "setools",
             "pr": "r0",
             "provides": "setools ",
-            "pv": "4.4.4",
+            "pv": "4.5.1",
             "section": "base",
-            "srcrev": "a04b015459512d0460ff6bc50f28d746861f4a0b",
+            "srcrev": "659ec47aba0126e3a198362ed1659bf600c067eb",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2025-03-21T02:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +920,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux minimum policy",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2025-03-21T02:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +943,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2025-03-21T02:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -966,7 +966,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2024-11-01T00:11:04+0000"
+            "updated": "2025-03-21T02:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +989,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2024-11-01T00:11:05+0000"
+            "updated": "2025-03-21T02:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1012,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux targeted policy",
-            "updated": "2024-11-01T00:11:06+0000"
+            "updated": "2025-03-21T02:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1089,7 +1089,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Run application within a tightly confined SELinux domain. The default sandbox domain only allows applications the ability to read and write stdin, stdout and any other file descriptors handed to it.",
-            "filename": "selinux-sandbox_3.6.bb",
+            "filename": "selinux-sandbox_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027849,
@@ -1100,11 +1100,11 @@
             "pn": "selinux-sandbox",
             "pr": "r0",
             "provides": "selinux-sandbox ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Run cmd under an SELinux sandbox",
-            "updated": "2024-11-01T00:11:06+0000"
+            "updated": "2025-03-21T02:03:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -1112,7 +1112,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libsepol provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies such as customizing policy boolean settings.",
-            "filename": "libsepol_3.6.bb",
+            "filename": "libsepol_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027850,
@@ -1123,11 +1123,11 @@
             "pn": "libsepol",
             "pr": "r0",
             "provides": "libsepol ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2024-11-01T00:11:07+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1135,7 +1135,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Provide SELinux Management tool (system-config-selinux) and SELinux Policy Generation Tool (selinux-polgengui)",
-            "filename": "selinux-gui_3.6.bb",
+            "filename": "selinux-gui_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027851,
@@ -1146,11 +1146,11 @@
             "pn": "selinux-gui",
             "pr": "r0",
             "provides": "selinux-gui ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux GUI tools",
-            "updated": "2024-11-01T00:11:07+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1158,7 +1158,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This package contains Python modules sepolgen, sepolicy; And the SELinux utilities audit2allow, chcat, semanage ...",
-            "filename": "selinux-python_3.6.bb",
+            "filename": "selinux-python_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027852,
@@ -1169,11 +1169,11 @@
             "pn": "selinux-python",
             "pr": "r0",
             "provides": "selinux-python ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Python modules and various SELinux utilities.",
-            "updated": "2024-11-01T00:11:07+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1181,7 +1181,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This package contains secilc, the SELinux Common Intermediate Language (CIL) compiler.",
-            "filename": "secilc_3.6.bb",
+            "filename": "secilc_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027853,
@@ -1192,11 +1192,11 @@
             "pn": "secilc",
             "pr": "r0",
             "provides": "secilc ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2024-11-01T00:11:07+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1204,7 +1204,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "mcstrans provides an translation daemon to translate SELinux categories from internal representations to user defined representation.",
-            "filename": "mcstrans_3.6.bb",
+            "filename": "mcstrans_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027854,
@@ -1215,11 +1215,11 @@
             "pn": "mcstrans",
             "pr": "r0",
             "provides": "mcstrans ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Daemon to translate SELinux MCS/MLS sensitivity labels",
-            "updated": "2024-11-01T00:11:08+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1227,7 +1227,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libsemanage provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies such as customizing policy boolean settings.",
-            "filename": "libsemanage_3.6.bb",
+            "filename": "libsemanage_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027855,
@@ -1238,11 +1238,11 @@
             "pn": "libsemanage",
             "pr": "r0",
             "provides": "libsemanage ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2024-11-01T00:11:08+0000"
+            "updated": "2025-03-21T02:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1250,7 +1250,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The restorecond daemon uses inotify to watch files listed in the /etc/selinux/restorecond.conf, when they are created, this daemon will make sure they have the correct file context associated with the policy.",
-            "filename": "restorecond_3.6.bb",
+            "filename": "restorecond_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027856,
@@ -1261,11 +1261,11 @@
             "pn": "restorecond",
             "pr": "r0",
             "provides": "restorecond ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Daemon to watch for file creation and set default file context",
-            "updated": "2024-11-01T00:11:08+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1273,7 +1273,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "This package contains checkpolicy, the SELinux policy compiler. Only required for building policies. It uses libsepol to generate the binary policy. checkpolicy uses the static libsepol since it deals with low level details of the policy that have not been encapsulated/abstracted by a proper shared library interface.",
-            "filename": "checkpolicy_3.6.bb",
+            "filename": "checkpolicy_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027857,
@@ -1284,11 +1284,11 @@
             "pn": "checkpolicy",
             "pr": "r0",
             "provides": "checkpolicy ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux policy compiler",
-            "updated": "2024-11-01T00:11:08+0000"
+            "updated": "2025-03-21T02:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1296,7 +1296,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libselinux provides an API for SELinux applications to get and set process and file security contexts and to obtain security policy decisions.  Required for any applications that use the SELinux API.",
-            "filename": "libselinux-python_3.6.bb",
+            "filename": "libselinux-python_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027858,
@@ -1307,11 +1307,11 @@
             "pn": "libselinux-python",
             "pr": "r0",
             "provides": "libselinux-python ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux library and simple utilities",
-            "updated": "2024-11-01T00:11:09+0000"
+            "updated": "2025-03-21T02:03:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -1319,7 +1319,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "libselinux provides an API for SELinux applications to get and set process and file security contexts and to obtain security policy decisions.  Required for any applications that use the SELinux API.",
-            "filename": "libselinux_3.6.bb",
+            "filename": "libselinux_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027859,
@@ -1330,11 +1330,11 @@
             "pn": "libselinux",
             "pr": "r0",
             "provides": "libselinux ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux library and simple utilities",
-            "updated": "2024-11-01T00:11:09+0000"
+            "updated": "2025-03-21T02:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1342,7 +1342,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Provide SELinux dbus service files and scripts.",
-            "filename": "selinux-dbus_3.6.bb",
+            "filename": "selinux-dbus_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027860,
@@ -1353,11 +1353,11 @@
             "pn": "selinux-dbus",
             "pr": "r0",
             "provides": "selinux-dbus ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux dbus service files",
-            "updated": "2024-11-01T00:11:09+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1365,7 +1365,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "policycoreutils contains the policy core utilities that are required for basic operation of a SELinux system.  These utilities include load_policy to load policies, setfiles to label filesystems, newrole to switch roles, and run_init to run /etc/init.d scripts in the proper context.",
-            "filename": "policycoreutils_3.6.bb",
+            "filename": "policycoreutils_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027861,
@@ -1376,11 +1376,11 @@
             "pn": "policycoreutils",
             "pr": "r0",
             "provides": "policycoreutils ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux policy core utilities",
-            "updated": "2024-11-01T00:11:09+0000"
+            "updated": "2025-03-21T02:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -1388,7 +1388,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The utilities to create, expand, link and show the dependencies between the SELinux policy module packages.",
-            "filename": "semodule-utils_3.6.bb",
+            "filename": "semodule-utils_3.7.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
             "id": 2027862,
@@ -1399,11 +1399,11 @@
             "pn": "semodule-utils",
             "pr": "r0",
             "provides": "semodule-utils ",
-            "pv": "3.6",
+            "pv": "3.7",
             "section": "base",
-            "srcrev": "97fa708d867ecb26e8d1c766760947f8e3b9e59a",
+            "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2024-11-01T00:11:10+0000"
+            "updated": "2025-03-21T02:03:48+0000"
         }
     ],
     "wrtemplates": []

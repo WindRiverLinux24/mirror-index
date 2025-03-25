@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-06T23:03:06+0000",
+            "updated": "2025-03-21T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-06T19:03:00+0000",
-            "vcs_last_commit": "2025-03-06T18:03:24+0000",
-            "vcs_last_fetch": "2025-03-06T19:03:00+0000",
-            "vcs_last_rev": "c793dd068651d6e03706243efa1257ed83ce85db",
+            "updated": "2025-03-21T02:03:16+0000",
+            "vcs_last_commit": "2025-03-19T19:03:48+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-02-26T19:02:50+0000",
-            "vcs_last_commit": "2025-02-25T18:02:41+0000",
-            "vcs_last_fetch": "2025-02-26T19:02:50+0000",
-            "vcs_last_rev": "b580bedc9273b682906d4ec5005396664b3564d5",
+            "updated": "2025-03-21T02:03:59+0000",
+            "vcs_last_commit": "2025-03-19T19:03:54+0000",
+            "vcs_last_fetch": "2025-03-21T02:03:59+0000",
+            "vcs_last_rev": "31d6b44c43360a57538226855c09c6f09694076f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -2823,9 +2823,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--imx-platform=${IMX_PLATFORM} --libdir=/usr/lib --imx-headers=/tmp/tmppaag9216/tmp-glibc/work/qemux86-oe-linux/libimxvpuapi2/2.3.0+gitX/recipe-sysroot/usr/include/imx --sysroot-path=/tmp/tmppaag9216/tmp-glibc/work/qemux86-oe-linux/libimxvpuapi2/2.3.0+gitX/recipe-sysroot ",
+            "configopts": "--imx-platform=${IMX_PLATFORM} --libdir=/usr/lib --imx-headers=/tmp/tmpv9_o5f78/tmp-glibc/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot/usr/include/imx --sysroot-path=/tmp/tmpv9_o5f78/tmp-glibc/work/qemux86-oe-linux/libimxvpuapi2/2.3.1+gitX/recipe-sysroot ",
             "description": "frontend for the i.MX6 / i.MX8 VPU hardware video engines",
-            "filename": "libimxvpuapi2_2.3.0.bb",
+            "filename": "libimxvpuapi2_2.3.1.bb",
             "filepath": "recipes-multimedia/libimxvpuapi",
             "homepage": "https://github.com/Freescale/libimxvpuapi",
             "id": 2027973,
@@ -2836,11 +2836,11 @@
             "pn": "libimxvpuapi2",
             "pr": "r0",
             "provides": "libimxvpuapi2 ",
-            "pv": "2.3.0+gitX",
+            "pv": "2.3.1+gitX",
             "section": "multimedia",
-            "srcrev": "8639837a246f8d85fba8a707c130239aeabc0a19",
+            "srcrev": "37095a854aa176bb763a25ce98ceb6a787501271",
             "summary": "",
-            "updated": "2024-09-28T21:09:37+0000"
+            "updated": "2025-03-21T02:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -4057,9 +4057,9 @@
             "provides": "linux-fslc-imx  virtual/kernel linux-mfgtool",
             "pv": "6.6.74+gitX",
             "section": "base",
-            "srcrev": "00aabf3c03c392a6993ab5037ac856b1e48edcad",
+            "srcrev": "5ff4cf4d61e11f0fdf8d4e2e54fbb203e46d34b2",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2025-02-26T19:02:49+0000"
+            "updated": "2025-03-21T02:03:59+0000"
         },
         {
             "bbclassextend": "",
