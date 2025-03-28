@@ -634,17 +634,17 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "QorIQ SDK (FSL Reference Distro)",
-            "id": 14298,
+            "id": 15392,
             "layerbranch": 993873,
             "name": "fsl-qoriq",
-            "updated": "2024-05-09T19:05:07+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         }
     ],
     "layerBranches": [
@@ -655,9 +655,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -670,9 +670,9 @@
             "id": 990864,
             "layer": 59,
             "local_path": "",
-            "updated": "2025-03-21T02:03:54+0000",
+            "updated": "2025-03-25T20:03:16+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:54+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:16+0000",
             "vcs_last_rev": "2c1dcff4ba0d8c7c1c99151b036d6721f3adb257",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -685,10 +685,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-03-21T02:03:59+0000",
-            "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:59+0000",
-            "vcs_last_rev": "31d6b44c43360a57538226855c09c6f09694076f",
+            "updated": "2025-03-25T20:03:11+0000",
+            "vcs_last_commit": "2025-03-25T18:03:19+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:11+0000",
+            "vcs_last_rev": "a883ea0b5946e291593069b7171d51f99cbf9e24",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -700,9 +700,9 @@
             "id": 993872,
             "layer": 474,
             "local_path": "",
-            "updated": "2024-09-28T23:09:31+0000",
+            "updated": "2025-03-25T20:03:55+0000",
             "vcs_last_commit": "2024-09-27T21:09:28+0000",
-            "vcs_last_fetch": "2024-09-28T23:09:31+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:55+0000",
             "vcs_last_rev": "d30c7d29f93e766ddcee0d706c3b9b2a8717147d",
             "vcs_subdir": "meta-arm",
             "version": null,
@@ -715,9 +715,9 @@
             "id": 993873,
             "layer": 516,
             "local_path": "",
-            "updated": "2025-03-04T23:03:16+0000",
+            "updated": "2025-03-25T20:03:27+0000",
             "vcs_last_commit": "2025-03-04T21:03:20+0000",
-            "vcs_last_fetch": "2025-03-04T23:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:27+0000",
             "vcs_last_rev": "c92ec6809792d3a156d3a8877e3a2857a3c7acbc",
             "vcs_subdir": "",
             "version": null,
@@ -850,17 +850,17 @@
     "machines": [
         {
             "description": " LX2160ARDB in 64-bit mode",
-            "id": 86353,
+            "id": 97561,
             "layerbranch": 993873,
             "name": "lx2160ardb-rev2",
-            "updated": "2024-05-09T19:05:07+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "description": " NXP QorIQ LS1 Tower System",
-            "id": 86354,
+            "id": 97562,
             "layerbranch": 993873,
             "name": "ls1021atwr",
-            "updated": "2024-05-09T19:05:07+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         }
     ],
     "recipes": [
@@ -885,7 +885,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:07+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -908,7 +908,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for vitualization",
-            "updated": "2024-05-09T19:05:07+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -931,7 +931,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for multimedia Gstreamer1.x Plugins",
-            "updated": "2024-05-09T19:05:08+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -954,7 +954,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for extended networking tools",
-            "updated": "2024-05-09T19:05:08+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -977,7 +977,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for core networking tools",
-            "updated": "2024-05-09T19:05:08+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1000,7 +1000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for audio tools",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1023,7 +1023,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for benchmarks",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1046,7 +1046,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for development tools",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1069,7 +1069,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for core tools",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1092,7 +1092,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for development tools",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,7 +1115,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for extended tools",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1138,7 +1138,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale Package group for minimal graphics",
-            "updated": "2024-05-09T19:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1150,7 +1150,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029341,
-            "inherits": "core-image fsl-utils image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image fsl-utils image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993873,
             "license": "MIT",
             "pe": "",
@@ -1161,7 +1161,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Large image to be used for development and evaluation",
-            "updated": "2024-05-09T19:05:10+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1173,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029342,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993873,
             "license": "MIT",
             "pe": "",
@@ -1184,7 +1184,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image to be used for evaluating the Freescale socs",
-            "updated": "2024-05-09T19:05:10+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1207,7 +1207,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A FIT image comprising the Linux image, dtb and rootfs",
-            "updated": "2024-05-09T19:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1219,7 +1219,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029344,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993873,
             "license": "MIT",
             "pe": "",
@@ -1230,7 +1230,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image commonly used for manufacturing or other small image needs.",
-            "updated": "2024-05-09T19:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1242,7 +1242,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029345,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993873,
             "license": "MIT",
             "pe": "",
@@ -1253,7 +1253,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small image to be used for evaluating the Freescale socs",
-            "updated": "2024-05-09T19:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1276,7 +1276,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building a installable toolchain",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1299,13 +1299,13 @@
             "section": "base",
             "srcrev": "e6afb9cbae4064da8c3e69af3ff5c4629579c1d2",
             "summary": "single-file public domain (or MIT licensed) libraries for C/C++",
-            "updated": "2024-05-09T19:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-bits=gmp --with-gmp-prefix=/tmp/tmpniq_8ayi/tmp-glibc/work/core2-32-oe-linux/cloog/0.18.0/recipe-sysroot/usr --with-isl=no ",
+            "configopts": "--with-bits=gmp --with-gmp-prefix=/tmp/tmppkbtf516/tmp-glibc/work/core2-32-oe-linux/cloog/0.18.0/recipe-sysroot/usr --with-isl=no ",
             "description": "CLooG is a free software and library to generate code for scanning Z-polyhedra.",
             "filename": "cloog_0.18.0.bb",
             "filepath": "recipes-devtools/cloog",
@@ -1322,7 +1322,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:12+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1345,7 +1345,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:12+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1368,7 +1368,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Perl interface for cyclic redundency check generation",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1391,7 +1391,7 @@
             "section": "base",
             "srcrev": "de16f4f17221b2ff72b8cb18c28cd8a29f3c2710",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1414,7 +1414,7 @@
             "section": "base",
             "srcrev": "4e40e24590ab908773ef842cd0e17faf233767d4",
             "summary": "Verified boot means the verification of all software loaded into a machine during the boot process to ensure that it is authorised and correct for that machine.",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1437,7 +1437,7 @@
             "section": "bootloaders",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1460,7 +1460,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1483,7 +1483,7 @@
             "section": "bootloaders",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1506,7 +1506,7 @@
             "section": "bootloaders",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1529,7 +1529,7 @@
             "section": "base",
             "srcrev": "28affcae957cb8194917b5246276630f9e6343e1",
             "summary": "",
-            "updated": "2025-01-13T21:01:05+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1552,13 +1552,13 @@
             "section": "base",
             "srcrev": "28affcae957cb8194917b5246276630f9e6343e1",
             "summary": "",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-libpcap=/tmp/tmpniq_8ayi/tmp-glibc/work/core2-32-oe-linux/tcpreplay/3.4.4/recipe-sysroot/usr ",
+            "configopts": " --with-libpcap=/tmp/tmppkbtf516/tmp-glibc/work/core2-32-oe-linux/tcpreplay/3.4.4/recipe-sysroot/usr ",
             "description": "",
             "filename": "tcpreplay_3.4.4.bb",
             "filepath": "recipes-support/tcpreplay",
@@ -1575,7 +1575,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Use previously captured traffic to test network devices",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1598,13 +1598,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Scripts and configuration files for ipsec demo",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-kernel-headers=/tmp/tmpniq_8ayi/tmp-glibc/work/qemux86-oe-linux/ipsec-tools/0.8.2/recipe-sysroot/usr/include                 --with-readline                 --with-openssl=/tmp/tmpniq_8ayi/tmp-glibc/work/qemux86-oe-linux/ipsec-tools/0.8.2/recipe-sysroot/usr/lib/..                 --without-libradius                 --disable-security-context                 --enable-shared                 --enable-dpd                 --enable-natt=yes                 --sysconfdir=/etc/racoon                 --enable-ipv6=yes  --without-libpam --disable-security-context",
+            "configopts": "--with-kernel-headers=/tmp/tmppkbtf516/tmp-glibc/work/qemux86-oe-linux/ipsec-tools/0.8.2/recipe-sysroot/usr/include                 --with-readline                 --with-openssl=/tmp/tmppkbtf516/tmp-glibc/work/qemux86-oe-linux/ipsec-tools/0.8.2/recipe-sysroot/usr/lib/..                 --without-libradius                 --disable-security-context                 --enable-shared                 --enable-dpd                 --enable-natt=yes                 --sysconfdir=/etc/racoon                 --enable-ipv6=yes  --without-libpam --disable-security-context",
             "description": "IPsec-Tools is a port of KAME's IPsec utilities to the Linux-2.6 IPsec implementation.",
             "filename": "ipsec-tools_0.8.2.bb",
             "filepath": "recipes-support/ipsec-tools",
@@ -1621,7 +1621,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1644,7 +1644,7 @@
             "section": "base",
             "srcrev": "5d4b0cd7cbf74e3a64f8f63d58b35239180ef35f",
             "summary": "Firmware tool for AQuantia Ethernet PHYs",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1667,7 +1667,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Debian's start-stop-daemon utility extracted from the dpkg package",
-            "updated": "2024-05-09T19:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,7 +1690,7 @@
             "section": "base",
             "srcrev": "7d82686272f8a60b803818bbc7c5396819ee3b06",
             "summary": "DPAA2 Management Complex Firmware",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,7 +1713,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A flexible distro installer",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1736,13 +1736,13 @@
             "section": "base",
             "srcrev": "ba61b8457352d80fa6d53a247b000dbeb3a6401a",
             "summary": "",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Denable_kmods=false         -Dexamples=all         -Doptimization=3         --cross-file /tmp/tmpr5l_hfke/tmp-glibc/work/core2-32-oe-linux/dpdk/22.11/git/config/arm/arm64_poky_linux_gcc         -Denable_driver_sdk=true           ",
+            "configopts": " -Denable_kmods=false         -Dexamples=all         -Doptimization=3         --cross-file /tmp/tmppkbtf516/tmp-glibc/work/core2-32-oe-linux/dpdk/22.11/git/config/arm/arm64_poky_linux_gcc         -Denable_driver_sdk=true           ",
             "description": "Data Plane Development Kit",
             "filename": "dpdk_22.11.bb",
             "filepath": "recipes-extended/dpdk",
@@ -1759,7 +1759,7 @@
             "section": "base",
             "srcrev": "9298b898fe38482fbb293d431cdeea4297c17e70",
             "summary": "",
-            "updated": "2025-01-13T21:01:07+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1782,7 +1782,7 @@
             "section": "base",
             "srcrev": "178c06ff7ca242b2485d65ae427fd82b62a71601",
             "summary": "",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1805,7 +1805,7 @@
             "section": "base",
             "srcrev": "82cf300c4de96045f8b5b9ae3cd2fcabfe7c2aef",
             "summary": "",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1828,7 +1828,7 @@
             "section": "base",
             "srcrev": "4ff52a9204f05db6086ce8449c9238d98c12845c",
             "summary": "",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1851,7 +1851,7 @@
             "section": "base",
             "srcrev": "6b80882e3d5bc986a1f2f9512845170658ba9ea2",
             "summary": "NXP CAAM Keyctl",
-            "updated": "2024-05-09T19:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1874,7 +1874,7 @@
             "section": "base",
             "srcrev": "5b52b48a73b4cc3f228ec66ae6cf9920897bb2e6",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2025-01-13T21:01:07+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1897,7 +1897,7 @@
             "section": "base",
             "srcrev": "3eac340a781c00ccd61b151b0e9c22a8c6e9f9f0",
             "summary": "OP-TEE Client API",
-            "updated": "2025-01-14T19:01:00+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1920,7 +1920,7 @@
             "section": "base",
             "srcrev": "612bc5a642a4608d282abeee2349d86de996d7ee",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2025-01-14T19:01:00+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1943,7 +1943,7 @@
             "section": "base",
             "srcrev": "612bc5a642a4608d282abeee2349d86de996d7ee",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2025-01-14T19:01:00+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1966,7 @@
             "section": "base",
             "srcrev": "d2362c958abf9d17f62fe60817572de7c9714384",
             "summary": "",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -1989,7 +1989,7 @@
             "section": "base",
             "srcrev": "d2362c958abf9d17f62fe60817572de7c9714384",
             "summary": "",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2012,7 +2012,7 @@
             "section": "base",
             "srcrev": "e5c9a169d7b7a441a20d2cf10a9752e249b71cff",
             "summary": "Kernel loadable module for NXP Wi-Fi module 88w8801/8987/8997/9098 IW416/612",
-            "updated": "2025-01-13T21:01:07+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2035,7 +2035,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Monitoring tools exploiting the performance monitoring events",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2058,7 +2058,7 @@
             "section": "kernel",
             "srcrev": "d23d64eea5111e1607efcce1d601834fceec92cb",
             "summary": "Linux Kernel for NXP QorIQ platforms",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2081,7 +2081,7 @@
             "section": "x11/base",
             "srcrev": "2f1797674f94572ae8c365c8cbffb0263337ed57",
             "summary": "Userspace interface to the kernel DRM services",
-            "updated": "2024-05-09T19:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2104,7 +2104,7 @@
             "section": "utils",
             "srcrev": "",
             "summary": "Framebuffer (scriptable) image viewer",
-            "updated": "2024-05-09T19:05:17+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2127,7 +2127,7 @@
             "section": "base",
             "srcrev": "c3c1f9ff7824123dd4808ace3c9476345cb84177",
             "summary": "Weston, a Wayland compositor, i.MX fork",
-            "updated": "2025-01-13T21:01:06+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2150,7 +2150,7 @@
             "section": "base",
             "srcrev": "7ece577d467f8afb2f5a2f7fff3761a1e0ee9dad",
             "summary": "Collection of additional Wayland protocols",
-            "updated": "2024-05-09T19:05:17+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2168,12 +2168,12 @@
             "pe": "1",
             "pn": "imx-gpu-viv",
             "pr": "r0",
-            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd             ",
+            "provides": "imx-gpu-viv       imx-gpu-viv     libgal-imx     virtual/egl     virtual/libopenvg               opencl-headers     opencl-clhpp     opencl-icd-loader     virtual/opencl-icd        ",
             "pv": "6.4.11.p2.8-aarch64",
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-01-13T21:01:07+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2196,7 +2196,7 @@
             "section": "base",
             "srcrev": "e5c9a169d7b7a441a20d2cf10a9752e249b71cff",
             "summary": "NXP Wi-Fi SDK",
-            "updated": "2025-01-13T21:01:07+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2219,7 +2219,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for the Linux Standard Wireless Extension Subsystem",
-            "updated": "2024-05-09T19:05:18+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         }
     ],
     "wrtemplates": []

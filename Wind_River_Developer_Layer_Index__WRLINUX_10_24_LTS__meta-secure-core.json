@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990865,
             "layer": 129,
             "local_path": "",
-            "updated": "2024-07-30T21:07:51+0000",
+            "updated": "2025-03-25T20:03:23+0000",
             "vcs_last_commit": "2024-07-12T02:07:25+0000",
-            "vcs_last_fetch": "2024-07-30T21:07:51+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:23+0000",
             "vcs_last_rev": "658a89cacdf422eedd4f924d7d098dc122f8faa5",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -677,9 +677,9 @@
             "id": 990903,
             "layer": 149,
             "local_path": "",
-            "updated": "2024-05-09T02:05:47+0000",
+            "updated": "2025-03-25T20:03:29+0000",
             "vcs_last_commit": "2024-04-28T00:04:56+0000",
-            "vcs_last_fetch": "2024-05-09T02:05:47+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:29+0000",
             "vcs_last_rev": "22e71ffb984b9cf2867230743086ffed89e689df",
             "vcs_subdir": "meta",
             "version": null,
@@ -782,7 +782,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2024-05-09T02:05:46+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -794,7 +794,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2027875,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990903,
             "license": "MIT",
             "pe": "",
@@ -805,7 +805,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The root image of SecureCore.",
-            "updated": "2024-05-09T02:05:46+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +828,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2024-05-09T02:05:47+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -840,7 +840,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2027877,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo user-key-store",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo user-key-store",
             "layerbranch": 990903,
             "license": "MIT",
             "pe": "",
@@ -851,7 +851,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:47+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -863,7 +863,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2027878,
-            "inherits": "core-image extrausers image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
+            "inherits": "core-image extrausers image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 990903,
             "license": "MIT",
             "pe": "",
@@ -874,7 +874,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "The root image of SecureCore.",
-            "updated": "2024-05-09T02:05:47+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         }
     ],
     "wrtemplates": []

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-03-21T02:03:40+0000",
+            "updated": "2025-03-25T20:03:44+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:40+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:44+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -677,9 +677,9 @@
             "id": 990861,
             "layer": 20,
             "local_path": "",
-            "updated": "2025-03-21T02:03:49+0000",
+            "updated": "2025-03-25T20:03:57+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:49+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:57+0000",
             "vcs_last_rev": "a7feef337062ea037fe612496b4e11c47d818fec",
             "vcs_subdir": "",
             "version": "1",
@@ -782,7 +782,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:02+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +805,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:02+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +828,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:02+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -851,7 +851,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:03+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -874,7 +874,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-01T00:11:03+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -897,7 +897,7 @@
             "section": "base",
             "srcrev": "659ec47aba0126e3a198362ed1659bf600c067eb",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2025-03-21T02:03:48+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +920,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux minimum policy",
-            "updated": "2025-03-21T02:03:48+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +943,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2025-03-21T02:03:48+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -966,7 +966,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2025-03-21T02:03:49+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +989,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2025-03-21T02:03:49+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1012,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux targeted policy",
-            "updated": "2025-03-21T02:03:49+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,7 +1035,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux init script",
-            "updated": "2024-11-01T00:11:06+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1058,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux autorelabel script",
-            "updated": "2024-11-01T00:11:06+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux init script",
-            "updated": "2024-11-01T00:11:06+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1104,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Run cmd under an SELinux sandbox",
-            "updated": "2025-03-21T02:03:48+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "native",
@@ -1127,7 +1127,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1150,7 +1150,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux GUI tools",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1173,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Python modules and various SELinux utilities.",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -1196,7 +1196,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1219,7 +1219,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Daemon to translate SELinux MCS/MLS sensitivity labels",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -1242,7 +1242,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2025-03-21T02:03:46+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1265,7 +1265,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Daemon to watch for file creation and set default file context",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -1288,7 +1288,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux policy compiler",
-            "updated": "2025-03-21T02:03:46+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1311,7 +1311,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux library and simple utilities",
-            "updated": "2025-03-21T02:03:46+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -1334,7 +1334,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux library and simple utilities",
-            "updated": "2025-03-21T02:03:46+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1357,7 +1357,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux dbus service files",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -1380,7 +1380,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "SELinux policy core utilities",
-            "updated": "2025-03-21T02:03:47+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -1403,7 +1403,7 @@
             "section": "base",
             "srcrev": "2eb286bc0841791043567437ba5413f3014fb94e",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2025-03-21T02:03:48+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         }
     ],
     "wrtemplates": []

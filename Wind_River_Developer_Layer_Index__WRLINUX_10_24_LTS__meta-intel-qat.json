@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990868,
             "layer": 193,
             "local_path": "",
-            "updated": "2024-09-04T02:09:08+0000",
+            "updated": "2025-03-25T20:03:49+0000",
             "vcs_last_commit": "2024-09-04T01:09:26+0000",
-            "vcs_last_fetch": "2024-09-04T02:09:08+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:49+0000",
             "vcs_last_rev": "9083c58d711ea318e76c5acc91c92d4946ed9b36",
             "vcs_subdir": "",
             "version": "1",
@@ -742,7 +742,7 @@
             "section": "base",
             "srcrev": "fdee557b5bb640827758f121102dcf3583292b7a",
             "summary": "",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +765,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-09-04T02:09:08+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -788,7 +788,7 @@
             "section": "base",
             "srcrev": "61178382110a5b93898e2a1d07c84aac9c695362",
             "summary": "",
-            "updated": "2024-09-04T02:09:08+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         }
     ],
     "wrtemplates": []

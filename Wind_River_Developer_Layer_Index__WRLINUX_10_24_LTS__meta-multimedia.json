@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-03-21T02:03:26+0000",
+            "updated": "2025-03-25T20:03:32+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:26+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:32+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -677,9 +677,9 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-03-21T02:03:40+0000",
+            "updated": "2025-03-25T20:03:44+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:40+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:44+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -692,9 +692,9 @@
             "id": 990859,
             "layer": 16,
             "local_path": "",
-            "updated": "2025-02-26T19:02:28+0000",
+            "updated": "2025-03-25T20:03:29+0000",
             "vcs_last_commit": "2025-02-04T14:02:32+0000",
-            "vcs_last_fetch": "2025-02-26T19:02:28+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:29+0000",
             "vcs_last_rev": "0bd3f27be016b7f0935b2ed5b0dc481689cf10ef",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
@@ -822,7 +822,7 @@
             "section": "base",
             "srcrev": "f5315fddda2d434e47035c038549a808d8b8eac7",
             "summary": "C++ library to parse and create Matroska files(.mkv and .mka)",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -845,7 +845,7 @@
             "section": "base",
             "srcrev": "1878e784321673561039a6a37076b2736f4dc98f",
             "summary": "C++ library to parse EBML files",
-            "updated": "2024-05-09T02:05:56+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -868,7 +868,7 @@
             "section": "base",
             "srcrev": "cc602833684953fc3e6f1c89d4f08f6dfef179e3",
             "summary": "Tvheadend: TV streaming server and recorder",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -891,7 +891,7 @@
             "section": "base",
             "srcrev": "11718",
             "summary": "OSCam: Open Source Conditional Access Module",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -914,7 +914,7 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -937,7 +937,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -960,7 +960,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:57+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -983,13 +983,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:58+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  -DIMPORT_EXECUTABLES=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/libmusicbrainz/5.1.0+git/recipe-sysroot-native/usr/lib/cmake/libmusicbrainz/ImportExecutables.cmake",
+            "configopts": "  -DIMPORT_EXECUTABLES=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/libmusicbrainz/5.1.0+git/recipe-sysroot-native/usr/lib/cmake/libmusicbrainz/ImportExecutables.cmake",
             "description": "The MusicBrainz client is a library which can be built into other programs.  The library allows you to access the data held on the MusicBrainz server.",
             "filename": "libmusicbrainz_git.bb",
             "filepath": "recipes-multimedia/musicbrainz",
@@ -1006,7 +1006,7 @@
             "section": "base",
             "srcrev": "4655b571a70d73d41467091f59c518517c956198",
             "summary": "MusicBrainz client library",
-            "updated": "2024-05-09T02:05:58+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1029,7 +1029,7 @@
             "section": "libs",
             "srcrev": "d1c26facaf5a8a97919ceee06814d05d10e25622",
             "summary": "This library aims to be a friendly, portable C implementation of the AV1 Image File Format",
-            "updated": "2024-05-09T02:05:58+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1052,7 +1052,7 @@
             "section": "libs",
             "srcrev": "68d07a00e11d1944e27b7295ee69673239c00b4b",
             "summary": "library for USB video devices built atop libusb",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1075,7 +1075,7 @@
             "section": "libs/multimedia",
             "srcrev": "bc6c0b164a87ce05e9925785cc6fb3f54c02b026",
             "summary": "Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt ",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1098,7 +1098,7 @@
             "section": "libs",
             "srcrev": "35ed4b91291d9f3d08e4b51acfb51163e65df8f8",
             "summary": "Linux libcamera framework",
-            "updated": "2025-02-26T19:02:27+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1121,7 +1121,7 @@
             "section": "libs/multimedia",
             "srcrev": "e9e2e37c329dbe98bfeb27a1828ef9a71fa84f88",
             "summary": "Flite: a small run-time speech synthesis engine",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1144,7 +1144,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:59+0000"
+            "updated": "2025-03-25T20:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1167,13 +1167,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "H.265/HEVC video encoder",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DBUILD_SHARED_LIBS=1 -DENABLE_TESTS=0                  -DPERL_EXECUTABLE=/tmp/tmpo_ftcr51/tmp-glibc/hosttools/perl                  ",
+            "configopts": "-DBUILD_SHARED_LIBS=1 -DENABLE_TESTS=0                  -DPERL_EXECUTABLE=/tmp/tmp1dtb06o8/tmp-glibc/hosttools/perl                  ",
             "description": "Alliance for Open Media AV1 codec library",
             "filename": "aom_3.7.0.bb",
             "filepath": "recipes-multimedia/aom",
@@ -1190,7 +1190,7 @@
             "section": "base",
             "srcrev": "6054fae218eda6e53e1e3b4f7ef0fff4877c7bf1",
             "summary": "Alliance for Open Media - AV1 Codec Library",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1213,7 +1213,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux DVB API applications and utilities",
-            "updated": "2024-05-09T02:05:00+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1236,7 +1236,7 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "library for DVD navigation features",
-            "updated": "2024-05-09T02:05:01+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1259,7 +1259,7 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:01+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1282,7 +1282,7 @@
             "section": "base",
             "srcrev": "3599a5bf2d18fc3ae89b64f208d8380e6ee3a866",
             "summary": "Implements Audio Video Transport Protocol (AVTP)",
-            "updated": "2024-05-09T02:05:01+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1305,7 +1305,7 @@
             "section": "base",
             "srcrev": "801f67f671929311e0c9952c5f92d6e147c7b003",
             "summary": "FDK-AAC audio codec",
-            "updated": "2024-05-09T02:05:01+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1328,7 +1328,7 @@
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:01+0000"
+            "updated": "2025-03-25T20:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1351,7 +1351,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-multimedia packagegroups",
-            "updated": "2024-05-09T02:05:02+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1374,7 +1374,7 @@
             "section": "multimedia",
             "srcrev": "adf655da0399530ac1b586590257847eb61be232",
             "summary": "A fast lightweight Text-to-speech engine",
-            "updated": "2024-05-09T02:05:02+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1397,7 +1397,7 @@
             "section": "base",
             "srcrev": "31c900b79b3a1cd7f2944e92f24223d12589fdaa",
             "summary": "A minimalist command line interface to the Music Player Daemon",
-            "updated": "2024-05-09T02:05:02+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1420,7 +1420,7 @@
             "section": "base",
             "srcrev": "feac1a3f56591ccfb00870aba66c9ac3abac4773",
             "summary": "Music Player Daemon",
-            "updated": "2024-05-28T04:05:54+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1443,7 +1443,7 @@
             "section": "base",
             "srcrev": "f81f875fc5785383d24f54fb9bd3cf06efd915a4",
             "summary": "A curses client for the Music Player Daemon",
-            "updated": "2024-05-09T02:05:03+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1466,7 +1466,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Music Player Daemon library",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1489,7 +1489,7 @@
             "section": "base",
             "srcrev": "7124a0ad4841a44db084bb785a6e7120bc8f0139",
             "summary": "C client library for the Music Player Daemon",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1512,7 +1512,7 @@
             "section": "multimedia",
             "srcrev": "872e470ebf3e65b0b956f3a70329e885a2df1c2a",
             "summary": "dav1d AV1 decoder",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1535,7 +1535,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Dirac compressed video encoder/decoder",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1558,13 +1558,13 @@
             "section": "libs/multimedia",
             "srcrev": "a267c84707ab264928fa9b86de2ee749c48c318c",
             "summary": "",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "CC='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot' CFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -fmacro-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot-native= ' ",
+            "configopts": "CC='i686-oe-linux-gcc  -m32 -march=core2 -mtune=core2 -msse3 -mfpmath=sse -D_TIME_BITS=64 -D_FILE_OFFSET_BITS=64 --sysroot=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot' CFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/cdparanoia-III-10.2=/usr/src/debug/cdparanoia/10.2  -fmacro-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/build=/usr/src/debug/cdparanoia/10.2  -fdebug-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/cdparanoia/10.2/recipe-sysroot-native= ' ",
             "description": "library used to read audio CDs, which is able to perform error corrections, hence the name paranoia.",
             "filename": "cdparanoia_10.2.bb",
             "filepath": "recipes-multimedia/cdparanoia",
@@ -1581,7 +1581,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "cdparanoia library",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1604,7 +1604,7 @@
             "section": "base",
             "srcrev": "109d63cb11ac207c18a784556834eb054b34b00b",
             "summary": "",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1627,7 +1627,7 @@
             "section": "multimedia",
             "srcrev": "a011affa67f240cbc7aaff5b00fdfd6124bdaece",
             "summary": "GStreamer framework for controlling audio and video streaming using TCP connection messages",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1650,7 +1650,7 @@
             "section": "multimedia",
             "srcrev": "09ba05865dacd2824b5b40ab75a4b9545fcc1366",
             "summary": "Gst-Shark Tracers",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1673,7 +1673,7 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -1696,7 +1696,7 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1719,13 +1719,13 @@
             "section": "base",
             "srcrev": "1a5938ebaca4f13fe79ce074f5dee079783aa29f",
             "summary": "Low Complexity Communication Codec (LC3)",
-            "updated": "2024-05-09T02:05:06+0000"
+            "updated": "2025-03-25T20:03:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-included-argv=yes --with-included-libmad=no     --with-ogg-includes=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-ogg-libraries=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib     --with-vorbis-includes=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-vorbis-libraries=/tmp/tmpo_ftcr51/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib  ",
+            "configopts": " --with-included-argv=yes --with-included-libmad=no     --with-ogg-includes=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-ogg-libraries=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib     --with-vorbis-includes=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/include     --with-vorbis-libraries=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/streamripper/1.64.6/recipe-sysroot/usr/lib  ",
             "description": "This command-line tool can be used to record MPEG III and OGG online radio-streams into track-separated audio files.",
             "filename": "streamripper_1.64.6.bb",
             "filepath": "recipes-multimedia/streamripper",
@@ -1742,7 +1742,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "download online streams into audio files",
-            "updated": "2024-05-09T02:05:06+0000"
+            "updated": "2025-03-25T20:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1754,7 +1754,7 @@
             "filepath": "recipes-multimedia/images",
             "homepage": "",
             "id": 2027711,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990859,
             "license": "MIT",
             "pe": "",
@@ -1765,7 +1765,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1788,7 +1788,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1811,7 +1811,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1823,7 +1823,7 @@
             "filepath": "recipes-multimedia/images",
             "homepage": "",
             "id": 2027714,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990859,
             "license": "MIT",
             "pe": "",
@@ -1834,7 +1834,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "mcextend:libopenmpt",
@@ -1846,7 +1846,7 @@
             "filepath": "recipes-multimedia/images",
             "homepage": "https://www.openembedded.org/",
             "id": 2027715,
-            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990859,
             "license": "MIT",
             "pe": "",
@@ -1857,7 +1857,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-multimedia ptest test image",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1880,7 +1880,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:08+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1903,13 +1903,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "libdvdcss is a simple library for accessing DVDs like block devices",
-            "updated": "2024-05-09T02:05:08+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-screen --disable-caca     --enable-vlm     --enable-freetype     --enable-tremor     --enable-v4l2 --disable-aa --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     ac_cv_path_MOC=/tmp/tmpa5yf58ww/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/moc     ac_cv_path_RCC=/tmp/tmpa5yf58ww/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/rcc     ac_cv_path_UIC=/tmp/tmpa5yf58ww/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/uic   --disable-a52 --enable-dc1394 --enable-dv1394 --disable-dvbpsi --disable-dvdnav --enable-dvdread --enable-fontconfig --disable-freerdp --enable-freetype --disable-gst-decode --disable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmpa5yf58ww/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot/usr --disable-mad --enable-notify --disable-ogg --disable-opencv --enable-png --disable-postproc --disable-qt --disable-smbclient --disable-sftp --disable-speex --disable-svg --disable-svgdec --disable-upnp --disable-vdpau --disable-vnc --disable-vorbis --disable-vpx --disable-wayland --with-x --enable-xcb --enable-x264 --enable-nls",
+            "configopts": "    --enable-run-as-root     --enable-xvideo     --disable-screen --disable-caca     --enable-vlm     --enable-freetype     --enable-tremor     --enable-v4l2 --disable-aa --disable-faad     --enable-dbus     --without-contrib     --without-kde-solid     --enable-realrtsp     --disable-libtar     --enable-avcodec     ac_cv_path_MOC=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/moc     ac_cv_path_RCC=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/rcc     ac_cv_path_UIC=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot-native/usr/bin${QT_DIR_NAME}/uic   --disable-a52 --enable-dc1394 --enable-dv1394 --disable-dvbpsi --disable-dvdnav --enable-dvdread --enable-fontconfig --disable-freerdp --enable-freetype --disable-gst-decode --disable-jack --disable-libass --disable-libva --enable-live555 LIVE555_PREFIX=/tmp/tmp1dtb06o8/tmp-glibc/work/core2-32-oe-linux/vlc/3.0.20/recipe-sysroot/usr --disable-mad --enable-notify --disable-ogg --disable-opencv --enable-png --disable-postproc --disable-qt --disable-smbclient --disable-sftp --disable-speex --disable-svg --disable-svgdec --disable-upnp --disable-vdpau --disable-vnc --disable-vorbis --disable-vpx --disable-wayland --with-x --enable-xcb --enable-x264 --enable-nls",
             "description": "Video player and streamer - davinci edition",
             "filename": "vlc_3.0.20.bb",
             "filepath": "recipes-multimedia/vlc",
@@ -1926,7 +1926,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-28T04:05:54+0000"
+            "updated": "2025-03-25T20:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -1949,7 +1949,7 @@
             "section": "audio",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1972,7 +1972,7 @@
             "section": "libs/multimedia",
             "srcrev": "0a48f4d2e9be2abb4fb01b4c3be83cf44ce91a6e",
             "summary": "Open Source H.264 Codec",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1995,7 +1995,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2018,7 +2018,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 1080P",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2041,7 +2041,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tears of Steel movie - 1080P",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2064,7 +2064,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 480P",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2087,7 +2087,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Big Buck Bunny movie - 720P",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2110,7 +2110,7 @@
             "section": "libs",
             "srcrev": "7c30a66346199f3f09017a09567c6c8a3a0eedc8",
             "summary": "Fixed-point decoder",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2133,7 +2133,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2156,7 +2156,7 @@
             "section": "libs/multimedia",
             "srcrev": "5ecdc4568e45123216c6888892caad07918ef127",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2179,7 +2179,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "C and C++ cross-platform library for decoding tracked music files (modules)",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2202,7 +2202,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Capture and control API for IIDC compliant cameras",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2225,7 +2225,7 @@
             "section": "base",
             "srcrev": "2f26e656b16fb86132f27d1f8d47c6055041430d",
             "summary": "",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2248,7 +2248,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Cross-platform audio output library and plugins",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2271,7 +2271,7 @@
             "section": "libs",
             "srcrev": "dd05a1baa261b94da9ba977b5e3392c8b4dc7a5e",
             "summary": "Bluetooth Audio ALSA Backend",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2294,7 +2294,7 @@
             "section": "base",
             "srcrev": "1889e62e2d35ff7aa9baca2bceb14f053785e6f1",
             "summary": "FFmpeg nvidia headers",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2317,7 +2317,7 @@
             "section": "libs/multimedia",
             "srcrev": "1c5fb68ced57d838f2b7ecd0c00bc1fefc9ab60d",
             "summary": "",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2340,7 +2340,7 @@
             "section": "base",
             "srcrev": "b93deed1a231dd6dd7e39b9fe7d2abe05aa00158",
             "summary": "DTS Coherent Acoustics decoder with support for HD extensions",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2363,7 +2363,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A vision library for genicam based cameras",
-            "updated": "2024-05-28T04:05:53+0000"
+            "updated": "2025-03-25T20:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2386,7 +2386,7 @@
             "section": "multimedia",
             "srcrev": "14c11c0fe4d366bad4cfecdee97b6652ff9ed63d",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2024-05-09T02:05:14+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2409,7 +2409,7 @@
             "section": "multimedia",
             "srcrev": "467fd4a02e37f93a8d27448eef548e247f020466",
             "summary": "Multimedia processing server for Linux",
-            "updated": "2025-02-26T19:02:28+0000"
+            "updated": "2025-03-25T20:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -2432,7 +2432,7 @@
             "section": "base",
             "srcrev": "80dae7e24bec02b2befe09a72fbac6e2b38ccb5c",
             "summary": "PipeWire Media Session is an example session manager for PipeWire",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2455,7 +2455,7 @@
             "section": "base",
             "srcrev": "d3875f333fb6abe2f39d82caca329414871ae53b",
             "summary": "OpenAL is a cross-platform 3D audio API",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2478,7 +2478,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Opus Audio Tools",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2501,7 +2501,7 @@
             "section": "base",
             "srcrev": "de913c35e5c936e2d40ddbd276ee902cd802bd3a",
             "summary": "D-Bus connector for dLeyna libraries",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2524,7 +2524,7 @@
             "section": "base",
             "srcrev": "50fd1ec9d51328e7dea98874129dc8d6fe3ea1dd",
             "summary": "DLNA renderer libraries",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2547,7 +2547,7 @@
             "section": "base",
             "srcrev": "eb895ae82715e9889a948ffa810c0f828b4f4c76",
             "summary": "DLNA server libraries",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2570,7 +2570,7 @@
             "section": "base",
             "srcrev": "1c6853f5bc697dc0a8774fd70dbc915c4dbe7c5b",
             "summary": "Utility functions for dLeyna libraries",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -2593,7 +2593,7 @@
             "section": "multimedia",
             "srcrev": "913f29d3d550637934f9abf43a097eb2c30d76fc",
             "summary": "Mycroft is a hackable open source voice assistant.",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2616,7 +2616,7 @@
             "section": "utils",
             "srcrev": "2f980209cc4091a4490bb1bafc5d530f16834e58",
             "summary": "JUCE's Projucer",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2639,7 +2639,7 @@
             "section": "base",
             "srcrev": "fa8646daeb19dfd12c181f7d19de708d623704c0",
             "summary": "RTMP Dump",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2662,7 +2662,7 @@
             "section": "libs",
             "srcrev": "df1282eb9af538ab1aadb6d66146e258451d4fe4",
             "summary": "A DSP library for telephony",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2685,7 +2685,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "Vorbis Tools",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2708,7 +2708,7 @@
             "section": "multimedia",
             "srcrev": "961450b2ac700e8c9c85a0beb2426b875fa08bff",
             "summary": "Session / policy manager implementation for PipeWire",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -2731,7 +2731,7 @@
             "section": "base",
             "srcrev": "52e7d93c5947f72380521116c05d97c528863ba8",
             "summary": "The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++ ",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2754,7 +2754,7 @@
             "section": "libs",
             "srcrev": "a566a9cfcd619e8327784aa7cff4a1276dc1e895",
             "summary": "Library implementing Secure RTP (RFC 3711)",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2777,7 +2777,7 @@
             "section": "libs",
             "srcrev": "8b32f3734ff6af7cc7b0fef272591cb80a2d1aae",
             "summary": "Secure Reliable Transport (SRT) Protocol",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2800,7 +2800,7 @@
             "section": "base",
             "srcrev": "ca1bf4b810e2d188d04cb6286f957008ee1b7681",
             "summary": "",
-            "updated": "2024-05-09T02:05:18+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2823,7 +2823,7 @@
             "section": "base",
             "srcrev": "776113a4f014639c29d8de8fcb513493ef7b491f",
             "summary": "This provides screenshot/screencast xdg-desktop-portal backends for wlroots.",
-            "updated": "2024-05-09T02:05:18+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2846,7 +2846,7 @@
             "section": "multimedia",
             "srcrev": "cb8977a6711657e32853159cd539d1d75fcbc772",
             "summary": "Profiling utilities for GStreamer 1.0 pipelines",
-            "updated": "2024-05-28T04:05:54+0000"
+            "updated": "2025-03-25T20:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -2869,7 +2869,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Library tasked with managing, extracting and handling media art caches",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2892,7 +2892,7 @@
             "section": "base",
             "srcrev": "c540ce2431bdeac73359029d4592b45790e1d154",
             "summary": "Portable SDK for UPnP* Devices",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2915,7 +2915,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UPnP framework",
-            "updated": "2024-05-28T04:05:53+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2938,7 +2938,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for GUPnP",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2961,7 +2961,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for AV applications using UPnP",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -2984,7 +2984,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Resource discovery and announcement over SSDP",
-            "updated": "2024-05-28T04:05:53+0000"
+            "updated": "2025-03-25T20:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3007,7 +3007,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for AV applications using DLNA",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3030,7 +3030,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helpers for interacting with Internet Gateway Devices over UPnP",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3053,7 +3053,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A UPnP AV media server and renderer",
-            "updated": "2024-05-28T04:05:53+0000"
+            "updated": "2025-03-25T20:03:29+0000"
         }
     ],
     "wrtemplates": []

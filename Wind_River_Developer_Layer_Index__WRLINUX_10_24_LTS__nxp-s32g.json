@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,10 +662,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-03-24T08:03:57+0000",
-            "vcs_last_commit": "2025-03-24T08:03:50+0000",
-            "vcs_last_fetch": "2025-03-24T08:03:57+0000",
-            "vcs_last_rev": "1a32c9217ba93b5f3e37c139ca0719d36502a94a",
+            "updated": "2025-03-25T20:03:50+0000",
+            "vcs_last_commit": "2025-03-25T12:03:43+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:50+0000",
+            "vcs_last_rev": "0304fc9acb3e1950dc4e2cc651cd3a440b29a0a1",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -677,9 +677,9 @@
             "id": 993872,
             "layer": 474,
             "local_path": "",
-            "updated": "2024-09-28T23:09:31+0000",
+            "updated": "2025-03-25T20:03:55+0000",
             "vcs_last_commit": "2024-09-27T21:09:28+0000",
-            "vcs_last_fetch": "2024-09-28T23:09:31+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:55+0000",
             "vcs_last_rev": "d30c7d29f93e766ddcee0d706c3b9b2a8717147d",
             "vcs_subdir": "meta-arm",
             "version": null,
@@ -692,10 +692,10 @@
             "id": 1001101,
             "layer": 439,
             "local_path": "",
-            "updated": "2025-03-17T01:03:53+0000",
-            "vcs_last_commit": "2025-03-16T20:03:57+0000",
-            "vcs_last_fetch": "2025-03-17T01:03:53+0000",
-            "vcs_last_rev": "5d247266ff944e3d60568565e6864ab90f3bb639",
+            "updated": "2025-03-25T20:03:13+0000",
+            "vcs_last_commit": "2025-03-25T02:03:57+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:13+0000",
+            "vcs_last_rev": "7996e095bde802a3e30040a5bc8c3455c0d9acfa",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -802,10 +802,10 @@
     "machines": [
         {
             "description": " NXP S32G2/G3 SoC",
-            "id": 88738,
+            "id": 97736,
             "layerbranch": 1001101,
             "name": "nxp-s32g",
-            "updated": "2025-02-24T02:02:26+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         }
     ],
     "recipes": [
@@ -830,7 +830,7 @@
             "section": "base",
             "srcrev": "907089ee05addba01f0f671aa8efea3b723934a1",
             "summary": "Flattened Device Tree Python Module",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -853,7 +853,7 @@
             "section": "base",
             "srcrev": "65fae37f96cae1c04330148fa4aeb3c11e11ee16",
             "summary": "",
-            "updated": "2025-03-17T01:03:53+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -876,7 +876,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Pre-built Cortex-M7 toolchain",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -899,7 +899,7 @@
             "section": "base",
             "srcrev": "84cf69931d26e950d39ed8c01704275a7736effd",
             "summary": "Sample M7 Bootloader",
-            "updated": "2025-02-24T02:02:26+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -922,7 +922,7 @@
             "section": "bootloaders",
             "srcrev": "c01b3bf7b109d2833c61dbce74d53769be605d97",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-02-24T02:02:27+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -945,7 +945,7 @@
             "section": "bootloaders",
             "srcrev": "c01b3bf7b109d2833c61dbce74d53769be605d97",
             "summary": "U-Boot bootloader tools",
-            "updated": "2025-02-24T02:02:27+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -968,7 +968,7 @@
             "section": "base",
             "srcrev": "7e70e6bd69b14be23dcc42bf20c7c19bf7c4e0af",
             "summary": "",
-            "updated": "2025-03-01T22:03:45+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -991,7 +991,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-12-16T02:12:28+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1014,7 +1014,7 @@
             "section": "base",
             "srcrev": "e90d0a18eb6d53f1faa09739f3d1c00f6f4eed8c",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2024-06-24T19:06:50+0000"
+            "updated": "2025-03-25T20:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1037,7 @@
             "section": "base",
             "srcrev": "2083f642759d039f0e107bc856a29cc127aa67ca",
             "summary": "Add support for SJA1105 switch for S32V234EVB, BB Mini, S32G-PROCEVB-S plus S32GRV-PLATEVB and S32G-VNP-RDB",
-            "updated": "2024-06-24T19:06:50+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1060,7 +1060,7 @@
             "section": "base",
             "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-02-24T02:02:26+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1083,7 +1083,7 @@
             "section": "base",
             "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-02-24T02:02:26+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1106,7 +1106,7 @@
             "section": "base",
             "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-02-24T02:02:26+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1129,7 +1129,7 @@
             "section": "base",
             "srcrev": "93ea8e6e71eb790549c8a15d0761606045e88399",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2025-02-24T02:02:25+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -1152,51 +1152,51 @@
             "section": "base",
             "srcrev": "7e70e6bd69b14be23dcc42bf20c7c19bf7c4e0af",
             "summary": "",
-            "updated": "2025-02-25T19:02:07+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 120316,
+            "id": 126884,
             "layerbranch": 1001101,
             "name": "feature/srm",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "description": "",
-            "id": 120317,
+            "id": 126885,
             "layerbranch": 1001101,
             "name": "feature/m7_boot",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "description": "",
-            "id": 120318,
+            "id": 126886,
             "layerbranch": 1001101,
             "name": "feature/secure-boot-parallel",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "description": "",
-            "id": 120319,
+            "id": 126887,
             "layerbranch": 1001101,
             "name": "feature/omit_atf",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "description": "",
-            "id": 120320,
+            "id": 126888,
             "layerbranch": 1001101,
             "name": "feature/s32g-optee",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         },
         {
             "description": "",
-            "id": 120321,
+            "id": 126889,
             "layerbranch": 1001101,
             "name": "default",
-            "updated": "2024-06-24T19:06:49+0000"
+            "updated": "2025-03-25T20:03:13+0000"
         }
     ]
 }

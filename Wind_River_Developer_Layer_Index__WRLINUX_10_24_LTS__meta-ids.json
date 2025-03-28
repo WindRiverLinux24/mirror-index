@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-03-21T02:03:36+0000",
+            "updated": "2025-03-25T20:03:37+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:36+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:37+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -677,9 +677,9 @@
             "id": 990880,
             "layer": 150,
             "local_path": "",
-            "updated": "2024-05-09T02:05:18+0000",
+            "updated": "2025-03-25T20:03:39+0000",
             "vcs_last_commit": "2024-03-18T06:03:41+0000",
-            "vcs_last_fetch": "2024-05-09T02:05:18+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:39+0000",
             "vcs_last_rev": "c315eb95ebaac98d00cd0d317f1351f1711b7602",
             "vcs_subdir": "meta-ids",
             "version": null,
@@ -782,7 +782,7 @@
             "section": "utils",
             "srcrev": "9b3ca63a04634446b16f615d1a23da0e2451848b",
             "summary": "BSD directory hierarchy mapping tool",
-            "updated": "2024-05-09T02:05:18+0000"
+            "updated": "2025-03-25T20:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +805,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:18+0000"
+            "updated": "2025-03-25T20:03:39+0000"
         }
     ],
     "wrtemplates": []

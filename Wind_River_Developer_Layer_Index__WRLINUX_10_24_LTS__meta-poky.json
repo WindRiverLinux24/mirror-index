@@ -634,38 +634,38 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 14831,
+            "id": 15381,
             "layerbranch": 990864,
             "name": "poky-altcfg",
-            "updated": "2024-09-28T23:09:49+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "description": "Poky Tiny",
-            "id": 14832,
+            "id": 15382,
             "layerbranch": 990864,
             "name": "poky-tiny",
-            "updated": "2024-09-28T23:09:49+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 14833,
+            "id": 15383,
             "layerbranch": 990864,
             "name": "poky",
-            "updated": "2025-03-21T02:03:54+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 14834,
+            "id": 15384,
             "layerbranch": 990864,
             "name": "poky-bleeding",
-            "updated": "2024-09-28T23:09:49+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         }
     ],
     "layerBranches": [
@@ -676,9 +676,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -691,9 +691,9 @@
             "id": 990864,
             "layer": 59,
             "local_path": "",
-            "updated": "2025-03-21T02:03:54+0000",
+            "updated": "2025-03-25T20:03:16+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:54+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:16+0000",
             "vcs_last_rev": "2c1dcff4ba0d8c7c1c99151b036d6721f3adb257",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -771,7 +771,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poky-tiny init",
-            "updated": "2024-09-28T23:09:48+0000"
+            "updated": "2025-03-25T20:03:16+0000"
         }
     ],
     "wrtemplates": []

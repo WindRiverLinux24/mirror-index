@@ -634,38 +634,38 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
-            "description": "NXP i.MX Release Distro",
-            "id": 14870,
+            "description": "",
+            "id": 15393,
             "layerbranch": 993811,
             "name": "fsl-imx-xwayland",
-            "updated": "2024-10-25T00:10:32+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
-            "description": "NXP i.MX Release Distro",
-            "id": 14871,
+            "description": "",
+            "id": 15394,
             "layerbranch": 993811,
             "name": "fsl-imx-fb",
-            "updated": "2024-10-25T00:10:33+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
-            "description": "NXP i.MX Release Distro",
-            "id": 14872,
+            "description": "",
+            "id": 15395,
             "layerbranch": 993811,
             "name": "fsl-imx-x11",
-            "updated": "2024-10-25T00:10:33+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
-            "description": "NXP i.MX Release Distro",
-            "id": 14873,
+            "description": "",
+            "id": 15396,
             "layerbranch": 993811,
             "name": "fsl-imx-wayland",
-            "updated": "2024-10-25T00:10:33+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         }
     ],
     "layerBranches": [
@@ -676,9 +676,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -691,9 +691,9 @@
             "id": 993811,
             "layer": 552,
             "local_path": "",
-            "updated": "2025-02-20T02:02:55+0000",
+            "updated": "2025-03-25T20:03:11+0000",
             "vcs_last_commit": "2025-02-19T19:02:16+0000",
-            "vcs_last_fetch": "2025-02-20T02:02:55+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:11+0000",
             "vcs_last_rev": "11270e458e90d8b4f5c2b9979c06101c1361d0f5",
             "vcs_subdir": "meta-imx-sdk",
             "version": null,
@@ -706,9 +706,9 @@
             "id": 993812,
             "layer": 553,
             "local_path": "",
-            "updated": "2025-03-17T01:03:59+0000",
+            "updated": "2025-03-25T20:03:52+0000",
             "vcs_last_commit": "2025-03-17T00:03:37+0000",
-            "vcs_last_fetch": "2025-03-17T01:03:59+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:52+0000",
             "vcs_last_rev": "67c7c8dceade8cce7ea21d3aed10da53155b9a80",
             "vcs_subdir": "meta-imx-bsp",
             "version": null,
@@ -811,7 +811,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:22+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:22+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -857,7 +857,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community package group - tools/gpu",
-            "updated": "2024-10-25T00:10:22+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +880,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Freescale package group - pulseaudio",
-            "updated": "2024-10-25T00:10:23+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +903,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:23+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +926,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set of audio tools for inclusion on images",
-            "updated": "2024-10-25T00:10:23+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +949,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "FSL Community Package group - tools/gpu/external",
-            "updated": "2024-10-25T00:10:24+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -972,7 +972,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:24+0000"
+            "updated": "2025-03-25T20:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -984,7 +984,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029490,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993811,
             "license": "MIT",
             "pe": "",
@@ -995,7 +995,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:24+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1007,7 +1007,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029491,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993811,
             "license": "MIT",
             "pe": "",
@@ -1018,7 +1018,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:25+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1030,7 +1030,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029492,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993811,
             "license": "MIT",
             "pe": "",
@@ -1041,7 +1041,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:25+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1053,7 +1053,7 @@
             "filepath": "recipes-fsl/images",
             "homepage": "",
             "id": 2029493,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 993811,
             "license": "",
             "pe": "",
@@ -1064,7 +1064,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:26+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1087,7 +1087,7 @@
             "section": "base",
             "srcrev": "f3ba6e5c2126f2fb07e3d890f990d50c3e204e67",
             "summary": "tinycompress library for compress audio offload in alsa",
-            "updated": "2024-10-25T00:10:26+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1110,7 +1110,7 @@
             "section": "base",
             "srcrev": "9298b898fe38482fbb293d431cdeea4297c17e70",
             "summary": "",
-            "updated": "2025-02-20T02:02:55+0000"
+            "updated": "2025-03-25T20:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1133,7 +1133,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2024-10-25T00:10:27+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1156,13 +1156,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "i.MX StandAlomeMM binary produced by EDK2",
-            "updated": "2024-10-25T00:10:27+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmps7fjq0q2/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/lib/cmake ",
+            "configopts": "     -DSSS_HAVE_HOSTCRYPTO_MBEDTLS=ON     -DNXP_IOT_AGENT_HAVE_PSA_IMPL_SMW=ON     -DSSS_HAVE_MBEDTLS_ALT_PSA=ON     -DSSS_HAVE_HOST_LINUX_LIKE=ON     -DCMAKE_SYSROOT=/tmp/tmposh0hx3j/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot     -DMbedTLS_DIR=/tmp/tmposh0hx3j/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/local/el2go/lib/cmake/MbedTLS     -DNXP_SMW_DIR=/tmp/tmposh0hx3j/tmp-glibc/work/core2-32-oe-linux/el2go-agent/5.2.1+gitX/recipe-sysroot/usr/lib/cmake ",
             "description": "NXP i.MX EdgeLock 2GO IoT Agent",
             "filename": "el2go-agent_git.bb",
             "filepath": "recipes-security/iot-agent",
@@ -1179,7 +1179,7 @@
             "section": "base",
             "srcrev": "54bd67ea2f47d56af8db378497b1dde6394ac0d6",
             "summary": "NXP i.MX EdgeLock 2GO IoT Agent",
-            "updated": "2024-10-25T00:10:27+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1202,7 +1202,7 @@
             "section": "libs",
             "srcrev": "2ca6c285a0dd3f33982dd57299012dacab1ff206",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2024-10-25T00:10:28+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1248,7 +1248,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:28+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1271,7 +1271,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-25T00:10:28+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1386,7 +1386,7 @@
             "section": "base",
             "srcrev": "627e8823e1ba17c6d12b408835029a1c065bea84",
             "summary": "",
-            "updated": "2024-10-25T00:10:28+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1432,7 +1432,7 @@
             "section": "base",
             "srcrev": "186a85bea780414f55baec2b6c803002080b4ac8",
             "summary": "Low level header only C++11 RAII wrapper classes for the Vulkan API",
-            "updated": "2024-10-25T00:10:29+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "native",
@@ -1455,7 +1455,7 @@
             "section": "libs",
             "srcrev": "0c171ee87fcfe35a7e0e0445adef06f92e0b6a91",
             "summary": "OpenGL Image Library",
-            "updated": "2024-10-25T00:10:29+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1478,7 +1478,7 @@
             "section": "x11/apps",
             "srcrev": "",
             "summary": "Intel GPU tools",
-            "updated": "2024-10-25T00:10:29+0000"
+            "updated": "2025-03-25T20:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1501,7 +1501,7 @@
             "section": "base",
             "srcrev": "b590482544bbb1d4e491ba604f57a65204fc9405",
             "summary": "i.MX GPU SDK Samples",
-            "updated": "2024-10-25T00:10:30+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1524,7 +1524,7 @@
             "section": "base",
             "srcrev": "fd7359aed6aaba745e31dd0a9fed80578372d554",
             "summary": "Tools for WFA Sigma DUT/CA",
-            "updated": "2024-10-25T00:10:30+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1547,7 +1547,7 @@
             "section": "libs",
             "srcrev": "89227a428a82e724548399d35c98ea89566f9045",
             "summary": "Linux libcamera framework",
-            "updated": "2024-10-25T00:10:31+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1570,7 +1570,7 @@
             "section": "libs",
             "srcrev": "21c550433219d9793263919d138ffc51c383e284",
             "summary": "Linux libcamera framework",
-            "updated": "2024-10-25T00:10:31+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1639,7 +1639,7 @@
             "section": "base",
             "srcrev": "4be3498dd4e816785129e3a49d52270410548dc6",
             "summary": "",
-            "updated": "2024-10-25T00:10:32+0000"
+            "updated": "2025-03-25T20:03:11+0000"
         }
     ],
     "wrtemplates": []

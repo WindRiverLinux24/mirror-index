@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990854,
             "layer": 4,
             "local_path": "",
-            "updated": "2024-05-28T04:05:08+0000",
+            "updated": "2025-03-25T20:03:52+0000",
             "vcs_last_commit": "2024-04-30T11:04:33+0000",
-            "vcs_last_fetch": "2024-05-28T04:05:08+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:52+0000",
             "vcs_last_rev": "2e25f21f523904908a016259bce092be3cb6bdf1",
             "vcs_subdir": "meta-initramfs",
             "version": null,
@@ -742,7 +742,7 @@
             "section": "base",
             "srcrev": "c01b0d5bb182bde35b464d14996acf354a3ada2e",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +765,7 @@
             "section": "base",
             "srcrev": "631d5f72a223288aa1f48bb8e8d0313e75947400",
             "summary": "Initramfs generator using udev",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -788,7 +788,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +811,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -857,7 +857,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +880,7 @@
             "section": "base",
             "srcrev": "64f61a9dc71b158c7084006cbce4ea23886f0b47",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -903,7 +903,7 @@
             "section": "base",
             "srcrev": "5a5e04be206140059f42ac786d424da1afaa04b6",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +926,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration files for kexecboot",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +949,7 @@
             "section": "kernel/userland",
             "srcrev": "5750980cdbbc33ef75bfba6660295b932376ce15",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -972,7 +972,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Extremely basic live image init script",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -995,7 +995,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-initramfs packagegroups",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1007,7 +1007,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2026011,
-            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990854,
             "license": "",
             "pe": "",
@@ -1018,7 +1018,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1030,7 +1030,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2026012,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990854,
             "license": "",
             "pe": "",
@@ -1041,7 +1041,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1053,7 +1053,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2026013,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990854,
             "license": "",
             "pe": "",
@@ -1064,7 +1064,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-initramfs build test image",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1076,7 +1076,7 @@
             "filepath": "recipes-core/images",
             "homepage": "",
             "id": 2026014,
-            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990854,
             "license": "",
             "pe": "",
@@ -1087,7 +1087,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         }
     ],
     "wrtemplates": []

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-03-21T02:03:26+0000",
+            "updated": "2025-03-25T20:03:32+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:26+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:32+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -677,9 +677,9 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-03-21T02:03:36+0000",
+            "updated": "2025-03-25T20:03:37+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:36+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:37+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -692,9 +692,9 @@
             "id": 990886,
             "layer": 8,
             "local_path": "",
-            "updated": "2024-11-22T01:11:08+0000",
+            "updated": "2025-03-25T20:03:53+0000",
             "vcs_last_commit": "2024-11-21T20:11:49+0000",
-            "vcs_last_fetch": "2024-11-22T01:11:08+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:53+0000",
             "vcs_last_rev": "2d5e621fe8d93477814fc8236c35c39a6d5d0180",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
@@ -822,7 +822,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFS Filesystem Dump Utility",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -845,7 +845,7 @@
             "section": "base",
             "srcrev": "fd092754a6b65c3a769f74f888668c066f09c36d",
             "summary": "Set of GPL'ed utilities to ext2/ext3 filesystem.",
-            "updated": "2024-07-03T01:07:01+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -868,7 +868,7 @@
             "section": "universe/otherosfs",
             "srcrev": "",
             "summary": "exFAT filesystem userspace utilities",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -891,7 +891,7 @@
             "section": "base",
             "srcrev": "18c0a8454ca1cf8969170049f8c628d88627beec",
             "summary": "Tool to access UFS (Universal Flash Storage) devices",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -914,7 +914,7 @@
             "section": "base",
             "srcrev": "b5e5a829895ac98ccfe4629fbfbd8b819262bd00",
             "summary": "",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -937,7 +937,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A command line Linux program which mounts and unmounts removable devices",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -960,13 +960,13 @@
             "section": "base",
             "srcrev": "06c027abc6153c4a97cba5317844e8dcaaee3cf7",
             "summary": "Tools for Flash-Friendly File System (F2FS)",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-gettext=no                 --enable-scrub=no                 INSTALL_USER=root                 INSTALL_GROUP=root                 ac_cv_header_aio_h=yes                 ac_cv_lib_rt_lio_listio=yes                 OPTIMIZER='-O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fmacro-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot-native= '   --enable-blkid=yes",
+            "configopts": "--enable-gettext=no                 --enable-scrub=no                 INSTALL_USER=root                 INSTALL_GROUP=root                 ac_cv_header_aio_h=yes                 ac_cv_lib_rt_lio_listio=yes                 OPTIMIZER='-O2 -pipe -g -feliminate-unused-debug-types -fcanon-prefix-map  -fmacro-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fmacro-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/xfsprogs-6.6.0=/usr/src/debug/xfsprogs/6.6.0  -fdebug-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot=  -fmacro-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot=  -fdebug-prefix-map=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/xfsprogs/6.6.0/recipe-sysroot-native= '   --enable-blkid=yes",
             "description": "",
             "filename": "xfsprogs_6.6.0.bb",
             "filepath": "recipes-utils/xfsprogs",
@@ -983,7 +983,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFS Filesystem Utilities",
-            "updated": "2024-05-09T02:05:22+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1006,7 +1006,7 @@
             "section": "base",
             "srcrev": "088e5bd4cb6d7295612430a56ae84ff5c8f54730",
             "summary": "File system QA test suite",
-            "updated": "2024-05-09T02:05:22+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1029,7 +1029,7 @@
             "section": "base",
             "srcrev": "3f5e3cb1fcac5fb8034fa4712764317fab51ebe0",
             "summary": "A FUSE filesystem for mounting a directory to another location",
-            "updated": "2024-05-09T02:05:22+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -1052,7 +1052,7 @@
             "section": "base",
             "srcrev": "8f35db59ef83078f87879ec2828e0bb45719e0ef",
             "summary": "Tools for managing AUFS mounts",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1075,7 +1075,7 @@
             "section": "base",
             "srcrev": "99cb99fc86eb1601ac7ae27f5bba23add04d2543",
             "summary": "FAT filesystems explore, extract, repair, and forensic tool",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1098,7 +1098,7 @@
             "section": "console/tools",
             "srcrev": "12da22087de2ec43f0fe5af1237389e94619c483",
             "summary": "Resize FAT partitions using libparted",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1121,7 +1121,7 @@
             "section": "base",
             "srcrev": "be42cb6267055d125994abd6927cf3a26deab74c",
             "summary": "Services for periodic btrfs maintenance tasks",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1144,7 +1144,7 @@
             "section": "base",
             "srcrev": "2d5cdcb9176cfe4ccf1761ef6d78e1c48de35649",
             "summary": "Tools to handle creating and mounting composefs images",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1167,7 +1167,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2024-07-01T22:07:29+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1190,7 +1190,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1213,7 +1213,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Version numbering for anarchists and software realists",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1236,7 +1236,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "PhysicsFS is a library to provide abstract access to various archives",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1259,7 +1259,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A fuse filesystem to access the contents of an iPhone or iPod Touch",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1282,13 +1282,13 @@
             "section": "console/network",
             "srcrev": "773f1853b043eeb64b7459f903a2c65bd096f9d9",
             "summary": "A FUSE based implemention of unionfs",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                  --with-fuseinclude=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/include                  --with-fuselib=/tmp/tmpi4yf0e5z/tmp-glibc/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/lib                  --enable-owfs                  --enable-owhttpd                  --enable-w1                  --disable-swig                  --disable-owtcl                  --disable-owphp                  --disable-owpython                  --disable-owperl  ",
+            "configopts": "                  --with-fuseinclude=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/include                  --with-fuselib=/tmp/tmp77lvkekl/tmp-glibc/work/core2-32-oe-linux/owfs/3.2p3/recipe-sysroot/usr/lib                  --enable-owfs                  --enable-owhttpd                  --enable-w1                  --disable-swig                  --disable-owtcl                  --disable-owphp                  --disable-owpython                  --disable-owperl  ",
             "description": "OWFS is an easy way to use the powerful 1-wire system of Dallas/Maxim",
             "filename": "owfs_3.2p3.bb",
             "filepath": "recipes-filesystems/owfs",
@@ -1305,7 +1305,7 @@
             "section": "console/network",
             "srcrev": "3744375dfaa350e31c9b360eb1e1a517bbeb5c47",
             "summary": "1-Wire file system",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1328,7 +1328,7 @@
             "section": "base",
             "srcrev": "736d5e599df3bebce3450125118ac2e70358b0c9",
             "summary": "FUSE module for mounting an entire SMB/NMB network in a single directory",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1351,7 +1351,7 @@
             "section": "base",
             "srcrev": "45b72c81ce3c6fa17ca19bafc207ea93e76312f4",
             "summary": "LogFS Programs: used to create LogFS file system",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1374,7 +1374,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to create an ISO-9660 filesystem",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1397,7 +1397,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "library and tool to create and burn ISO-9660 images",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -1420,13 +1420,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to write an ISO-9660 file system to physical media",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "   --disable-pam --disable-systemd --enable-sysvinit     --disable-pyzfs     --with-linux=/tmp/tmpi4yf0e5z/tmp-glibc/work-shared/qemux86/kernel-source --with-linux-obj=/tmp/tmpi4yf0e5z/tmp-glibc/work-shared/qemux86/kernel-build-artifacts     --with-mounthelperdir=${base_sbin}     --with-udevdir=/lib/udev     --with-systemdunitdir=/lib/systemd/system     --with-systemdgeneratordir=/lib/systemd/system-generators     --with-systemdpresetdir=/lib/systemd/system-preset     --with-systemdmodulesloaddir=/etc/module-load.d     --without-dracutdir ",
+            "configopts": "   --disable-pam --disable-systemd --enable-sysvinit     --disable-pyzfs     --with-linux=/tmp/tmp77lvkekl/tmp-glibc/work-shared/qemux86/kernel-source --with-linux-obj=/tmp/tmp77lvkekl/tmp-glibc/work-shared/qemux86/kernel-build-artifacts     --with-mounthelperdir=${base_sbin}     --with-udevdir=/lib/udev     --with-systemdunitdir=/lib/systemd/system     --with-systemdgeneratordir=/lib/systemd/system-generators     --with-systemdpresetdir=/lib/systemd/system-preset     --with-systemdmodulesloaddir=/etc/module-load.d     --without-dracutdir ",
             "description": "OpenZFS on Linux and FreeBSD",
             "filename": "zfs_2.2.2.bb",
             "filepath": "recipes-filesystems/zfs",
@@ -1443,7 +1443,7 @@
             "section": "base",
             "srcrev": "494aaaed89cb9fe9f2da3b6c6f465a4bc9f6a7e1",
             "summary": "OpenZFS on Linux and FreeBSD",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1466,7 +1466,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-filesystem packagegroups",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1489,7 +1489,7 @@
             "section": "base",
             "srcrev": "19e7bb9b608b0c0dce2ee6f56fac75901bc69529",
             "summary": "",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1512,7 +1512,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-11-22T01:11:08+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1535,7 +1535,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "mcextend:e2tools mcextend:fuse3 mcextend:sshfs-fuse",
@@ -1547,7 +1547,7 @@
             "filepath": "recipes-filesystems/images",
             "homepage": "https://www.openembedded.org/",
             "id": 2028948,
-            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image features_check image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990886,
             "license": "MIT",
             "pe": "",
@@ -1558,7 +1558,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-filesystems ptest test image",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1570,7 +1570,7 @@
             "filepath": "recipes-filesystems/images",
             "homepage": "",
             "id": 2028949,
-            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "core-image image image-artifact-names image-postinst-intercepts image_types image_types_wic kernel-arch license_image nopackages overlayfs-etc populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 990886,
             "license": "MIT",
             "pe": "",
@@ -1581,7 +1581,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1604,7 +1604,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1627,7 +1627,7 @@
             "section": "universe/otherosfs",
             "srcrev": "",
             "summary": "read and write exFAT driver for FUSE",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1650,7 +1650,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "This is a filesystem client based on the HTTP using FUSE",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1673,7 +1673,7 @@
             "section": "console/network",
             "srcrev": "c91eb9a9a992f1a36c49a8e6f1146e45b5e1c8e7",
             "summary": "This is a filesystem client based on the SSH File Transfer Protocol using FUSE",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -1696,7 +1696,7 @@
             "section": "base",
             "srcrev": "613a901a229e8a701c18f003dd0aee18453e0670",
             "summary": "Yet Another Flash File System",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         }
     ],
     "wrtemplates": []

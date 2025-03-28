@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,10 +662,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-03-24T08:03:57+0000",
-            "vcs_last_commit": "2025-03-24T08:03:50+0000",
-            "vcs_last_fetch": "2025-03-24T08:03:57+0000",
-            "vcs_last_rev": "1a32c9217ba93b5f3e37c139ca0719d36502a94a",
+            "updated": "2025-03-25T20:03:50+0000",
+            "vcs_last_commit": "2025-03-25T12:03:43+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:50+0000",
+            "vcs_last_rev": "0304fc9acb3e1950dc4e2cc651cd3a440b29a0a1",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -677,9 +677,9 @@
             "id": 1013436,
             "layer": 418,
             "local_path": "",
-            "updated": "2024-12-26T23:12:41+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2024-12-26T20:12:34+0000",
-            "vcs_last_fetch": "2024-12-26T23:12:41+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "02974591c8e21f0d7c2c09bc86e567fc1d71c051",
             "vcs_subdir": "",
             "version": "1",
@@ -782,7 +782,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Commons of banal micro-functions for Python",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +805,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "library that makes it easy to scrape information from web pages",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +828,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Ultra-lightweight pure Python package to check if a file is binary or text",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -851,7 +851,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Implements boolean algebra in one module",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -874,7 +874,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The Real First Universal Charset Detector",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -897,7 +897,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python composable command line interface toolkit",
-            "updated": "2024-11-08T19:11:44+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +920,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple cross-platform colored terminal text in Python",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +943,7 @@
             "section": "base",
             "srcrev": "24d436c3af2b4a4ee5a51a7e32868616977449b1",
             "summary": "functions and utilities for handling various things like paths, dates, files and hashes",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -966,7 +966,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A powerful declarative symmetric parser/builder for binary data",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +989,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "suite of analysis utilities and command line tools for Docker images",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1012,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Utilities to parse Debian package, copyright and control files",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,7 +1035,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python library for parsing Dockerfile files",
-            "updated": "2024-11-08T19:11:45+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1058,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A parser for Python dependency files",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "plugin to provide system package provided sevenzip binary",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1104,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "provide a system package provided libarchive shared library",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1127,7 +1127,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "universal archive extractor using z7zip, libarchve, other libraries",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1150,7 +1150,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A python package that provides useful locks",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1173,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "library that helps with the generation of fingerprints for entity data",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1196,7 +1196,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "fixes text for you",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1219,7 +1219,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Clean single-source support for Python 3 and 2",
-            "updated": "2024-11-08T19:11:46+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1242,7 +1242,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Parse Ruby Gemfile, .gemspec and Cocoapod .podspec files using Python",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1265,7 +1265,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "html5lib is a pure-python library for parsing HTML",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1288,7 +1288,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A port of Ruby on Rails inflector to Python",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1311,7 +1311,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "C-based extension implementing fast integer bit sets",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1334,7 +1334,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An ISO 8601 date/time/duration parser and formatter",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1357,7 +1357,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Additional functools in the spirit of stdlib\u2019s functools",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1380,7 +1380,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Read & write Java .properties files",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1403,7 +1403,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "A JSON streaming writer",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1426,7 +1426,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "micro-package that contains a small set of text normalization",
-            "updated": "2024-11-08T19:11:47+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1449,7 +1449,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "purl aka. Package URL parser and builder",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1472,7 +1472,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Core utilities for Python packages. Fork to support LegacyVersion",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1495,7 +1495,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "POSIX parameter expansion in Python",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1518,7 +1518,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Library to parse and apply unified diffs",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1541,7 +1541,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "PDF parser and analyzer",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1564,7 +1564,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python PE parsing module",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1587,7 +1587,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "mostly correct pip requirements parsing library ",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1610,7 +1610,7 @@
             "section": "base",
             "srcrev": "df8014c2ba6216e351b80e0cb1057d275db69873",
             "summary": "Query metadatdata from sdists / bdists / installed packages",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1633,7 +1633,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "plugincode is a library that provides plugin functionality for ScanCode toolkit",
-            "updated": "2024-11-08T19:11:48+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1656,7 +1656,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Get a public suffix for a domain name using the Public Suffix List",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1679,7 +1679,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "a fast and memory efficient library for multi-pattern string search",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1702,7 +1702,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "simple regex-based small language lexers and parsers",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1725,7 +1725,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python access to maven. nexB advanced patch",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1748,7 +1748,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "RDFLib is a Python library for working with RDF",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1771,7 +1771,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Dump readable YAML and load safely any YAML",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1794,7 +1794,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Use git repo data for building a version number according PEP-440",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1817,7 +1817,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4",
-            "updated": "2024-11-08T19:11:49+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1840,7 +1840,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "the most basic port of the Text::Unidecode Perl library",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1863,7 +1863,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "plugin to provide a system package provided libmagic binary and database",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1886,7 +1886,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "typecode provides file type detection functionality to ScanCode toolkit",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1909,7 +1909,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Simple URL parsing, canonicalization and equivalence",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1932,7 +1932,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python implementation of the WHATWG Encoding standard",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1955,7 +1955,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Makes working with XML feel like you are working with JSON",
-            "updated": "2024-11-08T19:11:50+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1978,23 +1978,23 @@
             "section": "base",
             "srcrev": "cafcbcf606bf30f0b5a62f27493d8aeec25fdcf8",
             "summary": "ScanCode is a tool to scan code for license, copyright",
-            "updated": "2024-11-29T01:11:07+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Add SBOM 3.0 support to the project",
-            "id": 122857,
+            "id": 126882,
             "layerbranch": 1013436,
             "name": "feature/sbom-3",
-            "updated": "2024-11-11T00:11:52+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "description": "Add SBOM 2.2 support to the project",
-            "id": 122858,
+            "id": 126883,
             "layerbranch": 1013436,
             "name": "feature/sbom-2",
-            "updated": "2024-11-11T00:11:52+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         }
     ]
 }

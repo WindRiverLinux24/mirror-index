@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-03-04T23:03:10+0000",
+            "updated": "2025-03-25T20:03:17+0000",
             "vcs_last_commit": "2025-03-04T17:03:28+0000",
-            "vcs_last_fetch": "2025-03-04T23:03:10+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:17+0000",
             "vcs_last_rev": "77b2d78160c7b2798ea99ca9691307d83409d1c1",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
@@ -677,9 +677,9 @@
             "id": 1006331,
             "layer": 561,
             "local_path": "",
-            "updated": "2025-03-24T07:03:15+0000",
+            "updated": "2025-03-25T20:03:17+0000",
             "vcs_last_commit": "2025-03-24T01:03:04+0000",
-            "vcs_last_fetch": "2025-03-24T07:03:15+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:17+0000",
             "vcs_last_rev": "2e8874a6b4f7ef0e7ecda9157d84073b636f4167",
             "vcs_subdir": "meta-xilinx-mali400",
             "version": null,
@@ -782,7 +782,7 @@
             "section": "kernel/modules",
             "srcrev": "",
             "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2025-03-24T07:03:15+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +805,7 @@
             "section": "base",
             "srcrev": "644dc96597172e3cf15aea63b4ee947d421810aa",
             "summary": "",
-            "updated": "2024-12-12T20:12:56+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +828,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2024-08-07T20:08:58+0000"
+            "updated": "2025-03-25T20:03:17+0000"
         }
     ],
     "wrtemplates": []

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,10 +662,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-03-21T02:03:59+0000",
-            "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:59+0000",
-            "vcs_last_rev": "31d6b44c43360a57538226855c09c6f09694076f",
+            "updated": "2025-03-25T20:03:11+0000",
+            "vcs_last_commit": "2025-03-25T18:03:19+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:11+0000",
+            "vcs_last_rev": "a883ea0b5946e291593069b7171d51f99cbf9e24",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -677,9 +677,9 @@
             "id": 993810,
             "layer": 551,
             "local_path": "",
-            "updated": "2024-11-25T23:11:09+0000",
+            "updated": "2025-03-25T20:03:35+0000",
             "vcs_last_commit": "2024-11-25T20:11:06+0000",
-            "vcs_last_fetch": "2024-11-25T23:11:09+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:35+0000",
             "vcs_last_rev": "137cb7df85a633877c7ea10f1391e43d41336a0d",
             "vcs_subdir": "meta-imx-ml",
             "version": null,
@@ -782,7 +782,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:19+0000"
+            "updated": "2025-03-25T20:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -805,13 +805,13 @@
             "section": "console/tools",
             "srcrev": "7d6d99c6befa635780a4e944d37ebfd58e68a108",
             "summary": "Memory Efficient Serialization Library - Python3 Modules",
-            "updated": "2024-10-20T19:10:19+0000"
+            "updated": "2025-03-25T20:03:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/flatbuffers/23.5.26/recipe-sysroot-native/usr/bin/flatc ",
+            "configopts": "     -DFLATBUFFERS_BUILD_TESTS=OFF     -DFLATBUFFERS_BUILD_SHAREDLIB=ON  -DFLATBUFFERS_FLATC_EXECUTABLE=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/flatbuffers/23.5.26/recipe-sysroot-native/usr/bin/flatc ",
             "description": "",
             "filename": "flatbuffers_23.5.26.bb",
             "filepath": "recipes-devtools/flatbuffers",
@@ -828,7 +828,7 @@
             "section": "console/tools",
             "srcrev": "7d6d99c6befa635780a4e944d37ebfd58e68a108",
             "summary": "Memory Efficient Serialization Library",
-            "updated": "2024-10-20T19:10:19+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -851,13 +851,13 @@
             "section": "devel",
             "srcrev": "813b93f64103847a21227725cb5ab04b6ca5b5ed",
             "summary": "",
-            "updated": "2024-10-20T19:10:20+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/recipe-sysroot     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmplla9jv5i/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmplla9jv5i/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/git/tensorflow/lite/   -DTFLITE_ENABLE_GPU=off",
+            "configopts": "     -DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/recipe-sysroot     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DTFLITE_EVAL_TOOLS=on     -DTFLITE_HOST_TOOLS_DIR=/tmp/tmpxpi3col9/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/recipe-sysroot-native/usr/bin     -DTFLITE_BUILD_SHARED_LIB=on     -DTFLITE_ENABLE_NNAPI=off     -DTFLITE_ENABLE_NNAPI_VERBOSE_VALIDATION=on     -DTFLITE_ENABLE_RUY=on     -DTFLITE_ENABLE_XNNPACK=on     -DTFLITE_PYTHON_WRAPPER_BUILD_CMAKE2=on     -DTFLITE_ENABLE_EXTERNAL_DELEGATE=on     /tmp/tmpxpi3col9/tmp-glibc/work/${MACHINE_SOCARCH}-oe-linux/tensorflow-lite/2.16.2/git/tensorflow/lite/   -DTFLITE_ENABLE_GPU=off",
             "description": "TensorFlow Lite C++ Library",
             "filename": "tensorflow-lite_2.16.2.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -874,13 +874,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-host-tools/2.16.2/recipe-sysroot  ",
+            "configopts": "     -DFETCHCONTENT_FULLY_DISCONNECTED=OFF     -DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-host-tools/2.16.2/recipe-sysroot  ",
             "description": "Host tools required for build of TensorFlow Lite C++ Library unit tests and Evaluation Tools",
             "filename": "tensorflow-lite-host-tools_2.16.2.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -897,13 +897,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:18+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-neutron-delegate/2.16.2/git  ",
             "description": "TensorFlow Lite Neutron Delegate",
             "filename": "tensorflow-lite-neutron-delegate_2.16.2.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -920,13 +920,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-ethosu-delegate/2.16.2/git  ",
             "description": "TensorFlow Lite Ethos-u Delegate",
             "filename": "tensorflow-lite-ethosu-delegate_2.16.2.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -943,13 +943,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTIM_VX_INSTALL=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/git  ",
+            "configopts": "-DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot       -DFETCHCONTENT_FULLY_DISCONNECTED=OFF      -DTIM_VX_INSTALL=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot/usr      -DFETCHCONTENT_SOURCE_DIR_TENSORFLOW=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/tfgit      -DTFLITE_LIB_LOC=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/recipe-sysroot/usr/lib/libtensorflow-lite.so      /tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tensorflow-lite-vx-delegate/2.16.2/git  ",
             "description": "TensorFlow Lite VX Delegate",
             "filename": "tensorflow-lite-vx-delegate_2.16.2.bb",
             "filepath": "recipes-libraries/tensorflow-lite",
@@ -966,7 +966,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +989,7 @@
             "section": "base",
             "srcrev": "8a6c7198afc15fde284180c5a8e4eeebb5b17577",
             "summary": "The firmware, library and converter for i.MX Neutron NPU",
-            "updated": "2024-10-20T19:10:20+0000"
+            "updated": "2025-03-25T20:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1012,7 @@
             "section": "base",
             "srcrev": "012e780225f891b90747592e254b2399d6ec07fb",
             "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-            "updated": "2024-11-25T23:11:09+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1035,13 +1035,13 @@
             "section": "base",
             "srcrev": "45bcad64ee00e5dba3e44699c0cf0f8281e7b27a",
             "summary": "The eiq examples based on Tf-lite",
-            "updated": "2024-10-20T19:10:19+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=/tmp/tmplla9jv5i/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.2.2/recipe-sysroot     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=off  ",
+            "configopts": "     -DCONFIG=YOCTO     -DCMAKE_SYSROOT=/tmp/tmpxpi3col9/tmp-glibc/work/core2-32-oe-linux/tim-vx/1.2.2/recipe-sysroot     -DTIM_VX_ENABLE_TEST=off     -DTIM_VX_USE_EXTERNAL_OVXLIB=off  ",
             "description": "TIM-VX is a software integration module provided by VeriSilicon to facilitate deployment of Neural-Networks on OpenVX enabled ML accelerators. It serves as the backend binding for runtime frameworks such as Android NN, Tensorflow-Lite, MLIR, TVM and more.",
             "filename": "tim-vx_1.2.2.bb",
             "filepath": "recipes-libraries/tim-vx",
@@ -1058,7 +1058,7 @@
             "section": "base",
             "srcrev": "cada8e8bf5c91b002e793eda852b096c1b777e4b",
             "summary": "Tensor Interface Module for OpenVX",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "section": "base",
             "srcrev": "4f710ec5796ac0eb0b0a23d3c808ca68e13173f6",
             "summary": "Open Deep Learning Compiler Stack",
-            "updated": "2024-10-20T19:10:21+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1104,7 +1104,7 @@
             "section": "base",
             "srcrev": "a80c51d77c91f1a8266afc5d8056fb981de4b504",
             "summary": "The Linux driver stack for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2024-10-20T19:10:20+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1127,7 +1127,7 @@
             "section": "base",
             "srcrev": "3dbedc11bd2a4ba56af9fbe9d285b5bf13f1a088",
             "summary": "The firmware of Cortex(R)-M33 for Arm(R) Ethos(TM)-U NPU",
-            "updated": "2024-10-20T19:10:20+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1150,7 +1150,7 @@
             "section": "base",
             "srcrev": "f2a159aa34fed0d33426f966df75673950371ac7",
             "summary": "",
-            "updated": "2024-10-20T19:10:20+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1173,7 +1173,7 @@
             "section": "base",
             "srcrev": "4ed66906b889e66a6458a1d2692790f64bf1c556",
             "summary": "A GStreamer NNstreamer pipelines real-time profiling plugin",
-            "updated": "2024-10-20T19:10:22+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1196,7 +1196,7 @@
             "section": "AI",
             "srcrev": "f82789170b8f2696e50cbc5027b74b767f5e9415",
             "summary": "NNStreamer, Stream Pipeline Paradigm for Neural Network Applications",
-            "updated": "2024-10-20T19:10:22+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1219,7 +1219,7 @@
             "section": "Development",
             "srcrev": "163516897314d6e0c437a84272e348f278038be3",
             "summary": "Shell Script Automated Tester (unit testing executable files)",
-            "updated": "2024-05-09T08:05:24+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1242,7 +1242,7 @@
             "section": "base",
             "srcrev": "2efc10afd1161a025fa3848aca487fb9a665f3c0",
             "summary": "NNStreamer-Edge library",
-            "updated": "2024-05-09T08:05:24+0000"
+            "updated": "2025-03-25T20:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1265,7 +1265,7 @@
             "section": "base",
             "srcrev": "507e8d46751227c7fd6f456774838a70e3c6d7a0",
             "summary": "",
-            "updated": "2024-09-12T18:09:57+0000"
+            "updated": "2025-03-25T20:03:35+0000"
         }
     ],
     "wrtemplates": []

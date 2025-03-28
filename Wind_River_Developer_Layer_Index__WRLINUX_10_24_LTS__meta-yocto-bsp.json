@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990838,
             "layer": 58,
             "local_path": "",
-            "updated": "2024-05-09T02:05:48+0000",
+            "updated": "2025-03-25T20:03:07+0000",
             "vcs_last_commit": "2024-04-21T20:04:11+0000",
-            "vcs_last_fetch": "2024-05-09T02:05:48+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:07+0000",
             "vcs_last_rev": "61353bbdb4ec804b3db93ebc13aede712d816633",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "4",
@@ -681,31 +681,31 @@
     "machines": [
         {
             "description": "Generic Arm64 machine for typical SystemReady IR/ES platforms, which",
-            "id": 86224,
+            "id": 97471,
             "layerbranch": 990838,
             "name": "genericarm64",
-            "updated": "2024-05-09T02:05:48+0000"
+            "updated": "2025-03-25T20:03:07+0000"
         },
         {
             "description": " generic x86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 86225,
+            "id": 97472,
             "layerbranch": 990838,
             "name": "genericx86",
-            "updated": "2024-05-09T02:05:48+0000"
+            "updated": "2025-03-25T20:03:07+0000"
         },
         {
             "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
-            "id": 86226,
+            "id": 97473,
             "layerbranch": 990838,
             "name": "beaglebone-yocto",
-            "updated": "2024-05-09T02:05:48+0000"
+            "updated": "2025-03-25T20:03:07+0000"
         },
         {
             "description": " generic x86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 86227,
+            "id": 97474,
             "layerbranch": 990838,
             "name": "genericx86-64",
-            "updated": "2024-05-09T02:05:48+0000"
+            "updated": "2025-03-25T20:03:07+0000"
         }
     ],
     "recipes": [],

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,10 +662,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-03-24T08:03:57+0000",
-            "vcs_last_commit": "2025-03-24T08:03:50+0000",
-            "vcs_last_fetch": "2025-03-24T08:03:57+0000",
-            "vcs_last_rev": "1a32c9217ba93b5f3e37c139ca0719d36502a94a",
+            "updated": "2025-03-25T20:03:50+0000",
+            "vcs_last_commit": "2025-03-25T12:03:43+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:50+0000",
+            "vcs_last_rev": "0304fc9acb3e1950dc4e2cc651cd3a440b29a0a1",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -677,10 +677,10 @@
             "id": 1001101,
             "layer": 439,
             "local_path": "",
-            "updated": "2025-03-17T01:03:53+0000",
-            "vcs_last_commit": "2025-03-16T20:03:57+0000",
-            "vcs_last_fetch": "2025-03-17T01:03:53+0000",
-            "vcs_last_rev": "5d247266ff944e3d60568565e6864ab90f3bb639",
+            "updated": "2025-03-25T20:03:13+0000",
+            "vcs_last_commit": "2025-03-25T02:03:57+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:13+0000",
+            "vcs_last_rev": "7996e095bde802a3e30040a5bc8c3455c0d9acfa",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -692,9 +692,9 @@
             "id": 1001540,
             "layer": 441,
             "local_path": "",
-            "updated": "2025-03-13T02:03:47+0000",
+            "updated": "2025-03-25T20:03:21+0000",
             "vcs_last_commit": "2025-03-13T01:03:52+0000",
-            "vcs_last_fetch": "2025-03-13T02:03:47+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:21+0000",
             "vcs_last_rev": "fa6c5a4637b5a55a96e60ce3f86e0032bf34fea2",
             "vcs_subdir": "",
             "version": "1",
@@ -802,17 +802,17 @@
     "machines": [
         {
             "description": " Aptiv CVC-FL board",
-            "id": 88742,
+            "id": 97737,
             "layerbranch": 1001540,
             "name": "aptiv-cvc-131",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": " Aptiv CVC-FL board",
-            "id": 88743,
+            "id": 97738,
             "layerbranch": 1001540,
             "name": "aptiv-cvc-fl",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         }
     ],
     "recipes": [
@@ -837,7 +837,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -860,7 +860,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-29T08:06:50+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -883,7 +883,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-29T08:06:50+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -906,93 +906,93 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-06-29T08:06:50+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 120324,
+            "id": 126890,
             "layerbranch": 1001540,
             "name": "feature/disable-linux-llce",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120325,
+            "id": 126891,
             "layerbranch": 1001540,
             "name": "feature/disable_hvp",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120326,
+            "id": 126892,
             "layerbranch": 1001540,
             "name": "feature/aptiv-ivt",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120327,
+            "id": 126893,
             "layerbranch": 1001540,
             "name": "feature/aptiv-autosar-boot",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120328,
+            "id": 126894,
             "layerbranch": 1001540,
             "name": "feature/aptiv-dcd",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120329,
+            "id": 126895,
             "layerbranch": 1001540,
             "name": "feature/aptiv-hse",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120330,
+            "id": 126896,
             "layerbranch": 1001540,
             "name": "feature/disable-linux-flexcan0",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120331,
+            "id": 126897,
             "layerbranch": 1001540,
             "name": "feature/disable-linux-i2c4",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120332,
+            "id": 126898,
             "layerbranch": 1001540,
             "name": "feature/aptiv-m7",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120333,
+            "id": 126899,
             "layerbranch": 1001540,
             "name": "feature/disable-atf-i2c4",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120334,
+            "id": 126900,
             "layerbranch": 1001540,
             "name": "feature/disable_flexcan3",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         },
         {
             "description": "",
-            "id": 120335,
+            "id": 126901,
             "layerbranch": 1001540,
             "name": "default",
-            "updated": "2024-06-29T08:06:49+0000"
+            "updated": "2025-03-25T20:03:21+0000"
         }
     ]
 }

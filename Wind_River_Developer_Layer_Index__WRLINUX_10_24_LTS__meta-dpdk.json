@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990867,
             "layer": 192,
             "local_path": "",
-            "updated": "2025-02-26T19:02:42+0000",
+            "updated": "2025-03-25T20:03:44+0000",
             "vcs_last_commit": "2025-02-13T07:02:58+0000",
-            "vcs_last_fetch": "2025-02-26T19:02:42+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:44+0000",
             "vcs_last_rev": "2b03da4eba7b5ffa6dc8dbe79c0413f4989c7b8d",
             "vcs_subdir": "",
             "version": "1",
@@ -742,7 +742,7 @@
             "section": "base",
             "srcrev": "a6ec5765cf83d3d58cbd6d4ed5b92b4a06f8a808",
             "summary": "",
-            "updated": "2025-02-26T19:02:42+0000"
+            "updated": "2025-03-25T20:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +765,7 @@
             "section": "base",
             "srcrev": "077a7044cc5b2533410f691c8db6fb4f6667b1ca",
             "summary": "",
-            "updated": "2024-12-12T20:12:06+0000"
+            "updated": "2025-03-25T20:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -788,7 +788,7 @@
             "section": "base",
             "srcrev": "077a7044cc5b2533410f691c8db6fb4f6667b1ca",
             "summary": "",
-            "updated": "2024-12-12T20:12:06+0000"
+            "updated": "2025-03-25T20:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +811,7 @@
             "section": "base",
             "srcrev": "e721c733cd24206399bebb8f0751b0387c4c1595",
             "summary": "DPDK Kernel Module igb_uio",
-            "updated": "2024-05-09T02:05:03+0000"
+            "updated": "2025-03-25T20:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "section": "base",
             "srcrev": "57a139f9bf6ef644f9c1deb4f7df4bb4c76d6179",
             "summary": "Utilities and example programs for use with XDP",
-            "updated": "2024-05-09T02:05:03+0000"
+            "updated": "2025-03-25T20:03:44+0000"
         }
     ],
     "wrtemplates": []

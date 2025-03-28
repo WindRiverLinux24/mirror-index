@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-03-21T00:03:06+0000",
+            "updated": "2025-03-27T00:03:06+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +647,9 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-03-21T02:03:16+0000",
+            "updated": "2025-03-25T20:03:04+0000",
             "vcs_last_commit": "2025-03-19T19:03:48+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:16+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:04+0000",
             "vcs_last_rev": "b18c4de58ff8447dbd323f1369e80c38db9e2d5c",
             "vcs_subdir": "meta",
             "version": "15",
@@ -662,9 +662,9 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-03-21T02:03:26+0000",
+            "updated": "2025-03-25T20:03:32+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:26+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:32+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -677,9 +677,9 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-03-21T02:03:40+0000",
+            "updated": "2025-03-25T20:03:44+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:40+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:44+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -692,9 +692,9 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-03-21T02:03:36+0000",
+            "updated": "2025-03-25T20:03:37+0000",
             "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-21T02:03:36+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:37+0000",
             "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -707,9 +707,9 @@
             "id": 990877,
             "layer": 15,
             "local_path": "",
-            "updated": "2025-01-20T20:01:58+0000",
+            "updated": "2025-03-25T20:03:05+0000",
             "vcs_last_commit": "2025-01-05T13:01:47+0000",
-            "vcs_last_fetch": "2025-01-20T20:01:58+0000",
+            "vcs_last_fetch": "2025-03-25T20:03:05+0000",
             "vcs_last_rev": "5f9f741193f55bb4bb3c974e913d169dd23e40d3",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -862,7 +862,7 @@
             "section": "base",
             "srcrev": "2768251dacce3939136c839aeca413f4aa4241d0",
             "summary": "libmypaint is a library for making brushstrokes",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -885,7 +885,7 @@
             "section": "base",
             "srcrev": "8a0124ac0675103eae8fa41fad533851768ae1ce",
             "summary": "MyPaint brushes",
-            "updated": "2024-05-09T02:05:04+0000"
+            "updated": "2025-03-25T20:03:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -908,7 +908,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GEGL (Generic Graphics Library) is a graph based image processing framework",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -931,7 +931,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Babl is a dynamic, any to any, pixel format conversion library",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -954,7 +954,7 @@
             "section": "x11/graphics",
             "srcrev": "",
             "summary": "The GIMP is the GNU Image Manipulation Program",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -977,7 +977,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Image viewer and browser",
-            "updated": "2024-05-09T02:05:05+0000"
+            "updated": "2025-03-25T20:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1000,7 +1000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A library for collecting system monitoring data",
-            "updated": "2024-05-09T02:05:06+0000"
+            "updated": "2025-03-25T20:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1023,7 +1023,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Javascript bindings for GNOME",
-            "updated": "2024-05-09T02:05:06+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1046,7 +1046,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GNOME Structured File Library",
-            "updated": "2025-01-20T20:01:58+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1069,7 +1069,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME flashback panel",
-            "updated": "2024-05-09T02:05:06+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1092,7 +1092,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A library to access weather information from online services",
-            "updated": "2024-05-28T04:05:40+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,7 +1115,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME bluetooth manager",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1138,7 +1138,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME bluetooth manager",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1161,7 +1161,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Flashback (GNOME 2) session",
-            "updated": "2024-05-09T02:05:07+0000"
+            "updated": "2025-03-25T20:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1184,13 +1184,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tracker miners and metadata extractors",
-            "updated": "2024-05-09T02:05:08+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-Ddocs=false -Dintrospection=enabled      --cross-file /tmp/tmpemdqjcdh/tmp-glibc/work/core2-32-oe-linux/tracker/3.7.1/meson-tracker.cross     -Dman=false     -Dsystemd_user_services=false     -Dsystemd_user_services_dir=/usr/lib/systemd/user     -Dsoup=soup3     -Dvapi=enabled  ",
+            "configopts": "-Ddocs=false -Dintrospection=enabled      --cross-file /tmp/tmpagtpeiyg/tmp-glibc/work/core2-32-oe-linux/tracker/3.7.1/meson-tracker.cross     -Dman=false     -Dsystemd_user_services=false     -Dsystemd_user_services_dir=/usr/lib/systemd/user     -Dsoup=soup3     -Dvapi=enabled  ",
             "description": "",
             "filename": "tracker_3.7.1.bb",
             "filepath": "recipes-gnome/tracker",
@@ -1207,7 +1207,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tracker is a file search engine",
-            "updated": "2024-05-09T02:05:08+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1230,7 +1230,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME editor",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1253,7 +1253,7 @@
             "section": "gnome",
             "srcrev": "b271a625ca057cc3fa7d5ac83285c5d4e038202e",
             "summary": "Gedit Technology - Source code editing widget",
-            "updated": "2024-05-09T02:05:09+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1276,7 +1276,7 @@
             "section": "gnome",
             "srcrev": "f6fbfd1c57de3d97cab2056a5c3088b0da49e8a4",
             "summary": "libgedit-amtk - Actions, Menus and Toolbars Kit for GTK applications",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1299,7 +1299,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "gspell adds spell-checking to a GTK+ applications",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1322,7 +1322,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A light and fast file manager",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1345,7 +1345,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A convenience library for the geocoding",
-            "updated": "2024-05-09T02:05:10+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1368,7 +1368,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Password and keyring managing daemon",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1391,7 +1391,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "A GObject library for Facebook Graph API",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1414,7 +1414,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Software allows users to easily find, discover and install apps.",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -1437,7 +1437,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Online Accounts - Single sign-on framework for GNOME",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1460,7 +1460,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Console",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1483,7 +1483,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME disk utility",
-            "updated": "2024-05-09T02:05:11+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1506,7 +1506,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1529,7 +1529,7 @@
             "section": "base",
             "srcrev": "941560af497148588783db991e8135f52a82574d",
             "summary": "libchamplain is a Gtk widget displaying zoomable and pannable maps",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -1552,7 +1552,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XSL stylesheets for the yelp help browser",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1575,7 +1575,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Help browser for the GNOME desktop",
-            "updated": "2024-05-09T02:05:12+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -1598,7 +1598,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Collection of scripts and build utilities for documentation",
-            "updated": "2024-05-09T02:05:13+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1621,7 +1621,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Window and compositing manager based on Clutter",
-            "updated": "2024-05-28T04:05:40+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1644,7 +1644,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME archive library",
-            "updated": "2024-05-09T02:05:14+0000"
+            "updated": "2025-03-25T20:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -1667,7 +1667,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A GObject-based Exiv2 wrapper",
-            "updated": "2024-05-09T02:05:14+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,7 +1690,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME calculator",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,7 +1713,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GLib-based library for accessing online service APIs using the GData protocol",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1736,7 +1736,7 @@
             "section": "base",
             "srcrev": "5ac3b8e4bd6fa02651b3c23cedb0a7e1cd769655",
             "summary": "GNOME terminal",
-            "updated": "2024-05-09T02:05:15+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1759,7 +1759,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to access web services that claim to be \"RESTful\"",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1782,7 +1782,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "library to access web services that claim to be \"RESTful\"",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -1805,7 +1805,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1828,7 +1828,7 @@
             "section": "x11/libs",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1851,7 +1851,7 @@
             "section": "base",
             "srcrev": "b9d7ad9c09a5fb17a1562ee1d892798c646e9ec9",
             "summary": "",
-            "updated": "2024-05-09T02:05:16+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1874,7 +1874,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "File manager for GNOME",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1897,7 +1897,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Shell Extensions",
-            "updated": "2024-05-28T04:05:39+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1920,7 +1920,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Shell is the graphical shell of the GNOME desktop environment",
-            "updated": "2024-07-01T22:07:41+0000"
+            "updated": "2025-03-25T20:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1943,7 +1943,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Display Manager",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1966,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "System-wide Performance Profiler for Linux",
-            "updated": "2024-05-09T02:05:17+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1989,13 +1989,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "GHex - a hex editor for GNOME",
-            "updated": "2025-01-20T20:01:57+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -Doe_sysroot=/tmp/tmphxiopztt/tmp-glibc/work/core2-32-oe-linux/gnome-control-center/46.1/recipe-sysroot  -Dibus=true  -Dwayland=false",
+            "configopts": " -Doe_sysroot=/tmp/tmpagtpeiyg/tmp-glibc/work/core2-32-oe-linux/gnome-control-center/46.1/recipe-sysroot  -Dibus=true  -Dwayland=false",
             "description": "GNOME Settings is GNOME's main interface for configuration of various aspects of your desktop",
             "filename": "gnome-control-center_46.1.bb",
             "filepath": "recipes-gnome/gnome-control-center",
@@ -2012,7 +2012,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME Settings",
-            "updated": "2024-05-28T04:05:39+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2035,7 +2035,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Gnome system monitor",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2058,7 +2058,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME font viewer",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2081,7 +2081,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME wallpapers",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2104,7 +2104,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Window navigation construction toolkit",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2127,7 +2127,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:19+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2150,7 +2150,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "This is the Eye of GNOME, an image viewer program.",
-            "updated": "2025-01-20T20:01:57+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2173,7 +2173,7 @@
             "section": "base",
             "srcrev": "16ab2567257a053bd957699f89080fafd0999035",
             "summary": "Tepl library eases the development of GtkSourceView-based projects",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2196,7 +2196,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME calendar",
-            "updated": "2024-05-28T04:05:39+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2219,7 +2219,7 @@
             "section": "base",
             "srcrev": "a0e790aa9494db9d1b1f48b4fc0d2f78e112044d",
             "summary": "This is gnome-user-share 43.0, a system for easy sharing of user files.",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2242,13 +2242,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Small gobject library for playing system sounds",
-            "updated": "2024-05-09T02:05:20+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmpemdqjcdh/tmp-glibc/work/core2-32-oe-linux/file-roller/44.1/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
+            "configopts": "-Dintrospection=true  -Dintrospection=enabled --cross-file=/tmp/tmpagtpeiyg/tmp-glibc/work/core2-32-oe-linux/file-roller/44.1/meson-file-roller.cross  -Dnautilus-actions=disabled -Dpackagekit=false",
             "description": "",
             "filename": "file-roller_44.1.bb",
             "filepath": "recipes-gnome/file-roller",
@@ -2265,7 +2265,7 @@
             "section": "base",
             "srcrev": "299e86c77d8fe600ee6658357e209b15c674397e",
             "summary": "An archive manager utility for the  GNOME Environment",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2288,7 +2288,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2311,7 +2311,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2334,7 +2334,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Portable C library for multiline text editing",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2357,7 +2357,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2380,7 +2380,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME library for reading .desktop files",
-            "updated": "2024-05-09T02:05:21+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2403,7 +2403,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Access, organize and share your photos on GNOME",
-            "updated": "2025-01-20T20:01:58+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2426,7 +2426,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Grilo is a framework forsearching media content from various sources",
-            "updated": "2024-05-09T02:05:22+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2449,7 +2449,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Grilo is a framework forsearching media content from various sources",
-            "updated": "2024-05-09T02:05:22+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "native",
@@ -2472,7 +2472,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "configuation database system",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2495,7 +2495,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Configuration editor for dconf",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2518,7 +2518,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A simple text editor",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2541,7 +2541,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tecla is a keyboard layout viewer that uses GTK/Libadwaita for UI, and libxkbcommon to deal with keyboard maps.",
-            "updated": "2024-05-09T02:05:23+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2564,7 +2564,7 @@
             "section": "base",
             "srcrev": "c3625ee59ab3acfd7566ef04300b15ddbadaaac3",
             "summary": "GNOME Chess is a 2D chess game, where games can be played between a combination of human and computer players.",
-            "updated": "2025-01-20T20:01:58+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2587,7 +2587,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNU Chess is a chess-playing program.",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2610,7 +2610,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME session",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2633,7 +2633,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "Display dialog boxes from the command line and shell scripts",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -2656,7 +2656,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Evolution database backend server",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2679,7 +2679,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Evolution database backend server",
-            "updated": "2024-05-09T02:05:24+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2702,7 +2702,7 @@
             "section": "x11/wm",
             "srcrev": "",
             "summary": "Metacity is the boring window manager for the adult in you",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2725,7 +2725,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME menus",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2748,7 +2748,7 @@
             "section": "x11/gnome",
             "srcrev": "",
             "summary": "GNOME Screenshot",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2771,7 +2771,7 @@
             "section": "x11/office",
             "srcrev": "",
             "summary": "Evince is a document viewer for document formats like pdf, ps, djvu",
-            "updated": "2024-05-09T02:05:25+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2794,7 +2794,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helper lib for keyboard management",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2817,7 +2817,7 @@
             "section": "devel/lib",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2840,7 +2840,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME tweaks: Advanced options for GNOME 3 session",
-            "updated": "2024-05-09T02:05:26+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2863,7 +2863,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "libmsgraph is a GLib-based library for accessing online serive APIs using MS Graph protocol.",
-            "updated": "2024-05-28T04:05:40+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2886,7 +2886,7 @@
             "section": "devel/lib",
             "srcrev": "736ccef40d39603b8111c8a3a0bca0319bbafdc0",
             "summary": "",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2909,7 +2909,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GTK support library for colord",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2932,7 +2932,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GNOME applications",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2955,7 +2955,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic GNOME desktop",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2978,7 +2978,7 @@
             "section": "base",
             "srcrev": "6a70ab0338206bd1c7d01a4e1874ea0ee5b3a9d3",
             "summary": "Intelligent Input Bus for Linux/Unix",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3001,7 +3001,7 @@
             "section": "base",
             "srcrev": "6a70ab0338206bd1c7d01a4e1874ea0ee5b3a9d3",
             "summary": "Intelligent Input Bus for Linux/Unix",
-            "updated": "2024-05-09T02:05:27+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3024,7 +3024,7 @@
             "section": "base",
             "srcrev": "f5b92814320d0a5745b50b7b36103843ad23e299",
             "summary": "A tablet description library",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3047,7 +3047,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "libcloudproviders is a DBus API that allows cloud storage sync clients to expose their services.",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3070,7 +3070,7 @@
             "section": "base",
             "srcrev": "52232e4ba282b2fed68e8fcb4b5d45ed0eaa4ed3",
             "summary": "WebP GDK Pixbuf Loader library",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3093,7 +3093,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools for certain user account management tasks",
-            "updated": "2024-05-09T02:05:28+0000"
+            "updated": "2025-03-25T20:03:02+0000"
         },
         {
             "bbclassextend": "native",
@@ -3116,7 +3116,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Objects and helper methods to help reading and writing AppStream metadata",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3139,7 +3139,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "user and group account administration library",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3162,7 +3162,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3185,7 +3185,7 @@
             "section": "base",
             "srcrev": "54003825481c2b48fd0c42355b484469dea12020",
             "summary": "A backend implementation for xdg-desktop-portal that is using GTK and various pieces of GNOME infrastructure.",
-            "updated": "2024-05-09T02:05:29+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3208,7 +3208,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A xdg-desktop-portal backend for gnome.",
-            "updated": "2024-05-28T04:05:40+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3231,7 +3231,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A partition editor to graphically manage disk partitions ",
-            "updated": "2024-05-09T02:05:30+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3254,7 +3254,7 @@
             "section": "base",
             "srcrev": "a0763a246a81188f60b0f9810143e49224dc752f",
             "summary": "PolicyKit-gnome provides an Authentication Agent for PolicyKit",
-            "updated": "2024-05-09T02:05:30+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3277,7 +3277,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "A simple GNOME application to access virtual machines.",
-            "updated": "2024-05-09T02:05:30+0000"
+            "updated": "2025-03-25T20:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3300,7 +3300,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Remote desktop daemon for GNOME using pipewire.",
-            "updated": "2024-09-28T21:09:19+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3323,7 +3323,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Library for embedding a Clutter canvas in a GTK+ application",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3346,7 +3346,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Graphics library for creating hardware-accelerated user interfaces",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3369,7 +3369,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GStreamer integration library for Clutter",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3392,7 +3392,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Clutter package groups",
-            "updated": "2024-05-09T02:05:31+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3415,7 +3415,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Modern 3D graphics API with associated utility APIs",
-            "updated": "2024-05-09T02:05:32+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3438,7 +3438,7 @@
             "section": "network",
             "srcrev": "37c378a563d5b1c269d57c34671edc940d1cd180",
             "summary": "Geary is an email application built around conversations, for the GNOME 3 desktop.",
-            "updated": "2025-01-20T20:01:57+0000"
+            "updated": "2025-03-25T20:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -3461,7 +3461,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "GTK+ applet for NetworkManager",
-            "updated": "2024-05-09T02:05:32+0000"
+            "updated": "2025-03-25T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3484,7 +3484,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Folks is a contact aggregation library.",
-            "updated": "2024-05-09T02:05:33+0000"
+            "updated": "2025-03-25T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3507,7 +3507,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A VNC client viewer widget for GTK",
-            "updated": "2024-05-09T02:05:33+0000"
+            "updated": "2025-03-25T20:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3530,7 +3530,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NetworkManager GUI library",
-            "updated": "2024-05-09T02:05:33+0000"
+            "updated": "2025-03-25T20:03:05+0000"
         }
     ],
     "wrtemplates": []
