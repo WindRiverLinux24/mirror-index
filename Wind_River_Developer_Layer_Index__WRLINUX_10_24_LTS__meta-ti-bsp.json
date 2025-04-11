@@ -622,6 +622,13 @@
             "image_url": "",
             "link_url": "",
             "name": "4.1 4.2 4.3 5.0 5.1 5.2"
+        },
+        {
+            "description": "",
+            "id": 44209,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 5.0 5.1 5.2"
         }
     ],
     "branches": [
@@ -634,7 +641,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 4,
             "update_environment": null,
-            "updated": "2025-04-02T00:04:06+0000",
+            "updated": "2025-04-11T00:04:07+0000",
             "updates_enabled": true
         }
     ],
@@ -677,10 +684,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-03-25T20:03:35+0000",
-            "vcs_last_commit": "2025-03-24T23:03:32+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:35+0000",
-            "vcs_last_rev": "07f935babb1b76481323f93b416f518e3ebf3ff3",
+            "updated": "2025-04-07T01:04:03+0000",
+            "vcs_last_commit": "2025-04-06T22:04:43+0000",
+            "vcs_last_fetch": "2025-04-07T01:04:03+0000",
+            "vcs_last_rev": "dde9d61246d6857f0b6c9f5b767c96e88611f69c",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -2381,6 +2388,29 @@
             "srcrev": "ba93a3e38c683ccb03a7cf8f2e7dffe2f9cbcf1c",
             "summary": "",
             "updated": "2025-03-25T20:03:35+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "https://bugs.freedesktop.org",
+            "configopts": "     -Dshared-glapi=enabled     -Dglx-read-only-text=true     -Dplatforms='x11'    -Ddri3=disabled  -Degl=disabled -Dgallium-drivers=swrast,i915,iris,crocus,i915,iris,crocus  -Dllvm=disabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=false -Dimagination-srv=false -Dlmsensors=disabled -Dgallium-opencl=disabled -Dopencl-spirv=false  -Dopengl=false -Dosmesa=false -Dperfetto=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled  -Dvulkan-drivers='' -Dvulkan-beta=false  -Dgallium-xa=disabled ",
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
+            "filename": "mesa-pvr_23.2.1.bb",
+            "filepath": "recipes-graphics/mesa",
+            "homepage": "http://mesa3d.org",
+            "id": 2212196,
+            "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
+            "layerbranch": 1000731,
+            "license": "MIT",
+            "pe": "2",
+            "pn": "mesa-pvr",
+            "pr": "r0",
+            "provides": "mesa-pvr                               virtual/mesa     ",
+            "pv": "23.2.1",
+            "section": "x11",
+            "srcrev": "0e75e7ded360ea6aee4140393b30960e152f3994",
+            "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
+            "updated": "2025-04-07T01:04:03+0000"
         }
     ],
     "wrtemplates": []
