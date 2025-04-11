@@ -1,0 +1,2 @@
+    <project name="yocto-kernel-cache-6.6" remote="base" path="layers/wrlinux/git/yocto-kernel-cache.git" bare="True"/>
+    <project name="linux-yocto-6.6" remote="base" path="layers/wrlinux/git/linux-yocto.git" bare="True"/>
