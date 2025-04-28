@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44197,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44199,
             "image_url": "",
             "link_url": "",
@@ -580,13 +573,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
-        },
-        {
-            "description": "",
-            "id": 44203,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 5.0 5.1"
         },
         {
             "description": "",
@@ -639,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 4,
+            "sort_priority": 5,
             "update_environment": null,
-            "updated": "2025-04-11T00:04:07+0000",
+            "updated": "2025-04-27T00:04:08+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-01T21:04:02+0000",
-            "vcs_last_commit": "2025-04-01T20:04:28+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:02+0000",
-            "vcs_last_rev": "2689dcb146052fdfa4794c20d782a611cb8dbb4f",
+            "updated": "2025-04-27T21:04:55+0000",
+            "vcs_last_commit": "2025-04-26T02:04:32+0000",
+            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
+            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -669,10 +655,10 @@
             "id": 990870,
             "layer": 353,
             "local_path": "",
-            "updated": "2025-03-25T20:03:28+0000",
-            "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:28+0000",
-            "vcs_last_rev": "baa02329969f16db2fb35666fa5723313a02af81",
+            "updated": "2025-04-24T20:04:50+0000",
+            "vcs_last_commit": "2025-04-22T18:04:25+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:50+0000",
+            "vcs_last_rev": "fc202b7d6981dfb93b1870bc55400e95dd788393",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44189
@@ -1077,7 +1063,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DPY_SKIP_DEB_LAYOUT=ON     -DPYTHON_CMD=/tmp/tmpu9r2uvwg/tmp-glibc/work/core2-32-oe-linux/bcc/0.29.1/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.12/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
+            "configopts": "     -DCMAKE_USE_LIBBPF_PACKAGE=ON     -DENABLE_LLVM_SHARED=ON     -DENABLE_CLANG_JIT=ON     -DPY_SKIP_DEB_LAYOUT=ON     -DPYTHON_CMD=/tmp/tmpxt_plfqq/tmp-glibc/work/core2-32-oe-linux/bcc/0.29.1/recipe-sysroot-native/usr/bin/python3-native/python3     -DPYTHON_FLAGS=--install-lib=/usr/lib/python3.12/site-packages   -DENABLE_EXAMPLES=ON -DENABLE_MAN=OFF",
             "description": "",
             "filename": "bcc_0.29.1.bb",
             "filepath": "dynamic-layers/meta-python/recipes-devtools/bcc",
@@ -1094,7 +1080,7 @@
             "section": "base",
             "srcrev": "eb8ede2d70b17350757f2570ef76ea4c2e1dbff8",
             "summary": "BPF Compiler Collection (BCC)",
-            "updated": "2025-03-25T20:03:28+0000"
+            "updated": "2025-04-24T20:04:50+0000"
         }
     ],
     "wrtemplates": []

@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44197,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44199,
             "image_url": "",
             "link_url": "",
@@ -580,13 +573,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
-        },
-        {
-            "description": "",
-            "id": 44203,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 5.0 5.1"
         },
         {
             "description": "",
@@ -639,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 4,
+            "sort_priority": 5,
             "update_environment": null,
-            "updated": "2025-04-11T00:04:07+0000",
+            "updated": "2025-04-27T00:04:08+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-01T21:04:02+0000",
-            "vcs_last_commit": "2025-04-01T20:04:28+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:02+0000",
-            "vcs_last_rev": "2689dcb146052fdfa4794c20d782a611cb8dbb4f",
+            "updated": "2025-04-27T21:04:55+0000",
+            "vcs_last_commit": "2025-04-26T02:04:32+0000",
+            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
+            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -669,10 +655,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-04-07T01:04:03+0000",
-            "vcs_last_commit": "2025-04-06T22:04:43+0000",
-            "vcs_last_fetch": "2025-04-07T01:04:03+0000",
-            "vcs_last_rev": "dde9d61246d6857f0b6c9f5b767c96e88611f69c",
+            "updated": "2025-04-24T20:04:00+0000",
+            "vcs_last_commit": "2025-04-22T18:04:25+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:00+0000",
+            "vcs_last_rev": "ebad967fd10b15180447f030917c9aede82c405f",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -684,10 +670,10 @@
             "id": 1000732,
             "layer": 529,
             "local_path": "",
-            "updated": "2025-03-25T20:03:02+0000",
-            "vcs_last_commit": "2025-02-25T18:02:41+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:02+0000",
-            "vcs_last_rev": "327bcaa95b0d9e1793d7a0870e749f9c2a4ec1be",
+            "updated": "2025-04-24T20:04:05+0000",
+            "vcs_last_commit": "2025-04-22T18:04:25+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:05+0000",
+            "vcs_last_rev": "ebad967fd10b15180447f030917c9aede82c405f",
             "vcs_subdir": "meta-ti-extras",
             "version": null,
             "yp_compatible_version": 44188
@@ -699,10 +685,10 @@
             "id": 1009319,
             "layer": 527,
             "local_path": "",
-            "updated": "2025-03-26T01:03:51+0000",
-            "vcs_last_commit": "2025-03-25T19:03:42+0000",
-            "vcs_last_fetch": "2025-03-26T01:03:51+0000",
-            "vcs_last_rev": "0334a3f5349cd87b4db163a7cf1002880afdfa42",
+            "updated": "2025-04-24T20:04:48+0000",
+            "vcs_last_commit": "2025-04-22T19:04:19+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:48+0000",
+            "vcs_last_rev": "60afb155a7da95ca0b15a5ce94f5b4484d9028fe",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -827,9 +813,9 @@
             "provides": "ti-edgeai-firmware ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "a514fa172b77d21e3f44956bd7e0c79737f86e82",
+            "srcrev": "328598874e408e97a830bcd33d0ff6e85828ec87",
             "summary": "TI RTOS prebuilt binary firmware images for EdgeAI",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -846,13 +832,13 @@
             "license": "TI-TFL & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & MIT & Apache-2.0 & Apache-2.0-with-LLVM-exception &            Khronos & Hewlett-Packard & Patrick-Powell & FTL & Zlib & CC0-1.0 & OpenSSL",
             "pe": "",
             "pn": "ti-vision-apps",
-            "pr": "r0_edgeai_10",
+            "pr": "r0_edgeai_12",
             "provides": "ti-vision-apps ",
             "pv": "10.1.0",
             "section": "base",
             "srcrev": "",
             "summary": "OpenVX Middleware library",
-            "updated": "2025-03-26T01:03:51+0000"
+            "updated": "2025-04-24T20:04:48+0000"
         },
         {
             "bbclassextend": "",
@@ -875,7 +861,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TIDL Runtime Modules",
-            "updated": "2025-03-26T01:03:51+0000"
+            "updated": "2025-04-24T20:04:48+0000"
         },
         {
             "bbclassextend": "",
@@ -898,7 +884,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Open Source DL/ML runtime Modules",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1126,15 +1112,15 @@
             "provides": "edgeai-test-data ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "87e8cc685d4d39f5afa9fc6f74f7616620c49c3a",
+            "srcrev": "67fcf45b5299ea425118124784d11f8b2c28f33c",
             "summary": "EdgeAI Test Data",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DTARGET_FS=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-tiovx-apps/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-tiovx-apps/1.0.0/out ",
+            "configopts": "-DTARGET_FS=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-tiovx-apps/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-tiovx-apps/1.0.0/out ",
             "description": "EdgeAI TIOVX Apps implements Open VX based simple deep learning demos that runs on TI platforms",
             "filename": "edgeai-tiovx-apps.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1149,15 +1135,15 @@
             "provides": "edgeai-tiovx-apps ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "d9958735a492c7281f3dc4508fa21386e611b31d",
+            "srcrev": "a1d7060fe9f913506b62481c2ee3e390d5b4f207",
             "summary": "EdgeAI TIOVX Apps",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DTARGET_FS=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-apps/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-apps/1.0.0/out ",
+            "configopts": "-DTARGET_FS=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-apps/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-apps/1.0.0/out ",
             "description": "EdgeAI Gst Apps implements gstreamer based simple deep learning demos that runs on TI platforms",
             "filename": "edgeai-gst-apps.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1172,32 +1158,32 @@
             "provides": "edgeai-gst-apps ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "87e8cc685d4d39f5afa9fc6f74f7616620c49c3a",
+            "srcrev": "67fcf45b5299ea425118124784d11f8b2c28f33c",
             "summary": "EdgeAI Gst Apps",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-04-24T20:04:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
-            "description": "",
+            "configopts": " -DQT_HOST_PATH=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-gui-app/1.0.0/recipe-sysroot-native/usr ",
+            "description": "EdgeAI GUI Application",
             "filename": "edgeai-gui-app_0.1.bb",
             "filepath": "recipes-tisdk/edgeai-components",
-            "homepage": "",
+            "homepage": "https://git.ti.com/cgit/apps/edgeai-gui-app",
             "id": 2106884,
-            "inherits": "",
+            "inherits": "cmake pkgconfig",
             "layerbranch": 1009319,
-            "license": "",
+            "license": "TI-TSPA",
             "pe": "",
             "pn": "edgeai-gui-app",
-            "pr": "",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "srcrev": "",
+            "pr": "r0_edgeai_1",
+            "provides": "edgeai-gui-app ",
+            "pv": "1.0.0",
+            "section": "graphics",
+            "srcrev": "12cf3c4a9ae37313ab9062aefecfb2e72e92a60d",
             "summary": "",
-            "updated": "2025-03-12T03:03:50+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1220,7 +1206,7 @@
             "section": "base",
             "srcrev": "62f12a3710c6056057cf23b8cfc88dd269c6ee78",
             "summary": "TI GPIO py",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1243,13 +1229,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Add a systemd init service to launch Edge AI out-of-box demos",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DTARGET_FS=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-apps-utils/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-apps-utils/1.0.0/out ",
+            "configopts": "-DTARGET_FS=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-apps-utils/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-apps-utils/1.0.0/out ",
             "description": "EdgeAI Apps Utils implements ARMv8 neon optimized utility functions and also NV12 post process utility functions ",
             "filename": "edgeai-apps-utils.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1266,13 +1252,13 @@
             "section": "base",
             "srcrev": "5a5a694ae02f0d2e4e39028b847e1c777c465cbf",
             "summary": "EdgeAI Apps Utils",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--prefix=/usr -Dpkg_config_path=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-plugins/1.0.0/git/pkgconfig ",
+            "configopts": "--prefix=/usr -Dpkg_config_path=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-gst-plugins/1.0.0/git/pkgconfig ",
             "description": "EdgeAI GST plugins implements custom elements to offload compute to HW accelerators and DSPs on TI devices",
             "filename": "edgeai-gst-plugins.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1287,9 +1273,9 @@
             "provides": "edgeai-gst-plugins ",
             "pv": "1.0.0",
             "section": "base",
-            "srcrev": "e4e999714a21c5376d8a93b7a305620d6283f223",
+            "srcrev": "39577530481ba0efe5eb0e20becb6442d84d29ac",
             "summary": "EdgeAI GST plugins",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1312,13 +1298,13 @@
             "section": "base",
             "srcrev": "653632e041fbd975cec4c9e650d07dfad72ccf11",
             "summary": "EdgeAI Studio Agent",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DTARGET_FS=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmptt1kyidk/tmp-glibc/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/out ",
+            "configopts": "-DTARGET_FS=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/recipe-sysroot -DCMAKE_SKIP_RPATH=TRUE -DCMAKE_OUTPUT_DIR=/tmp/tmpsplpo9_m/tmp-glibc/work/core2-32-oe-linux/edgeai-dl-inferer/1.0.0/out ",
             "description": "A Linux based CPP library for abstracting Open Source Runtime (OSRT) API",
             "filename": "edgeai-dl-inferer.bb",
             "filepath": "recipes-tisdk/edgeai-components",
@@ -1335,7 +1321,7 @@
             "section": "base",
             "srcrev": "f1592e41f8f859fc345865fa4e15efb85d06d3ec",
             "summary": "EdgeAI DL Inferer",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:46+0000"
         },
         {
             "bbclassextend": "",
@@ -1358,7 +1344,7 @@
             "section": "base",
             "srcrev": "c0ac0c26b783ed697f92e98e0ea516c64c012426",
             "summary": "TI GPIO cpp",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1402,9 +1388,9 @@
             "provides": "edgeai-tidl-models ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "87e8cc685d4d39f5afa9fc6f74f7616620c49c3a",
+            "srcrev": "67fcf45b5299ea425118124784d11f8b2c28f33c",
             "summary": "EdgeAI TIDL Models",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -1450,7 +1436,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-12T03:03:49+0000"
+            "updated": "2025-04-24T20:04:46+0000"
         }
     ],
     "wrtemplates": []

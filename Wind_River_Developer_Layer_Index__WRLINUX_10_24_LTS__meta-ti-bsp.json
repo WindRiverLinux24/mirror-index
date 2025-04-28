@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44197,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44199,
             "image_url": "",
             "link_url": "",
@@ -580,13 +573,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
-        },
-        {
-            "description": "",
-            "id": 44203,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 5.0 5.1"
         },
         {
             "description": "",
@@ -639,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 4,
+            "sort_priority": 5,
             "update_environment": null,
-            "updated": "2025-04-11T00:04:07+0000",
+            "updated": "2025-04-27T00:04:08+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-01T21:04:02+0000",
-            "vcs_last_commit": "2025-04-01T20:04:28+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:02+0000",
-            "vcs_last_rev": "2689dcb146052fdfa4794c20d782a611cb8dbb4f",
+            "updated": "2025-04-27T21:04:55+0000",
+            "vcs_last_commit": "2025-04-26T02:04:32+0000",
+            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
+            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -684,10 +670,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-04-07T01:04:03+0000",
-            "vcs_last_commit": "2025-04-06T22:04:43+0000",
-            "vcs_last_fetch": "2025-04-07T01:04:03+0000",
-            "vcs_last_rev": "dde9d61246d6857f0b6c9f5b767c96e88611f69c",
+            "updated": "2025-04-24T20:04:00+0000",
+            "vcs_last_commit": "2025-04-22T18:04:25+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:00+0000",
+            "vcs_last_rev": "ebad967fd10b15180447f030917c9aede82c405f",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -779,7 +765,7 @@
             "id": 97637,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "description": " TI AM64xx EVM (R5F core)",
@@ -905,7 +891,7 @@
             "id": 97655,
             "layerbranch": 1000731,
             "name": "am62pxx-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "description": " TI J721e EVM",
@@ -926,7 +912,7 @@
             "id": 97658,
             "layerbranch": 1000731,
             "name": "am62xxsip-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "description": " TI AM65xx EVM",
@@ -961,7 +947,7 @@
             "id": 97663,
             "layerbranch": 1000731,
             "name": "am62axx-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "description": " TI J721S2 EVM",
@@ -1010,7 +996,7 @@
             "id": 97670,
             "layerbranch": 1000731,
             "name": "am62xx-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "description": " TI J721e SK",
@@ -1212,9 +1198,9 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1281,9 +1267,9 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1304,9 +1290,9 @@
             "provides": "cnm-wave-fw ",
             "pv": "1.0.7",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1327,9 +1313,9 @@
             "provides": "ti-gc320-driver ",
             "pv": "5.0.11.p7",
             "section": "base",
-            "srcrev": "e2a10f31e255a65ec30a6e10b890e77d7e9cb107",
+            "srcrev": "83afddf9dbf6a8458267b4dae21ee35bfb11f3d1",
             "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1350,9 +1336,9 @@
             "provides": "ti-sgx-ddk-km virtual/gpudriver",
             "pv": "1.17.4948957",
             "section": "base",
-            "srcrev": "f555b9e1ae4b2baf68ac778ca41dc0c17e96f89a",
+            "srcrev": "9ae0fa4998b1c624408945e062bf8fb0ea7efb9d",
             "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1373,9 +1359,9 @@
             "provides": "ti-img-rogue-driver virtual/gpudriver",
             "pv": "24.2.6643903",
             "section": "base",
-            "srcrev": "023eb5afde7e069bff1e5e37620b84a66b447936",
+            "srcrev": "8eaff654a8871118c08cfafe53795f57e3b6b396",
             "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1488,9 +1474,9 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1511,9 +1497,9 @@
             "provides": "zephyr-openamp-rsc-table-fw ",
             "pv": "3.6.0",
             "section": "base",
-            "srcrev": "146d4f9b3930722d73685d600958f0b10ea97de2",
+            "srcrev": "ef5aec48e589902839ebae7ad753c68cf498c15f",
             "summary": "Precompiled Zephyr OpenAMP example firmware for TI K3 devices",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1557,9 +1543,9 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1580,9 +1566,9 @@
             "provides": "ti-sci-fw ",
             "pv": "11.00.07",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1601,11 +1587,11 @@
             "pn": "ti-dm-fw",
             "pr": "r4.0",
             "provides": "ti-dm-fw ",
-            "pv": "11.00.06",
+            "pv": "11.00.09",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,9 +1612,9 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1649,9 +1635,9 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1718,9 +1704,9 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1741,9 +1727,9 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1808,11 +1794,11 @@
             "pn": "ti-rpmsg-char-examples",
             "pr": "r0",
             "provides": "ti-rpmsg-char-examples ",
-            "pv": "0.6.7+git",
+            "pv": "0.6.9+git",
             "section": "base",
-            "srcrev": "5100a2e4a4a951e40ea0708fa78960770ec0ac33",
+            "srcrev": "09b064c6663ed46e4a402291dd87c8fe96135bd7",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1831,11 +1817,11 @@
             "pn": "ti-rpmsg-char",
             "pr": "r0",
             "provides": "ti-rpmsg-char ",
-            "pv": "0.6.7+git",
+            "pv": "0.6.9+git",
             "section": "base",
-            "srcrev": "5100a2e4a4a951e40ea0708fa78960770ec0ac33",
+            "srcrev": "09b064c6663ed46e4a402291dd87c8fe96135bd7",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1856,9 +1842,9 @@
             "provides": "ti-rtos-firmware ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1faf5974a93eb35ac31ed27e5693739edb08824c",
+            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-04-24T20:04:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2100,7 +2086,7 @@
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-um-linux",
             "id": 2073354,
-            "inherits": "update-rc.d",
+            "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
             "pe": "",
@@ -2111,7 +2097,7 @@
             "section": "base",
             "srcrev": "84a396a4fb379f10931421e489ac8a199d6a9f2c",
             "summary": "",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2178,9 +2164,9 @@
             "provides": "ti-gc320-libs ",
             "pv": "5.0.11.p7",
             "section": "base",
-            "srcrev": "c0afab259de59909cfe74c01f3f7fbaa147f94b5",
+            "srcrev": "85c175e8425c33dda6e272aeb45afe0f69a79096",
             "summary": "",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2247,9 +2233,9 @@
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
             "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "c8badfb165815c648052309418987f302e48aeef",
+            "srcrev": "70667128cb5b2c2a7621965ba948b5a56a2e756f",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "bbclassextend": "",
@@ -2270,9 +2256,9 @@
             "provides": "linux-ti-staging-rt  virtual/kernel",
             "pv": "6.12.17+git",
             "section": "kernel",
-            "srcrev": "8c8cc002ab65149491f9b75cadfaeb2342150800",
+            "srcrev": "cdcaeac783e31f18edb6cb44b526228f44023b45",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2293,9 +2279,9 @@
             "provides": "linux-ti-staging  virtual/kernel",
             "pv": "6.12.17+git",
             "section": "kernel",
-            "srcrev": "8c8cc002ab65149491f9b75cadfaeb2342150800",
+            "srcrev": "cdcaeac783e31f18edb6cb44b526228f44023b45",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-04-24T20:04:58+0000"
         },
         {
             "bbclassextend": "",
@@ -2339,9 +2325,9 @@
             "provides": "ti-vxe-vxd-driver ",
             "pv": "6.12",
             "section": "base",
-            "srcrev": "99d063aa0ef53633057042570411b84bd967624b",
+            "srcrev": "038d9263c67900ea4eff631820b088a3dc3a6ad5",
             "summary": "Kernel drivers for Video Accelerators found in the J721E TI SoC",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-04-24T20:04:57+0000"
         },
         {
             "bbclassextend": "",

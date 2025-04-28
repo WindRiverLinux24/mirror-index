@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44197,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44199,
             "image_url": "",
             "link_url": "",
@@ -580,13 +573,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
-        },
-        {
-            "description": "",
-            "id": 44203,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 5.0 5.1"
         },
         {
             "description": "",
@@ -639,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 4,
+            "sort_priority": 5,
             "update_environment": null,
-            "updated": "2025-04-11T00:04:07+0000",
+            "updated": "2025-04-27T00:04:08+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-01T21:04:02+0000",
-            "vcs_last_commit": "2025-04-01T20:04:28+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:02+0000",
-            "vcs_last_rev": "2689dcb146052fdfa4794c20d782a611cb8dbb4f",
+            "updated": "2025-04-27T21:04:55+0000",
+            "vcs_last_commit": "2025-04-26T02:04:32+0000",
+            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
+            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -669,10 +655,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-04-01T21:04:08+0000",
-            "vcs_last_commit": "2025-04-01T19:04:33+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:08+0000",
-            "vcs_last_rev": "ca0b8ae7054c4d2bdbb63c9a6eef7232bbddf57f",
+            "updated": "2025-04-24T20:04:09+0000",
+            "vcs_last_commit": "2025-04-22T19:04:49+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:09+0000",
+            "vcs_last_rev": "ba8b85ff07e1848a605ba24380c8fa352ac55644",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -684,10 +670,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-03-25T20:03:44+0000",
-            "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:44+0000",
-            "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
+            "updated": "2025-04-24T20:04:17+0000",
+            "vcs_last_commit": "2025-04-22T19:04:49+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:17+0000",
+            "vcs_last_rev": "ba8b85ff07e1848a605ba24380c8fa352ac55644",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -699,10 +685,10 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-03-25T20:03:37+0000",
-            "vcs_last_commit": "2025-03-19T19:03:54+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:37+0000",
-            "vcs_last_rev": "6c7b4caffaa3f589f73f45b1b520080e8ce6c160",
+            "updated": "2025-04-24T20:04:17+0000",
+            "vcs_last_commit": "2025-04-16T17:04:50+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:17+0000",
+            "vcs_last_rev": "1d4fbb2b77de01f49bbdaa5df1d7eb8a21fbc385",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44188
@@ -2102,7 +2088,7 @@
             "bugtracker": "",
             "configopts": " -DENABLE_NETLINK=ON                   -DBUILD_mmdbresolve=OFF                   -DBUILD_randpktdump=OFF                   -DBUILD_androiddump=OFF                   -DBUILD_dcerpcidl2wrs=OFF                   -DM_INCLUDE_DIR=/usr/include                   -DM_LIBRARY=/usr/lib                    -DENABLE_GNUTLS=ON -DENABLE_KRB5=OFF -DENABLE_CAP=ON -DENABLE_PCAP=ON -DENABLE_SMI=OFF -DENABLE_LIBSSH=OFF -DENABLE_LUA=OFF -DENABLE_LZ4=OFF -DENABLE_NGHTTP2=OFF -DENABLE_PLUGINS=OFF -DENABLE_PORTAUDIO=OFF  -DENABLE_QT5=OFF -DBUILD_wireshark=OFF -DENABLE_SBC=ON -DENABLE_ZLIB=OFF -DENABLE_ZSTD=OFF",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_4.2.7.bb",
+            "filename": "wireshark_4.2.9.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 2028364,
@@ -2113,11 +2099,11 @@
             "pn": "wireshark",
             "pr": "r0",
             "provides": "wireshark ",
-            "pv": "4.2.7",
+            "pv": "4.2.9",
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:07+0000"
+            "updated": "2025-04-24T20:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3066,7 +3052,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ssl=/tmp/tmp30mja58_/tmp-glibc/work/core2-32-oe-linux/fetchmail/6.4.38/recipe-sysroot/usr  --enable-nls",
+            "configopts": "--with-ssl=/tmp/tmpn0r3xwmo/tmp-glibc/work/core2-32-oe-linux/fetchmail/6.4.38/recipe-sysroot/usr --disable-rpath   --enable-nls",
             "description": "Fetchmail is a full-featured, robust, well-documented remote-mail retrieval and forwarding utility intended to be used over on-demand TCP/IP links (such as SLIP or PPP connections). It supports every remote-mail protocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP, all flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and IPSEC.",
             "filename": "fetchmail_6.4.38.bb",
             "filepath": "recipes-support/fetchmail",
@@ -3083,7 +3069,7 @@
             "section": "mail",
             "srcrev": "",
             "summary": "Fetchmail retrieves mail from remote mail servers and forwards it via SMTP",
-            "updated": "2025-03-25T20:03:14+0000"
+            "updated": "2025-04-24T20:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -3342,7 +3328,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-iptables=/usr/sbin/iptables ",
+            "configopts": "--with-iptables=/usr/sbin/iptables                 --with-gpg=/usr/bin/gpg                 --with-wget=/bin/wget ",
             "description": "",
             "filename": "fwknop_2.6.10.bb",
             "filepath": "recipes-support/fwknop",
@@ -3359,13 +3345,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "fwknop - Single Packet Authorization",
-            "updated": "2025-03-25T20:03:17+0000"
+            "updated": "2025-04-24T20:04:16+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-libexpat=/tmp/tmp30mja58_/tmp-glibc/work/core2-32-oe-linux/unbound/1.19.3/recipe-sysroot/usr \t\t--with-ssl=/tmp/tmp30mja58_/tmp-glibc/work/core2-32-oe-linux/unbound/1.19.3/recipe-sysroot/usr                 --enable-largefile   --disable-dnscrypt --disable-systemd",
+            "configopts": "--with-libexpat=/tmp/tmpn0r3xwmo/tmp-glibc/work/core2-32-oe-linux/unbound/1.19.3/recipe-sysroot/usr \t\t--with-ssl=/tmp/tmpn0r3xwmo/tmp-glibc/work/core2-32-oe-linux/unbound/1.19.3/recipe-sysroot/usr                 --enable-largefile   --disable-dnscrypt --disable-systemd",
             "description": "Unbound's design is a set of modular components which incorporate \tfeatures including enhanced security (DNSSEC) validation, Internet Protocol \tVersion 6 (IPv6), and a client resolver library API as an integral part of the \tarchitecture",
             "filename": "unbound_1.19.3.bb",
             "filepath": "recipes-support/unbound",
@@ -3382,7 +3368,7 @@
             "section": "net",
             "srcrev": "48b6c60a24e9a5d6d369a7a37c9fe2a767f26abd",
             "summary": "Unbound is a validating, recursive, and caching DNS resolver",
-            "updated": "2025-03-25T20:03:17+0000"
+            "updated": "2025-04-24T20:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -4103,7 +4089,7 @@
             "bugtracker": "",
             "configopts": " --enable-iproute2 --disable-plugin-auth-pam IPROUTE=/sbin/ip SYSTEMD_UNIT_DIR=/lib/systemd/system                  TMPFILES_DIR=/usr/lib/tmpfiles.d                   --disable-selinux --disable-systemd",
             "description": "",
-            "filename": "openvpn_2.6.12.bb",
+            "filename": "openvpn_2.6.14.bb",
             "filepath": "recipes-support/openvpn",
             "homepage": "https://openvpn.net/",
             "id": 2028451,
@@ -4114,11 +4100,11 @@
             "pn": "openvpn",
             "pr": "r0",
             "provides": "openvpn ",
-            "pv": "2.6.12",
+            "pv": "2.6.14",
             "section": "net",
             "srcrev": "",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2025-03-25T20:03:23+0000"
+            "updated": "2025-04-24T20:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -4486,7 +4472,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "High Availability monitor built upon LVS, VRRP and service pollers",
-            "updated": "2025-03-25T20:03:26+0000"
+            "updated": "2025-04-24T20:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -4808,7 +4794,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:28+0000"
+            "updated": "2025-04-24T20:04:17+0000"
         },
         {
             "bbclassextend": "mcextend:net-snmp mcextend:freediameter mcextend:geoip mcextend:libcoap mcextend:libldb mcextend:lib",
@@ -4831,7 +4817,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "meta-networking ptest test image",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -4877,7 +4863,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-04-24T20:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -5360,7 +5346,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Remote file distribution client and server",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-04-24T20:04:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5368,7 +5354,7 @@
             "bugtracker": "",
             "configopts": "-DLIB_INSTALL_DIR:STRING=/usr/lib  -DENABLE_PROGRAMS=ON -DUSE_SHARED_MBEDTLS_LIBRARY=ON -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_3.6.2.bb",
+            "filename": "mbedtls_3.6.3.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 2028506,
@@ -5379,11 +5365,11 @@
             "pn": "mbedtls",
             "pr": "r0",
             "provides": "mbedtls  polarssl",
-            "pv": "3.6.2",
+            "pv": "3.6.3",
             "section": "libs",
-            "srcrev": "107ea89daaefb9867ea9121002fbbdf926780e98",
+            "srcrev": "22098d41c6620ce07cf8a0134d37302355e1e5ef",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5391,7 +5377,7 @@
             "bugtracker": "",
             "configopts": "-DLIB_INSTALL_DIR:STRING=/usr/lib  -DENABLE_PROGRAMS=ON -DUSE_SHARED_MBEDTLS_LIBRARY=ON -DENABLE_TESTING=OFF -DMBEDTLS_FATAL_WARNINGS=OFF",
             "description": "mbedtls is a lean open source crypto library          for providing SSL and TLS support in your programs. It offers        an intuitive API and documented header files, so you can actually    understand what the code does. It features:                                                                                                - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4,     Camellia and XTEA                                                  - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5             - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG    - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman,    ECDSA and ECDH                                                     - SSL v3 and TLS 1.0, 1.1 and 1.2                                    - Abstraction layers for ciphers, hashes, public key operations,       platform abstraction and threading                                ",
-            "filename": "mbedtls_2.28.9.bb",
+            "filename": "mbedtls_2.28.10.bb",
             "filepath": "recipes-connectivity/mbedtls",
             "homepage": "https://tls.mbed.org/",
             "id": 2028507,
@@ -5402,11 +5388,11 @@
             "pn": "mbedtls",
             "pr": "r0",
             "provides": "mbedtls  polarssl",
-            "pv": "2.28.9",
+            "pv": "2.28.10",
             "section": "libs",
-            "srcrev": "5e146adef63b326b04282252639bebc2730939c6",
+            "srcrev": "2fc8413bfcb51354c8e679141b17b3f1a5942561",
             "summary": "Lightweight crypto and SSL/TLS library",
-            "updated": "2025-03-25T20:03:33+0000"
+            "updated": "2025-04-24T20:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -5596,24 +5582,24 @@
             "bbclassextend": " native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/wolfssl/wolfssl/issues",
-            "configopts": " ",
+            "configopts": "  --enable-reproducible-build",
             "description": "wolfSSL, formerly CyaSSL, is a lightweight SSL library written                in C and optimized for embedded and RTOS environments. It can                be up to 20 times smaller than OpenSSL while still supporting                a full TLS client and server, up to TLS 1.3",
-            "filename": "wolfssl_5.7.0.bb",
+            "filename": "wolfssl_5.7.2.bb",
             "filepath": "recipes-connectivity/wolfssl",
             "homepage": "https://www.wolfssl.com/products/wolfssl",
             "id": 2028516,
-            "inherits": "autotools siteconfig siteinfo",
+            "inherits": "autotools ptest siteconfig siteinfo",
             "layerbranch": 990876,
             "license": "GPL-2.0-only",
             "pe": "",
             "pn": "wolfssl",
             "pr": "r0",
             "provides": "wolfssl  cyassl",
-            "pv": "5.7.0",
+            "pv": "5.7.2",
             "section": "libs",
-            "srcrev": "8970ff4c34034dbb3594943d11f8c9d4c5512bd5",
+            "srcrev": "00e42151ca061463ba6a95adb2290f678cbca472",
             "summary": "wolfSSL Lightweight Embedded SSL/TLS Library",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-04-24T20:04:17+0000"
         },
         {
             "bbclassextend": "",

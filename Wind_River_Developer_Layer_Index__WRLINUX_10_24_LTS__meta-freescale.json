@@ -562,13 +562,6 @@
         },
         {
             "description": "",
-            "id": 44197,
-            "image_url": "",
-            "link_url": "",
-            "name": "5.0 5.1"
-        },
-        {
-            "description": "",
             "id": 44199,
             "image_url": "",
             "link_url": "",
@@ -580,13 +573,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 4.0 4.1 4.2 4.3 5.0"
-        },
-        {
-            "description": "",
-            "id": 44203,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.0 5.0 5.1"
         },
         {
             "description": "",
@@ -639,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 4,
+            "sort_priority": 5,
             "update_environment": null,
-            "updated": "2025-04-11T00:04:07+0000",
+            "updated": "2025-04-27T00:04:08+0000",
             "updates_enabled": true
         }
     ],
@@ -654,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-01T21:04:02+0000",
-            "vcs_last_commit": "2025-04-01T20:04:28+0000",
-            "vcs_last_fetch": "2025-04-01T21:04:02+0000",
-            "vcs_last_rev": "2689dcb146052fdfa4794c20d782a611cb8dbb4f",
+            "updated": "2025-04-27T21:04:55+0000",
+            "vcs_last_commit": "2025-04-26T02:04:32+0000",
+            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
+            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -669,10 +655,10 @@
             "id": 993783,
             "layer": 231,
             "local_path": "",
-            "updated": "2025-03-25T20:03:11+0000",
-            "vcs_last_commit": "2025-03-25T18:03:19+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:11+0000",
-            "vcs_last_rev": "a883ea0b5946e291593069b7171d51f99cbf9e24",
+            "updated": "2025-04-24T20:04:43+0000",
+            "vcs_last_commit": "2025-04-22T18:04:25+0000",
+            "vcs_last_fetch": "2025-04-24T20:04:43+0000",
+            "vcs_last_rev": "d709f3a609648ae4bd694aa7d2ff434ec5efd09e",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44190
@@ -816,7 +802,7 @@
             "id": 97508,
             "layerbranch": 993783,
             "name": "imx6sllevk",
-            "updated": "2025-03-25T20:03:11+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "description": " NXP i.MX7D SABRE Smart Device",
@@ -858,7 +844,7 @@
             "id": 97514,
             "layerbranch": 993783,
             "name": "imx8qm-mek",
-            "updated": "2025-03-25T20:03:11+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
@@ -1259,8 +1245,8 @@
             "pv": "1.0.1",
             "section": "app",
             "srcrev": "",
-            "summary": "i.MX M4 core Demo images",
-            "updated": "2025-03-25T20:03:55+0000"
+            "summary": "i.MX M4/M7/M33 core Demo images",
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1283,7 +1269,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2025-03-25T20:03:55+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1306,7 +1292,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2025-03-25T20:03:55+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1329,7 +1315,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2025-03-25T20:03:55+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1352,7 +1338,7 @@
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2025-03-25T20:03:55+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1582,13 +1568,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.24.4/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev   -DTUNINGEXT=1",
+            "configopts": "      -DSDKTARGETSYSROOT=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/isp-imx/4.2.2.24.4/recipe-sysroot     -DCMAKE_BUILD_TYPE=release     -DISP_VERSION=ISP8000NANO_V1802     -DPLATFORM=ARM64     -DQTLESS=1     -DFULL_SRC_COMPILE=1     -DWITH_DRM=1     -DWITH_DWE=1     -DSUBDEV_V4L2=1     -DPARTITION_BUILD=0     -D3A_SRC_BUILD=0     -DIMX_G2D=ON     -Wno-dev   -DTUNINGEXT=1",
             "description": "i.MX Verisilicon Software ISP",
             "filename": "isp-imx_4.2.2.24.4.bb",
             "filepath": "recipes-bsp/isp-imx",
@@ -1605,7 +1591,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1628,19 +1614,19 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " ",
+            "configopts": "",
             "description": "",
             "filename": "imx-uuc_git.bb",
             "filepath": "recipes-bsp/imx-uuc",
             "homepage": "",
             "id": 2027921,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "",
             "layerbranch": 993783,
             "license": "GPL-2.0-only",
             "pe": "",
@@ -1651,7 +1637,7 @@
             "section": "base",
             "srcrev": "9b4adc0cde346fbae743dc21fcf5115488307b83",
             "summary": "A Daemon wait for NXP mfgtools host's command",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1697,7 +1683,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX ELE firmware",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1705,7 +1691,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-boot-firmware-files_8.26.bb",
+            "filename": "imx-boot-firmware-files_8.27.bb",
             "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 2027924,
@@ -1716,11 +1702,11 @@
             "pn": "imx-boot-firmware-files",
             "pr": "r0",
             "provides": "imx-boot-firmware-files ",
-            "pv": "8.26",
+            "pv": "8.27",
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX Firmware files used for boot",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1728,7 +1714,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Freescale i.MX firmware such as for the VPU",
-            "filename": "firmware-imx_8.26.bb",
+            "filename": "firmware-imx_8.27.bb",
             "filepath": "recipes-bsp/firmware-imx",
             "homepage": "",
             "id": 2027925,
@@ -1739,11 +1725,11 @@
             "pn": "firmware-imx",
             "pr": "r0",
             "provides": "firmware-imx ",
-            "pv": "8.26",
+            "pv": "8.27",
             "section": "base",
             "srcrev": "",
             "summary": "Freescale i.MX firmware",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-04-24T20:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1766,7 +1752,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1812,7 +1798,7 @@
             "section": "BSP",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1904,7 +1890,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1935,7 +1921,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-boot bootloader mxsboot tool",
-            "filename": "u-boot-fslc-mxsboot_2024.07.bb",
+            "filename": "u-boot-fslc-mxsboot_2025.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 2027934,
@@ -1946,11 +1932,11 @@
             "pn": "u-boot-fslc-mxsboot",
             "pr": "r0",
             "provides": "u-boot-fslc-mxsboot u-boot-mxsboot",
-            "pv": "2024.07+fslc+gitX",
+            "pv": "2025.01+fslc+gitX",
             "section": "bootloader",
-            "srcrev": "5b4d66dd41432d36c22bcdfa2d1ca4afc3a1c2fc",
+            "srcrev": "aa4bc52d08c342df83e3c576e2c108d7c8816e0e",
             "summary": "",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1973,7 +1959,7 @@
             "section": "base",
             "srcrev": "6c4545203d123c246c5d7995f2893959506d28e0",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1981,7 +1967,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot based on mainline U-Boot used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was submitted for revision and it takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "u-boot-fslc_2024.07.bb",
+            "filename": "u-boot-fslc_2025.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 2027936,
@@ -1992,11 +1978,11 @@
             "pn": "u-boot-fslc",
             "pr": "r0",
             "provides": "u-boot-fslc virtual/bootloader u-boot u-boot-mfgtool",
-            "pv": "2024.07+fslc+gitX",
+            "pv": "2025.01+fslc+gitX",
             "section": "base",
-            "srcrev": "5b4d66dd41432d36c22bcdfa2d1ca4afc3a1c2fc",
+            "srcrev": "aa4bc52d08c342df83e3c576e2c108d7c8816e0e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-04-24T20:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -2086,9 +2072,9 @@
             "provides": "imx-atf ",
             "pv": "2.10+gitX",
             "section": "BSP",
-            "srcrev": "28affcae957cb8194917b5246276630f9e6343e1",
+            "srcrev": "1b27ee3edbb40ef9432c69ccaa744d1ac5d54c5d",
             "summary": "",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2111,7 +2097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2134,7 +2120,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -2180,7 +2166,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "DP firmware",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2341,7 +2327,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NXP i.MX SECO firmware",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -2454,9 +2440,9 @@
             "provides": "imx-boot ",
             "pv": "1.0",
             "section": "BSP",
-            "srcrev": "4622115cbc037f79039c4522faeced4aabea986b",
+            "srcrev": "71b8c18af93a5eb972d80fbec290006066cff24f",
             "summary": "",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -2477,9 +2463,9 @@
             "provides": "imx-mkimage ",
             "pv": "git",
             "section": "BSP",
-            "srcrev": "4622115cbc037f79039c4522faeced4aabea986b",
+            "srcrev": "71b8c18af93a5eb972d80fbec290006066cff24f",
             "summary": "",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -2525,7 +2511,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2548,15 +2534,15 @@
             "section": "multimedia",
             "srcrev": "b2ba082e70333f187972ee4e85f63f9d2f608331",
             "summary": "",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " ",
+            "configopts": "  --enable-pcm",
             "description": "A library to handle compressed formats like MP3 etc.",
-            "filename": "tinycompress_1.1.6.bb",
+            "filename": "tinycompress_1.2.5.bb",
             "filepath": "recipes-multimedia/tinycompress",
             "homepage": "",
             "id": 2027961,
@@ -2567,11 +2553,11 @@
             "pn": "tinycompress",
             "pr": "r0",
             "provides": "tinycompress ",
-            "pv": "1.1.6",
+            "pv": "1.2.5+git",
             "section": "base",
-            "srcrev": "995f2ed91045dad8c20485ab1a64727d22cd92e5",
+            "srcrev": "f3ba6e5c2126f2fb07e3d890f990d50c3e204e67",
             "summary": "",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-04-24T20:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2732,7 +2718,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2740,7 +2726,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "NXP Multimedia opencl converter lib",
-            "filename": "imx-opencl-converter_0.5.0.bb",
+            "filename": "imx-opencl-converter_0.6.0.bb",
             "filepath": "recipes-multimedia/imx-opencl-converter",
             "homepage": "",
             "id": 2027969,
@@ -2751,11 +2737,11 @@
             "pn": "imx-opencl-converter",
             "pr": "r0",
             "provides": "imx-opencl-converter ",
-            "pv": "0.5.0",
+            "pv": "0.6.0",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2763,7 +2749,7 @@
             "bugtracker": "",
             "configopts": "     -datadir=/lib/firmware     --bindir=/unit_tests       ",
             "description": "i.MX DSP Wrapper, Firmware Binary, Codec Libraries",
-            "filename": "imx-dsp_2.1.8.bb",
+            "filename": "imx-dsp_2.1.9.bb",
             "filepath": "recipes-multimedia/imx-dsp",
             "homepage": "",
             "id": 2027970,
@@ -2774,11 +2760,11 @@
             "pn": "imx-dsp",
             "pr": "r0",
             "provides": "imx-dsp ",
-            "pv": "2.1.8",
+            "pv": "2.1.9",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2801,7 +2787,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2870,7 +2856,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -2914,9 +2900,9 @@
             "provides": "imx-vpuwrap ",
             "pv": "git",
             "section": "multimedia",
-            "srcrev": "c13069d239cae314adc3651df25b96afa46cb434",
+            "srcrev": "378e33989cf72d6c2eb57a585072ba9abe87c6ff",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -2924,7 +2910,7 @@
             "bugtracker": "",
             "configopts": "--enable-fsw ",
             "description": "Freescale Multimedia parser libs",
-            "filename": "imx-parser_4.9.1.bb",
+            "filename": "imx-parser_4.9.2.bb",
             "filepath": "recipes-multimedia/imx-parser",
             "homepage": "",
             "id": 2027977,
@@ -2935,17 +2921,17 @@
             "pn": "imx-parser",
             "pr": "r0",
             "provides": "imx-parser  libfslparser",
-            "pv": "4.9.1",
+            "pv": "4.9.2",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:41+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/git/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpgjnn056o/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/recipe-sysroot/usr/lib/python3.12/site-packages/numpy/core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON -DBUILD_opencv_cvv=OFF",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/git/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/git/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=OFF -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_OPENVX=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpyzh1segr/tmp-glibc/work/core2-32-oe-linux/opencv/4.6.0.imx/recipe-sysroot/usr/lib/python3.12/site-packages/numpy/core/include -DWITH_QT=OFF -DWITH_QT=OFF -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF  -DINSTALL_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_TIMVX=OFF -DWITH_V4L=ON -DBUILD_opencv_cvv=OFF",
             "description": "",
             "filename": "opencv_4.6.0.imx.bb",
             "filepath": "recipes-support/opencv",
@@ -2962,7 +2948,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library, i.MX Fork",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-04-24T20:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3514,7 +3500,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:04+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -3537,7 +3523,7 @@
             "section": "base",
             "srcrev": "612bc5a642a4608d282abeee2349d86de996d7ee",
             "summary": "OPTEE OS",
-            "updated": "2025-03-25T20:03:05+0000"
+            "updated": "2025-04-24T20:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3701,29 +3687,6 @@
             "updated": "2025-03-25T20:03:05+0000"
         },
         {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Provides software code signing support designed that integrate the HABv4 and AHAB library",
-            "filename": "imx-cst_3.4.0.bb",
-            "filepath": "dynamic-layers/openembedded-layer/recipes-devtools/cst",
-            "homepage": "",
-            "id": 2028011,
-            "inherits": "",
-            "layerbranch": 993783,
-            "license": "BSD-3-Clause & Apache-2.0",
-            "pe": "",
-            "pn": "imx-cst",
-            "pr": "r0",
-            "provides": "imx-cst ",
-            "pv": "3.4.0",
-            "section": "cst",
-            "srcrev": "",
-            "summary": "i.MX code signing tool",
-            "updated": "2025-03-25T20:03:05+0000"
-        },
-        {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
@@ -3813,7 +3776,7 @@
             "section": "base",
             "srcrev": "5ad19e194f49ed9447bee7864eb562618ccaf9b1",
             "summary": "NXP Wi-Fi driver for module 88w8801/8987/8997/9098 IW416/610/612",
-            "updated": "2025-03-25T20:03:06+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4108,11 +4071,11 @@
             "pn": "linux-fslc",
             "pr": "r0",
             "provides": "linux-fslc  virtual/kernel linux-mfgtool",
-            "pv": "6.12.13+gitX",
+            "pv": "6.12.20+gitX",
             "section": "base",
-            "srcrev": "404e5a82446dbd2b7e7061e804afec00d16049e8",
+            "srcrev": "844aa3471b97053b0a59f68d36dc6f796338b562",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2025-03-25T20:03:07+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -4296,7 +4259,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:08+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4319,7 +4282,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:08+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4480,7 +4443,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:09+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4503,7 +4466,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:09+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4739,7 +4702,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://gitlab.freedesktop.org/gstreamer/gst-plugins-ugly/-/issues",
-            "configopts": "           -Dnls=enabled       -Dgpl=enabled           -Ddoc=disabled     -Dsidplay=disabled   -Da52dec=enabled -Dcdio=disabled -Ddvdread=disabled -Dmpeg2dec=enabled -Dorc=enabled -Dx264=disabled",
+            "configopts": "           -Dnls=enabled       -Dgpl=disabled           -Ddoc=disabled     -Dsidplay=disabled   -Da52dec=disabled -Dcdio=disabled -Ddvdread=disabled -Dmpeg2dec=disabled -Dorc=enabled -Dx264=disabled",
             "description": "",
             "filename": "gstreamer1.0-plugins-ugly_1.24.0.imx.bb",
             "filepath": "recipes-multimedia/gstreamer",
@@ -4756,7 +4719,7 @@
             "section": "multimedia",
             "srcrev": "",
             "summary": "'Ugly GStreamer plugins",
-            "updated": "2025-03-25T20:03:10+0000"
+            "updated": "2025-04-24T20:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -4843,12 +4806,12 @@
             "pe": "",
             "pn": "imx-oei",
             "pr": "r0",
-            "provides": "imx-oei ",
+            "provides": "imx-oei  virtual/imx-oei",
             "pv": "1.0.0",
             "section": "base",
             "srcrev": "1a572a640ef8d6883e8ca39744cd6d2d5dbed678",
             "summary": "i.MX Optional Execution Image",
-            "updated": "2025-03-25T20:03:10+0000"
+            "updated": "2025-04-24T20:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -4917,7 +4880,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Graphics libraries and driver for i.MX Mali GPU",
-            "updated": "2025-03-25T20:03:11+0000"
+            "updated": "2025-04-24T20:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4948,7 +4911,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "imx-m7-demos_2.16.001.bb",
+            "filename": "imx-m7-demos_24.12.00.bb",
             "filepath": "recipes-fsl/mcore-demos",
             "homepage": "",
             "id": 2139435,
@@ -4959,11 +4922,11 @@
             "pn": "imx-m7-demos",
             "pr": "r0",
             "provides": "imx-m7-demos ",
-            "pv": "2.16.001",
+            "pv": "24.12.00",
             "section": "app",
             "srcrev": "",
             "summary": "i.MX M4/M7/M33 core Demo images",
-            "updated": "2025-03-25T20:03:11+0000"
+            "updated": "2025-04-24T20:04:39+0000"
         }
     ],
     "wrtemplates": []
