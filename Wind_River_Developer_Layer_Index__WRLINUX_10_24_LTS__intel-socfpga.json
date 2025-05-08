@@ -625,9 +625,9 @@
             "id": 400,
             "name": "WRLINUX_10_24_LTS",
             "short_description": "Wind River Linux 10_24 Long Term Support",
-            "sort_priority": 5,
+            "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-04-27T00:04:08+0000",
+            "updated": "2025-05-08T00:05:07+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-04-27T21:04:55+0000",
-            "vcs_last_commit": "2025-04-26T02:04:32+0000",
-            "vcs_last_fetch": "2025-04-27T21:04:55+0000",
-            "vcs_last_rev": "cd7acc1a6d777b1405d2753b0a8b8bb3a3c7ab81",
+            "updated": "2025-05-08T01:05:45+0000",
+            "vcs_last_commit": "2025-05-07T23:05:22+0000",
+            "vcs_last_fetch": "2025-05-08T01:05:45+0000",
+            "vcs_last_rev": "b960a434c2203488c8d088ea4bad55952f968797",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -655,10 +655,10 @@
             "id": 990892,
             "layer": 49,
             "local_path": "",
-            "updated": "2025-04-27T22:04:56+0000",
-            "vcs_last_commit": "2025-04-27T22:04:08+0000",
-            "vcs_last_fetch": "2025-04-27T22:04:56+0000",
-            "vcs_last_rev": "fa16397ab0ec8a764fdfbf2ec6da86006e3edc9e",
+            "updated": "2025-05-02T08:05:52+0000",
+            "vcs_last_commit": "2025-05-02T07:05:13+0000",
+            "vcs_last_fetch": "2025-05-02T08:05:52+0000",
+            "vcs_last_rev": "5ccfcfba93cf98655aaba3442368b1bf3dd7bd1e",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 44187
@@ -685,10 +685,10 @@
             "id": 1009724,
             "layer": 118,
             "local_path": "",
-            "updated": "2025-03-25T20:03:05+0000",
-            "vcs_last_commit": "2025-03-21T04:03:45+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:05+0000",
-            "vcs_last_rev": "27056a675b7dcab03ef45a290f60d38fe5255da1",
+            "updated": "2025-04-28T02:04:53+0000",
+            "vcs_last_commit": "2025-04-28T01:04:08+0000",
+            "vcs_last_fetch": "2025-04-28T02:04:53+0000",
+            "vcs_last_rev": "8556af863e111543b0b70f6138ebfb2c1ac5181c",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44187
@@ -902,7 +902,7 @@
             "description": "FCS certificate client is a userspace application for interacting                with the SDM VAB and SDOS functionality",
             "filename": "fcs-client_git.bb",
             "filepath": "recipes-bsp/intel-fcs",
-            "homepage": "https://github.com/altera-opensource/fcs_apps.git",
+            "homepage": "https://github.com/altera-fpga/fcs_apps.git",
             "id": 2106939,
             "inherits": "",
             "layerbranch": 1009724,
@@ -913,9 +913,9 @@
             "provides": "fcs-client ",
             "pv": "0.1+gitX",
             "section": "base",
-            "srcrev": "3aaadb298ad32bb60603c13bec53b005aae1311b",
+            "srcrev": "6c7098bf5a973d7045831b607497d8d6ae82ba59",
             "summary": "",
-            "updated": "2025-03-25T20:03:05+0000"
+            "updated": "2025-04-28T02:04:53+0000"
         }
     ],
     "wrtemplates": [
