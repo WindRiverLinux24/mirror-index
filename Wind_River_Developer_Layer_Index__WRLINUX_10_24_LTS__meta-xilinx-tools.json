@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-05-29T00:05:09+0000",
+            "updated": "2025-06-05T00:06:07+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-27T20:05:49+0000",
-            "vcs_last_commit": "2025-05-27T02:05:30+0000",
-            "vcs_last_fetch": "2025-05-27T20:05:49+0000",
-            "vcs_last_rev": "356d4d2f4ba1822c080c8731a5ca7315ae3672bf",
+            "updated": "2025-06-05T03:06:44+0000",
+            "vcs_last_commit": "2025-06-05T00:06:44+0000",
+            "vcs_last_fetch": "2025-06-05T03:06:44+0000",
+            "vcs_last_rev": "f8c7f268833c81b3b8ac7002e2c3325f2571ebf3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-03-25T20:03:17+0000",
-            "vcs_last_commit": "2025-03-04T17:03:28+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:17+0000",
-            "vcs_last_rev": "77b2d78160c7b2798ea99ca9691307d83409d1c1",
+            "updated": "2025-06-05T00:06:06+0000",
+            "vcs_last_commit": "2025-06-03T22:06:19+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:06+0000",
+            "vcs_last_rev": "a1f74871face79fcc10379fdb00fe012401ffb53",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -677,10 +677,10 @@
             "id": 990883,
             "layer": 435,
             "local_path": "",
-            "updated": "2025-03-25T20:03:25+0000",
-            "vcs_last_commit": "2024-12-12T19:12:36+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:25+0000",
-            "vcs_last_rev": "3ca749d6ee08d82728fb119a174d40dec0234d9b",
+            "updated": "2025-06-05T00:06:56+0000",
+            "vcs_last_commit": "2025-06-03T22:06:19+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:56+0000",
+            "vcs_last_rev": "a1f74871face79fcc10379fdb00fe012401ffb53",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
             "yp_compatible_version": 44188
@@ -692,10 +692,10 @@
             "id": 990890,
             "layer": 357,
             "local_path": "",
-            "updated": "2025-03-25T20:03:52+0000",
-            "vcs_last_commit": "2024-12-24T17:12:00+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:52+0000",
-            "vcs_last_rev": "587cc961252f84a5d59a093105fa9c10e5cd457f",
+            "updated": "2025-06-05T00:06:11+0000",
+            "vcs_last_commit": "2025-06-03T22:06:06+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:11+0000",
+            "vcs_last_rev": "065c5e1d70ce5cb992f81f4c7ef626f19e4c023f",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 44188
@@ -833,7 +833,7 @@
             "id": 97708,
             "layerbranch": 990890,
             "name": "qemu-microblazeel",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "description": " VMK180 evaluation board.",
@@ -917,7 +917,7 @@
             "id": 97720,
             "layerbranch": 990890,
             "name": "qemu-versal-net",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "description": " ZCU208 evaluation board.",
@@ -973,7 +973,7 @@
             "id": 97728,
             "layerbranch": 990890,
             "name": "qemu-zynqmp",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "description": " ZCU1275 evaluation board.",
@@ -1015,14 +1015,14 @@
             "id": 97734,
             "layerbranch": 990890,
             "name": "qemu-zynq7",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "description": " qemu-versal boards.",
             "id": 97735,
             "layerbranch": 990890,
             "name": "qemu-versal",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         }
     ],
     "recipes": [
@@ -1043,11 +1043,11 @@
             "pn": "bitstream-extraction",
             "pr": "r0",
             "provides": "bitstream-extraction virtual/bitstream",
-            "pv": "git",
+            "pv": "2024.2+git",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1066,11 +1066,11 @@
             "pn": "bitstream-microblaze",
             "pr": "r0",
             "provides": "bitstream-microblaze ",
-            "pv": "1.0",
+            "pv": "1.0+2024.2",
             "section": "base",
             "srcrev": "",
             "summary": "Generates download.bit using updatemem",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1078,7 +1078,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Selector",
-            "filename": "image-selector-xsct_git.bb",
+            "filename": "image-selector-xsct.bb",
             "filepath": "recipes-bsp/image-selector",
             "homepage": "",
             "id": 2029138,
@@ -1089,11 +1089,11 @@
             "pn": "image-selector-xsct",
             "pr": "r0",
             "provides": "image-selector-xsct ",
-            "pv": "git+git",
+            "pv": "2024.2+git",
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,52 +1115,6 @@
             "pv": "2023.2",
             "section": "base",
             "srcrev": "",
-            "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Recipe to copy and install externally built XSA to deploy",
-            "filename": "external-hdf_2022.2.bb",
-            "filepath": "recipes-bsp/hdf",
-            "homepage": "",
-            "id": 2029140,
-            "inherits": "check_xsct_enabled deploy image-artifact-names",
-            "layerbranch": 990890,
-            "license": "CLOSED",
-            "pe": "",
-            "pn": "external-hdf",
-            "pr": "r0",
-            "provides": "external-hdf virtual/hdf",
-            "pv": "2022.2",
-            "section": "base",
-            "srcrev": "ffb2ad9fb8f6e08ef579b03845c00f189db69999",
-            "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Recipe to copy and install externally built XSA to deploy",
-            "filename": "external-hdf_2022.1.bb",
-            "filepath": "recipes-bsp/hdf",
-            "homepage": "",
-            "id": 2029141,
-            "inherits": "check_xsct_enabled deploy image-artifact-names",
-            "layerbranch": 990890,
-            "license": "CLOSED",
-            "pe": "",
-            "pn": "external-hdf",
-            "pr": "r0",
-            "provides": "external-hdf virtual/hdf",
-            "pv": "2022.1",
-            "section": "base",
-            "srcrev": "e7669d3aaca520c0c1bc2c9a64c67864daafb499",
             "summary": "",
             "updated": "2025-03-25T20:03:50+0000"
         },
@@ -1216,7 +1170,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Image Recovery",
-            "filename": "image-recovery_git.bb",
+            "filename": "image-recovery.bb",
             "filepath": "recipes-bsp/image-recovery",
             "homepage": "",
             "id": 2029145,
@@ -1227,11 +1181,11 @@
             "pn": "image-recovery",
             "pr": "r0",
             "provides": "image-recovery ",
-            "pv": "git+git",
+            "pv": "2024.2+git",
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1269,15 +1223,15 @@
             "inherits": "deploy devicetree kernel-arch python3-dir python3native xsct-tc xsctbase xsctdt xsctyaml",
             "layerbranch": 990890,
             "license": "MIT & GPL-2.0-or-later",
-            "pe": "",
+            "pe": "1",
             "pn": "uboot-device-tree",
             "pr": "r0",
             "provides": "uboot-device-tree virtual/uboot-dtb",
-            "pv": "xilinx-v2024.2+git",
+            "pv": "2024.2+git",
             "section": "bsp",
             "srcrev": "5627d845bcc9006c18cb957f8f360b405d60c86d",
             "summary": "Xilinx BSP u-boot device trees",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1285,7 +1239,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "FS-BOOT generator",
-            "filename": "fs-boot_git.bb",
+            "filename": "fs-boot.bb",
             "filepath": "recipes-bsp/fsboot",
             "homepage": "",
             "id": 2029148,
@@ -1296,11 +1250,11 @@
             "pn": "fs-boot",
             "pr": "r0",
             "provides": "fs-boot virtual/fsboot",
-            "pv": "git+git",
+            "pv": "2024.2+git",
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:50+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1323,7 +1277,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1346,30 +1300,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-mat-muld_2022.1.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029151,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-mat-muld",
-            "pr": "r0",
-            "provides": "openamp-fw-mat-muld ",
-            "pv": "2022.1+git",
-            "section": "base",
-            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1392,30 +1323,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-rpc-demo_2022.1.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029153,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-rpc-demo",
-            "pr": "r0",
-            "provides": "openamp-fw-rpc-demo ",
-            "pv": "2022.1+git",
-            "section": "base",
-            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1438,30 +1346,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-echo-testd_2022.2.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029155,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-echo-testd",
-            "pr": "r0",
-            "provides": "openamp-fw-echo-testd ",
-            "pv": "2022.2+git",
-            "section": "base",
-            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1484,53 +1369,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-echo-testd_2022.1.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029157,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-echo-testd",
-            "pr": "r0",
-            "provides": "openamp-fw-echo-testd ",
-            "pv": "2022.1+git",
-            "section": "base",
-            "srcrev": "56d94a506fd9f80949f4cff08e13015928603f01",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-rpc-demo_2022.2.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029158,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-rpc-demo",
-            "pr": "r0",
-            "provides": "openamp-fw-rpc-demo ",
-            "pv": "2022.2+git",
-            "section": "base",
-            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1553,30 +1392,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "OpenAMP demo firmware",
-            "filename": "openamp-fw-mat-muld_2022.2.bb",
-            "filepath": "recipes-openamp/examples",
-            "homepage": "",
-            "id": 2029160,
-            "inherits": "check_xsct_enabled deploy image-artifact-names python3-dir python3native xlnx-embeddedsw xsct-tc xsctapp xsctbase xsctyaml",
-            "layerbranch": 990890,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "openamp-fw-mat-muld",
-            "pr": "r0",
-            "provides": "openamp-fw-mat-muld ",
-            "pv": "2022.2+git",
-            "section": "base",
-            "srcrev": "5330a64c8efd14f0eef09befdbb8d3d738c33ec2",
-            "summary": "",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1599,7 +1415,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Hello World baremetal Application for both APU and RPU using XSCT",
-            "updated": "2025-03-25T20:03:51+0000"
+            "updated": "2025-06-05T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1622,30 +1438,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Hello World FreeRTOS Application for RPU using XSCT",
-            "updated": "2025-03-25T20:03:51+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "esw-conf_2024.1.bb",
-            "filepath": "recipes-bsp/embeddedsw",
-            "homepage": "",
-            "id": 2073287,
-            "inherits": "xlnx-embeddedsw",
-            "layerbranch": 990890,
-            "license": "MIT",
-            "pe": "",
-            "pn": "esw-conf",
-            "pr": "r0",
-            "provides": "esw-conf ",
-            "pv": "2024.1+git",
-            "section": "base",
-            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
-            "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1714,7 +1507,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1737,7 +1530,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1760,7 +1553,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1783,29 +1576,6 @@
             "section": "base",
             "srcrev": "",
             "summary": "Trigger XSCT to download and install",
-            "updated": "2025-03-25T20:03:52+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "esw-conf_2024.2.bb",
-            "filepath": "recipes-bsp/embeddedsw",
-            "homepage": "",
-            "id": 2157054,
-            "inherits": "xlnx-embeddedsw",
-            "layerbranch": 990890,
-            "license": "MIT",
-            "pe": "",
-            "pn": "esw-conf",
-            "pr": "r0",
-            "provides": "esw-conf ",
-            "pv": "2024.2+git",
-            "section": "base",
-            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
-            "summary": "",
             "updated": "2025-03-25T20:03:52+0000"
         },
         {
@@ -1852,7 +1622,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1875,7 +1645,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1898,7 +1668,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1921,7 +1691,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-03-25T20:03:52+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         }
     ],
     "wrtemplates": []

@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-05-29T00:05:09+0000",
+            "updated": "2025-06-05T00:06:07+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-27T20:05:49+0000",
-            "vcs_last_commit": "2025-05-27T02:05:30+0000",
-            "vcs_last_fetch": "2025-05-27T20:05:49+0000",
-            "vcs_last_rev": "356d4d2f4ba1822c080c8731a5ca7315ae3672bf",
+            "updated": "2025-06-05T03:06:44+0000",
+            "vcs_last_commit": "2025-06-05T00:06:44+0000",
+            "vcs_last_fetch": "2025-06-05T03:06:44+0000",
+            "vcs_last_rev": "f8c7f268833c81b3b8ac7002e2c3325f2571ebf3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 993872,
             "layer": 474,
             "local_path": "",
-            "updated": "2025-03-25T20:03:55+0000",
-            "vcs_last_commit": "2024-09-27T21:09:28+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:55+0000",
-            "vcs_last_rev": "d30c7d29f93e766ddcee0d706c3b9b2a8717147d",
+            "updated": "2025-06-05T00:06:48+0000",
+            "vcs_last_commit": "2025-06-03T22:06:07+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:48+0000",
+            "vcs_last_rev": "271b874ce6c98e23a209a264554b9af18dfd4375",
             "vcs_subdir": "meta-arm",
             "version": null,
             "yp_compatible_version": 44189
@@ -677,10 +677,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-04-24T20:04:00+0000",
-            "vcs_last_commit": "2025-04-22T18:04:25+0000",
-            "vcs_last_fetch": "2025-04-24T20:04:00+0000",
-            "vcs_last_rev": "ebad967fd10b15180447f030917c9aede82c405f",
+            "updated": "2025-06-05T00:06:15+0000",
+            "vcs_last_commit": "2025-06-03T22:06:06+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:15+0000",
+            "vcs_last_rev": "1e4f3dd75dfa50b937a07d84cd2a3a54e634a547",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -772,7 +772,7 @@
             "id": 97637,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm",
-            "updated": "2025-04-24T20:04:57+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM64xx EVM (R5F core)",
@@ -793,7 +793,7 @@
             "id": 97640,
             "layerbranch": 1000731,
             "name": "am62pxx-evm-k3r5",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM69 SK",
@@ -828,7 +828,7 @@
             "id": 97645,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm-k3r5",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI J784S4 EVM (R5F core)",
@@ -884,14 +884,14 @@
             "id": 97653,
             "layerbranch": 1000731,
             "name": "am62axx-evm-k3r5",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM62L EVM",
             "id": 97654,
             "layerbranch": 1000731,
             "name": "am62lxx-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM62PX EVM",
@@ -1045,7 +1045,7 @@
             "id": 97676,
             "layerbranch": 1000731,
             "name": "am62xx-evm-k3r5",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM69 SK (R5F core)",
@@ -1080,7 +1080,7 @@
             "id": 97681,
             "layerbranch": 1000731,
             "name": "am335x-evm",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "description": " TI AM437x HS EVM",
@@ -1137,6 +1137,20 @@
             "layerbranch": 1000731,
             "name": "dra7xx-hs-evm",
             "updated": "2025-03-25T20:03:35+0000"
+        },
+        {
+            "description": " TI AM62D EVM (R5F core)",
+            "id": 99280,
+            "layerbranch": 1000731,
+            "name": "am62dxx-evm-k3r5",
+            "updated": "2025-06-05T00:06:12+0000"
+        },
+        {
+            "description": " TI AM62DXX EVM",
+            "id": 99281,
+            "layerbranch": 1000731,
+            "name": "am62dxx-evm",
+            "updated": "2025-06-05T00:06:12+0000"
         }
     ],
     "recipes": [
@@ -1159,9 +1173,9 @@
             "provides": "k3conf ",
             "pv": "0.3+git",
             "section": "base",
-            "srcrev": "30a1d5b2d08c0da39d4e62b3ebee591a9882fa21",
+            "srcrev": "ea9938bf9cafd9c0cb05ef060a713ab4ac72270f",
             "summary": "Diagnostic tool for TI K3 processors",
-            "updated": "2025-03-25T20:03:28+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1205,9 +1219,9 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:58+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1237,7 +1251,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Cortex-M3 binary blob for suspend-resume",
+            "description": "",
             "filename": "amx3-cm3_git.bb",
             "filepath": "recipes-bsp/cm3-pm-firmware",
             "homepage": "",
@@ -1252,8 +1266,8 @@
             "pv": "1.9.2",
             "section": "base",
             "srcrev": "fb484c5e54f2e31cf0a338d2927a06a2870bcc2c",
-            "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "summary": "Cortex-M3 binary blob for suspend-resume",
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1274,9 +1288,9 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:58+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1295,18 +1309,18 @@
             "pn": "cnm-wave-fw",
             "pr": "r4.1",
             "provides": "cnm-wave-fw ",
-            "pv": "1.0.7",
+            "pv": "1.0.8",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Kernel drivers for the Vivante GC320 chipset found in TI SoCs",
+            "description": "",
             "filename": "ti-gc320-driver_5.0.11.p7.bb",
             "filepath": "recipes-bsp/gc320-drivers",
             "homepage": "https://git.ti.com/graphics/ti-gc320-driver",
@@ -1321,15 +1335,15 @@
             "pv": "5.0.11.p7",
             "section": "base",
             "srcrev": "83afddf9dbf6a8458267b4dae21ee35bfb11f3d1",
-            "summary": "",
-            "updated": "2025-04-24T20:04:57+0000"
+            "summary": "Kernel drivers for the Vivante GC320 chipset found in TI SoCs",
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Kernel drivers for the PowerVR SGX chipset found in the TI SoCs",
+            "description": "",
             "filename": "ti-sgx-ddk-km_1.17.4948957.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-linux",
@@ -1344,15 +1358,15 @@
             "pv": "1.17.4948957",
             "section": "base",
             "srcrev": "9ae0fa4998b1c624408945e062bf8fb0ea7efb9d",
-            "summary": "",
-            "updated": "2025-04-24T20:04:57+0000"
+            "summary": "Kernel drivers for the PowerVR SGX chipset found in the TI SoCs",
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
+            "description": "",
             "filename": "ti-img-rogue-driver_24.2.6643903.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
@@ -1367,15 +1381,15 @@
             "pv": "24.2.6643903",
             "section": "base",
             "srcrev": "8eaff654a8871118c08cfafe53795f57e3b6b396",
-            "summary": "",
-            "updated": "2025-04-24T20:04:57+0000"
+            "summary": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
+            "description": "",
             "filename": "ti-img-rogue-driver_23.3.6512818.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
@@ -1390,8 +1404,8 @@
             "pv": "23.3.6512818",
             "section": "base",
             "srcrev": "c838bc06a163abad46dcc193c8fb9a4fb9e2e356",
-            "summary": "",
-            "updated": "2025-03-25T20:03:29+0000"
+            "summary": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1414,7 +1428,7 @@
             "section": "bootloaders",
             "srcrev": "29d0c23d67ee7b88e46fe1753cd020e2b04c2ef6",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1433,11 +1447,11 @@
             "pn": "u-boot-ti-mainline",
             "pr": "r0",
             "provides": "u-boot-ti-mainline virtual/bootloader u-boot",
-            "pv": "2025.01+git",
+            "pv": "2025.04+git",
             "section": "bootloaders",
-            "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
+            "srcrev": "34820924edbc4ec7803eb89d9852f4b870fa760a",
             "summary": "Mainline U-Boot for TI devices",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1460,7 +1474,7 @@
             "section": "bootloaders",
             "srcrev": "0893e693e08f9fc864a6191051dccc818accf933",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-03-25T20:03:30+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1481,9 +1495,9 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1550,9 +1564,9 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1573,9 +1587,9 @@
             "provides": "ti-sci-fw ",
             "pv": "11.00.07",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1596,9 +1610,9 @@
             "provides": "ti-dm-fw ",
             "pv": "11.00.09",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1619,9 +1633,9 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1642,16 +1656,16 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "VPDMA firmware for Video Input Port and Video Processing Engine",
+            "description": "",
             "filename": "vpdma-fw_03-2012.bb",
             "filepath": "recipes-bsp/vpdma-fw",
             "homepage": "",
@@ -1666,15 +1680,15 @@
             "pv": "03-2012",
             "section": "base",
             "srcrev": "",
-            "summary": "",
-            "updated": "2025-03-25T20:03:31+0000"
+            "summary": "VPDMA firmware for Video Input Port and Video Processing Engine",
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "VPE test program",
+            "description": "",
             "filename": "vpe-tests_git.bb",
             "filepath": "recipes-bsp/vpe-tests",
             "homepage": "",
@@ -1689,8 +1703,8 @@
             "pv": "git",
             "section": "base",
             "srcrev": "e3d8db1aa935775f9d196ad7428e0cd9864a36ca",
-            "summary": "",
-            "updated": "2025-03-25T20:03:31+0000"
+            "summary": "VPE test program",
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1711,16 +1725,16 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Goodix GT9271 config firmware",
+            "description": "",
             "filename": "goodix-fw_git.bb",
             "filepath": "recipes-bsp/goodix-fw",
             "homepage": "",
@@ -1734,16 +1748,16 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:59+0000"
+            "updated": "2025-06-05T00:06:12+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Radio Application Firmware",
+            "description": "",
             "filename": "vis_01.50.07.15.bb",
             "filepath": "recipes-bsp/vis-fw",
             "homepage": "",
@@ -1758,14 +1772,14 @@
             "pv": "01.50.07.15",
             "section": "base",
             "srcrev": "",
-            "summary": "",
-            "updated": "2025-03-25T20:03:31+0000"
+            "summary": "Radio Application Firmware",
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmpkvpkk8qa/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmpkvpkk8qa/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
+            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmp5x90xyp8/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmp5x90xyp8/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
             "description": "TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi- Processor Configurations)",
             "filename": "ti-ipc_git.bb",
             "filepath": "recipes-ti/ipc",
@@ -1781,8 +1795,8 @@
             "pv": "3.51.00.00",
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
-            "summary": "",
-            "updated": "2025-03-25T20:03:31+0000"
+            "summary": "TI Inter Process Communication (IPC) Mechanisms",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1836,22 +1850,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "ti-rtos-firmware.bb",
-            "filepath": "recipes-ti/ti-rtos-bin",
+            "filename": "ti-rtos-echo-test-fw.bb",
+            "filepath": "recipes-bsp/ti-rtos-fw",
             "homepage": "",
             "id": 2073339,
             "inherits": "ti-secdev update-alternatives",
             "layerbranch": 1000731,
             "license": "TI-TFL",
             "pe": "",
-            "pn": "ti-rtos-firmware",
+            "pn": "ti-rtos-echo-test-fw",
             "pr": "r4.1",
-            "provides": "ti-rtos-firmware ",
+            "provides": "ti-rtos-echo-test-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "c3ad8113c766bee7b8ddfae222e9b8017b565ea3",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-04-24T20:04:00+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1881,7 +1895,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Security development tools for High-Security(HS) TI K3 processors.",
+            "description": "",
             "filename": "ti-k3-secdev_git.bb",
             "filepath": "recipes-ti/secdev",
             "homepage": "https://git.ti.com/cgit/security-development-tools/core-secdev-k3",
@@ -1896,8 +1910,8 @@
             "pv": "git",
             "section": "devel",
             "srcrev": "ed6951fd3877c6cac7f1237311f7278ac21634f3",
-            "summary": "",
-            "updated": "2025-03-25T20:03:31+0000"
+            "summary": "Security development tools for High-Security(HS) TI K3 processors.",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2042,7 +2056,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
+            "description": "",
             "filename": "ti-img-rogue-umlibs_24.2.6643903.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
@@ -2057,15 +2071,15 @@
             "pv": "24.2.6643903",
             "section": "base",
             "srcrev": "1ed9ee185cd876200e6747192854015b8e94a7b0",
-            "summary": "",
-            "updated": "2025-03-25T20:03:33+0000"
+            "summary": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
+            "description": "",
             "filename": "ti-img-rogue-umlibs_23.3.6512818.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
@@ -2080,15 +2094,15 @@
             "pv": "23.3.6512818",
             "section": "base",
             "srcrev": "0b9e64254269be2fa95c4f3e1dd925d6e4d58199",
-            "summary": "",
-            "updated": "2025-03-25T20:03:33+0000"
+            "summary": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Userspace libraries for PowerVR SGX chipset on TI SoCs",
+            "description": "",
             "filename": "ti-sgx-ddk-um_1.17.4948957.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-um-linux",
@@ -2103,8 +2117,8 @@
             "pv": "1.17.4948957",
             "section": "base",
             "srcrev": "84a396a4fb379f10931421e489ac8a199d6a9f2c",
-            "summary": "",
-            "updated": "2025-04-24T20:04:58+0000"
+            "summary": "Userspace libraries for PowerVR SGX chipset on TI SoCs",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2126,8 +2140,8 @@
             "pv": "24.0.1",
             "section": "x11",
             "srcrev": "82e6a9293c476267417c5b6b906b01fb73a34e38",
-            "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2025-03-25T20:03:33+0000"
+            "summary": "A free implementation of the OpenGL API  (with PowerVR for TI parts)",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2149,15 +2163,15 @@
             "pv": "22.3.5",
             "section": "x11",
             "srcrev": "c9f0919367589b38f5682183846de9d60eec082d",
-            "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2025-03-25T20:03:33+0000"
+            "summary": "A free implementation of the OpenGL API  (with PowerVR for TI parts)",
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "configopts": "",
-            "description": "Userspace libraries for GC320 chipset on TI SoCs",
+            "description": "",
             "filename": "ti-gc320-libs_5.0.11.p7.bb",
             "filepath": "recipes-graphics/libgal",
             "homepage": "https://git.ti.com/graphics/ti-gc320-libs",
@@ -2172,8 +2186,8 @@
             "pv": "5.0.11.p7",
             "section": "base",
             "srcrev": "85c175e8425c33dda6e272aeb45afe0f69a79096",
-            "summary": "",
-            "updated": "2025-04-24T20:04:58+0000"
+            "summary": "Userspace libraries for GC320 chipset on TI SoCs",
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2240,9 +2254,9 @@
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
             "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "70667128cb5b2c2a7621965ba948b5a56a2e756f",
+            "srcrev": "1d6ba4a32cdd8c987533d5789b5bc7b84c41fabe",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-04-24T20:04:57+0000"
+            "updated": "2025-06-05T00:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2261,11 +2275,11 @@
             "pn": "linux-ti-staging-rt",
             "pr": "r0",
             "provides": "linux-ti-staging-rt  virtual/kernel",
-            "pv": "6.12.17+git",
+            "pv": "6.12.24+git",
             "section": "kernel",
-            "srcrev": "cdcaeac783e31f18edb6cb44b526228f44023b45",
+            "srcrev": "b0afb35642d79e776a4cf940945367cef87ba127",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-04-24T20:04:58+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2284,11 +2298,11 @@
             "pn": "linux-ti-staging",
             "pr": "r0",
             "provides": "linux-ti-staging  virtual/kernel",
-            "pv": "6.12.17+git",
+            "pv": "6.12.24+git",
             "section": "kernel",
-            "srcrev": "cdcaeac783e31f18edb6cb44b526228f44023b45",
+            "srcrev": "b0afb35642d79e776a4cf940945367cef87ba127",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-04-24T20:04:58+0000"
+            "updated": "2025-06-05T00:06:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2307,11 +2321,11 @@
             "pn": "u-boot-ti-next",
             "pr": "r0",
             "provides": "u-boot-ti-next virtual/bootloader u-boot",
-            "pv": "2025.01+git",
+            "pv": "2025.04+git",
             "section": "bootloaders",
-            "srcrev": "6d41f0a39d6423c8e57e92ebbe9f8c0333a63f72",
+            "srcrev": "34820924edbc4ec7803eb89d9852f4b870fa760a",
             "summary": "U-Boot master-next for TI devices",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-06-05T00:06:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2404,6 +2418,29 @@
             "srcrev": "0e75e7ded360ea6aee4140393b30960e152f3994",
             "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
             "updated": "2025-04-07T01:04:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "ti-hsm-demo-fw_git.bb",
+            "filepath": "recipes-bsp/ti-hsm-fw",
+            "homepage": "",
+            "id": 2240774,
+            "inherits": "deploy",
+            "layerbranch": 1000731,
+            "license": "TI-TFL",
+            "pe": "",
+            "pn": "ti-hsm-demo-fw",
+            "pr": "r4.0",
+            "provides": "ti-hsm-demo-fw ",
+            "pv": "11.00.09",
+            "section": "base",
+            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "summary": "Common include for TI Linux firmware",
+            "updated": "2025-06-05T00:06:15+0000"
         }
     ],
     "wrtemplates": []

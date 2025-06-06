@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-05-29T00:05:09+0000",
+            "updated": "2025-06-05T00:06:07+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-05-27T20:05:49+0000",
-            "vcs_last_commit": "2025-05-27T02:05:30+0000",
-            "vcs_last_fetch": "2025-05-27T20:05:49+0000",
-            "vcs_last_rev": "356d4d2f4ba1822c080c8731a5ca7315ae3672bf",
+            "updated": "2025-06-05T03:06:44+0000",
+            "vcs_last_commit": "2025-06-05T00:06:44+0000",
+            "vcs_last_fetch": "2025-06-05T03:06:44+0000",
+            "vcs_last_rev": "f8c7f268833c81b3b8ac7002e2c3325f2571ebf3",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -662,10 +662,10 @@
             "id": 1037848,
             "layer": 559,
             "local_path": "",
-            "updated": "2025-05-26T00:05:02+0000",
-            "vcs_last_commit": "2025-05-25T23:05:33+0000",
-            "vcs_last_fetch": "2025-05-26T00:05:02+0000",
-            "vcs_last_rev": "f0b9f04124e315c3e9cb28c081b130aa18718fe2",
+            "updated": "2025-06-05T00:06:10+0000",
+            "vcs_last_commit": "2025-06-04T01:06:30+0000",
+            "vcs_last_fetch": "2025-06-05T00:06:10+0000",
+            "vcs_last_rev": "202e66196d05186a930c3c680413ba8d391c3cee",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 44188
@@ -725,7 +725,7 @@
             "id": 98797,
             "layerbranch": 1037848,
             "name": "p3768-0000-p3767-0004",
-            "updated": "2025-04-29T22:04:00+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "description": "Nvidia Jetson Orin NX 16GB module in P3509 carrier",
@@ -746,7 +746,7 @@
             "id": 98800,
             "layerbranch": 1037848,
             "name": "p3768-0000-p3767-0003",
-            "updated": "2025-04-29T22:04:00+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "description": "Nvidia Jetson Orin Nano devkit",
@@ -788,7 +788,7 @@
             "id": 98806,
             "layerbranch": 1037848,
             "name": "p3768-0000-p3767-0001",
-            "updated": "2025-04-29T22:04:00+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "description": "Nvidia Jetson Orin dev kit (P3701-0004 module in P3737-0000 carrier)",
@@ -1004,7 +1004,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1027,7 +1027,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1050,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1073,7 +1073,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1096,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,7 +1119,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Vision Programming Interface(VPI) is an API for accelerated   computer vision and image processing for embedded systems.",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1142,7 +1142,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:04+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1188,7 +1188,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:05+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,7 +1257,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA CUDA Deep Neural Network samples",
-            "updated": "2025-04-29T22:04:06+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1280,7 +1280,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA CUDA Deep Neural Network library",
-            "updated": "2025-04-29T22:04:06+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1303,7 +1303,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:06+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1326,7 +1326,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:06+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1349,7 +1349,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:07+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1372,7 +1372,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:07+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1395,7 +1395,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:07+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1418,7 +1418,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:08+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1426,7 +1426,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Dummy recipe for bringing in CUDA command-line tools",
-            "filename": "cuda-command-line-tools_12.2.12-1.bb",
+            "filename": "cuda-command-line-tools_12.6.11-1.bb",
             "filepath": "recipes-devtools/cuda",
             "homepage": "",
             "id": 2234405,
@@ -1437,11 +1437,11 @@
             "pn": "cuda-command-line-tools",
             "pr": "r1",
             "provides": "cuda-command-line-tools ",
-            "pv": "12.2.12-1",
+            "pv": "12.6.11-1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:08+0000"
+            "updated": "2025-06-05T00:06:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1464,7 +1464,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:08+0000"
+            "updated": "2025-06-05T00:06:07+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1487,7 +1487,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:08+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1510,7 +1510,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:09+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1533,7 +1533,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:09+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1556,7 +1556,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:09+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1579,7 +1579,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:10+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1625,7 +1625,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:10+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1648,7 +1648,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:10+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1656,7 +1656,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Dummy recipe for bringing in CUDA tools and libraries",
-            "filename": "cuda-toolkit_12.2.12-1.bb",
+            "filename": "cuda-toolkit_12.6.11-1.bb",
             "filepath": "recipes-devtools/cuda",
             "homepage": "",
             "id": 2234415,
@@ -1667,11 +1667,11 @@
             "pn": "cuda-toolkit",
             "pr": "r0",
             "provides": "cuda-toolkit ",
-            "pv": "12.2.12-1",
+            "pv": "12.6.11-1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:10+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1717,7 +1717,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:11+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1763,7 +1763,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:11+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1786,7 +1786,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:11+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1809,7 +1809,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:11+0000"
+            "updated": "2025-06-05T00:06:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1832,7 +1832,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:12+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1855,7 +1855,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:12+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1863,7 +1863,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Dummy recipe for bringing in CUDA compilation tools",
-            "filename": "cuda-compiler_12.2.140-1.bb",
+            "filename": "cuda-compiler_12.6.11-1.bb",
             "filepath": "recipes-devtools/cuda",
             "homepage": "",
             "id": 2234424,
@@ -1874,11 +1874,11 @@
             "pn": "cuda-compiler",
             "pr": "r1",
             "provides": "cuda-compiler ",
-            "pv": "12.2.140-1",
+            "pv": "12.6.11-1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:12+0000"
+            "updated": "2025-06-05T00:06:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1924,7 +1924,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:13+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1947,7 +1947,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:13+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1970,7 +1970,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:13+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1993,7 +1993,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:13+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2001,7 +2001,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Dummy recipe for bringing in CUDA libraries",
-            "filename": "cuda-libraries_12.2.12-1.bb",
+            "filename": "cuda-libraries_12.6.11-1.bb",
             "filepath": "recipes-devtools/cuda",
             "homepage": "",
             "id": 2234430,
@@ -2012,11 +2012,11 @@
             "pn": "cuda-libraries",
             "pr": "r0",
             "provides": "cuda-libraries ",
-            "pv": "12.2.12-1",
+            "pv": "12.6.11-1",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:13+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2039,7 +2039,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:14+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2062,7 +2062,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:14+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2085,7 +2085,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:14+0000"
+            "updated": "2025-06-05T00:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2108,7 +2108,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:14+0000"
+            "updated": "2025-06-05T00:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2131,7 +2131,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:15+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2208,7 +2208,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-uefi-prebuilt_36.4.0.bb",
+            "filename": "tegra-uefi-prebuilt_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234439,
@@ -2218,12 +2218,12 @@
             "pe": "",
             "pn": "tegra-uefi-prebuilt",
             "pr": "r0",
-            "provides": "tegra-uefi-prebuilt virtual/bootloader standalone-mm-optee-tegra",
-            "pv": "36.4.0",
+            "provides": "tegra-uefi-prebuilt virtual/bootloader edk2-firmware-tegra-minimal standalone-mm-optee-tegra",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:15+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2231,7 +2231,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-glxcore_36.4.0.bb",
+            "filename": "tegra-libraries-glxcore_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234440,
@@ -2242,11 +2242,11 @@
             "pn": "tegra-libraries-glxcore",
             "pr": "r0",
             "provides": "tegra-libraries-glxcore ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:15+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2254,7 +2254,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-omx_36.4.0.bb",
+            "filename": "tegra-libraries-omx_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234441,
@@ -2265,11 +2265,11 @@
             "pn": "tegra-libraries-omx",
             "pr": "r0",
             "provides": "tegra-libraries-omx ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2277,7 +2277,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA sensor HAL daemon",
-            "filename": "tegra-nvs-base_36.4.0.bb",
+            "filename": "tegra-nvs-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234442,
@@ -2288,11 +2288,11 @@
             "pn": "tegra-nvs-base",
             "pr": "r0",
             "provides": "tegra-nvs-base ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2300,7 +2300,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "xserver-xorg-video-nvidia_36.4.0.bb",
+            "filename": "xserver-xorg-video-nvidia_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234443,
@@ -2311,11 +2311,11 @@
             "pn": "xserver-xorg-video-nvidia",
             "pr": "r0",
             "provides": "xserver-xorg-video-nvidia ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2323,7 +2323,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Downloads NVIDIA L4T binary-only packages for sharing with other recipes",
-            "filename": "tegra-binaries_36.4.0.bb",
+            "filename": "tegra-binaries_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234444,
@@ -2334,11 +2334,11 @@
             "pn": "tegra-binaries",
             "pr": "r0",
             "provides": "tegra-binaries ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA L4T binaries",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2346,7 +2346,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Sound configuration files provided by L4T",
-            "filename": "tegra-configs-alsa_36.4.0.bb",
+            "filename": "tegra-configs-alsa_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234445,
@@ -2357,11 +2357,11 @@
             "pn": "tegra-configs-alsa",
             "pr": "r0",
             "provides": "tegra-configs-alsa ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2369,7 +2369,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvpower tool and configuration files",
-            "filename": "tegra-nvpower_36.4.0.bb",
+            "filename": "tegra-nvpower_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234446,
@@ -2380,11 +2380,11 @@
             "pn": "tegra-nvpower",
             "pr": "r0",
             "provides": "tegra-nvpower ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2392,7 +2392,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-nvml_36.4.0.bb",
+            "filename": "tegra-libraries-nvml_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234447,
@@ -2403,11 +2403,11 @@
             "pn": "tegra-libraries-nvml",
             "pr": "r0",
             "provides": "tegra-libraries-nvml ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2415,7 +2415,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Flash helper scripts",
-            "filename": "tegra-helper-scripts-native_36.4.0.bb",
+            "filename": "tegra-helper-scripts-native_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234448,
@@ -2426,11 +2426,11 @@
             "pn": "tegra-helper-scripts-native",
             "pr": "r0",
             "provides": "tegra-helper-scripts-native ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:16+0000"
+            "updated": "2025-06-05T00:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2438,7 +2438,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA Fan Control",
-            "filename": "tegra-nvfancontrol_36.4.0.bb",
+            "filename": "tegra-nvfancontrol_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234449,
@@ -2449,11 +2449,11 @@
             "pn": "tegra-nvfancontrol",
             "pr": "r0",
             "provides": "tegra-nvfancontrol ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2461,7 +2461,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-eglcore_36.4.0.bb",
+            "filename": "tegra-libraries-eglcore_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234450,
@@ -2472,11 +2472,11 @@
             "pn": "tegra-libraries-eglcore",
             "pr": "r0",
             "provides": "tegra-libraries-eglcore ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2484,7 +2484,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Machine-specific variables for tegraflash",
-            "filename": "tegra-flashvars_36.4.0.bb",
+            "filename": "tegra-flashvars_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234451,
@@ -2495,11 +2495,11 @@
             "pn": "tegra-flashvars",
             "pr": "r0",
             "provides": "tegra-flashvars ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2507,7 +2507,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvpmodel startup files",
-            "filename": "tegra-nvpmodel_36.4.0.bb",
+            "filename": "tegra-nvpmodel_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234452,
@@ -2518,11 +2518,11 @@
             "pn": "tegra-nvpmodel",
             "pr": "r0",
             "provides": "tegra-nvpmodel ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2530,7 +2530,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-multimedia_36.4.0.bb",
+            "filename": "tegra-libraries-multimedia_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234453,
@@ -2541,11 +2541,11 @@
             "pn": "tegra-libraries-multimedia",
             "pr": "r0",
             "provides": "tegra-libraries-multimedia ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2553,7 +2553,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-winsys_36.4.0.bb",
+            "filename": "tegra-libraries-winsys_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234454,
@@ -2564,11 +2564,11 @@
             "pn": "tegra-libraries-winsys",
             "pr": "r0",
             "provides": "tegra-libraries-winsys ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2576,7 +2576,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-multimedia-utils_36.4.0.bb",
+            "filename": "tegra-libraries-multimedia-utils_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234455,
@@ -2587,11 +2587,11 @@
             "pn": "tegra-libraries-multimedia-utils",
             "pr": "r0",
             "provides": "tegra-libraries-multimedia-utils ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:17+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2599,7 +2599,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Encrypted keyblob image",
-            "filename": "tegra-eks-image_36.4.0.bb",
+            "filename": "tegra-eks-image_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234456,
@@ -2610,11 +2610,11 @@
             "pn": "tegra-eks-image",
             "pr": "r0",
             "provides": "tegra-eks-image ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -2622,7 +2622,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "L4T bootloader update support tools",
-            "filename": "tegra-redundant-boot-base_36.4.0.bb",
+            "filename": "tegra-redundant-boot-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234457,
@@ -2633,11 +2633,11 @@
             "pn": "tegra-redundant-boot-base",
             "pr": "r0",
             "provides": "tegra-redundant-boot-base ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -2645,7 +2645,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-dla-compiler_36.4.0.bb",
+            "filename": "tegra-libraries-dla-compiler_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234458,
@@ -2656,11 +2656,11 @@
             "pn": "tegra-libraries-dla-compiler",
             "pr": "r0",
             "provides": "tegra-libraries-dla-compiler ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA DLA Compiler",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2668,7 +2668,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Tegra-specific firmware from the L4T BSP",
-            "filename": "tegra-firmware_36.4.0.bb",
+            "filename": "tegra-firmware_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234459,
@@ -2679,11 +2679,11 @@
             "pn": "tegra-firmware",
             "pr": "r0",
             "provides": "tegra-firmware ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2691,7 +2691,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Miscellaneous configuration files provided by L4T",
-            "filename": "tegra-configs_36.4.0.bb",
+            "filename": "tegra-configs_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234460,
@@ -2702,11 +2702,11 @@
             "pn": "tegra-configs",
             "pr": "r0",
             "provides": "tegra-configs ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2714,7 +2714,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvs-service startup files",
-            "filename": "tegra-nvs-service_36.4.0.bb",
+            "filename": "tegra-nvs-service_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234461,
@@ -2725,11 +2725,11 @@
             "pn": "tegra-nvs-service",
             "pr": "r0",
             "provides": "tegra-nvs-service ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2737,7 +2737,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Startup files for Tegra bootloader redundancy support",
-            "filename": "tegra-redundant-boot_36.4.0.bb",
+            "filename": "tegra-redundant-boot_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234462,
@@ -2748,11 +2748,11 @@
             "pn": "tegra-redundant-boot",
             "pr": "r1",
             "provides": "tegra-redundant-boot ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2760,7 +2760,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-nv-boot-control-config_36.4.0.bb",
+            "filename": "tegra-nv-boot-control-config_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234463,
@@ -2771,11 +2771,11 @@
             "pn": "tegra-nv-boot-control-config",
             "pr": "r0",
             "provides": "tegra-nv-boot-control-config ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:18+0000"
+            "updated": "2025-06-05T00:06:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2783,7 +2783,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA prebuilt binary-only GStreamer plugins",
-            "filename": "gstreamer1.0-plugins-tegra-binaryonly_36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-tegra-binaryonly_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234464,
@@ -2794,11 +2794,11 @@
             "pn": "gstreamer1.0-plugins-tegra-binaryonly",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-tegra-binaryonly ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2806,7 +2806,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Release version information file from L4T",
-            "filename": "nv-tegra-release_36.4.0.bb",
+            "filename": "nv-tegra-release_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234465,
@@ -2817,11 +2817,11 @@
             "pn": "nv-tegra-release",
             "pr": "r0",
             "provides": "nv-tegra-release ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2829,7 +2829,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA SEI metadata support library for GStreamer",
-            "filename": "tegra-libraries-nvdsseimeta_36.4.0.bb",
+            "filename": "tegra-libraries-nvdsseimeta_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234466,
@@ -2840,11 +2840,11 @@
             "pn": "tegra-libraries-nvdsseimeta",
             "pr": "r0",
             "provides": "tegra-libraries-nvdsseimeta ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2852,7 +2852,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvstartup initscript/service",
-            "filename": "tegra-nvstartup_36.4.0.bb",
+            "filename": "tegra-nvstartup_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234467,
@@ -2863,11 +2863,11 @@
             "pn": "tegra-nvstartup",
             "pr": "r0",
             "provides": "tegra-nvstartup ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2875,7 +2875,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvargusdaemon initscript/service",
-            "filename": "tegra-argus-daemon_36.4.0.bb",
+            "filename": "tegra-argus-daemon_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234468,
@@ -2886,11 +2886,11 @@
             "pn": "tegra-argus-daemon",
             "pr": "r0",
             "provides": "tegra-argus-daemon ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -2898,7 +2898,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-glescore_36.4.0.bb",
+            "filename": "tegra-libraries-glescore_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234469,
@@ -2909,11 +2909,11 @@
             "pn": "tegra-libraries-glescore",
             "pr": "r0",
             "provides": "tegra-libraries-glescore ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2921,7 +2921,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-camera_36.4.0.bb",
+            "filename": "tegra-libraries-camera_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234470,
@@ -2932,11 +2932,11 @@
             "pn": "tegra-libraries-camera",
             "pr": "r0",
             "provides": "tegra-libraries-camera ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -2944,7 +2944,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-storage-layout-base_36.4.0.bb",
+            "filename": "tegra-storage-layout-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234471,
@@ -2955,11 +2955,11 @@
             "pn": "tegra-storage-layout-base",
             "pr": "r0",
             "provides": "tegra-storage-layout-base ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2967,7 +2967,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Storage layout XML definitions",
-            "filename": "tegra-storage-layout_36.4.0.bb",
+            "filename": "tegra-storage-layout_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234472,
@@ -2978,11 +2978,11 @@
             "pn": "tegra-storage-layout",
             "pr": "r0",
             "provides": "tegra-storage-layout ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:19+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2990,7 +2990,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-flashtools-native_36.4.0.bb",
+            "filename": "tegra-flashtools-native_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234473,
@@ -3001,11 +3001,11 @@
             "pn": "tegra-flashtools-native",
             "pr": "r0",
             "provides": "tegra-flashtools-native ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3013,7 +3013,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Miscellaneous tools provided by L4T",
-            "filename": "tegra-tools_36.4.0.bb",
+            "filename": "tegra-tools_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234474,
@@ -3024,11 +3024,11 @@
             "pn": "tegra-tools",
             "pr": "r0",
             "provides": "tegra-tools ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3036,7 +3036,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-nvsci_36.4.0.bb",
+            "filename": "tegra-libraries-nvsci_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234475,
@@ -3047,11 +3047,11 @@
             "pn": "tegra-libraries-nvsci",
             "pr": "r0",
             "provides": "tegra-libraries-nvsci ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3059,7 +3059,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA Power Hinting Service",
-            "filename": "tegra-nvphs-base_36.4.0.bb",
+            "filename": "tegra-nvphs-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234476,
@@ -3070,11 +3070,11 @@
             "pn": "tegra-nvphs-base",
             "pr": "r0",
             "provides": "tegra-nvphs-base ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3082,7 +3082,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-core_36.4.0.bb",
+            "filename": "tegra-libraries-core_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234477,
@@ -3093,11 +3093,11 @@
             "pn": "tegra-libraries-core",
             "pr": "r0",
             "provides": "tegra-libraries-core ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3105,7 +3105,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvsciipc startup files",
-            "filename": "tegra-nvsciipc_36.4.0.bb",
+            "filename": "tegra-nvsciipc_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234478,
@@ -3116,11 +3116,11 @@
             "pn": "tegra-nvsciipc",
             "pr": "r0",
             "provides": "tegra-nvsciipc ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3128,7 +3128,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tos-prebuilt_36.4.0.bb",
+            "filename": "tos-prebuilt_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234479,
@@ -3139,11 +3139,11 @@
             "pn": "tos-prebuilt",
             "pr": "r0",
             "provides": "tos-prebuilt trusted-os virtual/secure-os",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3151,7 +3151,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NvSciIpc initialization tool",
-            "filename": "tegra-nvsciipc-base_36.4.0.bb",
+            "filename": "tegra-nvsciipc-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234480,
@@ -3162,11 +3162,11 @@
             "pn": "tegra-nvsciipc-base",
             "pr": "r0",
             "provides": "tegra-nvsciipc-base ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3174,7 +3174,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Prebuilt OPTEE normal-world binaries",
-            "filename": "nvidia-l4t-optee_36.4.0.bb",
+            "filename": "nvidia-l4t-optee_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234481,
@@ -3185,11 +3185,11 @@
             "pn": "nvidia-l4t-optee",
             "pr": "r0",
             "provides": "nvidia-l4t-optee  optee-client optee-test optee-nvsamples",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:20+0000"
+            "updated": "2025-06-05T00:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3197,7 +3197,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-pva_36.4.0.bb",
+            "filename": "tegra-libraries-pva_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234482,
@@ -3208,11 +3208,11 @@
             "pn": "tegra-libraries-pva",
             "pr": "r0",
             "provides": "tegra-libraries-pva ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3220,7 +3220,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-cuda_36.4.0.bb",
+            "filename": "tegra-libraries-cuda_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234483,
@@ -3231,11 +3231,11 @@
             "pn": "tegra-libraries-cuda",
             "pr": "r0",
             "provides": "tegra-libraries-cuda ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3243,7 +3243,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-multimedia-ds_36.4.0.bb",
+            "filename": "tegra-libraries-multimedia-ds_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234484,
@@ -3254,11 +3254,11 @@
             "pn": "tegra-libraries-multimedia-ds",
             "pr": "r0",
             "provides": "tegra-libraries-multimedia-ds ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3266,7 +3266,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvphs startup files",
-            "filename": "tegra-nvphs_36.4.0.bb",
+            "filename": "tegra-nvphs_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "",
             "id": 2234485,
@@ -3277,11 +3277,11 @@
             "pn": "tegra-nvphs",
             "pr": "r0",
             "provides": "tegra-nvphs ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3289,7 +3289,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-vulkan_36.4.0.bb",
+            "filename": "tegra-libraries-vulkan_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234486,
@@ -3300,11 +3300,11 @@
             "pn": "tegra-libraries-vulkan",
             "pr": "r0",
             "provides": "tegra-libraries-vulkan ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3312,7 +3312,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-gbm-backend_36.4.0.bb",
+            "filename": "tegra-libraries-gbm-backend_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234487,
@@ -3323,11 +3323,11 @@
             "pn": "tegra-libraries-gbm-backend",
             "pr": "r0",
             "provides": "tegra-libraries-gbm-backend ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3335,7 +3335,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Broadcom patchram utility for Tegra modules with on-board Bluetooth interfaces",
-            "filename": "tegra-brcm-patchram_36.4.0.bb",
+            "filename": "tegra-brcm-patchram_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234488,
@@ -3346,11 +3346,11 @@
             "pn": "tegra-brcm-patchram",
             "pr": "r0",
             "provides": "tegra-brcm-patchram ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3358,7 +3358,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-eks-image-base_36.4.0.bb",
+            "filename": "tegra-eks-image-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234489,
@@ -3369,11 +3369,11 @@
             "pn": "tegra-eks-image-base",
             "pr": "r0",
             "provides": "tegra-eks-image-base ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3381,7 +3381,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-bootfiles_36.4.0.bb",
+            "filename": "tegra-bootfiles_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234490,
@@ -3392,11 +3392,11 @@
             "pn": "tegra-bootfiles",
             "pr": "r0",
             "provides": "tegra-bootfiles ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3404,7 +3404,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "nvpmodel tool and configuration files",
-            "filename": "tegra-nvpmodel-base_36.4.0.bb",
+            "filename": "tegra-nvpmodel-base_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234491,
@@ -3415,11 +3415,11 @@
             "pn": "tegra-nvpmodel-base",
             "pr": "r0",
             "provides": "tegra-nvpmodel-base ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:21+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3427,7 +3427,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA CUDA utils",
-            "filename": "tegra-cuda-utils_36.4.0.bb",
+            "filename": "tegra-cuda-utils_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234492,
@@ -3438,11 +3438,11 @@
             "pn": "tegra-cuda-utils",
             "pr": "r0",
             "provides": "tegra-cuda-utils ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:22+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3450,7 +3450,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-container-passthrough_36.4.0.bb",
+            "filename": "tegra-container-passthrough_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234493,
@@ -3461,11 +3461,11 @@
             "pn": "tegra-container-passthrough",
             "pr": "r0",
             "provides": "tegra-container-passthrough ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:22+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3473,7 +3473,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "tegra-libraries-multimedia-v4l_36.4.0.bb",
+            "filename": "tegra-libraries-multimedia-v4l_36.4.3.bb",
             "filepath": "recipes-bsp/tegra-binaries",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234494,
@@ -3484,11 +3484,11 @@
             "pn": "tegra-libraries-multimedia-v4l",
             "pr": "r0",
             "provides": "tegra-libraries-multimedia-v4l ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:22+0000"
+            "updated": "2025-06-05T00:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3542,7 +3542,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "edk2-basetools-tegra-native_36.4.0.bb",
+            "filename": "edk2-basetools-tegra-native_36.4.3.bb",
             "filepath": "recipes-bsp/uefi",
             "homepage": "",
             "id": 2234497,
@@ -3553,11 +3553,11 @@
             "pn": "edk2-basetools-tegra-native",
             "pr": "r0",
             "provides": "edk2-basetools-tegra-native ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "EDK2 Base Tools",
-            "updated": "2025-04-29T22:04:22+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3588,7 +3588,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "UEFI EDK2 Firmware for Jetson platforms",
-            "filename": "edk2-firmware-tegra_36.4.0.bb",
+            "filename": "edk2-firmware-tegra_36.4.3.bb",
             "filepath": "recipes-bsp/uefi",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234499,
@@ -3599,11 +3599,11 @@
             "pn": "edk2-firmware-tegra",
             "pr": "r0",
             "provides": "edk2-firmware-tegra virtual/bootloader",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2025-04-29T22:04:22+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3634,7 +3634,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Standalone Memory Manager for OP-TEE on Jetson platforms",
-            "filename": "standalone-mm-optee-tegra_36.4.0.bb",
+            "filename": "standalone-mm-optee-tegra_36.4.3.bb",
             "filepath": "recipes-bsp/uefi",
             "homepage": "https://github.com/tianocore/edk2",
             "id": 2234501,
@@ -3645,11 +3645,11 @@
             "pn": "standalone-mm-optee-tegra",
             "pr": "r0",
             "provides": "standalone-mm-optee-tegra ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "UEFI EDK2 Firmware",
-            "updated": "2025-04-29T22:04:23+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3657,7 +3657,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Generate UEFI capsules for bup paylods",
-            "filename": "tegra-uefi-capsules_36.4.0.bb",
+            "filename": "tegra-uefi-capsules_36.4.3.bb",
             "filepath": "recipes-bsp/uefi",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234502,
@@ -3668,11 +3668,11 @@
             "pn": "tegra-uefi-capsules",
             "pr": "r0",
             "provides": "tegra-uefi-capsules ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:23+0000"
+            "updated": "2025-06-05T00:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -3726,7 +3726,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Trusted Firmware-A (TF-A) provides a reference implementation of secure world software for Armv7-A and Armv8-A, including a Secure Monitor executing at Exception Level 3 (EL3).",
-            "filename": "arm-trusted-firmware_2.8-l4t-r36.4.0.bb",
+            "filename": "arm-trusted-firmware_2.8-l4t-r36.4.3.bb",
             "filepath": "recipes-bsp/arm-trusted-firmware",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234505,
@@ -3737,11 +3737,11 @@
             "pn": "arm-trusted-firmware",
             "pr": "r0",
             "provides": "arm-trusted-firmware ",
-            "pv": "2.8-l4t-r36.4.0",
+            "pv": "2.8-l4t-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "Trusted Firmware-A - L4T distribution",
-            "updated": "2025-04-29T22:04:23+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -3749,7 +3749,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA Tegra Multimedia API sample programs",
-            "filename": "tegra-mmapi-samples_36.4.0.bb",
+            "filename": "tegra-mmapi-samples_36.4.3.bb",
             "filepath": "recipes-multimedia/argus",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234506,
@@ -3760,19 +3760,19 @@
             "pn": "tegra-mmapi-samples",
             "pr": "r0",
             "provides": "tegra-mmapi-samples ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:24+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DMULTIPROCESS=ON                  -DCMAKE_INCLUDE_PATH=/tmp/tmp14neezdg/tmp-glibc/work/${TEGRA_PKGARCH}-oe-linux/argus-samples/36.4.0-20240912212859/tegra-mmapi/usr/src/jetson_multimedia_api/include/libjpeg-8b-tegra                  -DJPEG_NAMES=libnvjpeg.so  -DWITH_X11=ON",
+            "configopts": "-DMULTIPROCESS=ON                  -DCMAKE_INCLUDE_PATH=/tmp/tmp0dz4z9y1/tmp-glibc/work/${TEGRA_PKGARCH}-oe-linux/argus-samples/36.4.3-20250107174145/tegra-mmapi/usr/src/jetson_multimedia_api/include/libjpeg-8b-tegra                  -DJPEG_NAMES=libnvjpeg.so  -DWITH_X11=ON",
             "description": "NVIDIA Argus API sample programs",
-            "filename": "argus-samples_36.4.0.bb",
+            "filename": "argus-samples_36.4.3.bb",
             "filepath": "recipes-multimedia/argus",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234507,
@@ -3783,11 +3783,11 @@
             "pn": "argus-samples",
             "pr": "r0",
             "provides": "argus-samples ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:24+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3795,7 +3795,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA Tegra Multimedia API headers subset for Argus, nvosd, and nvbuf APIs",
-            "filename": "tegra-mmapi_36.4.0.bb",
+            "filename": "tegra-mmapi_36.4.3.bb",
             "filepath": "recipes-multimedia/argus",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234508,
@@ -3806,11 +3806,11 @@
             "pn": "tegra-mmapi",
             "pr": "r0",
             "provides": "tegra-mmapi ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:24+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -3818,7 +3818,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA nvarguscamerasrc GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvarguscamerasrc_1.0.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvarguscamerasrc_1.0.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234509,
@@ -3829,11 +3829,11 @@
             "pn": "gstreamer1.0-plugins-nvarguscamerasrc",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvarguscamerasrc ",
-            "pv": "1.0.0-r36.4.0",
+            "pv": "1.0.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:25+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3841,7 +3841,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA custom gstreamer events helper library",
-            "filename": "libgstnvcustomhelper_36.4.0.bb",
+            "filename": "libgstnvcustomhelper_36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234510,
@@ -3852,11 +3852,11 @@
             "pn": "libgstnvcustomhelper",
             "pr": "r0",
             "provides": "libgstnvcustomhelper ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:25+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3864,7 +3864,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA video tee GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvtee_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvtee_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234511,
@@ -3875,11 +3875,11 @@
             "pn": "gstreamer1.0-plugins-nvtee",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvtee ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:25+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3887,7 +3887,7 @@
             "bugtracker": "",
             "configopts": "-Ddocs=false ",
             "description": "NVIDIA accelerated JPEG GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvjpeg_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvjpeg_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234512,
@@ -3898,11 +3898,11 @@
             "pn": "gstreamer1.0-plugins-nvjpeg",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvjpeg ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:25+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3910,7 +3910,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA-modified IPC pipeline GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvipcpipeline_1.20.1-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvipcpipeline_1.20.1-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234513,
@@ -3921,11 +3921,11 @@
             "pn": "gstreamer1.0-plugins-nvipcpipeline",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvipcpipeline ",
-            "pv": "1.20.1-r36.4.0",
+            "pv": "1.20.1-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:25+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3933,7 +3933,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA v4l2camerasrc GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvv4l2camerasrc_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvv4l2camerasrc_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234514,
@@ -3944,11 +3944,11 @@
             "pn": "gstreamer1.0-plugins-nvv4l2camerasrc",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvv4l2camerasrc ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -3956,7 +3956,7 @@
             "bugtracker": "",
             "configopts": " --enable-nls",
             "description": "NVIDIA video sinks GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvvideosinks_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvvideosinks_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234515,
@@ -3967,11 +3967,11 @@
             "pn": "gstreamer1.0-plugins-nvvideosinks",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvvideosinks ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -3979,7 +3979,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA video converter GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvvidconv_1.20.5-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvvidconv_1.20.5-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234516,
@@ -3990,11 +3990,11 @@
             "pn": "gstreamer1.0-plugins-nvvidconv",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvvidconv ",
-            "pv": "1.20.5-r36.4.0",
+            "pv": "1.20.5-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4002,7 +4002,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Dummy recipe for Tegra gstreamer plugins metapackage",
-            "filename": "gstreamer1.0-plugins-tegra_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-tegra_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "",
             "id": 2234517,
@@ -4013,11 +4013,11 @@
             "pn": "gstreamer1.0-plugins-tegra",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-tegra ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -4025,7 +4025,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "gstreamer1.0-plugins-nveglgles_1.2.3-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nveglgles_1.2.3-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234518,
@@ -4036,11 +4036,11 @@
             "pn": "gstreamer1.0-plugins-nveglgles",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nveglgles ",
-            "pv": "1.2.3-r36.4.0",
+            "pv": "1.2.3-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "NVIDIA EGL/GLES GStreamer plugin",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4048,7 +4048,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA DRM video sink GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvdrmvideosink_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvdrmvideosink_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234519,
@@ -4059,11 +4059,11 @@
             "pn": "gstreamer1.0-plugins-nvdrmvideosink",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvdrmvideosink ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:26+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4071,7 +4071,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA-modified unixfd GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvunixfd_1.20.1-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvunixfd_1.20.1-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234520,
@@ -4082,11 +4082,11 @@
             "pn": "gstreamer1.0-plugins-nvunixfd",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvunixfd ",
-            "pv": "1.20.1-r36.4.0",
+            "pv": "1.20.1-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:27+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4094,7 +4094,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA compositor GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvcompositor_1.20.5-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvcompositor_1.20.5-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234521,
@@ -4105,11 +4105,11 @@
             "pn": "gstreamer1.0-plugins-nvcompositor",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvcompositor ",
-            "pv": "1.20.5-r36.4.0",
+            "pv": "1.20.5-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:27+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4117,7 +4117,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA GStreamer applications",
-            "filename": "nvgstapps_36.4.0.bb",
+            "filename": "nvgstapps_36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234522,
@@ -4128,11 +4128,11 @@
             "pn": "nvgstapps",
             "pr": "r0",
             "provides": "nvgstapps ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:27+0000"
+            "updated": "2025-06-05T00:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -4140,7 +4140,7 @@
             "bugtracker": "",
             "configopts": " --enable-nls",
             "description": "NVIDIA v4l2 GStreamer plugin",
-            "filename": "gstreamer1.0-plugins-nvvideo4linux2_1.14.0-r36.4.0.bb",
+            "filename": "gstreamer1.0-plugins-nvvideo4linux2_1.14.0-r36.4.3.bb",
             "filepath": "recipes-multimedia/gstreamer",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234523,
@@ -4151,11 +4151,11 @@
             "pn": "gstreamer1.0-plugins-nvvideo4linux2",
             "pr": "r0",
             "provides": "gstreamer1.0-plugins-nvvideo4linux2 ",
-            "pv": "1.14.0-r36.4.0",
+            "pv": "1.14.0-r36.4.3",
             "section": "multimedia",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:27+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4278,7 +4278,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Construct a trusted OS image with ATF and OP-TEE",
-            "filename": "tos-optee_36.4.0.bb",
+            "filename": "tos-optee_36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234529,
@@ -4289,11 +4289,11 @@
             "pn": "tos-optee",
             "pr": "r0",
             "provides": "tos-optee  trusted-os virtual/secure-os",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:28+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4301,7 +4301,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Open Portable Trusted Execution Environment - Normal World   Client side of the TEE",
-            "filename": "optee-client_4.2-l4t-r36.4.0.bb",
+            "filename": "optee-client_4.2-l4t-r36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234530,
@@ -4312,11 +4312,11 @@
             "pn": "optee-client",
             "pr": "r0",
             "provides": "optee-client ",
-            "pv": "4.2-l4t-r36.4.0",
+            "pv": "4.2-l4t-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Client API",
-            "updated": "2025-04-29T22:04:28+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4324,7 +4324,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA OP-TEE sample applications for Jetson platforms",
-            "filename": "optee-nvsamples_36.4.0.bb",
+            "filename": "optee-nvsamples_36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234531,
@@ -4335,11 +4335,11 @@
             "pn": "optee-nvsamples",
             "pr": "r0",
             "provides": "optee-nvsamples ",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:28+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4347,7 +4347,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Open Portable Trusted Execution Environment - Test suite",
-            "filename": "optee-test_4.2-l4t-r36.4.0.bb",
+            "filename": "optee-test_4.2-l4t-r36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234532,
@@ -4358,11 +4358,11 @@
             "pn": "optee-test",
             "pr": "r0",
             "provides": "optee-test ",
-            "pv": "4.2-l4t-r36.4.0",
+            "pv": "4.2-l4t-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE sanity testsuite",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4370,7 +4370,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "OP-TEE TA devkit for build TAs",
-            "filename": "optee-os-tadevkit_4.2-l4t-r36.4.0.bb",
+            "filename": "optee-os-tadevkit_4.2-l4t-r36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234533,
@@ -4381,11 +4381,11 @@
             "pn": "optee-os-tadevkit",
             "pr": "r0",
             "provides": "optee-os-tadevkit ",
-            "pv": "4.2-l4t-r36.4.0",
+            "pv": "4.2-l4t-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Trusted OS TA devkit",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4393,7 +4393,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Open Portable Trusted Execution Environment - Trusted side of the TEE",
-            "filename": "optee-os_4.2-l4t-r36.4.0.bb",
+            "filename": "optee-os_4.2-l4t-r36.4.3.bb",
             "filepath": "recipes-security/optee",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234534,
@@ -4404,11 +4404,11 @@
             "pn": "optee-os",
             "pr": "r0",
             "provides": "optee-os ",
-            "pv": "4.2-l4t-r36.4.0",
+            "pv": "4.2-l4t-r36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "OP-TEE Trusted OS",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -4416,7 +4416,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Virtual/dtb provider for Jetson Linux device trees",
-            "filename": "nvidia-kernel-oot-dtb_36.4.0.bb",
+            "filename": "nvidia-kernel-oot-dtb_36.4.3.bb",
             "filepath": "recipes-kernel/nvidia-kernel-oot",
             "homepage": "",
             "id": 2234535,
@@ -4427,11 +4427,11 @@
             "pn": "nvidia-kernel-oot-dtb",
             "pr": "r0",
             "provides": "nvidia-kernel-oot-dtb virtual/dtb",
-            "pv": "36.4.0",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -4439,7 +4439,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Out-of-tree kernel modules and device trees for Jetson Linux platforms",
-            "filename": "nvidia-kernel-oot_36.4.0.bb",
+            "filename": "nvidia-kernel-oot_36.4.3.bb",
             "filepath": "recipes-kernel/nvidia-kernel-oot",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234536,
@@ -4449,12 +4449,12 @@
             "pe": "",
             "pn": "nvidia-kernel-oot",
             "pr": "r0",
-            "provides": "nvidia-kernel-oot ",
-            "pv": "36.4.0",
+            "provides": "nvidia-kernel-oot  kernel-module-nvidia-kernel-oot",
+            "pv": "36.4.3",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4500,7 +4500,7 @@
             "section": "kernel",
             "srcrev": "8dc079d5c8c47d3954b4261473a152a8034ff7f0",
             "summary": "Linux kernel",
-            "updated": "2025-04-29T22:04:29+0000"
+            "updated": "2025-06-05T00:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -4600,7 +4600,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Tegra-specific DRM header file",
-            "filename": "tegra-drm-headers_36.4.0.bb",
+            "filename": "tegra-drm-headers_36.4.3.bb",
             "filepath": "recipes-graphics/drm",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234543,
@@ -4611,11 +4611,11 @@
             "pn": "tegra-drm-headers",
             "pr": "r0",
             "provides": "tegra-drm-headers ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:30+0000"
+            "updated": "2025-06-05T00:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -4646,7 +4646,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA Jetson-specific EGL and GLES2 extension headers",
-            "filename": "l4t-nvidia-glheaders_36.4.0.bb",
+            "filename": "l4t-nvidia-glheaders_36.4.3.bb",
             "filepath": "recipes-graphics/l4t-graphics-demos",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234545,
@@ -4657,11 +4657,11 @@
             "pn": "l4t-nvidia-glheaders",
             "pr": "r0",
             "provides": "l4t-nvidia-glheaders ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:30+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -4669,7 +4669,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "L4T graphics demo programs",
-            "filename": "l4t-graphics-demos_36.4.0.bb",
+            "filename": "l4t-graphics-demos_36.4.3.bb",
             "filepath": "recipes-graphics/l4t-graphics-demos",
             "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
             "id": 2234546,
@@ -4680,11 +4680,11 @@
             "pn": "l4t-graphics-demos",
             "pr": "r0",
             "provides": "l4t-graphics-demos ",
-            "pv": "36.4.0-20240912212859",
+            "pv": "36.4.3-20250107174145",
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:31+0000"
+            "updated": "2025-06-05T00:06:58+0000"
         },
         {
             "bbclassextend": "",
@@ -4922,7 +4922,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "NVIDIA container runtime library The nvidia-container library provides an interface to configure GNU/Linux containers leveraging NVIDIA hardware. The implementation relies on several kernel subsystems and is designed to be agnostic of the container runtime. ",
-            "filename": "libnvidia-container_1.14.2.bb",
+            "filename": "libnvidia-container_1.16.2.bb",
             "filepath": "external/virtualization-layer/recipes-containers/libnvidia-container",
             "homepage": "https://github.com/NVIDIA/libnvidia-container",
             "id": 2234557,
@@ -4933,11 +4933,11 @@
             "pn": "libnvidia-container",
             "pr": "r0",
             "provides": "libnvidia-container ",
-            "pv": "1.14.2",
+            "pv": "1.16.2",
             "section": "base",
             "srcrev": "",
             "summary": "NVIDIA container runtime library",
-            "updated": "2025-04-29T22:04:32+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4945,7 +4945,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "nvidia-container-toolkit_1.14.5.bb",
+            "filename": "nvidia-container-toolkit_1.16.2.bb",
             "filepath": "external/virtualization-layer/recipes-containers/nvidia-container-toolkit",
             "homepage": "",
             "id": 2234558,
@@ -4960,7 +4960,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-04-29T22:04:32+0000"
+            "updated": "2025-06-05T00:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -4984,6 +4984,52 @@
             "srcrev": "c5b9de37f7ef9034e2efc621c664145c7c12436e",
             "summary": "Python bindings for TensorRT",
             "updated": "2025-04-29T22:04:32+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "UEFI EDK2 Minimal Firmware for Jetson platforms",
+            "filename": "edk2-firmware-tegra-minimal_36.4.3.bb",
+            "filepath": "recipes-bsp/uefi",
+            "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
+            "id": 2240757,
+            "inherits": "deploy l4t_bsp l4t_version python3-dir python3native tegra-uefi-signing",
+            "layerbranch": 1037848,
+            "license": "BSD-2-Clause-Patent & Proprietary & Proprietary",
+            "pe": "",
+            "pn": "edk2-firmware-tegra-minimal",
+            "pr": "r0",
+            "provides": "edk2-firmware-tegra-minimal ",
+            "pv": "36.4.3",
+            "section": "base",
+            "srcrev": "",
+            "summary": "UEFI EDK2 Firmware",
+            "updated": "2025-06-05T00:06:10+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "CUDA package libnvfatbin",
+            "filename": "libnvfatbin_12.6.68-1.bb",
+            "filepath": "recipes-devtools/cuda",
+            "homepage": "https://developer.nvidia.com/embedded/linux-tegra",
+            "id": 2240758,
+            "inherits": "l4t_bsp l4t_deb_pkgfeed l4t_version",
+            "layerbranch": 1037848,
+            "license": "Proprietary",
+            "pe": "",
+            "pn": "libnvfatbin",
+            "pr": "r0",
+            "provides": "libnvfatbin ",
+            "pv": "12.6.68-1",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2025-06-05T00:06:10+0000"
         }
     ],
     "wrtemplates": []
