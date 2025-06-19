@@ -634,24 +634,24 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-06-09T00:06:06+0000",
+            "updated": "2025-06-19T00:06:08+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Xilinx Standalone Distro",
-            "id": 15399,
+            "id": 15723,
             "layerbranch": 990883,
             "name": "xilinx-standalone-nolto",
-            "updated": "2025-03-25T20:03:25+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "description": "Xilinx Standalone Distro (lto)",
-            "id": 15400,
+            "id": 15724,
             "layerbranch": 990883,
             "name": "xilinx-standalone",
-            "updated": "2025-03-25T20:03:25+0000"
+            "updated": "2025-06-19T01:06:34+0000"
         }
     ],
     "layerBranches": [
@@ -662,10 +662,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-06-08T20:06:43+0000",
-            "vcs_last_commit": "2025-06-08T19:06:07+0000",
-            "vcs_last_fetch": "2025-06-08T20:06:43+0000",
-            "vcs_last_rev": "0a0ab8dd776b7dfaa951d888485cf4ee293b462a",
+            "updated": "2025-06-13T01:06:45+0000",
+            "vcs_last_commit": "2025-06-12T22:06:39+0000",
+            "vcs_last_fetch": "2025-06-13T01:06:45+0000",
+            "vcs_last_rev": "4b448a3eef3b79b47ccf07365367bc757f120691",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -677,10 +677,10 @@
             "id": 990873,
             "layer": 436,
             "local_path": "",
-            "updated": "2025-06-05T00:06:06+0000",
-            "vcs_last_commit": "2025-06-03T22:06:19+0000",
-            "vcs_last_fetch": "2025-06-05T00:06:06+0000",
-            "vcs_last_rev": "a1f74871face79fcc10379fdb00fe012401ffb53",
+            "updated": "2025-06-17T03:06:55+0000",
+            "vcs_last_commit": "2025-06-17T01:06:53+0000",
+            "vcs_last_fetch": "2025-06-17T03:06:55+0000",
+            "vcs_last_rev": "b7f164cdd32a81e01d97c98d5067a450fb1c3d9b",
             "vcs_subdir": "meta-xilinx-core",
             "version": null,
             "yp_compatible_version": 44188
@@ -692,9 +692,9 @@
             "id": 990883,
             "layer": 435,
             "local_path": "",
-            "updated": "2025-06-05T00:06:56+0000",
+            "updated": "2025-06-19T01:06:34+0000",
             "vcs_last_commit": "2025-06-03T22:06:19+0000",
-            "vcs_last_fetch": "2025-06-05T00:06:56+0000",
+            "vcs_last_fetch": "2025-06-19T01:06:34+0000",
             "vcs_last_rev": "a1f74871face79fcc10379fdb00fe012401ffb53",
             "vcs_subdir": "meta-xilinx-standalone",
             "version": null,
@@ -797,7 +797,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -820,7 +820,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -843,7 +843,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -866,7 +866,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -889,7 +889,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -912,7 +912,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -935,7 +935,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -958,7 +958,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -981,7 +981,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1004,7 +1004,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1027,7 +1027,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1050,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1073,7 +1073,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1096,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,7 +1119,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1142,7 +1142,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-intr application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1165,7 +1165,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1188,7 +1188,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1211,7 +1211,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1234,7 +1234,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-read-write application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1257,7 +1257,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1280,7 +1280,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1303,7 +1303,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1326,7 +1326,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Simple rfdc-selftest application",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1349,7 +1349,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1372,7 +1372,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1395,7 +1395,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1418,7 +1418,7 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "PSM firmware for versal devices",
-            "updated": "2025-06-05T00:06:55+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1441,7 +1441,7 @@
             "section": "libdfeccf",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeccf library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1464,7 +1464,7 @@
             "section": "libdfeccf",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeccf library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1487,7 +1487,7 @@
             "section": "libdfeccf",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeccf library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1510,7 +1510,7 @@
             "section": "libdfeccf",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeccf library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1533,7 +1533,7 @@
             "section": "libdfeequ",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeequ library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1556,7 +1556,7 @@
             "section": "libdfeequ",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeequ library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1579,7 +1579,7 @@
             "section": "libdfeequ",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeequ library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1602,7 +1602,7 @@
             "section": "libdfeequ",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeequ library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1625,7 +1625,7 @@
             "section": "libdfemix",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfemix library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1648,7 +1648,7 @@
             "section": "libdfemix",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfemix library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1671,7 +1671,7 @@
             "section": "libdfemix",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfemix library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1694,7 +1694,7 @@
             "section": "libdfemix",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfemix library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1717,7 +1717,7 @@
             "section": "libdfeofdm",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1740,7 +1740,7 @@
             "section": "libdfeofdm",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1763,7 +1763,7 @@
             "section": "libdfeofdm",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1786,7 +1786,7 @@
             "section": "libdfeofdm",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeofdm library",
-            "updated": "2025-06-05T00:06:53+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1809,7 +1809,7 @@
             "section": "libdfeprach",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux dfeprach library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1832,7 +1832,7 @@
             "section": "libdfeprach",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux dfeprach library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1855,7 +1855,7 @@
             "section": "libdfeprach",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux dfeprach library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1878,7 +1878,7 @@
             "section": "libdfeprach",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux dfeprach library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1901,7 +1901,7 @@
             "section": "librfclk",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux rfclk library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1924,7 +1924,7 @@
             "section": "librfclk",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux rfclk library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1947,7 +1947,7 @@
             "section": "librfclk",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux rfclk library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1970,7 +1970,7 @@
             "section": "librfclk",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux rfclk library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1993,7 +1993,7 @@
             "section": "librfdc",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "Linux rfdc library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2016,7 +2016,7 @@
             "section": "librfdc",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "Linux rfdc library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2039,7 +2039,7 @@
             "section": "librfdc",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "Linux rfdc library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2062,7 +2062,7 @@
             "section": "librfdc",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "Linux rfdc library",
-            "updated": "2025-06-05T00:06:54+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2085,7 +2085,7 @@
             "section": "base",
             "srcrev": "af784f742dad0ca6e69e05baf8de51152c396b9a",
             "summary": "",
-            "updated": "2025-06-05T00:06:56+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2108,7 +2108,7 @@
             "section": "base",
             "srcrev": "e847e1935dca630615e5f7dc694365a44b89699c",
             "summary": "",
-            "updated": "2025-06-05T00:06:56+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2131,7 +2131,7 @@
             "section": "base",
             "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
             "summary": "",
-            "updated": "2025-06-05T00:06:56+0000"
+            "updated": "2025-06-19T01:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2154,7 +2154,53 @@
             "section": "base",
             "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
             "summary": "",
-            "updated": "2025-06-05T00:06:56+0000"
+            "updated": "2025-06-19T01:06:33+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2024.2.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2272480,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 990883,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2024.2+git",
+            "section": "base",
+            "srcrev": "6e4d0b89d2958994ab9b3531eb4c6e648a63f201",
+            "summary": "",
+            "updated": "2025-06-19T01:06:34+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "esw-conf_2024.1.bb",
+            "filepath": "recipes-bsp/embeddedsw",
+            "homepage": "",
+            "id": 2272481,
+            "inherits": "xlnx-embeddedsw",
+            "layerbranch": 990883,
+            "license": "MIT",
+            "pe": "",
+            "pn": "esw-conf",
+            "pr": "r0",
+            "provides": "esw-conf ",
+            "pv": "2024.1+git",
+            "section": "base",
+            "srcrev": "b173d246826f662b9a98215d8f39e93d39d699b4",
+            "summary": "",
+            "updated": "2025-06-19T01:06:34+0000"
         }
     ],
     "wrtemplates": []

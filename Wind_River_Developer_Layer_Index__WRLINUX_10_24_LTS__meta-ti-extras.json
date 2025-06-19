@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 6,
             "update_environment": null,
-            "updated": "2025-06-09T00:06:06+0000",
+            "updated": "2025-06-19T00:06:08+0000",
             "updates_enabled": true
         }
     ],
@@ -662,9 +662,9 @@
             "id": 1000732,
             "layer": 529,
             "local_path": "",
-            "updated": "2025-06-05T00:06:40+0000",
+            "updated": "2025-06-19T02:06:39+0000",
             "vcs_last_commit": "2025-06-03T22:06:06+0000",
-            "vcs_last_fetch": "2025-06-05T00:06:40+0000",
+            "vcs_last_fetch": "2025-06-19T02:06:39+0000",
             "vcs_last_rev": "1e4f3dd75dfa50b937a07d84cd2a3a54e634a547",
             "vcs_subdir": "meta-ti-extras",
             "version": null,
@@ -742,7 +742,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "Interface for GDB to commincate witha TI C66X DSP",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +765,7 @@
             "section": "base",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "TI gdb-server to be used with c6xgdb.",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -788,7 +788,7 @@
             "section": "devel",
             "srcrev": "dd0c82fb5763a6b32dc6d68e561efb66ab8283d7",
             "summary": "GNU debugger for TI C6X DSP.",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +811,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI Unified Instrumentation Architecture in C (cUIA)",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "section": "base",
             "srcrev": "df4c50aecc9aad7ab3eb1ca9ebacfe473fcad7c5",
             "summary": "Firmware for IPU to suppor Accelerated MM decode and encode",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -857,7 +857,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "TI Usage & Load Monitor Implementation",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +880,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "TI dsptop utility.",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +903,7 @@
             "section": "base",
             "srcrev": "816485e68430bbec643eac9498bfa5303eb2c2e1",
             "summary": "Debug Sub-System (DebugSS) driver for Keystone and DRA7xx devices",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +926,7 @@
             "section": "base",
             "srcrev": "5ec05007f2662f460f881c5868311fd3ab7e6e71",
             "summary": "Firmware files for use with TI wl18xx",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +949,7 @@
             "section": "base",
             "srcrev": "0ee619b598d023fffc77679f099bc2a4815510e4",
             "summary": "Firmware files for Bluetooth",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -972,13 +972,13 @@
             "section": "base",
             "srcrev": "00a5efa5157feb84cb2e4bf50b481f7082acca82",
             "summary": "Programmable Real-time Unit Software Package",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " IPC_HEADERS=/tmp/tmp5nlwr4df/tmp-glibc/work/core2-32-oe-linux/libdce/3.00.15.00/recipe-sysroot/usr/include/ti/ipc/mm ",
+            "configopts": " IPC_HEADERS=/tmp/tmp9vg1uvs9/tmp-glibc/work/core2-32-oe-linux/libdce/3.00.15.00/recipe-sysroot/usr/include/ti/ipc/mm ",
             "description": "",
             "filename": "libdce_3.00.15.00.bb",
             "filepath": "recipes-multimedia/libdce",
@@ -995,7 +995,7 @@
             "section": "base",
             "srcrev": "182aea18596eb2b3a82cffc536a6404f5000fb30",
             "summary": "Library for remotely invoking HW accelerated codecs on IVA-HD",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1018,7 +1018,7 @@
             "section": "devel",
             "srcrev": "7d1c85e686b1466cd2d535fc9cac5baf1aae24a4",
             "summary": "TI Software Tools",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-06-19T02:06:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1040,8 +1040,8 @@
             "pv": "3.51.00.00",
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
-            "summary": "",
-            "updated": "2025-03-25T20:03:59+0000"
+            "summary": "TI Inter Process Communication (IPC) Mechanisms",
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1064,7 +1064,7 @@
             "section": "jailhouse",
             "srcrev": "ef512f9591febed854d8f07ad8c1fa731c2d3c69",
             "summary": "Linux-based partitioning hypervisor",
-            "updated": "2025-04-24T20:04:04+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1087,7 +1087,7 @@
             "section": "jailhouse",
             "srcrev": "ef512f9591febed854d8f07ad8c1fa731c2d3c69",
             "summary": "Linux-based partitioning hypervisor",
-            "updated": "2025-04-24T20:04:04+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1110,7 +1110,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI SYS/BIOS v6 Kernel",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1133,7 +1133,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "IMGLIB for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1156,7 +1156,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1179,7 +1179,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1202,7 +1202,7 @@
             "section": "base",
             "srcrev": "0390b171042c602e07669fd28a371cc319b90161",
             "summary": "DSPLIB contains optimized signal processing functions for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1225,7 +1225,7 @@
             "section": "base",
             "srcrev": "eadcc9547faf69789661b004bb0b5ef53bb69951",
             "summary": "MATHLIB contains optimized floating-point math functions for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1248,7 +1248,7 @@
             "section": "base",
             "srcrev": "eadcc9547faf69789661b004bb0b5ef53bb69951",
             "summary": "MATHLIB contains optimized floating-point math functions for TI DSPs",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1271,7 +1271,7 @@
             "section": "base",
             "srcrev": "de7954abab0f0caa8a2c7b53095c30226d901a31",
             "summary": "TI Emulation CTools AET library",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1294,7 +1294,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI eXpress DSP Algorithm Interface Standard (XDAIS) specification",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1317,7 +1317,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI eXpress DSP Algorithm Interface Standard (XDAIS) specification",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1340,7 +1340,7 @@
             "section": "base",
             "srcrev": "05bedba192646152b7bc80b0accaea75aef864e5",
             "summary": "BeagleBone Getting Started Guide",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1363,7 +1363,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:59+0000"
+            "updated": "2025-06-19T02:06:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1386,7 +1386,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Userspace setup for beaglebone capes",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1409,7 +1409,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI XDCtools (RTSC - Real Time Software Components",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1432,7 +1432,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1455,7 +1455,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI CG_XML",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1478,7 +1478,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Baremetal GCC for ARM",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1501,7 +1501,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2025-06-05T00:06:39+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1524,7 +1524,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI DSP Code Generation Tools",
-            "updated": "2025-03-25T20:03:00+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1547,7 +1547,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI ARM Code Generation Tools",
-            "updated": "2025-06-05T00:06:40+0000"
+            "updated": "2025-06-19T02:06:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1570,7 +1570,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI PRU Code Generation Tools",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1593,7 +1593,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "TI ARM Code Generation Tools",
-            "updated": "2025-03-25T20:03:01+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1616,7 +1616,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI Framework Components",
-            "updated": "2025-06-05T00:06:40+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1639,7 +1639,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI Framework Components",
-            "updated": "2025-06-05T00:06:40+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1662,7 +1662,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "TI Vision Library (VLIB) for C66x",
-            "updated": "2025-06-05T00:06:40+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1685,7 +1685,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Codec Engine for TI ARM/DSP processors",
-            "updated": "2025-06-05T00:06:38+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1708,7 +1708,7 @@
             "section": "base",
             "srcrev": "5048b59a444ac59ba7171d6e122d5a84581aebf2",
             "summary": "Configuration utility for TI wireless drivers",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1731,7 +1731,7 @@
             "section": "base",
             "srcrev": "a75f45be2d5c74fc1dd913d08afc30f09a230aa9",
             "summary": "Shared Transport Line Discipline User Mode initialisation Manager Daemon",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1754,7 +1754,7 @@
             "section": "base",
             "srcrev": "5048b59a444ac59ba7171d6e122d5a84581aebf2",
             "summary": "The calibrator utility for TI wireless solution based on wl18xx driver",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1777,7 +1777,7 @@
             "section": "base",
             "srcrev": "8bcee075061527d61f26d6d506aebdfd496037d9",
             "summary": "Scripts and configuration files for TI wireless drivers",
-            "updated": "2025-06-05T00:06:37+0000"
+            "updated": "2025-06-19T02:06:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1800,7 +1800,7 @@
             "section": "base",
             "srcrev": "988ded3a7d4d0e46de62e9ebfcb685c502bd9edf",
             "summary": "Firmware files for use with TI cc33xx",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-06-19T02:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1823,7 +1823,7 @@
             "section": "base",
             "srcrev": "89d7e55b40972cbfc84f0734c35a7a6b4f7f5b31",
             "summary": "The calibrator utility for TI wireless solution based on cc33xx driver",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-06-19T02:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1846,7 +1846,7 @@
             "section": "base",
             "srcrev": "a2f84140b8d67cfc94472cf92676a409d1e47d86",
             "summary": "Configuration utility for TI CC33xx wireless devices",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-06-19T02:06:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1869,7 +1869,7 @@
             "section": "base",
             "srcrev": "4371c93ea01b339f6f73f77d6d6bfcc185def8c0",
             "summary": "Scripts and configuration files for TI cc33xx wireless drivers",
-            "updated": "2025-03-25T20:03:02+0000"
+            "updated": "2025-06-19T02:06:39+0000"
         }
     ],
     "wrtemplates": []
