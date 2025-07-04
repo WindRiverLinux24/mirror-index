@@ -634,7 +634,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-06-26T00:06:07+0000",
+            "updated": "2025-07-04T00:07:08+0000",
             "updates_enabled": true
         }
     ],
@@ -647,10 +647,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-06-25T20:06:53+0000",
-            "vcs_last_commit": "2025-06-25T02:06:14+0000",
-            "vcs_last_fetch": "2025-06-25T20:06:53+0000",
-            "vcs_last_rev": "acbebe7d8cdf597aedc6a186c3c04f5f82143d84",
+            "updated": "2025-07-03T00:07:58+0000",
+            "vcs_last_commit": "2025-07-01T19:07:10+0000",
+            "vcs_last_fetch": "2025-07-03T00:07:58+0000",
+            "vcs_last_rev": "a5194afc198d356568fe652ba6920b6d5637a572",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -677,10 +677,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-06-05T00:06:15+0000",
-            "vcs_last_commit": "2025-06-03T22:06:06+0000",
-            "vcs_last_fetch": "2025-06-05T00:06:15+0000",
-            "vcs_last_rev": "1e4f3dd75dfa50b937a07d84cd2a3a54e634a547",
+            "updated": "2025-07-03T00:07:01+0000",
+            "vcs_last_commit": "2025-07-01T19:07:09+0000",
+            "vcs_last_fetch": "2025-07-03T00:07:01+0000",
+            "vcs_last_rev": "498a722fb449128b09844b9a085d52c57de23f3d",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -919,7 +919,7 @@
             "id": 97658,
             "layerbranch": 1000731,
             "name": "am62xxsip-evm",
-            "updated": "2025-04-24T20:04:57+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "description": " TI AM65xx EVM",
@@ -933,7 +933,7 @@
             "id": 97660,
             "layerbranch": 1000731,
             "name": "am62xxsip-evm-k3r5",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "description": " TI AM57xx HS EVM",
@@ -1150,7 +1150,7 @@
             "id": 99281,
             "layerbranch": 1000731,
             "name": "am62dxx-evm",
-            "updated": "2025-06-05T00:06:12+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         }
     ],
     "recipes": [
@@ -1202,7 +1202,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1219,9 +1219,9 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1271,7 +1271,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1288,13 +1288,13 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1311,9 +1311,9 @@
             "provides": "cnm-wave-fw ",
             "pv": "1.0.8",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:12+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1478,7 +1478,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1495,9 +1495,9 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1547,7 +1547,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1564,9 +1564,9 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1585,11 +1585,11 @@
             "pn": "ti-sci-fw",
             "pr": "r4.0",
             "provides": "ti-sci-fw ",
-            "pv": "11.00.07",
+            "pv": "11.01.02",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1610,13 +1610,13 @@
             "provides": "ti-dm-fw ",
             "pv": "11.00.09",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:13+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1633,13 +1633,13 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1656,9 +1656,9 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1725,13 +1725,13 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:13+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
@@ -1748,9 +1748,9 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:12+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1863,9 +1863,9 @@
             "provides": "ti-rtos-echo-test-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:13+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2254,9 +2254,9 @@
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
             "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "1d6ba4a32cdd8c987533d5789b5bc7b84c41fabe",
+            "srcrev": "5350f13b66393212475a15c4e107add1d38267d3",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-06-05T00:06:13+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2298,11 +2298,11 @@
             "pn": "linux-ti-staging",
             "pr": "r0",
             "provides": "linux-ti-staging  virtual/kernel",
-            "pv": "6.12.24+git",
+            "pv": "6.12.34+git",
             "section": "kernel",
-            "srcrev": "b0afb35642d79e776a4cf940945367cef87ba127",
+            "srcrev": "9167ea3511ca6ac1536b3114d92791b3de7422a3",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-06-05T00:06:14+0000"
+            "updated": "2025-07-03T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -2438,9 +2438,55 @@
             "provides": "ti-hsm-demo-fw ",
             "pv": "11.00.09",
             "section": "base",
-            "srcrev": "1ea29f4b3ec17bdc1a3431a014ea5224962dc779",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-06-05T00:06:15+0000"
+            "updated": "2025-07-03T00:07:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "TI DAC TAD5212 config prebuild binary firmware",
+            "filename": "ti-dac-fw.bb",
+            "filepath": "recipes-bsp/ti-dac-fw",
+            "homepage": "",
+            "id": 2277648,
+            "inherits": "",
+            "layerbranch": 1000731,
+            "license": "TI-TFL",
+            "pe": "",
+            "pn": "ti-dac-fw",
+            "pr": "r4.0",
+            "provides": "ti-dac-fw ",
+            "pv": "1.0.0.0",
+            "section": "base",
+            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "summary": "Common include for TI Linux firmware",
+            "updated": "2025-07-03T00:07:01+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "Not supported by Wind River Linux",
+            "bugtracker": "",
+            "configopts": " -DBUILD_LIB=ON -DBUILD_EXAMPLE=OFF ",
+            "description": "",
+            "filename": "ti-librpmsg-dma_1.0.bb",
+            "filepath": "recipes-ti/ipc",
+            "homepage": "",
+            "id": 2277649,
+            "inherits": "cmake",
+            "layerbranch": 1000731,
+            "license": "MIT",
+            "pe": "",
+            "pn": "ti-librpmsg-dma",
+            "pr": "r0",
+            "provides": "ti-librpmsg-dma ",
+            "pv": "1.0",
+            "section": "base",
+            "srcrev": "609fd72f458ba56f80d06810509ef88d010d2c03",
+            "summary": "RPMsg DMA shared library",
+            "updated": "2025-07-03T00:07:01+0000"
         }
     ],
     "wrtemplates": []
