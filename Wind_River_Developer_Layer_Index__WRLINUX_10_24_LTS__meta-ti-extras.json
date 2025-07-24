@@ -615,13 +615,6 @@
             "image_url": "",
             "link_url": "",
             "name": "4.0 5.0 5.1 5.2"
-        },
-        {
-            "description": "",
-            "id": 44210,
-            "image_url": "",
-            "link_url": "",
-            "name": "4.2 4.3 5.0 5.1"
         }
     ],
     "branches": [
@@ -634,7 +627,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-07-10T00:07:08+0000",
+            "updated": "2025-07-24T00:07:07+0000",
             "updates_enabled": true
         }
     ],
@@ -647,9 +640,9 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-07-03T00:07:01+0000",
+            "updated": "2025-07-24T03:07:27+0000",
             "vcs_last_commit": "2025-07-01T19:07:09+0000",
-            "vcs_last_fetch": "2025-07-03T00:07:01+0000",
+            "vcs_last_fetch": "2025-07-24T03:07:27+0000",
             "vcs_last_rev": "498a722fb449128b09844b9a085d52c57de23f3d",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
