@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-07-24T00:07:07+0000",
+            "updated": "2025-07-31T00:07:09+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-10T06:07:50+0000",
-            "vcs_last_commit": "2025-07-10T02:07:15+0000",
-            "vcs_last_fetch": "2025-07-10T06:07:50+0000",
-            "vcs_last_rev": "78f65081454d4606c6c7ecccce9dea9a08fcc620",
+            "updated": "2025-07-31T04:07:35+0000",
+            "vcs_last_commit": "2025-07-29T19:07:36+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:35+0000",
+            "vcs_last_rev": "b101624a75ffc17332d201a33d626fefd21e05eb",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -655,10 +655,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-07-06T21:07:50+0000",
-            "vcs_last_commit": "2025-07-06T20:07:14+0000",
-            "vcs_last_fetch": "2025-07-06T21:07:50+0000",
-            "vcs_last_rev": "53a931c4928472c7dc624db376cf1a4034e18f02",
+            "updated": "2025-07-31T04:07:49+0000",
+            "vcs_last_commit": "2025-07-29T19:07:04+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:49+0000",
+            "vcs_last_rev": "0d8d1900ac282af5a3356550d8eb394daeefd1f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -670,10 +670,10 @@
             "id": 990858,
             "layer": 13,
             "local_path": "",
-            "updated": "2025-03-25T20:03:05+0000",
-            "vcs_last_commit": "2024-04-30T11:04:33+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:05+0000",
-            "vcs_last_rev": "2e25f21f523904908a016259bce092be3cb6bdf1",
+            "updated": "2025-07-31T04:07:13+0000",
+            "vcs_last_commit": "2025-07-10T17:07:41+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:13+0000",
+            "vcs_last_rev": "3b6e1fa190e275b055e50f9fad383613c70511a2",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 44188
@@ -2454,7 +2454,7 @@
             "section": "Applications/System",
             "srcrev": "",
             "summary": "Analyzes log files and sends noticeable events as email",
-            "updated": "2025-03-25T20:03:03+0000"
+            "updated": "2025-07-31T04:07:13+0000"
         },
         {
             "bbclassextend": "",

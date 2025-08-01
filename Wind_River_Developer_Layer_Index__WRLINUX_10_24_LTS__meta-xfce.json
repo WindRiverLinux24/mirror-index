@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-07-24T00:07:07+0000",
+            "updated": "2025-07-31T00:07:09+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-10T06:07:50+0000",
-            "vcs_last_commit": "2025-07-10T02:07:15+0000",
-            "vcs_last_fetch": "2025-07-10T06:07:50+0000",
-            "vcs_last_rev": "78f65081454d4606c6c7ecccce9dea9a08fcc620",
+            "updated": "2025-07-31T04:07:35+0000",
+            "vcs_last_commit": "2025-07-29T19:07:36+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:35+0000",
+            "vcs_last_rev": "b101624a75ffc17332d201a33d626fefd21e05eb",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -655,10 +655,10 @@
             "id": 990855,
             "layer": 7,
             "local_path": "",
-            "updated": "2025-07-06T21:07:50+0000",
-            "vcs_last_commit": "2025-07-06T20:07:14+0000",
-            "vcs_last_fetch": "2025-07-06T21:07:50+0000",
-            "vcs_last_rev": "53a931c4928472c7dc624db376cf1a4034e18f02",
+            "updated": "2025-07-31T04:07:49+0000",
+            "vcs_last_commit": "2025-07-29T19:07:04+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:49+0000",
+            "vcs_last_rev": "0d8d1900ac282af5a3356550d8eb394daeefd1f2",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 44188
@@ -670,10 +670,10 @@
             "id": 990857,
             "layer": 12,
             "local_path": "",
-            "updated": "2025-07-01T21:07:57+0000",
-            "vcs_last_commit": "2025-07-01T19:07:10+0000",
-            "vcs_last_fetch": "2025-07-01T21:07:57+0000",
-            "vcs_last_rev": "339f2fe1eddd6cf4710e9085999a692f35ac44ed",
+            "updated": "2025-07-31T04:07:05+0000",
+            "vcs_last_commit": "2025-07-29T19:07:04+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:05+0000",
+            "vcs_last_rev": "0d8d1900ac282af5a3356550d8eb394daeefd1f2",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 44188
@@ -700,10 +700,10 @@
             "id": 990876,
             "layer": 11,
             "local_path": "",
-            "updated": "2025-07-03T00:07:15+0000",
-            "vcs_last_commit": "2025-06-23T13:06:53+0000",
-            "vcs_last_fetch": "2025-07-03T00:07:15+0000",
-            "vcs_last_rev": "40c9f33ad292e3b418a56132582c3970381fcecb",
+            "updated": "2025-07-31T04:07:42+0000",
+            "vcs_last_commit": "2025-07-10T17:07:26+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:42+0000",
+            "vcs_last_rev": "4a58c213346ff3dc04624328d3fad1d244047714",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 44188
@@ -730,10 +730,10 @@
             "id": 990885,
             "layer": 5,
             "local_path": "",
-            "updated": "2025-03-25T20:03:39+0000",
-            "vcs_last_commit": "2024-12-10T19:12:18+0000",
-            "vcs_last_fetch": "2025-03-25T20:03:39+0000",
-            "vcs_last_rev": "2aa3a0bfedb8f89e0f1e008cdaa862b17620cdd9",
+            "updated": "2025-07-31T04:07:36+0000",
+            "vcs_last_commit": "2025-07-29T19:07:04+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:36+0000",
+            "vcs_last_rev": "0d8d1900ac282af5a3356550d8eb394daeefd1f2",
             "vcs_subdir": "meta-xfce",
             "version": "1",
             "yp_compatible_version": 44188
@@ -1211,7 +1211,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Power manager for the Xfce desktop environment",
-            "updated": "2025-03-25T20:03:29+0000"
+            "updated": "2025-07-31T04:07:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1491,7 +1491,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "  --enable-nls",
             "description": "",
@@ -1510,7 +1510,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Simple client plugin for Music Player Daemon",
-            "updated": "2025-03-25T20:03:31+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1924,7 +1924,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1993,7 +1993,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Clipman is a clipboard manager for Xfce",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2016,7 +2016,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:34+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2039,7 +2039,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Sensors plugin for the Xfce Panel",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2062,7 +2062,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Menu for quick access to folders, documents and removable media",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2085,7 +2085,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "XKB layout switching panel plug-in for the Xfce desktop environment",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2108,7 +2108,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:35+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2154,7 +2154,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "Mount/umount utility for the xfce panel",
-            "updated": "2025-03-25T20:03:36+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2177,7 +2177,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin to display current temperature and weather condition",
-            "updated": "2025-03-25T20:03:36+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2223,7 +2223,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2025-03-25T20:03:36+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2246,7 +2246,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Multi-protocol, multi-mailbox mail watcher for the Xfce4 panel",
-            "updated": "2025-03-25T20:03:36+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2269,7 +2269,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2292,7 +2292,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A calculator plugin for the Xfce panel",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2315,7 +2315,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin to display frequency of all cpus",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2338,7 +2338,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying instant disk/partition performance",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2361,7 +2361,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2384,7 +2384,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying current load of the network interfaces",
-            "updated": "2025-03-25T20:03:37+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2407,7 +2407,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Notes plugin for the Xfce Panel",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -2453,7 +2453,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A battery monitor panel plugin for Xfce4, compatible with APM and ACP",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2476,7 +2476,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin allowing to send requests directly to browser",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2499,7 +2499,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XFCE panel plugin to generate alarm messages",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -2522,7 +2522,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Verve panel plugin is a comfortable command line plugin for the Xfce panel",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2545,7 +2545,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying date and time and a calendar when left-clicked",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -2568,7 +2568,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Panel plugin displaying stats from a wireless lan interface",
-            "updated": "2025-03-25T20:03:38+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -2591,7 +2591,7 @@
             "section": "x11/application",
             "srcrev": "",
             "summary": "This plugin makes it possible to take periodical breaks",
-            "updated": "2025-03-25T20:03:39+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",

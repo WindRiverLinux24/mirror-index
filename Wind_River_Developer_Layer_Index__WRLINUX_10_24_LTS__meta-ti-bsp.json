@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-07-24T00:07:07+0000",
+            "updated": "2025-07-31T00:07:09+0000",
             "updates_enabled": true
         }
     ],
@@ -640,10 +640,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-10T06:07:50+0000",
-            "vcs_last_commit": "2025-07-10T02:07:15+0000",
-            "vcs_last_fetch": "2025-07-10T06:07:50+0000",
-            "vcs_last_rev": "78f65081454d4606c6c7ecccce9dea9a08fcc620",
+            "updated": "2025-07-31T04:07:35+0000",
+            "vcs_last_commit": "2025-07-29T19:07:36+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:35+0000",
+            "vcs_last_rev": "b101624a75ffc17332d201a33d626fefd21e05eb",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -670,10 +670,10 @@
             "id": 1000731,
             "layer": 473,
             "local_path": "",
-            "updated": "2025-07-24T03:07:27+0000",
-            "vcs_last_commit": "2025-07-01T19:07:09+0000",
-            "vcs_last_fetch": "2025-07-24T03:07:27+0000",
-            "vcs_last_rev": "498a722fb449128b09844b9a085d52c57de23f3d",
+            "updated": "2025-07-31T20:07:12+0000",
+            "vcs_last_commit": "2025-07-29T20:07:33+0000",
+            "vcs_last_fetch": "2025-07-31T20:07:12+0000",
+            "vcs_last_rev": "27876059c90e2891bb97c85462ad684225112036",
             "vcs_subdir": "meta-ti-bsp",
             "version": null,
             "yp_compatible_version": 44188
@@ -691,6 +691,12 @@
             "id": 132760,
             "layerbranch": 1000731,
             "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 146442,
+            "layerbranch": 1000731,
+            "required": false
         }
     ],
     "layerItems": [
@@ -755,395 +761,395 @@
     "machines": [
         {
             "description": " TI J742S2 EVM",
-            "id": 102524,
+            "id": 102636,
             "layerbranch": 1000731,
             "name": "j742s2-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62XX LP EVM",
-            "id": 102525,
+            "id": 102637,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM64xx EVM (R5F core)",
-            "id": 102526,
+            "id": 102638,
             "layerbranch": 1000731,
             "name": "am64xx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM65xx EVM (R5F core)",
-            "id": 102527,
+            "id": 102639,
             "layerbranch": 1000731,
             "name": "am65xx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62Px EVM (R5F core)",
-            "id": 102528,
+            "id": 102640,
             "layerbranch": 1000731,
             "name": "am62pxx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM69 SK",
-            "id": 102529,
+            "id": 102641,
             "layerbranch": 1000731,
             "name": "am69-sk",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62D EVM (R5F core)",
-            "id": 102530,
+            "id": 102642,
             "layerbranch": 1000731,
             "name": "am62dxx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e HS EVM",
-            "id": 102531,
+            "id": 102643,
             "layerbranch": 1000731,
             "name": "j721e-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721S2 HS EVM (R5F core)",
-            "id": 102532,
+            "id": 102644,
             "layerbranch": 1000731,
             "name": "j721s2-hs-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J784S4 HS EVM",
-            "id": 102533,
+            "id": 102645,
             "layerbranch": 1000731,
             "name": "j784s4-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62xx LP GP EVM (R5F core)",
-            "id": 102534,
+            "id": 102646,
             "layerbranch": 1000731,
             "name": "am62xx-lp-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J784S4 EVM (R5F core)",
-            "id": 102535,
+            "id": 102647,
             "layerbranch": 1000731,
             "name": "j784s4-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J7200 HS EVM (R5F core)",
-            "id": 102536,
+            "id": 102648,
             "layerbranch": 1000731,
             "name": "j7200-hs-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J7200 EVM",
-            "id": 102537,
+            "id": 102649,
             "layerbranch": 1000731,
             "name": "j7200-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI DRA7xx EVM",
-            "id": 102538,
+            "id": 102650,
             "layerbranch": 1000731,
             "name": "dra7xx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM64xx EVM",
-            "id": 102539,
+            "id": 102651,
             "layerbranch": 1000731,
             "name": "am64xx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " BeaglePlay (R5F core)",
-            "id": 102540,
+            "id": 102652,
             "layerbranch": 1000731,
             "name": "beagleplay-ti-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM68 SK",
-            "id": 102541,
+            "id": 102653,
             "layerbranch": 1000731,
             "name": "am68-sk",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62A EVM (R5F core)",
-            "id": 102542,
+            "id": 102654,
             "layerbranch": 1000731,
             "name": "am62axx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62L EVM",
-            "id": 102543,
+            "id": 102655,
             "layerbranch": 1000731,
             "name": "am62lxx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62PX EVM",
-            "id": 102544,
+            "id": 102656,
             "layerbranch": 1000731,
             "name": "am62pxx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e EVM",
-            "id": 102545,
+            "id": 102657,
             "layerbranch": 1000731,
             "name": "j721e-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM68 SK (R5F core)",
-            "id": 102546,
+            "id": 102658,
             "layerbranch": 1000731,
             "name": "am68-sk-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62XX SIP EVM",
-            "id": 102547,
+            "id": 102659,
             "layerbranch": 1000731,
             "name": "am62xxsip-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM65xx EVM",
-            "id": 102548,
+            "id": 102660,
             "layerbranch": 1000731,
             "name": "am65xx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62xx SIP EVM (R5F core)",
-            "id": 102549,
+            "id": 102661,
             "layerbranch": 1000731,
             "name": "am62xxsip-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM57xx HS EVM",
-            "id": 102550,
+            "id": 102662,
             "layerbranch": 1000731,
             "name": "am57xx-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J7200 HS EVM",
-            "id": 102551,
+            "id": 102663,
             "layerbranch": 1000731,
             "name": "j7200-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62AXX EVM",
-            "id": 102552,
+            "id": 102664,
             "layerbranch": 1000731,
             "name": "am62axx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721S2 EVM",
-            "id": 102553,
+            "id": 102665,
             "layerbranch": 1000731,
             "name": "j721s2-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J784S4 EVM",
-            "id": 102554,
+            "id": 102666,
             "layerbranch": 1000731,
             "name": "j784s4-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J742S2 EVM (R5F core)",
-            "id": 102555,
+            "id": 102667,
             "layerbranch": 1000731,
             "name": "j742s2-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e HS EVM (R5F core)",
-            "id": 102556,
+            "id": 102668,
             "layerbranch": 1000731,
             "name": "j721e-hs-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e EVM (R5F core)",
-            "id": 102557,
+            "id": 102669,
             "layerbranch": 1000731,
             "name": "j721e-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM57xx EVM",
-            "id": 102558,
+            "id": 102670,
             "layerbranch": 1000731,
             "name": "am57xx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62XX EVM",
-            "id": 102559,
+            "id": 102671,
             "layerbranch": 1000731,
             "name": "am62xx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e SK",
-            "id": 102560,
+            "id": 102672,
             "layerbranch": 1000731,
             "name": "j721e-sk",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721e SK (R5F core)",
-            "id": 102561,
+            "id": 102673,
             "layerbranch": 1000731,
             "name": "j721e-sk-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI OMAP-L138 LCDK board",
-            "id": 102562,
+            "id": 102674,
             "layerbranch": 1000731,
             "name": "omapl138-lcdk",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM65xx HS EVM",
-            "id": 102563,
+            "id": 102675,
             "layerbranch": 1000731,
             "name": "am65xx-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J722S EVM",
-            "id": 102564,
+            "id": 102676,
             "layerbranch": 1000731,
             "name": "j722s-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62xx EVM (R5F core)",
-            "id": 102565,
+            "id": 102677,
             "layerbranch": 1000731,
             "name": "am62xx-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM69 SK (R5F core)",
-            "id": 102566,
+            "id": 102678,
             "layerbranch": 1000731,
             "name": "am69-sk-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM437x EVM",
-            "id": 102567,
+            "id": 102679,
             "layerbranch": 1000731,
             "name": "am437x-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721S2 HS EVM",
-            "id": 102568,
+            "id": 102680,
             "layerbranch": 1000731,
             "name": "j721s2-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J721S2 EVM (R5F core)",
-            "id": 102569,
+            "id": 102681,
             "layerbranch": 1000731,
             "name": "j721s2-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM335x EVM",
-            "id": 102570,
+            "id": 102682,
             "layerbranch": 1000731,
             "name": "am335x-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM437x HS EVM",
-            "id": 102571,
+            "id": 102683,
             "layerbranch": 1000731,
             "name": "am437x-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J7200 EVM (R5F core)",
-            "id": 102572,
+            "id": 102684,
             "layerbranch": 1000731,
             "name": "j7200-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J722S EVM (R5F core)",
-            "id": 102573,
+            "id": 102685,
             "layerbranch": 1000731,
             "name": "j722s-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM62DXX EVM",
-            "id": 102574,
+            "id": 102686,
             "layerbranch": 1000731,
             "name": "am62dxx-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI J784S4 HS EVM (R5F core)",
-            "id": 102575,
+            "id": 102687,
             "layerbranch": 1000731,
             "name": "j784s4-hs-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM65xx HS EVM (R5F core)",
-            "id": 102576,
+            "id": 102688,
             "layerbranch": 1000731,
             "name": "am65xx-hs-evm-k3r5",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " BeaglePlay board (A53 core)",
-            "id": 102577,
+            "id": 102689,
             "layerbranch": 1000731,
             "name": "beagleplay-ti",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI AM335x HS EVM",
-            "id": 102578,
+            "id": 102690,
             "layerbranch": 1000731,
             "name": "am335x-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         },
         {
             "description": " TI DRA7xx HS EVM",
-            "id": 102579,
+            "id": 102691,
             "layerbranch": 1000731,
             "name": "dra7xx-hs-evm",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:06+0000"
         }
     ],
     "recipes": [
@@ -1156,7 +1162,7 @@
             "filename": "k3conf_git.bb",
             "filepath": "recipes-devtools/k3conf",
             "homepage": "",
-            "id": 2282761,
+            "id": 2282859,
             "inherits": "cmake",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1166,20 +1172,20 @@
             "provides": "k3conf ",
             "pv": "0.3+git",
             "section": "base",
-            "srcrev": "ea9938bf9cafd9c0cb05ef060a713ab4ac72270f",
+            "srcrev": "6034420195cf763c9470fb2113810695e5e37a23",
             "summary": "Diagnostic tool for TI K3 processors",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-vxe-vxd-driver_6.12.bb",
             "filepath": "recipes-bsp/ti-img-encode-decode",
             "homepage": "",
-            "id": 2282762,
+            "id": 2282860,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -1191,18 +1197,18 @@
             "section": "base",
             "srcrev": "038d9263c67900ea4eff631820b088a3dc3a6ad5",
             "summary": "Kernel drivers for Video Accelerators found in the J721E TI SoC",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "",
             "filename": "viddec-test-app_1.0.0.bb",
             "filepath": "recipes-bsp/ti-img-encode-decode",
             "homepage": "",
-            "id": 2282763,
+            "id": 2282861,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -1214,18 +1220,18 @@
             "section": "base",
             "srcrev": "94a80c8c090dbfdc7fafd4e5bb78c2091e715af2",
             "summary": "Test applications for TI DEC (v4l2 decoder for IMG D5520)",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "vxd-dec-fw_git.bb",
             "filepath": "recipes-bsp/ti-img-encode-decode",
             "homepage": "",
-            "id": 2282764,
+            "id": 2282862,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1235,20 +1241,20 @@
             "provides": "vxd-dec-fw ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "",
             "filename": "videnc-test-app_1.0.0.bb",
             "filepath": "recipes-bsp/ti-img-encode-decode",
             "homepage": "",
-            "id": 2282765,
+            "id": 2282863,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -1260,18 +1266,18 @@
             "section": "base",
             "srcrev": "a5e7d820bea1be24f25a8369d4d4521c784f869a",
             "summary": "Test applications for TI ENC (v4l2 encoder for IMG VXE384)",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "amx3-cm3_git.bb",
             "filepath": "recipes-bsp/cm3-pm-firmware",
             "homepage": "",
-            "id": 2282766,
+            "id": 2282864,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
@@ -1283,18 +1289,18 @@
             "section": "base",
             "srcrev": "fb484c5e54f2e31cf0a338d2927a06a2870bcc2c",
             "summary": "Cortex-M3 binary blob for suspend-resume",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "prueth-fw_5.6.15.bb",
             "filepath": "recipes-bsp/prueth-fw",
             "homepage": "",
-            "id": 2282767,
+            "id": 2282865,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1304,20 +1310,20 @@
             "provides": "prueth-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "cnm-wave-fw_git.bb",
             "filepath": "recipes-bsp/cnm-wave-fw",
             "homepage": "",
-            "id": 2282768,
+            "id": 2282866,
             "inherits": "update-alternatives",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1327,20 +1333,20 @@
             "provides": "cnm-wave-fw ",
             "pv": "1.0.8",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-gc320-driver_5.0.11.p7.bb",
             "filepath": "recipes-bsp/gc320-drivers",
             "homepage": "https://git.ti.com/graphics/ti-gc320-driver",
-            "id": 2282769,
+            "id": 2282867,
             "inherits": "features_check kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 1000731,
             "license": "MIT | GPL-2.0-only",
@@ -1352,18 +1358,18 @@
             "section": "base",
             "srcrev": "83afddf9dbf6a8458267b4dae21ee35bfb11f3d1",
             "summary": "Kernel drivers for the Vivante GC320 chipset found in TI SoCs",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-hsm-demo-fw_git.bb",
             "filepath": "recipes-bsp/ti-hsm-fw",
             "homepage": "",
-            "id": 2282770,
+            "id": 2282868,
             "inherits": "deploy",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1373,20 +1379,20 @@
             "provides": "ti-hsm-demo-fw ",
             "pv": "11.00.09",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-sgx-ddk-km_1.17.4948957.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-linux",
-            "id": 2282771,
+            "id": 2282869,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 1000731,
             "license": "MIT | GPL-2.0-only",
@@ -1398,7 +1404,7 @@
             "section": "base",
             "srcrev": "9ae0fa4998b1c624408945e062bf8fb0ea7efb9d",
             "summary": "Kernel drivers for the PowerVR SGX chipset found in the TI SoCs",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1409,7 +1415,7 @@
             "filename": "ti-img-rogue-driver_24.1.6554834.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
-            "id": 2282772,
+            "id": 2282870,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 1000731,
             "license": "MIT | GPL-2.0-only",
@@ -1421,30 +1427,7 @@
             "section": "base",
             "srcrev": "707bb373902babf9ced5fd2f99139209ca0f605a",
             "summary": "",
-            "updated": "2025-07-24T03:07:25+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "ti-img-rogue-driver_23.3.6512818.bb",
-            "filepath": "recipes-bsp/powervr-drivers",
-            "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
-            "id": 2282773,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 1000731,
-            "license": "MIT | GPL-2.0-only",
-            "pe": "",
-            "pn": "ti-img-rogue-driver",
-            "pr": "r0",
-            "provides": "ti-img-rogue-driver virtual/gpudriver",
-            "pv": "23.3.6512818",
-            "section": "base",
-            "srcrev": "c838bc06a163abad46dcc193c8fb9a4fb9e2e356",
-            "summary": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1455,7 +1438,7 @@
             "filename": "ti-img-rogue-driver_24.2.6643903.bb",
             "filepath": "recipes-bsp/powervr-drivers",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-driver",
-            "id": 2282774,
+            "id": 2282871,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 1000731,
             "license": "MIT | GPL-2.0-only",
@@ -1467,7 +1450,7 @@
             "section": "base",
             "srcrev": "8eaff654a8871118c08cfafe53795f57e3b6b396",
             "summary": "Kernel drivers for the PowerVR Rogue GPU found in the TI SoCs",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1478,7 +1461,7 @@
             "filename": "ti-dac-fw.bb",
             "filepath": "recipes-bsp/ti-dac-fw",
             "homepage": "",
-            "id": 2282775,
+            "id": 2282872,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1488,9 +1471,9 @@
             "provides": "ti-dac-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1501,7 +1484,7 @@
             "filename": "u-boot-ti-staging_2024.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2282776,
+            "id": 2282873,
             "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 1000731,
             "license": "GPL-2.0-or-later",
@@ -1513,18 +1496,18 @@
             "section": "bootloaders",
             "srcrev": "29d0c23d67ee7b88e46fe1753cd020e2b04c2ef6",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
             "filename": "u-boot-ti-mainline_git.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2282777,
+            "id": 2282874,
             "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 1000731,
             "license": "GPL-2.0-or-later",
@@ -1532,34 +1515,11 @@
             "pn": "u-boot-ti-mainline",
             "pr": "r0",
             "provides": "u-boot-ti-mainline virtual/bootloader u-boot",
-            "pv": "2025.04+git",
+            "pv": "2025.07+git",
             "section": "bootloaders",
-            "srcrev": "34820924edbc4ec7803eb89d9852f4b870fa760a",
+            "srcrev": "e37de002fac3895e8d0b60ae2015e17bb33e2b5b",
             "summary": "Mainline U-Boot for TI devices",
-            "updated": "2025-07-24T03:07:25+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
-            "filename": "u-boot-ti-staging_2023.04.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2282778,
-            "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-or-later",
-            "pe": "1",
-            "pn": "u-boot-ti-staging",
-            "pr": "r0",
-            "provides": "u-boot-ti-staging virtual/bootloader u-boot",
-            "pv": "2023.04+git",
-            "section": "bootloaders",
-            "srcrev": "0893e693e08f9fc864a6191051dccc818accf933",
-            "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1570,7 +1530,7 @@
             "filename": "u-boot-ti-staging_2025.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2282779,
+            "id": 2282875,
             "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 1000731,
             "license": "GPL-2.0-or-later",
@@ -1580,20 +1540,20 @@
             "provides": "u-boot-ti-staging virtual/bootloader u-boot",
             "pv": "2025.01+git",
             "section": "bootloaders",
-            "srcrev": "5350f13b66393212475a15c4e107add1d38267d3",
+            "srcrev": "3bcfad6cee95403f7f62dd9d871cc3ea948c0761",
             "summary": "u-boot bootloader for TI devices",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.",
             "filename": "u-boot-ti-next_git.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 2282780,
+            "id": 2282876,
             "inherits": "cml1 deploy kernel-arch pkgconfig python3-dir python3native ti-secdev uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 1000731,
             "license": "GPL-2.0-or-later",
@@ -1601,22 +1561,22 @@
             "pn": "u-boot-ti-next",
             "pr": "r0",
             "provides": "u-boot-ti-next virtual/bootloader u-boot",
-            "pv": "2025.04+git",
+            "pv": "2025.07+git",
             "section": "bootloaders",
-            "srcrev": "34820924edbc4ec7803eb89d9852f4b870fa760a",
+            "srcrev": "e37de002fac3895e8d0b60ae2015e17bb33e2b5b",
             "summary": "U-Boot master-next for TI devices",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "prusw-fw_3.2.9.bb",
             "filepath": "recipes-bsp/prusw-fw",
             "homepage": "",
-            "id": 2282781,
+            "id": 2282877,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1626,20 +1586,20 @@
             "provides": "prusw-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:08+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "zephyr-openamp-rsc-table-fw.bb",
             "filepath": "recipes-bsp/zephyr-fw",
             "homepage": "",
-            "id": 2282782,
+            "id": 2282878,
             "inherits": "update-alternatives",
             "layerbranch": 1000731,
             "license": "Apache-2.0",
@@ -1651,18 +1611,18 @@
             "section": "base",
             "srcrev": "ef5aec48e589902839ebae7ad753c68cf498c15f",
             "summary": "Precompiled Zephyr OpenAMP example firmware for TI K3 devices",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "cpsw9g-eth-fw_git.bb",
             "filepath": "recipes-bsp/cpsw9g-eth-fw",
             "homepage": "",
-            "id": 2282783,
+            "id": 2282879,
             "inherits": "update-alternatives",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1674,18 +1634,18 @@
             "section": "base",
             "srcrev": "91f1628507bf7f8716f0bc7cafe88ad7f14c94f5",
             "summary": "R5 PSDK CPSW9G Ethernet Switch Firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "pruhsr-fw_2.17.25.bb",
             "filepath": "recipes-bsp/pruhsr-fw",
             "homepage": "",
-            "id": 2282784,
+            "id": 2282880,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1695,20 +1655,20 @@
             "provides": "pruhsr-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:25+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-sci-fw_git.bb",
             "filepath": "recipes-bsp/ti-sci-fw",
             "homepage": "",
-            "id": 2282785,
+            "id": 2282881,
             "inherits": "deploy",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1716,22 +1676,22 @@
             "pn": "ti-sci-fw",
             "pr": "r4.0",
             "provides": "ti-sci-fw ",
-            "pv": "11.01.02",
+            "pv": "11.01.05",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-dm-fw.bb",
             "filepath": "recipes-bsp/ti-dm-fw",
             "homepage": "",
-            "id": 2282786,
+            "id": 2282882,
             "inherits": "deploy ti-secdev update-alternatives",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1739,22 +1699,22 @@
             "pn": "ti-dm-fw",
             "pr": "r4.0",
             "provides": "ti-dm-fw ",
-            "pv": "11.00.09",
+            "pv": "11.01.09",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "cadence-mhdp-fw_git.bb",
             "filepath": "recipes-bsp/cadence-mhdp-fw",
             "homepage": "",
-            "id": 2282787,
+            "id": 2282883,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause | Apache-2.0",
@@ -1764,20 +1724,20 @@
             "provides": "cadence-mhdp-fw ",
             "pv": "2.1.0",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "pruprp-fw_2.17.25.bb",
             "filepath": "recipes-bsp/pruprp-fw",
             "homepage": "",
-            "id": 2282788,
+            "id": 2282884,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1787,20 +1747,20 @@
             "provides": "pruprp-fw ",
             "pv": "2022.01",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "vpdma-fw_03-2012.bb",
             "filepath": "recipes-bsp/vpdma-fw",
             "homepage": "",
-            "id": 2282789,
+            "id": 2282885,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
@@ -1812,18 +1772,18 @@
             "section": "base",
             "srcrev": "",
             "summary": "VPDMA firmware for Video Input Port and Video Processing Engine",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "vpe-tests_git.bb",
             "filepath": "recipes-bsp/vpe-tests",
             "homepage": "",
-            "id": 2282790,
+            "id": 2282886,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1835,18 +1795,18 @@
             "section": "base",
             "srcrev": "e3d8db1aa935775f9d196ad7428e0cd9864a36ca",
             "summary": "VPE test program",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-rtos-echo-test-fw.bb",
             "filepath": "recipes-bsp/ti-rtos-fw",
             "homepage": "",
-            "id": 2282791,
+            "id": 2282887,
             "inherits": "ti-secdev update-alternatives",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1856,20 +1816,20 @@
             "provides": "ti-rtos-echo-test-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-eth-fw.bb",
             "filepath": "recipes-bsp/ti-eth-fw",
             "homepage": "",
-            "id": 2282792,
+            "id": 2282888,
             "inherits": "ti-secdev update-alternatives",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -1879,20 +1839,20 @@
             "provides": "ti-eth-fw ",
             "pv": "08.02.00.04",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:09+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "goodix-fw_git.bb",
             "filepath": "recipes-bsp/goodix-fw",
             "homepage": "",
-            "id": 2282793,
+            "id": 2282889,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1902,20 +1862,20 @@
             "provides": "goodix-fw ",
             "pv": "1.0.0.0",
             "section": "base",
-            "srcrev": "1190654141a9604e21307555882d77eaaf8c5fac",
+            "srcrev": "f59a711599249ecac75fea38b7a15ef9137d650d",
             "summary": "Common include for TI Linux firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "vis_01.50.07.15.bb",
             "filepath": "recipes-bsp/vis-fw",
             "homepage": "",
-            "id": 2282794,
+            "id": 2282890,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
@@ -1927,18 +1887,18 @@
             "section": "base",
             "srcrev": "",
             "summary": "Radio Application Firmware",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " PLATFORM=UNKNOWN KERNEL_INSTALL_DIR=/tmp/tmp0gq1l9xl/tmp-glibc/work-shared/qemux86/kernel-source KERNEL_BUILD_DIR=/tmp/tmp0gq1l9xl/tmp-glibc/work-shared/qemux86/kernel-build-artifacts ",
             "description": "TI Inter Process Communication (IPC) Mechanisms (for Uni- and Multi- Processor Configurations)",
             "filename": "ti-ipc_git.bb",
             "filepath": "recipes-ti/ipc",
             "homepage": "http://processors.wiki.ti.com/index.php/Category:IPC",
-            "id": 2282795,
+            "id": 2282891,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1950,18 +1910,18 @@
             "section": "base",
             "srcrev": "7a6e343a208d2849139b7272a67abc01db806e00",
             "summary": "TI Inter Process Communication (IPC) Mechanisms",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "",
             "filename": "ti-rpmsg-char-examples_git.bb",
             "filepath": "recipes-ti/ipc",
             "homepage": "",
-            "id": 2282796,
+            "id": 2282892,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -1973,7 +1933,7 @@
             "section": "base",
             "srcrev": "09b064c6663ed46e4a402291dd87c8fe96135bd7",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1984,7 +1944,7 @@
             "filename": "ti-librpmsg-dma_1.0.bb",
             "filepath": "recipes-ti/ipc",
             "homepage": "",
-            "id": 2282797,
+            "id": 2282893,
             "inherits": "cmake",
             "layerbranch": 1000731,
             "license": "MIT",
@@ -1996,18 +1956,18 @@
             "section": "base",
             "srcrev": "609fd72f458ba56f80d06810509ef88d010d2c03",
             "summary": "RPMsg DMA shared library",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": " ",
             "description": "",
             "filename": "ti-rpmsg-char_git.bb",
             "filepath": "recipes-ti/ipc",
             "homepage": "",
-            "id": 2282798,
+            "id": 2282894,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -2019,18 +1979,18 @@
             "section": "base",
             "srcrev": "09b064c6663ed46e4a402291dd87c8fe96135bd7",
             "summary": "TI RPMsg Char Utility Library",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "plget.bb",
             "filepath": "recipes-ti/plget",
             "homepage": "https://github.com/ikhorn/plget",
-            "id": 2282799,
+            "id": 2282895,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2042,18 +2002,18 @@
             "section": "base",
             "srcrev": "8bb19531936262d75a442c3d3651cfbcf722d856",
             "summary": "",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-k3-secdev_git.bb",
             "filepath": "recipes-ti/secdev",
             "homepage": "https://git.ti.com/cgit/security-development-tools/core-secdev-k3",
-            "id": 2282800,
+            "id": 2282896,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "BSD-3-Clause",
@@ -2065,30 +2025,7 @@
             "section": "devel",
             "srcrev": "ed6951fd3877c6cac7f1237311f7278ac21634f3",
             "summary": "Security development tools for High-Security(HS) TI K3 processors.",
-            "updated": "2025-07-24T03:07:26+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-ti-staging-rt_6.1.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2282801,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-ti-staging-rt",
-            "pr": "r0",
-            "provides": "linux-ti-staging-rt  virtual/kernel",
-            "pv": "6.1.112+git",
-            "section": "kernel",
-            "srcrev": "194ebd939bee3ffff36de9cf8dff28a77c671f5b",
-            "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2099,7 +2036,7 @@
             "filename": "linux-ti-staging_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282802,
+            "id": 2282897,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2111,7 +2048,7 @@
             "section": "kernel",
             "srcrev": "a7758da17c2807e5285d6546b6797aae1d34a7d6",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:10+0000"
         },
         {
             "bbclassextend": "",
@@ -2122,7 +2059,7 @@
             "filename": "linux-ti-staging-rt_6.6.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282803,
+            "id": 2282898,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2134,7 +2071,7 @@
             "section": "kernel",
             "srcrev": "c79d7ef3a56ff61dd83d5527520b419a4f0e32e2",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:26+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2145,7 +2082,7 @@
             "filename": "linux-ti-mainline_git.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282804,
+            "id": 2282899,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2157,7 +2094,7 @@
             "section": "kernel",
             "srcrev": "adc218676eef25575469234709c2d87185ca223a",
             "summary": "Mainline Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2168,7 +2105,7 @@
             "filename": "linux-ti-next_git.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282805,
+            "id": 2282900,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2180,7 +2117,7 @@
             "section": "kernel",
             "srcrev": "6465e260f48790807eef06b583b38ca9789b6072",
             "summary": "Linux-next kernel for TI devices",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2191,7 +2128,7 @@
             "filename": "linux-ti-staging_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282806,
+            "id": 2282901,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2199,11 +2136,11 @@
             "pn": "linux-ti-staging",
             "pr": "r0",
             "provides": "linux-ti-staging  virtual/kernel",
-            "pv": "6.12.34+git",
+            "pv": "6.12.35+git",
             "section": "kernel",
-            "srcrev": "9167ea3511ca6ac1536b3114d92791b3de7422a3",
+            "srcrev": "72f48d59b8f087fa0dd1f1e8c2c0b5bc0baa537c",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2214,7 +2151,7 @@
             "filename": "linux-ti-staging-rt_6.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 2282807,
+            "id": 2282902,
             "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
             "layerbranch": 1000731,
             "license": "GPL-2.0-only",
@@ -2222,45 +2159,22 @@
             "pn": "linux-ti-staging-rt",
             "pr": "r0",
             "provides": "linux-ti-staging-rt  virtual/kernel",
-            "pv": "6.12.34+git",
+            "pv": "6.12.35+git",
             "section": "kernel",
-            "srcrev": "9167ea3511ca6ac1536b3114d92791b3de7422a3",
+            "srcrev": "72f48d59b8f087fa0dd1f1e8c2c0b5bc0baa537c",
             "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "linux-ti-staging_6.1.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "",
-            "id": 2282808,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage linux-kernel-base pkgconfig ti-secdev",
-            "layerbranch": 1000731,
-            "license": "GPL-2.0-only",
-            "pe": "",
-            "pn": "linux-ti-staging",
-            "pr": "r0",
-            "provides": "linux-ti-staging  virtual/kernel",
-            "pv": "6.1.112+git",
-            "section": "kernel",
-            "srcrev": "4ef41ca7ad952c7b13b7e40808ab1025796f9a6c",
-            "summary": "Linux kernel for TI devices",
-            "updated": "2025-07-24T03:07:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
             "filename": "ti-img-rogue-umlibs_24.1.6554834.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
-            "id": 2282809,
+            "id": 2282903,
             "inherits": "bin_package",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -2272,41 +2186,18 @@
             "section": "base",
             "srcrev": "ba93a3e38c683ccb03a7cf8f2e7dffe2f9cbcf1c",
             "summary": "",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "ti-img-rogue-umlibs_23.3.6512818.bb",
-            "filepath": "recipes-graphics/powervr-umlibs",
-            "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
-            "id": 2282810,
-            "inherits": "bin_package",
-            "layerbranch": 1000731,
-            "license": "TI-TFL",
-            "pe": "",
-            "pn": "ti-img-rogue-umlibs",
-            "pr": "r3",
-            "provides": "ti-img-rogue-umlibs ",
-            "pv": "23.3.6512818",
-            "section": "base",
-            "srcrev": "0b9e64254269be2fa95c4f3e1dd925d6e4d58199",
-            "summary": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
-            "updated": "2025-07-24T03:07:27+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-sgx-ddk-um_1.17.4948957.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-um-linux",
-            "id": 2282811,
+            "id": 2282904,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
@@ -2318,18 +2209,18 @@
             "section": "base",
             "srcrev": "84a396a4fb379f10931421e489ac8a199d6a9f2c",
             "summary": "Userspace libraries for PowerVR SGX chipset on TI SoCs",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-img-rogue-umlibs_24.2.6643903.bb",
             "filepath": "recipes-graphics/powervr-umlibs",
             "homepage": "http://git.ti.com/graphics/ti-img-rogue-umlibs",
-            "id": 2282812,
+            "id": 2282905,
             "inherits": "",
             "layerbranch": 1000731,
             "license": "TI-TFL",
@@ -2341,18 +2232,18 @@
             "section": "base",
             "srcrev": "1ed9ee185cd876200e6747192854015b8e94a7b0",
             "summary": "Userspace libraries for PowerVR Rogue GPU on TI SoCs",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugs.freedesktop.org",
-            "configopts": "",
+            "configopts": "     -Dshared-glapi=enabled     -Dglx-read-only-text=true     -Dplatforms='x11'    -Ddri3=disabled  -Degl=disabled -Dgallium-drivers=swrast,i915,iris,crocus,i915,iris,crocus  -Dllvm=disabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=false -Dimagination-srv=false -Dlmsensors=disabled -Dgallium-opencl=disabled -Dopencl-spirv=false  -Dopengl=false -Dosmesa=false -Dperfetto=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled  -Dvulkan-drivers='' -Dvulkan-beta=false  -Dgallium-xa=disabled ",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
             "filename": "mesa-pvr_23.2.1.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
-            "id": 2282813,
+            "id": 2282906,
             "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1000731,
             "license": "MIT",
@@ -2364,41 +2255,18 @@
             "section": "x11",
             "srcrev": "0e75e7ded360ea6aee4140393b30960e152f3994",
             "summary": "A free implementation of the OpenGL API  (with PowerVR support for TI platforms)",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "https://bugs.freedesktop.org",
-            "configopts": "",
-            "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
-            "filename": "mesa-pvr_22.3.5.bb",
-            "filepath": "recipes-graphics/mesa",
-            "homepage": "http://mesa3d.org",
-            "id": 2282814,
-            "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
-            "layerbranch": 1000731,
-            "license": "MIT",
-            "pe": "2",
-            "pn": "mesa-pvr",
-            "pr": "r0",
-            "provides": "mesa-pvr                               virtual/mesa     ",
-            "pv": "22.3.5",
-            "section": "x11",
-            "srcrev": "c9f0919367589b38f5682183846de9d60eec082d",
-            "summary": "A free implementation of the OpenGL API  (with PowerVR for TI parts)",
-            "updated": "2025-07-24T03:07:27+0000"
-        },
-        {
-            "bbclassextend": "native nativesdk",
-            "blacklisted": "",
-            "bugtracker": "https://bugs.freedesktop.org",
-            "configopts": "",
+            "configopts": "     -Dshared-glapi=enabled     -Dglx-read-only-text=true     -Dplatforms='x11'    -Ddri3=disabled  -Degl=disabled -Dgallium-drivers=swrast,i915,iris,crocus,i915,iris,crocus  -Dllvm=disabled -Dgbm=disabled  -Dgles1=disabled -Dgles2=disabled  -Dglvnd=false -Dimagination-srv=false -Dlmsensors=disabled -Dgallium-opencl=disabled -Dopencl-spirv=false  -Dopengl=false -Dosmesa=false -Dperfetto=false  -Dtools='' -Dlibunwind=disabled -Dgallium-va=disabled -Dgallium-vdpau=disabled -Dvideo-codecs=all_free  -Dvulkan-drivers='' -Dvulkan-beta=false  -Dgallium-xa=disabled ",
             "description": "Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.  A variety of device drivers allows Mesa to be used in many different environments ranging from software emulation to complete hardware acceleration for modern GPUs. Mesa is used as part of the overall Direct Rendering Infrastructure and X.org environment.",
             "filename": "mesa-pvr_24.0.1.bb",
             "filepath": "recipes-graphics/mesa",
             "homepage": "http://mesa3d.org",
-            "id": 2282815,
+            "id": 2282907,
             "inherits": "features_check gettext meson meson-routines pkgconfig python3-dir python3native qemu siteinfo",
             "layerbranch": 1000731,
             "license": "MIT",
@@ -2410,18 +2278,18 @@
             "section": "x11",
             "srcrev": "82e6a9293c476267417c5b6b906b01fb73a34e38",
             "summary": "A free implementation of the OpenGL API  (with PowerVR for TI parts)",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "",
             "filename": "ti-gc320-libs_5.0.11.p7.bb",
             "filepath": "recipes-graphics/libgal",
             "homepage": "https://git.ti.com/graphics/ti-gc320-libs",
-            "id": 2282816,
+            "id": 2282908,
             "inherits": "features_check",
             "layerbranch": 1000731,
             "license": "TI-TSPA",
@@ -2433,18 +2301,18 @@
             "section": "base",
             "srcrev": "85c175e8425c33dda6e272aeb45afe0f69a79096",
             "summary": "Userspace libraries for GC320 chipset on TI SoCs",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": "  -DIL_NO_PNG=0",
             "description": "Developer's Image Library (DevIL) is a cross-platform image                library utilizing simple syntax to load, save, convert,                manipulate, filter and display a variety of images.",
             "filename": "devil_1.8.0.bb",
             "filepath": "recipes-graphics/devil",
             "homepage": "https://github.com/DentonW/DevIL",
-            "id": 2282817,
+            "id": 2282909,
             "inherits": "cmake pkgconfig",
             "layerbranch": 1000731,
             "license": "LGPL-2.0-only",
@@ -2456,18 +2324,18 @@
             "section": "base",
             "srcrev": "e34284a7e07763769f671a74b4fec718174ad862",
             "summary": "DevIL cross platform image utility library",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:12+0000"
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": "-Dsystem-pybind11=enabled ",
             "description": "",
             "filename": "kms++_git.bb",
             "filepath": "recipes-graphics/kms++",
             "homepage": "https://github.com/tomba/kmsxx",
-            "id": 2282818,
+            "id": 2282910,
             "inherits": "meson meson-routines pkgconfig python3-dir python3native qemu siteinfo update-alternatives",
             "layerbranch": 1000731,
             "license": "MPL-2.0",
@@ -2479,7 +2347,7 @@
             "section": "base",
             "srcrev": "5afc8d918f2c084acd65027604868dfde43395cf",
             "summary": "C++ library for kernel mode setting",
-            "updated": "2025-07-24T03:07:27+0000"
+            "updated": "2025-07-31T20:07:12+0000"
         }
     ],
     "wrtemplates": []

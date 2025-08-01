@@ -627,7 +627,7 @@
             "short_description": "Wind River Linux 10_24 Long Term Support",
             "sort_priority": 7,
             "update_environment": null,
-            "updated": "2025-07-24T00:07:07+0000",
+            "updated": "2025-07-31T00:07:09+0000",
             "updates_enabled": true
         }
     ],
@@ -648,10 +648,10 @@
             "id": 990853,
             "layer": 1,
             "local_path": "",
-            "updated": "2025-07-10T06:07:50+0000",
-            "vcs_last_commit": "2025-07-10T02:07:15+0000",
-            "vcs_last_fetch": "2025-07-10T06:07:50+0000",
-            "vcs_last_rev": "78f65081454d4606c6c7ecccce9dea9a08fcc620",
+            "updated": "2025-07-31T04:07:35+0000",
+            "vcs_last_commit": "2025-07-29T19:07:36+0000",
+            "vcs_last_fetch": "2025-07-31T04:07:35+0000",
+            "vcs_last_rev": "b101624a75ffc17332d201a33d626fefd21e05eb",
             "vcs_subdir": "meta",
             "version": "15",
             "yp_compatible_version": 44187
@@ -902,7 +902,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-07-03T00:07:33+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -948,7 +948,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Go programming language compiler",
-            "updated": "2025-07-03T00:07:33+0000"
+            "updated": "2025-07-31T04:07:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1132,7 +1132,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Optimised Inner Loop Runtime Compiler",
-            "updated": "2025-03-25T20:03:57+0000"
+            "updated": "2025-07-31T04:07:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1163,7 +1163,7 @@
             "bugtracker": "",
             "configopts": "--without-x  ac_cv_lib_bsd_main=no",
             "description": "Mtools is a collection of utilities to access MS-DOS disks from GNU and Unix without mounting them.",
-            "filename": "mtools_4.0.43.bb",
+            "filename": "mtools_4.0.49.bb",
             "filepath": "recipes-devtools/mtools",
             "homepage": "http://www.gnu.org/software/mtools/",
             "id": 2025091,
@@ -1174,11 +1174,11 @@
             "pn": "mtools",
             "pr": "r0",
             "provides": "mtools ",
-            "pv": "4.0.43",
+            "pv": "4.0.49",
             "section": "optional",
             "srcrev": "",
             "summary": "Utilities to access MS-DOS disks without mounting them",
-            "updated": "2025-03-25T20:03:58+0000"
+            "updated": "2025-07-31T04:07:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -2765,7 +2765,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The Python Programming Language",
-            "updated": "2025-07-03T00:07:23+0000"
+            "updated": "2025-07-31T04:07:27+0000"
         },
         {
             "bbclassextend": "native",
@@ -4283,7 +4283,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-07-31T04:07:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5830,9 +5830,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-perl=/tmp/tmpo_am5j5h/tmp-glibc/work/core2-32-oe-linux/git/2.44.3/recipe-sysroot-native/usr/bin/perl-native/perl \t\t--without-tcltk \t\t--without-iconv  ac_cv_snprintf_returns_bogus=no                  ac_cv_fread_reads_directories=${ac_cv_fread_reads_directories=yes}                    --with-curl --with-expat",
+            "configopts": "--with-perl=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/git/2.44.4/recipe-sysroot-native/usr/bin/perl-native/perl \t\t--without-tcltk \t\t--without-iconv  ac_cv_snprintf_returns_bogus=no                  ac_cv_fread_reads_directories=${ac_cv_fread_reads_directories=yes}                    --with-curl --with-expat",
             "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
-            "filename": "git_2.44.3.bb",
+            "filename": "git_2.44.4.bb",
             "filepath": "recipes-devtools/git",
             "homepage": "http://git-scm.com",
             "id": 2025294,
@@ -5843,11 +5843,11 @@
             "pn": "git",
             "pr": "r0",
             "provides": "git ",
-            "pv": "2.44.3",
+            "pv": "2.44.4",
             "section": "console/utils",
             "srcrev": "",
             "summary": "Distributed version control system",
-            "updated": "2025-06-05T00:06:26+0000"
+            "updated": "2025-07-31T04:07:26+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -6466,15 +6466,15 @@
             "provides": "binutils ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "6558f9f5f0ccc107a083ae7fbf106ebcb5efa817",
+            "srcrev": "f9488b0d92b591bdf3ff8cce485cb0e1b3727cc0",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-03T00:07:49+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmpwu4ok1jk/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=i686-oe-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                 --enable-gold --enable-ld=default --enable-threads                                   --with-sysroot=/tmp/tmp3y_ak2oi/tmp-glibc/work/x86_64-linux/binutils-cross-i686/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/lib:=/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-cross_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6489,9 +6489,9 @@
             "provides": "binutils-cross-i686 virtual/i686-oe-linux-binutils",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "6558f9f5f0ccc107a083ae7fbf106ebcb5efa817",
+            "srcrev": "f9488b0d92b591bdf3ff8cce485cb0e1b3727cc0",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-03T00:07:49+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "",
@@ -6512,15 +6512,15 @@
             "provides": "binutils-cross-canadian-i686 ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "6558f9f5f0ccc107a083ae7fbf106ebcb5efa817",
+            "srcrev": "f9488b0d92b591bdf3ff8cce485cb0e1b3727cc0",
             "summary": "GNU binary utilities (cross-canadian for i686 target)",
-            "updated": "2025-07-03T00:07:49+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "http://sourceware.org/bugzilla/",
-            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmpwu4ok1jk/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
+            "configopts": "--program-prefix=x86_64-oesdk-linux-                 --disable-werror                 --enable-deterministic-archives                 --enable-plugins                 --enable-new-dtags                 --disable-gdb                 --disable-gdbserver                 --disable-libdecnumber                 --disable-readline                 --disable-sim                                   --enable-targets=x86_64-pe,x86_64-pep                   --with-sysroot=/tmp/tmp3y_ak2oi/tmp-glibc/work/x86_64-linux/binutils-crosssdk-x86_64-oesdk-linux/2.42/recipe-sysroot                 --disable-install-libbfd                 --disable-gprofng                 --enable-poison-system-directories                 --with-lib-path==/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/lib:=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-oesdk-linux/usr/lib                   --disable-nls",
             "description": "The GNU Binutils are a collection of binary tools. The main ones are ld (GNU Linker), and as (GNU Assembler). This package also includes addition tools such as addr2line (Converts addresses into filenames and line numbers), ar (utility for creating, modifying and extracting archives), nm (list symbols in object files), objcopy (copy and translate object files), objdump (Display object information), and other tools and related libraries.",
             "filename": "binutils-crosssdk_2.42.bb",
             "filepath": "recipes-devtools/binutils",
@@ -6535,9 +6535,9 @@
             "provides": "binutils-crosssdk-x86_64-oesdk-linux virtual/x86_64-oesdk-linux-binutils",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "6558f9f5f0ccc107a083ae7fbf106ebcb5efa817",
+            "srcrev": "f9488b0d92b591bdf3ff8cce485cb0e1b3727cc0",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-03T00:07:49+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "",
@@ -6558,9 +6558,9 @@
             "provides": "binutils-cross-testsuite ",
             "pv": "2.42",
             "section": "devel",
-            "srcrev": "6558f9f5f0ccc107a083ae7fbf106ebcb5efa817",
+            "srcrev": "f9488b0d92b591bdf3ff8cce485cb0e1b3727cc0",
             "summary": "GNU binary utilities",
-            "updated": "2025-07-03T00:07:50+0000"
+            "updated": "2025-07-31T04:07:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7296,7 +7296,7 @@
             "section": "bootloaders",
             "srcrev": "866ca972d6c3cabeaf6dbac431e8e08bb30b3c8e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2025-06-05T00:06:52+0000"
+            "updated": "2025-07-31T04:07:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8561,7 +8561,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Image loading library for GTK+",
-            "updated": "2025-07-03T00:07:52+0000"
+            "updated": "2025-07-31T04:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -10148,7 +10148,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Embeddable SQL database engine",
-            "updated": "2025-06-05T00:06:29+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10246,7 +10246,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://github.com/curl/curl/issues",
-            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
+            "configopts": "     --disable-libcurl-option     --disable-ntlm-wb     --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt     --without-libpsl     --enable-optimize        --disable-ares --enable-aws --enable-basic-auth --enable-bearer-auth --without-brotli --disable-manual --disable-debug --disable-dict --enable-digest-auth --without-gnutls --disable-gopher --disable-imap --enable-ipv6 --disable-kerberos-auth --without-gssapi --disable-ldap --disable-ldaps --without-libgsasl --with-libidn2 --without-libssh2 --without-mbedtls --disable-mqtt --enable-negotiate-auth --without-nghttp2 --with-openssl --disable-pop3 --enable-proxy --with-random=/dev/urandom --without-librtmp --disable-rtsp --disable-smb --disable-smtp --disable-telnet --disable-tftp --enable-threaded-resolver --enable-verbose --with-zlib=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/curl/8.7.1/recipe-sysroot/usr/lib/../ --without-zstd",
             "description": "It uses URL syntax to transfer data to and from servers. curl is a widely used because of its ability to be flexible and complete complex tasks. For example, you can use curl for things like user authentication, HTTP post, SSL connections, proxy support, FTP uploads, and more!",
             "filename": "curl_8.7.1.bb",
             "filepath": "recipes-support/curl",
@@ -10263,7 +10263,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2025-07-03T00:07:26+0000"
+            "updated": "2025-07-31T04:07:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10338,7 +10338,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/libsoup/3.4.4/soup.cross",
+            "configopts": "-Ddocs=disabled -Dintrospection=enabled  -Dtls_check=false -Dtests=false -Dautobahn=disabled -Dpkcs11_tests=disabled  -Dbrotli=disabled -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/libsoup/3.4.4/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup_3.4.4.bb",
             "filepath": "recipes-support/libsoup",
@@ -10355,13 +10355,13 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2025-07-03T00:07:25+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugzilla.gnome.org/",
-            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
+            "configopts": "-Dgtk_doc=false -Dintrospection=enabled  -Dvapi=disabled -Dtls_check=false  -Dbrotli=disabled -Dgnome=false -Dgssapi=disabled -Dntlm=disabled -Dsysprof=disabled --cross-file /tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/libsoup-2.4/2.74.3/soup.cross",
             "description": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications.",
             "filename": "libsoup-2.4_2.74.3.bb",
             "filepath": "recipes-support/libsoup",
@@ -10378,7 +10378,7 @@
             "section": "x11/gnome/libs",
             "srcrev": "",
             "summary": "An HTTP library implementation in C",
-            "updated": "2025-07-03T00:07:25+0000"
+            "updated": "2025-07-31T04:07:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10499,7 +10499,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-cross-build=/tmp/tmpa00xmw84/tmp-glibc/work/core2-32-oe-linux/icu/74-2/recipe-sysroot-native/usr/share/icu/74-2 --disable-icu-config ",
+            "configopts": "--with-cross-build=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/icu/74-2/recipe-sysroot-native/usr/share/icu/74-2 --disable-icu-config ",
             "description": "The International Component for Unicode (ICU) is a mature, portable set of C/C++ and Java libraries for Unicode support, software internationalization (I18N) and globalization (G11N), giving applications the same results on all platforms.",
             "filename": "icu_74-2.bb",
             "filepath": "recipes-support/icu",
@@ -10516,7 +10516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "International Component for Unicode libraries",
-            "updated": "2025-04-24T20:04:43+0000"
+            "updated": "2025-07-31T04:07:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10545,9 +10545,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmpsbyhxyez/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.5/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmpsbyhxyez/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.5/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmpsbyhxyez/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.5/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--enable-gpg-is-gpg2 \t\t--disable-tests                  --enable-gnutls  --disable-sqlite --enable-nls",
+            "configopts": "--disable-ldap \t\t--disable-ccid-driver \t\t--with-zlib=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.8/recipe-sysroot/usr/lib/.. \t\t--with-bzip2=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.8/recipe-sysroot/usr/lib/.. \t\t--with-readline=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/gnupg/2.4.8/recipe-sysroot/usr/lib/.. \t\t--with-mailprog=/usr/sbin/sendmail \t\t--disable-tests                  --enable-gnutls  --disable-sqlite --enable-nls",
             "description": "A complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). GnuPG allows you to encrypt and sign your data and communications; it features a versatile key management system, along with access modules for all kinds of public key directories.",
-            "filename": "gnupg_2.4.5.bb",
+            "filename": "gnupg_2.4.8.bb",
             "filepath": "recipes-support/gnupg",
             "homepage": "http://www.gnupg.org/",
             "id": 2025499,
@@ -10558,11 +10558,11 @@
             "pn": "gnupg",
             "pr": "r0",
             "provides": "gnupg ",
-            "pv": "2.4.5",
+            "pv": "2.4.8",
             "section": "base",
             "srcrev": "",
             "summary": "GNU Privacy Guard - encryption and signing tools (2.x)",
-            "updated": "2025-03-25T20:03:32+0000"
+            "updated": "2025-07-31T04:07:30+0000"
         },
         {
             "bbclassextend": "",
@@ -11942,7 +11942,7 @@
             "section": "console/utils",
             "srcrev": "68737d20556d37364c95776044b1119c0912a36a",
             "summary": "Linux Test Project",
-            "updated": "2025-03-25T20:03:45+0000"
+            "updated": "2025-07-31T04:07:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12448,7 +12448,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Linux-PAM (Pluggable Authentication Modules)",
-            "updated": "2025-07-03T00:07:33+0000"
+            "updated": "2025-07-31T04:07:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -12732,7 +12732,7 @@
             "bugtracker": "http://www.sudo.ws/bugs/",
             "configopts": "--with-editor=/bin/vi --with-env-editor               --without-pam              --disable-tmpfiles.d              --with-rundir=/run/sudo              --with-vardir=/var/lib/sudo              --libexecdir=/usr/lib                --without-linux-audit --without-selinux --disable-zlib",
             "description": "Sudo (superuser do) allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root while logging all commands and arguments.",
-            "filename": "sudo_1.9.15p5.bb",
+            "filename": "sudo_1.9.17p1.bb",
             "filepath": "recipes-extended/sudo",
             "homepage": "http://www.sudo.ws",
             "id": 2025594,
@@ -12743,11 +12743,11 @@
             "pn": "sudo",
             "pr": "r0",
             "provides": "sudo ",
-            "pv": "1.9.15p5",
+            "pv": "1.9.17p1",
             "section": "admin",
             "srcrev": "",
             "summary": "Provide limited super user privileges to specific users",
-            "updated": "2025-03-25T20:03:53+0000"
+            "updated": "2025-07-31T04:07:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13345,7 +13345,7 @@
             "section": "console/network",
             "srcrev": "8372f355bdf7a9b0c79338dd8ef8464c00a5c4e2",
             "summary": "Network monitoring tools",
-            "updated": "2025-05-15T05:05:54+0000"
+            "updated": "2025-07-31T04:07:27+0000"
         },
         {
             "bbclassextend": "",
@@ -13989,7 +13989,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Support for reading various archive formats",
-            "updated": "2025-04-24T20:04:41+0000"
+            "updated": "2025-07-31T04:07:28+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14468,11 +14468,11 @@
             "pn": "linux-yocto-rt",
             "pr": "r0",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "6.6.92+git",
+            "pv": "6.6.96+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-07-03T00:07:24+0000"
+            "updated": "2025-07-31T04:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14491,11 +14491,11 @@
             "pn": "linux-yocto-tiny",
             "pr": "r0",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "6.6.92+git",
+            "pv": "6.6.96+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-07-03T00:07:24+0000"
+            "updated": "2025-07-31T04:07:29+0000"
         },
         {
             "bbclassextend": "devupstream:target",
@@ -14514,11 +14514,11 @@
             "pn": "linux-yocto",
             "pr": "r0",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "6.6.92+git",
+            "pv": "6.6.96+git",
             "section": "kernel",
             "srcrev": "",
             "summary": "Linux kernel",
-            "updated": "2025-07-03T00:07:24+0000"
+            "updated": "2025-07-31T04:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -16059,7 +16059,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "XWayland is an X Server that runs under Wayland.",
-            "updated": "2025-03-25T20:03:20+0000"
+            "updated": "2025-07-31T04:07:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16320,7 +16320,7 @@
             "bugtracker": "",
             "configopts": "                   -Dxnest=false                  -Ddtrace=false                  -Dint10=x86emu                  -Dxkb_output_dir=/var/lib/xkb   -Ddga=true -Ddri1=false -Ddri2=true -Ddri3=false -Dglamor=false -Dglx=false -Dsha1=libcrypto -Dsystemd_logind=false -Dudev=true -Dlibunwind=false -Dxinerama=false -Dxvfb=false",
             "description": "",
-            "filename": "xserver-xorg_21.1.16.bb",
+            "filename": "xserver-xorg_21.1.18.bb",
             "filepath": "recipes-graphics/xorg-xserver",
             "homepage": "http://www.x.org",
             "id": 2025753,
@@ -16331,11 +16331,11 @@
             "pn": "xserver-xorg",
             "pr": "r0",
             "provides": "xserver-xorg virtual/xserver-xf86 virtual/xserver",
-            "pv": "21.1.16",
+            "pv": "21.1.18",
             "section": "x11/base",
             "srcrev": "",
             "summary": "The X.Org X server",
-            "updated": "2025-04-24T20:04:50+0000"
+            "updated": "2025-07-31T04:07:29+0000"
         },
         {
             "bbclassextend": "",
@@ -18710,7 +18710,7 @@
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/glibc/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/glibc/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18727,7 +18727,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2025-07-03T00:07:21+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "",
@@ -18779,7 +18779,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-glibc=/tmp/tmpwu4ok1jk/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.39+git/git ",
+            "configopts": "--with-glibc=/tmp/tmp3y_ak2oi/tmp-glibc/work/x86_64-linux/cross-localedef-native/2.39+git/git ",
             "description": "",
             "filename": "cross-localedef-native_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18796,13 +18796,13 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Cross locale generation tool for glibc",
-            "updated": "2025-07-03T00:07:50+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
+            "configopts": "--enable-kernel=5.15                 --disable-profile                 --disable-debug --without-gd                 --enable-clocale=gnu                 --with-headers=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/glibc-testsuite/2.39+git/recipe-sysroot/usr/include                 --without-selinux                 --enable-bind-now                 --enable-stack-protector=strong                 --disable-crypt                 --with-default-link                 --disable-werror                 --enable-fortify-source                                                      --enable-memory-tagging --enable-nscd",
             "description": "The GNU C Library is used as the system C library in most systems with the Linux kernel.",
             "filename": "glibc-testsuite_2.39.bb",
             "filepath": "recipes-core/glibc",
@@ -18819,7 +18819,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2025-07-03T00:07:51+0000"
+            "updated": "2025-07-31T04:07:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -19026,7 +19026,7 @@
             "section": "base/shell",
             "srcrev": "70500d37992a01d3275b1c414c3ed161d6f91f9e",
             "summary": "A System and service manager",
-            "updated": "2025-07-03T00:07:16+0000"
+            "updated": "2025-07-31T04:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -19078,7 +19078,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "http://bugzilla.gnome.org/buglist.cgi?product=libxml2",
-            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmpwu4ok1jk/tmp-glibc/work/core2-32-oe-linux/libxml2/2.12.10/recipe-sysroot-native/usr/bin/python3-native/python3",
+            "configopts": "--without-debug --without-legacy --with-catalog --with-c14n --without-lzma --with-fexceptions  --enable-ipv6 --with-python=/tmp/tmp3y_ak2oi/tmp-glibc/work/core2-32-oe-linux/libxml2/2.12.10/recipe-sysroot-native/usr/bin/python3-native/python3",
             "description": "The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.",
             "filename": "libxml2_2.12.10.bb",
             "filepath": "recipes-core/libxml",
@@ -19095,7 +19095,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2025-07-03T00:07:51+0000"
+            "updated": "2025-07-31T04:07:25+0000"
         },
         {
             "bbclassextend": "",
@@ -20525,7 +20525,7 @@
         },
         {
             "bbclassextend": "",
-            "blacklisted": "",
+            "blacklisted": "Not supported by Wind River Linux",
             "bugtracker": "",
             "configopts": "",
             "description": "An image containing the build system that you can boot and run using either VirtualBox, VMware Player or VMware Workstation.",
@@ -20542,9 +20542,9 @@
             "provides": "build-appliance-image ",
             "pv": "15.0.0",
             "section": "base",
-            "srcrev": "1c462cc39e557276861323b7adcef4fedbdf75e9",
+            "srcrev": "e5c05018e042e762c886c2f5476f2277a787b9c6",
             "summary": "An image containing the build system itself",
-            "updated": "2025-06-05T00:06:25+0000"
+            "updated": "2025-07-31T04:07:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -20912,7 +20912,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2025-07-03T00:07:56+0000"
+            "updated": "2025-07-31T04:07:24+0000"
         },
         {
             "bbclassextend": "",
@@ -21556,7 +21556,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "Secure Socket Layer",
-            "updated": "2025-07-03T00:07:57+0000"
+            "updated": "2025-07-31T04:07:24+0000"
         },
         {
             "bbclassextend": "",
